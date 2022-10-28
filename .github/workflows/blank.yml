@@ -33,8 +33,10 @@ jobs:
           BDS_URL=`curl -s https://raw.githubusercontent.com/ScriptAPIOSS/BDS-Versions/main/linux${{ env.PATH_MODIFIER }}/${{ inputs.BDS_VERSION }}.json | jq -r '.download_url'` && wget -q ${BDS_URL} -O BDS/bds.zip
           cd BDS
           unzip bds.zip
-          echo "{ \"generate_documentation\": true }" > BDS/test_config.json
-          mv BDS/docs docs
+          echo "{ \"generate_documentation\": true }" > test_config.json
+          ./bedrock_server
+          mv docs ../docs
+          cd ..
           rm -rf BDS
           
       - name: Try commit
