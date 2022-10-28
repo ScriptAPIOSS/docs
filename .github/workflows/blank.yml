@@ -1,0 +1,44 @@
+name: Dump docs
+run-name: Dump scripting strings for [${{ inputs.BDS_VERSION }}]
+on:
+  workflow_dispatch:
+    inputs:
+      BDS_VERSION:
+        description: "The BDS version"
+        default: "1.19.30.04"
+        required: true
+        type: string
+      USE_PREVIEW:
+        description: "Use preview"
+        default: "false"
+        required: true
+        type: boolean
+jobs:
+  dodump:
+    name: Perform Dump
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Modify path
+        if: ${{ inputs.USE_PREVIEW }} == "true"
+        run: |
+          echo "PATH_MODIFIER=_preview" >> $GITHUB_ENV
+        
+      - name: Download and unzip
+        run: |
+          mkdir BDS
+          BDS_URL=`curl -s https://raw.githubusercontent.com/ScriptAPIOSS/BDS-Versions/main/linux${{ env.PATH_MODIFIER }}/${{ inputs.BDS_VERSION }}.json | jq -r '.download_url'` && wget -q ${BDS_URL} -O BDS/bds.zip
+          cd BDS
+          unzip bds.zip
+          echo "{ \"generate_documentation\": true }" > BDS/test_config.json
+          mv BDS/docs docs
+          rm -rf BDS
+          
+      - name: Try commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: "Update for ${{ inputs.BDS_VERSION }}"
