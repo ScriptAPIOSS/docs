@@ -31,8 +31,8 @@ jobs:
         run: |
           mkdir BDS
           BDS_URL=`curl -s https://raw.githubusercontent.com/ScriptAPIOSS/BDS-Versions/main/linux${{ env.PATH_MODIFIER }}/${{ inputs.BDS_VERSION }}.json | jq -r '.download_url'` && wget -q ${BDS_URL} -O BDS/bds.zip
-          cd BDS
           rm -rf docs
+          cd BDS
           unzip bds.zip
           echo "{ \"generate_documentation\": true }" > test_config.json
           ./bedrock_server
