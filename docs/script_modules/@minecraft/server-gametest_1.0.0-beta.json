@@ -712,18 +712,7 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "from_module" : {
-                  "name" : "@minecraft/server",
-                  "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                  "version" : "1.1.0-beta"
-               },
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "Player"
-            }
-         ],
+         "base_types" : [],
          "constants" : [],
          "functions" : [
             {
@@ -927,6 +916,17 @@
                }
             },
             {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "disconnect",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            },
+            {
                "arguments" : [
                   {
                      "details" : {
@@ -952,7 +952,7 @@
                ],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "getBlockFromViewVector",
+               "name" : "getBlockFromViewDirection",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -1115,7 +1115,7 @@
                ],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "getEntitiesFromViewVector",
+               "name" : "getEntitiesFromViewDirection",
                "return_type" : {
                   "element_type" : {
                      "from_module" : {
@@ -1959,6 +1959,17 @@
                }
             },
             {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "respawn",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
                "arguments" : [
                   {
                      "details" : {
@@ -2522,7 +2533,7 @@
                               },
                               "is_bind_type" : true,
                               "is_errorable" : false,
-                              "name" : "IRawMessage"
+                              "name" : "RawMessage"
                            },
                            {
                               "is_bind_type" : false,
@@ -2988,7 +2999,7 @@
             },
             {
                "is_read_only" : true,
-               "name" : "viewVector",
+               "name" : "viewDirection",
                "type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -2997,7 +3008,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "Vector"
+                  "name" : "Vector3"
                }
             }
          ],
@@ -5763,7 +5774,7 @@
       }
    ],
    "interfaces" : [],
-   "minecraft_version" : "1.19.50",
+   "minecraft_version" : "1.19.60",
    "module_type" : "script",
    "name" : "@minecraft/server-gametest",
    "objects" : [],

@@ -14599,7 +14599,7 @@
                   {
                      "details" : {
                         "default_value" : 1,
-                        "max_value" : 32767,
+                        "max_value" : 255,
                         "min_value" : 0
                      },
                      "name" : "amount",
@@ -41626,7 +41626,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.19.50",
+   "minecraft_version" : "1.19.60",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

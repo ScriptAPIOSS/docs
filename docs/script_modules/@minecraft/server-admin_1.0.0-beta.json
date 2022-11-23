@@ -147,7 +147,7 @@
    "enums" : null,
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.19.50",
+   "minecraft_version" : "1.19.60",
    "module_type" : "script",
    "name" : "@minecraft/server-admin",
    "objects" : [

@@ -1,6 +1,245 @@
 {
    "commands" : [
       {
+         "aliases" : [],
+         "description" : "commands.agent.description",
+         "name" : "agent",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTDIRECTIONCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "direction",
+                     "type" : "AGENTDIRECTION"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTTURNCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "direction",
+                     "type" : "AGENTTURNDIRECTION"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTITEMCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "slotNum",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTCOMMAND"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTTRANSFERCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "slotNum",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "quantity",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "dstSlotNum",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTDROPCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "slotNum",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "quantity",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "direction",
+                     "type" : "AGENTDIRECTION"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTCOLLECTCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "item",
+                     "type" : "ITEM"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTCOLLECTCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "item",
+                     "type" : "AGENTCOLLECTALLITEMS"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTPLACECOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "slotNum",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "direction",
+                     "type" : "AGENTDIRECTION"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTSETITEMCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "slotNum",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "item",
+                     "type" : "ITEM"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "count",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "aux",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTTPCOMMAND"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "destination",
+                     "type" : "POSITION"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "y-rot",
+                     "type" : "VAL"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "command",
+                     "type" : "AGENTTPCOMMAND"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "destination",
+                     "type" : "POSITION"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : "AGENTTELEPORTFACING"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtPosition",
+                     "type" : "POSITION"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
          "aliases" : [
             {
                "alias" : "whitelist"
@@ -306,6 +545,30 @@
             }
          ],
          "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
+         "description" : "commands.codebuilder.description",
+         "name" : "codebuilder_actorinfo",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "inventory",
+                     "type" : "CODEBUILDERACTIONINVENTORY"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "targets",
+                     "type" : "SELECTION"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 0,
          "requires_cheats" : true
       },
       {
@@ -712,7 +975,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -732,7 +995,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -752,7 +1015,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -772,7 +1035,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -797,7 +1060,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -822,7 +1085,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -847,7 +1110,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -867,7 +1130,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -897,7 +1160,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -917,7 +1180,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -937,7 +1200,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -967,7 +1230,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1002,7 +1265,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1037,7 +1300,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1077,7 +1340,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1102,7 +1365,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1147,7 +1410,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1187,7 +1450,7 @@
                      "type" : "EXECUTECHAINEDOPTION_0"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             },
             {
                "params" : [
@@ -1202,7 +1465,7 @@
                      "type" : "SLASHCOMMAND"
                   }
                ],
-               "version" : false
+               "version" : "1.19.50"
             }
          ],
          "permission_level" : 1,
@@ -1514,6 +1777,174 @@
       },
       {
          "aliases" : [],
+         "description" : "Interacts with gametest.",
+         "name" : "gametest",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODERUNTHIS"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODERUN"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "testName",
+                     "type" : "GAMETESTNAME"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "rotationSteps",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODERUN"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "testName",
+                     "type" : "GAMETESTNAME"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "stopOnFailure",
+                     "type" : "BOOLEAN"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "repeatCount",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "rotationSteps",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODERUNSET"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "tag",
+                     "type" : "GAMETESTTAG"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "rotationSteps",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODECLEARALL"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODESHOWPOSITION"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTMODECREATETEST"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "testName",
+                     "type" : "ID"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "width",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "height",
+                     "type" : "INT"
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "depth",
+                     "type" : "INT"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "GAMETESTRUNNEARBYTESTS"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
+         "description" : "Gets the position of the top non-air block below the specified position",
+         "name" : "gettopsolidblock",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : "POSITION"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
          "description" : "Gives an item to a player.",
          "name" : "give",
          "overloads" : [
@@ -1639,6 +2070,25 @@
          ],
          "permission_level" : 0,
          "requires_cheats" : false
+      },
+      {
+         "aliases" : [],
+         "description" : "commands.listd.description",
+         "name" : "listd",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : true,
+                     "name" : "details",
+                     "type" : "LISTDETAILS"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 3,
+         "requires_cheats" : true
       },
       {
          "aliases" : [],
@@ -2562,6 +3012,25 @@
             }
          ],
          "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
+         "description" : "Gets transform, name, and id information about the given target entity or entities.",
+         "name" : "querytarget",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "victim",
+                     "type" : "SELECTION"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 2,
          "requires_cheats" : true
       },
       {
@@ -4918,36 +5387,51 @@
    ],
    "enums" : [
       {
-         "name" : "AllowListAction",
-         "values" : [ "add", "remove", "list", "reload", "on", "off" ]
+         "name" : "AgentDirectionCommand",
+         "values" : [
+            "move",
+            "detect",
+            "destroy",
+            "attack",
+            "detectredstone",
+            "dropall",
+            "inspect",
+            "inspectdata",
+            "interact",
+            "till"
+         ]
       },
       {
-         "name" : "CameraShakeActionAdd",
-         "values" : [ "add" ]
+         "name" : "AgentDirection",
+         "values" : [ "up", "down", "forward", "back", "left", "right" ]
       },
       {
-         "name" : "CameraShakeType",
-         "values" : [ "positional", "rotational" ]
+         "name" : "AgentTurnCommand",
+         "values" : [ "turn" ]
       },
       {
-         "name" : "CameraShakeActionStop",
-         "values" : [ "stop" ]
+         "name" : "AgentTurnDirection",
+         "values" : [ "left", "right" ]
       },
       {
-         "name" : "BoolSettingName",
-         "values" : [ "allow-cheats" ]
+         "name" : "AgentItemCommand",
+         "values" : [ "getitemcount", "getitemspace", "getitemdetail" ]
       },
       {
-         "name" : "Boolean",
-         "values" : [ "true", "false" ]
+         "name" : "AgentCommand",
+         "values" : [ "create", "getposition" ]
       },
       {
-         "name" : "DifficultySettingName",
-         "values" : [ "difficulty" ]
+         "name" : "AgentTransferCommand",
+         "values" : [ "transfer" ]
       },
       {
-         "name" : "Difficulty",
-         "values" : [ "normal", "peaceful", "easy", "hard", "p", "e", "n", "h" ]
+         "name" : "AgentDropCommand",
+         "values" : [ "drop" ]
+      },
+      {
+         "name" : "AgentCollectCommand",
+         "values" : [ "collect" ]
       },
       {
          "name" : "Item",
@@ -6222,6 +6706,10 @@
             "pillager_spawn_egg",
             "minecraft:ravager_spawn_egg",
             "ravager_spawn_egg",
+            "minecraft:iron_golem_spawn_egg",
+            "iron_golem_spawn_egg",
+            "minecraft:snow_golem_spawn_egg",
+            "snow_golem_spawn_egg",
             "minecraft:chorus_fruit",
             "chorus_fruit",
             "minecraft:popped_chorus_fruit",
@@ -6656,6 +7144,10 @@
             "firework_star",
             "minecraft:lodestone_compass",
             "lodestone_compass",
+            "minecraft:ender_dragon_spawn_egg",
+            "ender_dragon_spawn_egg",
+            "minecraft:wither_spawn_egg",
+            "wither_spawn_egg",
             "darkoak_sign",
             "lodestonecompass",
             "turtle_shell_piece",
@@ -6730,6 +7222,58 @@
             "minecraft:jigsaw",
             "jigsaw"
          ]
+      },
+      {
+         "name" : "AgentCollectAllItems",
+         "values" : [ "all" ]
+      },
+      {
+         "name" : "AgentPlaceCommand",
+         "values" : [ "place" ]
+      },
+      {
+         "name" : "AgentSetItemCommand",
+         "values" : [ "setitem" ]
+      },
+      {
+         "name" : "AgentTPCommand",
+         "values" : [ "tp" ]
+      },
+      {
+         "name" : "AgentTeleportFacing",
+         "values" : [ "facing" ]
+      },
+      {
+         "name" : "AllowListAction",
+         "values" : [ "add", "remove", "list", "reload", "on", "off" ]
+      },
+      {
+         "name" : "CameraShakeActionAdd",
+         "values" : [ "add" ]
+      },
+      {
+         "name" : "CameraShakeType",
+         "values" : [ "positional", "rotational" ]
+      },
+      {
+         "name" : "CameraShakeActionStop",
+         "values" : [ "stop" ]
+      },
+      {
+         "name" : "BoolSettingName",
+         "values" : [ "allow-cheats" ]
+      },
+      {
+         "name" : "Boolean",
+         "values" : [ "true", "false" ]
+      },
+      {
+         "name" : "DifficultySettingName",
+         "values" : [ "difficulty" ]
+      },
+      {
+         "name" : "Difficulty",
+         "values" : [ "normal", "peaceful", "easy", "hard", "p", "e", "n", "h" ]
       },
       {
          "name" : "MaskMode",
@@ -7967,6 +8511,10 @@
          ]
       },
       {
+         "name" : "CodeBuilderActionInventory",
+         "values" : [ "inventory" ]
+      },
+      {
          "name" : "DamageCause",
          "values" : [
             "piston",
@@ -8592,6 +9140,42 @@
          ]
       },
       {
+         "name" : "GameTestModeRunThis",
+         "values" : [ "runthis" ]
+      },
+      {
+         "name" : "GameTestModeRun",
+         "values" : [ "run" ]
+      },
+      {
+         "name" : "GameTestName",
+         "values" : []
+      },
+      {
+         "name" : "GameTestModeRunSet",
+         "values" : [ "runset" ]
+      },
+      {
+         "name" : "GameTestTag",
+         "values" : []
+      },
+      {
+         "name" : "GameTestModeClearAll",
+         "values" : [ "clearall" ]
+      },
+      {
+         "name" : "GameTestModeShowPosition",
+         "values" : [ "pos" ]
+      },
+      {
+         "name" : "GameTestModeCreateTest",
+         "values" : [ "create" ]
+      },
+      {
+         "name" : "GameTestRunNearbyTests",
+         "values" : [ "runthese" ]
+      },
+      {
          "name" : "CommandName",
          "values" : [
             "tag",
@@ -8675,6 +9259,10 @@
             "whitelist",
             "changesetting"
          ]
+      },
+      {
+         "name" : "ListDetails",
+         "values" : [ "ids", "uuids", "stats" ]
       },
       {
          "name" : "Structure",
@@ -8844,7 +9432,11 @@
             "minecraft:waxed_oxidized_copper",
             "minecraft:dark_oak_trapdoor",
             "minecraft:cave_vines_head_with_berries",
-            "minecraft:green_candle",
+            "minecraft:chemical_heat",
+            "minecraft:dark_prismarine_stairs",
+            "minecraft:deepslate_brick_stairs",
+            "minecraft:netherreactor",
+            "minecraft:pointed_dripstone",
             "minecraft:cyan_candle",
             "minecraft:tadpole_bucket",
             "minecraft:element_43",
@@ -8860,8 +9452,6 @@
             "minecraft:concrete_powder",
             "minecraft:concrete",
             "minecraft:wooden_sword",
-            "minecraft:blue_candle",
-            "minecraft:sea_lantern",
             "minecraft:conduit",
             "minecraft:iron_shovel",
             "minecraft:polished_blackstone_brick_stairs",
@@ -8902,7 +9492,6 @@
             "minecraft:echo_shard",
             "minecraft:sapling",
             "minecraft:frog_spawn",
-            "minecraft:netherreactor",
             "minecraft:oak_chest_boat",
             "minecraft:bookshelf",
             "minecraft:yellow_flower",
@@ -9081,16 +9670,15 @@
             "minecraft:deny",
             "minecraft:waxed_oxidized_cut_copper_slab",
             "minecraft:target",
-            "minecraft:purpur_block",
             "minecraft:powder_snow",
             "minecraft:jungle_sign",
             "minecraft:white_dye",
             "minecraft:tripwire_hook",
+            "minecraft:oxidized_cut_copper_slab",
             "minecraft:kelp",
             "minecraft:slime_ball",
             "minecraft:element_77",
             "minecraft:ink_sac",
-            "minecraft:red_candle",
             "minecraft:glow_ink_sac",
             "minecraft:item.kelp",
             "minecraft:end_rod",
@@ -9102,6 +9690,13 @@
             "minecraft:melon_slice",
             "minecraft:crimson_trapdoor",
             "minecraft:exposed_cut_copper_stairs",
+            "minecraft:light_gray_candle",
+            "minecraft:cocoa_beans",
+            "minecraft:frosted_ice",
+            "minecraft:cooked_cod",
+            "minecraft:element_54",
+            "minecraft:waxed_exposed_cut_copper_slab",
+            "minecraft:mangrove_pressure_plate",
             "minecraft:piston",
             "minecraft:campfire",
             "minecraft:jungle_stairs",
@@ -9146,9 +9741,6 @@
             "minecraft:lapis_block",
             "minecraft:chainmail_helmet",
             "minecraft:coral_fan_hang",
-            "minecraft:brown_candle",
-            "minecraft:golden_hoe",
-            "minecraft:bell",
             "minecraft:iron_hoe",
             "minecraft:stone_hoe",
             "minecraft:stripped_mangrove_wood",
@@ -9189,6 +9781,8 @@
             "minecraft:lit_redstone_ore",
             "minecraft:azalea_leaves",
             "minecraft:rabbit_stew",
+            "minecraft:purpur_block",
+            "minecraft:snow_golem_spawn_egg",
             "minecraft:camera",
             "minecraft:experience_bottle",
             "minecraft:beetroot_soup",
@@ -9199,6 +9793,9 @@
             "minecraft:sweet_berries",
             "minecraft:cod_bucket",
             "minecraft:sea_pickle",
+            "minecraft:bell",
+            "minecraft:brown_candle",
+            "minecraft:golden_hoe",
             "minecraft:mule_spawn_egg",
             "minecraft:shulker_shell",
             "minecraft:fermented_spider_eye",
@@ -9229,7 +9826,6 @@
             "minecraft:red_candle_cake",
             "minecraft:porkchop",
             "minecraft:mushroom_stew",
-            "minecraft:dark_prismarine_stairs",
             "minecraft:element_6",
             "minecraft:prismarine",
             "minecraft:npc_spawn_egg",
@@ -9238,7 +9834,6 @@
             "minecraft:glow_squid_spawn_egg",
             "minecraft:birch_fence_gate",
             "minecraft:item.bed",
-            "minecraft:leaves2",
             "minecraft:spruce_door",
             "minecraft:element_49",
             "minecraft:unpowered_comparator",
@@ -9261,6 +9856,7 @@
             "minecraft:element_105",
             "minecraft:salmon",
             "minecraft:enchanted_golden_apple",
+            "minecraft:bamboo_block",
             "minecraft:pufferfish",
             "minecraft:turtle_egg",
             "minecraft:donkey_spawn_egg",
@@ -9289,9 +9885,6 @@
             "minecraft:emerald_ore",
             "minecraft:element_82",
             "minecraft:book",
-            "minecraft:light_gray_candle",
-            "minecraft:cocoa_beans",
-            "minecraft:frosted_ice",
             "minecraft:beef",
             "minecraft:beetroot_seeds",
             "minecraft:stone_pickaxe",
@@ -9387,13 +9980,12 @@
             "minecraft:coral",
             "minecraft:grindstone",
             "minecraft:quartz",
+            "minecraft:trip_wire",
+            "minecraft:mossy_cobblestone_stairs",
             "minecraft:stripped_jungle_log",
             "minecraft:lever",
             "minecraft:nether_wart",
             "minecraft:gold_nugget",
-            "minecraft:element_64",
-            "minecraft:flint_and_steel",
-            "minecraft:blaze_powder",
             "minecraft:powered_comparator",
             "minecraft:potion",
             "minecraft:brown_mushroom_block",
@@ -9411,14 +10003,7 @@
             "minecraft:iron_helmet",
             "minecraft:cow_spawn_egg",
             "minecraft:bamboo_stairs",
-            "minecraft:waxed_weathered_cut_copper_slab",
-            "minecraft:sheep_spawn_egg",
-            "minecraft:gold_block",
-            "minecraft:weathered_cut_copper_slab",
-            "minecraft:mangrove_trapdoor",
-            "minecraft:wolf_spawn_egg",
-            "minecraft:golden_shovel",
-            "minecraft:element_3",
+            "minecraft:small_dripleaf_block",
             "minecraft:creeper_spawn_egg",
             "minecraft:item.cauldron",
             "minecraft:normal_stone_stairs",
@@ -9438,11 +10023,25 @@
             "minecraft:end_portal",
             "minecraft:soul_sand",
             "minecraft:slime_spawn_egg",
+            "minecraft:sea_lantern",
+            "minecraft:flint_and_steel",
+            "minecraft:blaze_powder",
+            "minecraft:element_64",
+            "minecraft:leaves2",
+            "minecraft:ender_dragon_spawn_egg",
+            "minecraft:element_78",
+            "minecraft:netherite_sword",
+            "minecraft:orange_glazed_terracotta",
             "minecraft:brown_candle_cake",
             "minecraft:villager_spawn_egg",
             "minecraft:item.iron_door",
             "minecraft:standing_banner",
             "minecraft:item.nether_sprouts",
+            "minecraft:sheep_spawn_egg",
+            "minecraft:waxed_weathered_cut_copper_slab",
+            "minecraft:gold_block",
+            "minecraft:weathered_cut_copper_slab",
+            "minecraft:mangrove_trapdoor",
             "minecraft:filled_map",
             "minecraft:sand",
             "minecraft:element_70",
@@ -9466,6 +10065,9 @@
             "minecraft:pufferfish_spawn_egg",
             "minecraft:smoker",
             "minecraft:birch_pressure_plate",
+            "minecraft:wolf_spawn_egg",
+            "minecraft:golden_shovel",
+            "minecraft:element_3",
             "minecraft:rail",
             "minecraft:element_104",
             "minecraft:bee_nest",
@@ -9485,6 +10087,8 @@
             "minecraft:green_dye",
             "minecraft:cobblestone",
             "minecraft:feather",
+            "minecraft:warped_wall_sign",
+            "minecraft:cut_copper",
             "minecraft:diamond",
             "minecraft:bowl",
             "minecraft:cut_copper_stairs",
@@ -9509,11 +10113,9 @@
             "minecraft:axolotl_spawn_egg",
             "minecraft:goat_spawn_egg",
             "minecraft:copper_block",
-            "minecraft:cooked_cod",
-            "minecraft:element_54",
-            "minecraft:waxed_exposed_cut_copper_slab",
-            "minecraft:mangrove_pressure_plate",
-            "minecraft:oxidized_cut_copper_slab",
+            "minecraft:blue_candle",
+            "minecraft:green_candle",
+            "minecraft:red_candle",
             "minecraft:element_0",
             "minecraft:wooden_door",
             "minecraft:gilded_blackstone",
@@ -9588,9 +10190,6 @@
             "minecraft:element_75",
             "minecraft:element_76",
             "minecraft:big_dripleaf",
-            "minecraft:element_78",
-            "minecraft:netherite_sword",
-            "minecraft:orange_glazed_terracotta",
             "minecraft:element_79",
             "minecraft:element_80",
             "minecraft:element_81",
@@ -9695,9 +10294,6 @@
             "minecraft:iron_trapdoor",
             "minecraft:diamond_chestplate",
             "minecraft:tuff",
-            "minecraft:cut_copper",
-            "minecraft:warped_wall_sign",
-            "minecraft:small_dripleaf_block",
             "minecraft:skull_banner_pattern",
             "minecraft:waxed_cut_copper_stairs",
             "minecraft:mangrove_double_slab",
@@ -9752,6 +10348,8 @@
             "minecraft:blackstone_slab",
             "minecraft:glowingobsidian",
             "minecraft:copper_ore",
+            "minecraft:stripped_bamboo_block",
+            "minecraft:mud_bricks",
             "minecraft:sculk_catalyst",
             "minecraft:smooth_sandstone_stairs",
             "minecraft:light_weighted_pressure_plate",
@@ -9813,6 +10411,7 @@
             "minecraft:soul_torch",
             "minecraft:deepslate_tile_stairs",
             "minecraft:deadbush",
+            "minecraft:iron_golem_spawn_egg",
             "minecraft:waxed_weathered_double_cut_copper_slab",
             "minecraft:iron_ore",
             "minecraft:unpowered_repeater",
@@ -9880,6 +10479,7 @@
             "minecraft:wall_banner",
             "minecraft:crimson_stem",
             "minecraft:twisting_vines",
+            "minecraft:wither_spawn_egg",
             "minecraft:moving_block",
             "minecraft:item.dark_oak_door",
             "minecraft:warped_button",
@@ -9937,7 +10537,6 @@
             "minecraft:polished_blackstone_wall",
             "minecraft:waxed_exposed_double_cut_copper_slab",
             "minecraft:azalea",
-            "minecraft:mud_bricks",
             "minecraft:double_cut_copper_slab",
             "minecraft:birch_wall_sign",
             "minecraft:grass",
@@ -9969,12 +10568,7 @@
             "minecraft:darkoak_standing_sign",
             "minecraft:weathered_double_cut_copper_slab",
             "minecraft:tropical_fish_bucket",
-            "minecraft:stripped_warped_stem",
-            "minecraft:pointed_dripstone",
-            "minecraft:deepslate_brick_stairs",
-            "minecraft:chemical_heat",
-            "minecraft:mossy_cobblestone_stairs",
-            "minecraft:trip_wire"
+            "minecraft:stripped_warped_stem"
          ]
       },
       {
@@ -10520,7 +11114,7 @@
          "values" : [ "query" ]
       }
    ],
-   "minecraft_version" : "1.19.50",
+   "minecraft_version" : "1.19.60",
    "module_type" : "commands",
-   "name" : "mojang-commands"
+   "name" : "mojang-commands-internal"
 }
