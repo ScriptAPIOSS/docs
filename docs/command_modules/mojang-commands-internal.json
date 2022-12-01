@@ -9687,6 +9687,8 @@
             "minecraft:element_23",
             "minecraft:element_16",
             "minecraft:saddle",
+            "minecraft:stripped_warped_stem",
+            "minecraft:tropical_fish_bucket",
             "minecraft:melon_slice",
             "minecraft:crimson_trapdoor",
             "minecraft:exposed_cut_copper_stairs",
@@ -9810,6 +9812,7 @@
             "minecraft:mud_brick_wall",
             "minecraft:elder_guardian_spawn_egg",
             "minecraft:element_91",
+            "minecraft:sniffer_spawn_egg",
             "minecraft:info_update2",
             "minecraft:wheat_seeds",
             "minecraft:acacia_fence_gate",
@@ -10149,8 +10152,8 @@
             "minecraft:mangrove_stairs",
             "minecraft:element_14",
             "minecraft:element_15",
-            "minecraft:purple_candle",
             "minecraft:music_disc_mellohi",
+            "minecraft:purple_candle",
             "minecraft:element_17",
             "minecraft:pumpkin_stem",
             "minecraft:element_19",
@@ -10566,9 +10569,7 @@
             "minecraft:spore_blossom",
             "minecraft:crimson_standing_sign",
             "minecraft:darkoak_standing_sign",
-            "minecraft:weathered_double_cut_copper_slab",
-            "minecraft:tropical_fish_bucket",
-            "minecraft:stripped_warped_stem"
+            "minecraft:weathered_double_cut_copper_slab"
          ]
       },
       {

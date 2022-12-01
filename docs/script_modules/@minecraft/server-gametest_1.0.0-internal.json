@@ -2885,6 +2885,15 @@
                }
             },
             {
+               "is_read_only" : false,
+               "name" : "isSprinting",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean"
+               }
+            },
+            {
                "is_read_only" : true,
                "name" : "location",
                "type" : {
