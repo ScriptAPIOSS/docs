@@ -6197,6 +6197,77 @@
                "arguments" : [
                   {
                      "details" : null,
+                     "name" : "begin",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "BlockLocation"
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "end",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "BlockLocation"
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "block",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "BlockPermutation"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "BlockType"
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "options",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "BlockFillOptions"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "fillBlocks",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "uint32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
                      "name" : "location",
                      "type" : {
                         "is_bind_type" : true,
@@ -6725,7 +6796,7 @@
                "name" : "amplifier",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "int32",
                   "valid_range" : {
                      "max" : 2147483647,
@@ -6738,7 +6809,7 @@
                "name" : "displayName",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "string"
                }
             },
@@ -6747,7 +6818,7 @@
                "name" : "duration",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "int32",
                   "valid_range" : {
                      "max" : 2147483647,
@@ -7683,6 +7754,50 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "addTag",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "amount",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "source",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityDamageSource"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "applyDamage",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -9628,15 +9743,6 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "cause",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityDamageCause"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "damage",
                "type" : {
                   "is_bind_type" : false,
@@ -9650,25 +9756,16 @@
             },
             {
                "is_read_only" : true,
-               "name" : "damagingEntity",
+               "name" : "damageSource",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "Entity"
+                  "name" : "EntityDamageSource"
                }
             },
             {
                "is_read_only" : true,
                "name" : "hurtEntity",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "projectile",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -35784,6 +35881,70 @@
             {
                "arguments" : [
                   {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "amount",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "addExperience",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "uint32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "amount",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "addLevels",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "arguments" : [
+                  {
                      "details" : null,
                      "name" : "tag",
                      "type" : {
@@ -35796,6 +35957,50 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "addTag",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "amount",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "source",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityDamageSource"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "applyDamage",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -36054,6 +36259,21 @@
                }
             },
             {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getTotalXp",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "uint32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
                "arguments" : [
                   {
                      "details" : null,
@@ -36224,6 +36444,17 @@
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "resetLevel",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
                }
             },
             {
@@ -36695,6 +36926,19 @@
             },
             {
                "is_read_only" : true,
+               "name" : "level",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "location",
                "type" : {
                   "is_bind_type" : true,
@@ -36771,6 +37015,19 @@
             },
             {
                "is_read_only" : true,
+               "name" : "totalXpNeededForNextLevel",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "typeId",
                "type" : {
                   "is_bind_type" : false,
@@ -36794,6 +37051,19 @@
                   "is_bind_type" : true,
                   "is_errorable" : true,
                   "name" : "Vector3"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "xpEarnedAtCurrentLevel",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
                }
             }
          ],
@@ -41232,6 +41502,30 @@
    "functions" : [],
    "interfaces" : [
       {
+         "name" : "BlockFillOptions",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "matchingBlock",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "BlockPermutation"
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "BlockFillOptions"
+         }
+      },
+      {
          "name" : "BlockRaycastOptions",
          "properties" : [
             {
@@ -41285,6 +41579,53 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockRaycastOptions"
+         }
+      },
+      {
+         "name" : "EntityDamageSource",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "cause",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "EntityDamageCause"
+               }
+            },
+            {
+               "is_read_only" : false,
+               "name" : "damagingEntity",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
+               }
+            },
+            {
+               "is_read_only" : false,
+               "name" : "damagingProjectile",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityDamageSource"
          }
       },
       {
