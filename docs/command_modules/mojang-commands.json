@@ -3368,6 +3368,60 @@
       },
       {
          "aliases" : [],
+         "description" : "Debugging options for GameTest Framework.",
+         "name" : "script",
+         "overloads" : [
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "SCRIPTDEBUGMODEPROFILER"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "action",
+                     "type" : "SCRIPTPROFILERSTART"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "SCRIPTDEBUGMODEPROFILER"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "action",
+                     "type" : "SCRIPTPROFILERSTOP"
+                  }
+               ],
+               "version" : false
+            },
+            {
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : "SCRIPTDEBUGMODEWATCHDOG"
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "action",
+                     "type" : "SCRIPTWATCHDOGDUMPMEMORY"
+                  }
+               ],
+               "version" : false
+            }
+         ],
+         "permission_level" : 2,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
          "description" : "Changes a block to another block.",
          "name" : "setblock",
          "overloads" : [
@@ -8681,7 +8735,8 @@
             "enchant",
             "allowlist",
             "whitelist",
-            "changesetting"
+            "changesetting",
+            "script"
          ]
       },
       {
@@ -10393,6 +10448,26 @@
       {
          "name" : "ScoreboardOperationAction",
          "values" : [ "operation" ]
+      },
+      {
+         "name" : "ScriptDebugModeProfiler",
+         "values" : [ "profiler" ]
+      },
+      {
+         "name" : "ScriptProfilerStart",
+         "values" : [ "start" ]
+      },
+      {
+         "name" : "ScriptProfilerStop",
+         "values" : [ "stop" ]
+      },
+      {
+         "name" : "ScriptDebugModeWatchdog",
+         "values" : [ "watchdog" ]
+      },
+      {
+         "name" : "ScriptWatchdogDumpMemory",
+         "values" : [ "exportstats" ]
       },
       {
          "name" : "SetBlockMode",

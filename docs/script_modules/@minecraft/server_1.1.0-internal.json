@@ -9502,7 +9502,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "boolean"
                }
             }
          ],
@@ -10671,7 +10671,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "boolean"
                }
             }
          ],
@@ -11106,7 +11106,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "boolean"
                }
             }
          ],
@@ -13678,7 +13678,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "boolean"
                }
             }
          ],
@@ -37182,6 +37182,28 @@
                         "name" : "variant",
                         "variant_types" : [
                            {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
                               "is_bind_type" : true,
                               "is_errorable" : false,
                               "name" : "RawMessage"
@@ -38511,6 +38533,40 @@
                "arguments" : [
                   {
                      "details" : null,
+                     "name" : "objective",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardObjective"
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "participant",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardIdentity"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getScore",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
                      "name" : "objectiveId",
                      "type" : {
                         "is_bind_type" : false,
@@ -38569,6 +38625,52 @@
                   "is_errorable" : true,
                   "name" : "ScoreboardObjective"
                }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "objective",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardObjective"
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "participant",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardIdentity"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "score",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setScore",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
             }
          ],
          "name" : "Scoreboard",
@@ -38592,6 +38694,89 @@
                   "is_bind_type" : true,
                   "is_errorable" : true,
                   "name" : "Entity"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "objective",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardObjective"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getScore",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "objective",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardObjective"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "removeFromObjective",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "objective",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardObjective"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "score",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setScore",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
                }
             }
          ],
@@ -38694,6 +38879,64 @@
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "array"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "participant",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardIdentity"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "removeParticipant",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "participant",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "ScoreboardIdentity"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "score",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setScore",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
                }
             }
          ],
@@ -40717,6 +40960,28 @@
                         "is_errorable" : false,
                         "name" : "variant",
                         "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
                            {
                               "is_bind_type" : true,
                               "is_errorable" : false,
@@ -42793,26 +43058,26 @@
                   "is_errorable" : false,
                   "name" : "optional",
                   "optional_type" : {
-                     "element_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "variant",
-                        "variant_types" : [
-                           {
-                              "is_bind_type" : true,
-                              "is_errorable" : false,
-                              "name" : "RawMessage"
-                           },
-                           {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "element_type" : {
                               "is_bind_type" : false,
                               "is_errorable" : false,
                               "name" : "string"
-                           }
-                        ]
-                     },
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "array"
+                           },
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "array"
+                        },
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "RawMessage"
+                        }
+                     ]
                   }
                }
             }
