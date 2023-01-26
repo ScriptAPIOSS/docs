@@ -781,7 +781,7 @@
                "name" : "blockLocation",
                "type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "BlockLocation"
                }
             },
@@ -13098,7 +13098,7 @@
                }
             },
             {
-               "is_read_only" : false,
+               "is_read_only" : true,
                "name" : "projectileHit",
                "type" : {
                   "is_bind_type" : true,
@@ -14716,17 +14716,24 @@
             {
                "arguments" : [
                   {
-                     "details" : null,
+                     "details" : {
+                        "default_value" : "null"
+                     },
                      "name" : "loreList",
                      "type" : {
-                        "element_type" : {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "string"
-                        },
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "array"
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           },
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "array"
+                        }
                      }
                   }
                ],
@@ -14980,7 +14987,7 @@
                "name" : "blockLocation",
                "type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "BlockLocation"
                }
             },
@@ -14989,7 +14996,7 @@
                "name" : "buildBlockLocation",
                "type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "BlockLocation"
                }
             },
@@ -15267,7 +15274,7 @@
                "name" : "blockLocation",
                "type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "BlockLocation"
                }
             },
@@ -15563,7 +15570,7 @@
                "name" : "blockLocation",
                "type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "BlockLocation"
                }
             },
@@ -23444,16 +23451,6 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "woodenSlab",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wool",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -40239,7 +40236,7 @@
                         "max_value" : 3.402823466385289e+38,
                         "min_value" : -3.402823466385289e+38
                      },
-                     "name" : "s",
+                     "name" : "t",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -41626,7 +41623,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.19.60",
+   "minecraft_version" : "1.19.70",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

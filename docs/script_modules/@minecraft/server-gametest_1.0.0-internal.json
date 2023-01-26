@@ -596,7 +596,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -655,7 +655,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "BlockLocation"
+                  "name" : "Vector3"
                }
             },
             {
@@ -727,212 +727,6 @@
          "constants" : [],
          "functions" : [
             {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "effectType",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "EffectType"
-                     }
-                  },
-                  {
-                     "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
-                     },
-                     "name" : "duration",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : 0,
-                        "max_value" : 255,
-                        "min_value" : 0
-                     },
-                     "name" : "amplifier",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : true,
-                        "max_value" : true,
-                        "min_value" : false
-                     },
-                     "name" : "showParticles",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "boolean"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "addEffect",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
-                     },
-                     "name" : "amount",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "addExperience",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "uint32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
-                     },
-                     "name" : "amount",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "addLevels",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "tag",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "addTag",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
-                     },
-                     "name" : "amount",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : "null"
-                     },
-                     "name" : "source",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "optional",
-                        "optional_type" : {
-                           "from_module" : {
-                              "name" : "@minecraft/server",
-                              "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                              "version" : "1.1.0-internal"
-                           },
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "EntityDamageSource"
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "applyDamage",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
                "arguments" : [],
                "is_constructor" : false,
                "is_static" : false,
@@ -982,7 +776,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -1025,317 +819,6 @@
             {
                "arguments" : [
                   {
-                     "details" : {
-                        "default_value" : "null"
-                     },
-                     "name" : "useEffects",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "optional",
-                        "optional_type" : {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "boolean"
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "extinguishFire",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "default_value" : "null"
-                     },
-                     "name" : "options",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "optional",
-                        "optional_type" : {
-                           "from_module" : {
-                              "name" : "@minecraft/server",
-                              "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                              "version" : "1.1.0-internal"
-                           },
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "BlockRaycastOptions"
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getBlockFromViewDirection",
-               "return_type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Block"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "componentId",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getComponent",
-               "return_type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "IEntityComponent"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getComponents",
-               "return_type" : {
-                  "element_type" : {
-                     "from_module" : {
-                        "name" : "@minecraft/server",
-                        "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                        "version" : "1.1.0-internal"
-                     },
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "IEntityComponent"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "identifier",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getDynamicProperty",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "optional",
-                  "optional_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "variant",
-                     "variant_types" : [
-                        {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "boolean"
-                        },
-                        {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "float",
-                           "valid_range" : {
-                              "max" : 2147483647,
-                              "min" : -2147483648
-                           }
-                        },
-                        {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "string"
-                        }
-                     ]
-                  }
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "effectType",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "EffectType"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getEffect",
-               "return_type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Effect"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getEffects",
-               "return_type" : {
-                  "element_type" : {
-                     "from_module" : {
-                        "name" : "@minecraft/server",
-                        "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                        "version" : "1.1.0-internal"
-                     },
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "Effect"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "array"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "default_value" : "null"
-                     },
-                     "name" : "options",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "optional",
-                        "optional_type" : {
-                           "from_module" : {
-                              "name" : "@minecraft/server",
-                              "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                              "version" : "1.1.0-internal"
-                           },
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "EntityRaycastOptions"
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getEntitiesFromViewDirection",
-               "return_type" : {
-                  "element_type" : {
-                     "from_module" : {
-                        "name" : "@minecraft/server",
-                        "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                        "version" : "1.1.0-internal"
-                     },
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "Entity"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "array"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "itemCategory",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getItemCooldown",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getTags",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "string"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "array"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getTotalXp",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "uint32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "arguments" : [
-                  {
                      "details" : null,
                      "name" : "itemStack",
                      "type" : {
@@ -1373,48 +856,6 @@
                }
             },
             {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "componentId",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "hasComponent",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "tag",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "hasTag",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
                "arguments" : [],
                "is_constructor" : false,
                "is_static" : false,
@@ -1438,7 +879,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -1497,33 +938,11 @@
                "arguments" : [],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "isOp",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
                "name" : "jump",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "kill",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
                }
             },
             {
@@ -1539,7 +958,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -1591,7 +1010,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -1739,7 +1158,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -1782,7 +1201,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -1825,7 +1244,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -1921,7 +1340,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -1970,7 +1389,7 @@
                            },
                            "is_bind_type" : true,
                            "is_errorable" : false,
-                           "name" : "Location"
+                           "name" : "Vector3"
                         },
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -1998,131 +1417,6 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "navigateToLocations",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "soundID",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : "null"
-                     },
-                     "name" : "soundOptions",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "optional",
-                        "optional_type" : {
-                           "from_module" : {
-                              "name" : "@minecraft/server",
-                              "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                              "version" : "1.1.0-internal"
-                           },
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "SoundOptions"
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "playSound",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "id",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  },
-                  {
-                     "details" : null,
-                     "name" : "value",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "postClientMessage",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "identifier",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "removeDynamicProperty",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "tag",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "removeTag",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "resetLevel",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2171,37 +1465,6 @@
             {
                "arguments" : [
                   {
-                     "details" : null,
-                     "name" : "commandString",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "runCommandAsync",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "promise",
-                  "promise_type" : {
-                     "from_module" : {
-                        "name" : "@minecraft/server",
-                        "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                        "version" : "1.1.0-internal"
-                     },
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "CommandResult"
-                  }
-               }
-            },
-            {
-               "arguments" : [
-                  {
                      "details" : {
                         "max_value" : 3.402823466385289e+38,
                         "min_value" : -3.402823466385289e+38
@@ -2221,57 +1484,6 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setBodyRotation",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "identifier",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  },
-                  {
-                     "details" : null,
-                     "name" : "value",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "variant",
-                        "variant_types" : [
-                           {
-                              "is_bind_type" : false,
-                              "is_errorable" : false,
-                              "name" : "boolean"
-                           },
-                           {
-                              "is_bind_type" : false,
-                              "is_errorable" : false,
-                              "name" : "float",
-                              "valid_range" : {
-                                 "max" : 2147483647,
-                                 "min" : -2147483648
-                              }
-                           },
-                           {
-                              "is_bind_type" : false,
-                              "is_errorable" : false,
-                              "name" : "string"
-                           }
-                        ]
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "setDynamicProperty",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2360,181 +1572,6 @@
                }
             },
             {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
-                     },
-                     "name" : "seconds",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : "null"
-                     },
-                     "name" : "useEffects",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "optional",
-                        "optional_type" : {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "boolean"
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "setOnFire",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "max_value" : true,
-                        "min_value" : false
-                     },
-                     "name" : "isOp",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "boolean"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "setOp",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : {
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
-                     },
-                     "name" : "degreesX",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
-                     },
-                     "name" : "degreesY",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "setRotation",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "velocity",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "Vector3"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "setVelocity",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "itemCategory",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  },
-                  {
-                     "details" : {
-                        "max_value" : 32767,
-                        "min_value" : 0
-                     },
-                     "name" : "tickDuration",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "startItemCooldown",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
                "arguments" : [],
                "is_constructor" : false,
                "is_static" : false,
@@ -2572,244 +1609,6 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "stopUsingItem",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "location",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "Vector3"
-                     }
-                  },
-                  {
-                     "details" : null,
-                     "name" : "dimension",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "Dimension"
-                     }
-                  },
-                  {
-                     "details" : {
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
-                     },
-                     "name" : "xRotation",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
-                     },
-                     "name" : "yRotation",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : false,
-                        "max_value" : true,
-                        "min_value" : false
-                     },
-                     "name" : "keepVelocity",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "boolean"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "teleport",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "location",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "Vector3"
-                     }
-                  },
-                  {
-                     "details" : null,
-                     "name" : "dimension",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "Dimension"
-                     }
-                  },
-                  {
-                     "details" : null,
-                     "name" : "facingLocation",
-                     "type" : {
-                        "from_module" : {
-                           "name" : "@minecraft/server",
-                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "1.1.0-internal"
-                        },
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "Vector3"
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : false,
-                        "max_value" : true,
-                        "min_value" : false
-                     },
-                     "name" : "keepVelocity",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "boolean"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "teleportFacing",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "message",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "variant",
-                        "variant_types" : [
-                           {
-                              "element_type" : {
-                                 "is_bind_type" : false,
-                                 "is_errorable" : false,
-                                 "name" : "variant",
-                                 "variant_types" : [
-                                    {
-                                       "from_module" : {
-                                          "name" : "@minecraft/server",
-                                          "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                                          "version" : "1.1.0-internal"
-                                       },
-                                       "is_bind_type" : true,
-                                       "is_errorable" : false,
-                                       "name" : "RawMessage"
-                                    },
-                                    {
-                                       "is_bind_type" : false,
-                                       "is_errorable" : false,
-                                       "name" : "string"
-                                    }
-                                 ]
-                              },
-                              "is_bind_type" : false,
-                              "is_errorable" : false,
-                              "name" : "array"
-                           },
-                           {
-                              "from_module" : {
-                                 "name" : "@minecraft/server",
-                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                                 "version" : "1.1.0-internal"
-                              },
-                              "is_bind_type" : true,
-                              "is_errorable" : false,
-                              "name" : "RawMessage"
-                           },
-                           {
-                              "is_bind_type" : false,
-                              "is_errorable" : false,
-                              "name" : "string"
-                           }
-                        ]
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "tell",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "eventName",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "triggerEvent",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2899,7 +1698,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -2989,7 +1788,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3057,34 +1856,6 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "dimension",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Dimension"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "headLocation",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Location"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "headRotation",
                "type" : {
                   "from_module" : {
@@ -3098,207 +1869,12 @@
                }
             },
             {
-               "is_read_only" : true,
-               "name" : "id",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "isSneaking",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
                "is_read_only" : false,
                "name" : "isSprinting",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "level",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "location",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Vector3"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "name",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "nameTag",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "onScreenDisplay",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ScreenDisplay"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "rotation",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "XYRotation"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "scoreboard",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "ScoreboardIdentity"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "selectedSlot",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "target",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Entity"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "totalXpNeededForNextLevel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "typeId",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "velocity",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Vector"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "viewDirection",
-               "type" : {
-                  "from_module" : {
-                     "name" : "@minecraft/server",
-                     "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                     "version" : "1.1.0-internal"
-                  },
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Vector3"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "xpEarnedAtCurrentLevel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
                }
             }
          ],
@@ -3429,7 +2005,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3468,7 +2044,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3536,7 +2112,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3589,7 +2165,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -3615,7 +2191,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -3691,7 +2267,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3748,7 +2324,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3801,7 +2377,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3849,7 +2425,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3922,7 +2498,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -3994,7 +2570,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4033,7 +2609,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4086,7 +2662,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4158,7 +2734,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4213,7 +2789,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4255,7 +2831,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4344,7 +2920,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4391,7 +2967,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4417,7 +2993,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4545,7 +3121,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4592,7 +3168,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4618,7 +3194,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -4675,7 +3251,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "BlockLocation"
+                  "name" : "Vector3"
                }
             },
             {
@@ -4706,7 +3282,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "Location"
+                  "name" : "Vector3"
                }
             },
             {
@@ -4909,7 +3485,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4949,7 +3525,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -4975,7 +3551,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5066,7 +3642,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -5106,7 +3682,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -5151,7 +3727,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -5182,7 +3758,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5244,7 +3820,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -5284,7 +3860,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -5315,7 +3891,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5536,7 +4112,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5593,7 +4169,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5640,7 +4216,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5679,7 +4255,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5782,7 +4358,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5839,7 +4415,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Location"
+                        "name" : "Vector3"
                      }
                   },
                   {
@@ -5882,7 +4458,7 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "BlockLocation"
+                        "name" : "Vector3"
                      }
                   }
                ],
@@ -5897,7 +4473,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "BlockLocation"
+                  "name" : "Vector3"
                }
             },
             {
@@ -5928,7 +4504,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "Location"
+                  "name" : "Vector3"
                }
             }
          ],
@@ -6064,7 +4640,7 @@
       }
    ],
    "interfaces" : [],
-   "minecraft_version" : "1.19.60",
+   "minecraft_version" : "1.19.70",
    "module_type" : "script",
    "name" : "@minecraft/server-gametest",
    "objects" : [],

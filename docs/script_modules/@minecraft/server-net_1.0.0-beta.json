@@ -543,7 +543,7 @@
    ],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.19.60",
+   "minecraft_version" : "1.19.70",
    "module_type" : "script",
    "name" : "@minecraft/server-net",
    "objects" : [
