@@ -1,5 +1,5 @@
 {
-   "block_states" : [
+   "block_properties" : [
       {
          "name" : "books_stored",
          "type" : "int",
@@ -983,339 +983,339 @@
    "blocks" : [
       {
          "name" : "minecraft:blue_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:birch_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:polished_basalt",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:nether_gold_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:bamboo_block",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:piston_arm_collision",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:coral_fan_dead",
-         "states" : [ "coral_color", "coral_fan_direction" ]
+         "properties" : [ "coral_color", "coral_fan_direction" ]
       },
       {
          "name" : "minecraft:fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:powder_snow",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:dark_oak_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:deepslate_copper_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:nether_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:blackstone_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:red_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:jungle_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:spruce_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:gray_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:yellow_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:crimson_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:end_gateway",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:beacon",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:red_nether_brick",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:cobbled_deepslate_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:snow_layer",
-         "states" : [ "covered_bit", "height" ]
+         "properties" : [ "covered_bit", "height" ]
       },
       {
          "name" : "minecraft:black_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:glow_frame",
-         "states" : [ "facing_direction", "item_frame_map_bit", "item_frame_photo_bit" ]
+         "properties" : [ "facing_direction", "item_frame_map_bit", "item_frame_photo_bit" ]
       },
       {
          "name" : "minecraft:mud_brick_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:hanging_roots",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:prismarine_bricks_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:waxed_oxidized_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:calcite",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:stripped_dark_oak_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:sculk_shrieker",
-         "states" : [ "active", "can_summon" ]
+         "properties" : [ "active", "can_summon" ]
       },
       {
          "name" : "minecraft:gray_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:lime_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:info_update",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:seagrass",
-         "states" : [ "sea_grass_type" ]
+         "properties" : [ "sea_grass_type" ]
       },
       {
          "name" : "minecraft:waxed_exposed_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:redstone_lamp",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:mossy_cobblestone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:brown_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:diamond_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:oak_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:end_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:packed_ice",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:packed_mud",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:light_blue_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:moss_carpet",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_fungus",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_deepslate_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:bamboo_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:amethyst_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:gold_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:flower_pot",
-         "states" : [ "update_bit" ]
+         "properties" : [ "update_bit" ]
       },
       {
          "name" : "minecraft:chiseled_bookshelf",
-         "states" : [ "books_stored", "direction" ]
+         "properties" : [ "books_stored", "direction" ]
       },
       {
          "name" : "minecraft:polished_deepslate_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:yellow_flower",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:small_amethyst_bud",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:activator_rail",
-         "states" : [ "rail_data_bit", "rail_direction" ]
+         "properties" : [ "rail_data_bit", "rail_direction" ]
       },
       {
          "name" : "minecraft:iron_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:potatoes",
-         "states" : [ "growth" ]
+         "properties" : [ "growth" ]
       },
       {
          "name" : "minecraft:muddy_mangrove_roots",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:noteblock",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:tuff",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:mangrove_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:oxidized_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:deepslate_tile_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:raw_gold_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:black_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:orange_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:powered_comparator",
-         "states" : [ "direction", "output_lit_bit", "output_subtract_bit" ]
+         "properties" : [ "direction", "output_lit_bit", "output_subtract_bit" ]
       },
       {
          "name" : "minecraft:warped_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:melon_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:waxed_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:mob_spawner",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:soul_fire",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:magenta_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:mangrove_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:obsidian",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate_brick_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -1325,47 +1325,47 @@
       },
       {
          "name" : "minecraft:oxidized_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:exposed_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_deepslate_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:stone_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:lava_cauldron",
-         "states" : [ "cauldron_liquid", "fill_level" ]
+         "properties" : [ "cauldron_liquid", "fill_level" ]
       },
       {
          "name" : "minecraft:sponge",
-         "states" : [ "sponge_type" ]
+         "properties" : [ "sponge_type" ]
       },
       {
          "name" : "minecraft:exposed_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:bamboo_fence",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:normal_stone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:hardened_clay",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:birch_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -1374,83 +1374,83 @@
       },
       {
          "name" : "minecraft:stripped_jungle_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:polished_blackstone_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:smoker",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:stone",
-         "states" : [ "stone_type" ]
+         "properties" : [ "stone_type" ]
       },
       {
          "name" : "minecraft:concrete",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:hard_glass_pane",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:orange_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_blackstone_brick_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:crimson_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:respawn_anchor",
-         "states" : [ "respawn_anchor_charge" ]
+         "properties" : [ "respawn_anchor_charge" ]
       },
       {
          "name" : "minecraft:green_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:waxed_exposed_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:hay_block",
-         "states" : [ "deprecated", "pillar_axis" ]
+         "properties" : [ "deprecated", "pillar_axis" ]
       },
       {
          "name" : "minecraft:waxed_weathered_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:waxed_oxidized_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:cyan_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:sapling",
-         "states" : [ "age_bit", "sapling_type" ]
+         "properties" : [ "age_bit", "sapling_type" ]
       },
       {
          "name" : "minecraft:bamboo_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:torch",
-         "states" : [ "torch_facing_direction" ]
+         "properties" : [ "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:mud_brick_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -1460,75 +1460,75 @@
       },
       {
          "name" : "minecraft:honey_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:dripstone_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:vine",
-         "states" : [ "vine_direction_bits" ]
+         "properties" : [ "vine_direction_bits" ]
       },
       {
          "name" : "minecraft:blackstone_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:gold_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:yellow_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:stonecutter",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_planks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:piston",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:tallgrass",
-         "states" : [ "tall_grass_type" ]
+         "properties" : [ "tall_grass_type" ]
       },
       {
          "name" : "minecraft:stone_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:gray_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:mangrove_planks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:invisible_bedrock",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:carpet",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:magenta_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:magenta_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:polished_blackstone_brick_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -1538,39 +1538,39 @@
       },
       {
          "name" : "minecraft:stained_glass",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:mangrove_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:orange_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:smooth_basalt",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:waterlily",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:emerald_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:heavy_weighted_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:lightning_rod",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:cobblestone_wall",
-         "states" : [
+         "properties" : [
             "wall_block_type",
             "wall_connection_type_east",
             "wall_connection_type_north",
@@ -1581,23 +1581,23 @@
       },
       {
          "name" : "minecraft:underwater_torch",
-         "states" : [ "torch_facing_direction" ]
+         "properties" : [ "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:deepslate_brick_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:bamboo_mosaic_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:wood",
-         "states" : [ "pillar_axis", "stripped_bit", "wood_type" ]
+         "properties" : [ "pillar_axis", "stripped_bit", "wood_type" ]
       },
       {
          "name" : "minecraft:acacia_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -1606,27 +1606,27 @@
       },
       {
          "name" : "minecraft:ochre_froglight",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:observer",
-         "states" : [ "facing_direction", "powered_bit" ]
+         "properties" : [ "facing_direction", "powered_bit" ]
       },
       {
          "name" : "minecraft:redstone_torch",
-         "states" : [ "torch_facing_direction" ]
+         "properties" : [ "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:silver_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:granite_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:dark_oak_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -1635,167 +1635,167 @@
       },
       {
          "name" : "minecraft:glowingobsidian",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:brown_mushroom",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:brown_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:oxidized_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:copper_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:birch_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:scaffolding",
-         "states" : [ "stability", "stability_check" ]
+         "properties" : [ "stability", "stability_check" ]
       },
       {
          "name" : "minecraft:sandstone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:green_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:stripped_bamboo_block",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:red_mushroom_block",
-         "states" : [ "huge_mushroom_bits" ]
+         "properties" : [ "huge_mushroom_bits" ]
       },
       {
          "name" : "minecraft:sculk_catalyst",
-         "states" : [ "bloom" ]
+         "properties" : [ "bloom" ]
       },
       {
          "name" : "minecraft:cobblestone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:red_flower",
-         "states" : [ "flower_type" ]
+         "properties" : [ "flower_type" ]
       },
       {
          "name" : "minecraft:smooth_sandstone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:jungle_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:sandstone",
-         "states" : [ "sand_stone_type" ]
+         "properties" : [ "sand_stone_type" ]
       },
       {
          "name" : "minecraft:brown_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:acacia_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:light_weighted_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:undyed_shulker_box",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_blackstone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:mycelium",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bamboo",
-         "states" : [ "age_bit", "bamboo_leaf_size", "bamboo_stalk_thickness" ]
+         "properties" : [ "age_bit", "bamboo_leaf_size", "bamboo_stalk_thickness" ]
       },
       {
          "name" : "minecraft:quartz_block",
-         "states" : [ "chisel_type", "pillar_axis" ]
+         "properties" : [ "chisel_type", "pillar_axis" ]
       },
       {
          "name" : "minecraft:stone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:deepslate_brick_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:warped_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:smithing_table",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:green_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:wooden_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:spruce_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:netherite_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:pink_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:redstone_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:birch_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:redstone_wire",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:waxed_exposed_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:lava",
-         "states" : [ "liquid_depth" ]
+         "properties" : [ "liquid_depth" ]
       },
       {
          "name" : "minecraft:jungle_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -1804,51 +1804,51 @@
       },
       {
          "name" : "minecraft:loom",
-         "states" : [ "direction" ]
+         "properties" : [ "direction" ]
       },
       {
          "name" : "minecraft:log2",
-         "states" : [ "new_log_type", "pillar_axis" ]
+         "properties" : [ "new_log_type", "pillar_axis" ]
       },
       {
          "name" : "minecraft:end_stone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:crimson_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:mangrove_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:glowstone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:stone_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:waxed_exposed_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:mud_brick_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:farmland",
-         "states" : [ "moisturized_amount" ]
+         "properties" : [ "moisturized_amount" ]
       },
       {
          "name" : "minecraft:rail",
-         "states" : [ "rail_direction" ]
+         "properties" : [ "rail_direction" ]
       },
       {
          "name" : "minecraft:blackstone_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -1858,327 +1858,327 @@
       },
       {
          "name" : "minecraft:mossy_cobblestone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:coral_fan_hang2",
-         "states" : [ "coral_direction", "coral_hang_type_bit", "dead_bit" ]
+         "properties" : [ "coral_direction", "coral_hang_type_bit", "dead_bit" ]
       },
       {
          "name" : "minecraft:coral_fan_hang3",
-         "states" : [ "coral_direction", "coral_hang_type_bit", "dead_bit" ]
+         "properties" : [ "coral_direction", "coral_hang_type_bit", "dead_bit" ]
       },
       {
          "name" : "minecraft:detector_rail",
-         "states" : [ "rail_data_bit", "rail_direction" ]
+         "properties" : [ "rail_data_bit", "rail_direction" ]
       },
       {
          "name" : "minecraft:monster_egg",
-         "states" : [ "monster_egg_stone_type" ]
+         "properties" : [ "monster_egg_stone_type" ]
       },
       {
          "name" : "minecraft:polished_granite_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:pink_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:cracked_deepslate_tiles",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:mangrove_wood",
-         "states" : [ "pillar_axis", "stripped_bit" ]
+         "properties" : [ "pillar_axis", "stripped_bit" ]
       },
       {
          "name" : "minecraft:red_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:dark_oak_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:bamboo_mosaic_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:crimson_nylium",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:structure_void",
-         "states" : [ "structure_void_type" ]
+         "properties" : [ "structure_void_type" ]
       },
       {
          "name" : "minecraft:polished_blackstone_brick_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:snow",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:sand",
-         "states" : [ "sand_type" ]
+         "properties" : [ "sand_type" ]
       },
       {
          "name" : "minecraft:daylight_detector",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:mangrove_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:stripped_mangrove_wood",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:conduit",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:slime",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bone_block",
-         "states" : [ "deprecated", "pillar_axis" ]
+         "properties" : [ "deprecated", "pillar_axis" ]
       },
       {
          "name" : "minecraft:frame",
-         "states" : [ "facing_direction", "item_frame_map_bit", "item_frame_photo_bit" ]
+         "properties" : [ "facing_direction", "item_frame_map_bit", "item_frame_photo_bit" ]
       },
       {
          "name" : "minecraft:stone_block_slab",
-         "states" : [ "stone_slab_type", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:lapis_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:coal_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:client_request_placeholder_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:redstone_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bamboo_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:nether_brick_fence",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate_tile_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:nether_wart_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:crimson_hyphae",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:polished_blackstone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:weathered_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:small_dripleaf_block",
-         "states" : [ "direction", "upper_block_bit" ]
+         "properties" : [ "direction", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:spruce_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:crimson_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:basalt",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:lit_redstone_lamp",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:leaves2",
-         "states" : [ "new_leaf_type", "persistent_bit", "update_bit" ]
+         "properties" : [ "new_leaf_type", "persistent_bit", "update_bit" ]
       },
       {
          "name" : "minecraft:diamond_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_roots",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:sticky_piston",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:ender_chest",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:medium_amethyst_bud",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:warped_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:jungle_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:sculk_sensor",
-         "states" : [ "powered_bit" ]
+         "properties" : [ "powered_bit" ]
       },
       {
          "name" : "minecraft:diorite_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:frog_spawn",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:acacia_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:crimson_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:iron_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:honeycomb_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_blackstone_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:mangrove_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:quartz_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:daylight_detector_inverted",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:barrel",
-         "states" : [ "facing_direction", "open_bit" ]
+         "properties" : [ "facing_direction", "open_bit" ]
       },
       {
          "name" : "minecraft:chorus_flower",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:coral_fan_hang",
-         "states" : [ "coral_direction", "coral_hang_type_bit", "dead_bit" ]
+         "properties" : [ "coral_direction", "coral_hang_type_bit", "dead_bit" ]
       },
       {
          "name" : "minecraft:cracked_nether_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:powered_repeater",
-         "states" : [ "direction", "repeater_delay" ]
+         "properties" : [ "direction", "repeater_delay" ]
       },
       {
          "name" : "minecraft:light_blue_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:pumpkin",
-         "states" : [ "direction" ]
+         "properties" : [ "direction" ]
       },
       {
          "name" : "minecraft:deepslate_tiles",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:smooth_stone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:black_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:red_mushroom",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:gilded_blackstone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:exposed_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:mangrove_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:reserved6",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:unknown",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:coral_fan",
-         "states" : [ "coral_color", "coral_fan_direction" ]
+         "properties" : [ "coral_color", "coral_fan_direction" ]
       },
       {
          "name" : "minecraft:yellow_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:mangrove_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:bamboo_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -2187,99 +2187,99 @@
       },
       {
          "name" : "minecraft:infested_deepslate",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:soul_torch",
-         "states" : [ "torch_facing_direction" ]
+         "properties" : [ "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:podzol",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:copper_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:lit_redstone_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate_tile_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:crimson_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:deadbush",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:waxed_weathered_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:polished_blackstone_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:red_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:iron_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:spruce_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:frosted_ice",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:large_amethyst_bud",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:warped_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:flowing_water",
-         "states" : [ "liquid_depth" ]
+         "properties" : [ "liquid_depth" ]
       },
       {
          "name" : "minecraft:brick_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:hard_glass",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:quartz_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:cave_vines",
-         "states" : [ "growing_plant_age" ]
+         "properties" : [ "growing_plant_age" ]
       },
       {
          "name" : "minecraft:iron_bars",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:oak_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -2288,35 +2288,35 @@
       },
       {
          "name" : "minecraft:melon_stem",
-         "states" : [ "facing_direction", "growth" ]
+         "properties" : [ "facing_direction", "growth" ]
       },
       {
          "name" : "minecraft:crimson_planks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:waxed_weathered_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:stained_glass_pane",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:jukebox",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:jigsaw",
-         "states" : [ "facing_direction", "rotation" ]
+         "properties" : [ "facing_direction", "rotation" ]
       },
       {
          "name" : "minecraft:border_block",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -2326,23 +2326,23 @@
       },
       {
          "name" : "minecraft:shroomlight",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bamboo_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:chiseled_polished_blackstone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:dark_oak_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:deepslate_tile_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -2352,347 +2352,347 @@
       },
       {
          "name" : "minecraft:glass_pane",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:chiseled_deepslate",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:coral_block",
-         "states" : [ "coral_color", "dead_bit" ]
+         "properties" : [ "coral_color", "dead_bit" ]
       },
       {
          "name" : "minecraft:acacia_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:bamboo_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:mangrove_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:raw_copper_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:wooden_slab",
-         "states" : [ "top_slot_bit", "wood_type" ]
+         "properties" : [ "top_slot_bit", "wood_type" ]
       },
       {
          "name" : "minecraft:oxidized_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:beetroot",
-         "states" : [ "growth" ]
+         "properties" : [ "growth" ]
       },
       {
          "name" : "minecraft:skull",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:light_gray_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:white_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:andesite_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:shulker_box",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:golden_rail",
-         "states" : [ "rail_data_bit", "rail_direction" ]
+         "properties" : [ "rail_data_bit", "rail_direction" ]
       },
       {
          "name" : "minecraft:cyan_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:darkoak_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:red_sandstone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:cyan_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:cracked_deepslate_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:jungle_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:jungle_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:dirt_with_roots",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:coal_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:white_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:composter",
-         "states" : [ "composter_fill_level" ]
+         "properties" : [ "composter_fill_level" ]
       },
       {
          "name" : "minecraft:waxed_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:kelp",
-         "states" : [ "kelp_age" ]
+         "properties" : [ "kelp_age" ]
       },
       {
          "name" : "minecraft:double_plant",
-         "states" : [ "double_plant_type", "upper_block_bit" ]
+         "properties" : [ "double_plant_type", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:deepslate_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:blue_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:light_blue_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:flowering_azalea",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:oxidized_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:blue_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:weeping_vines",
-         "states" : [ "weeping_vines_age" ]
+         "properties" : [ "weeping_vines_age" ]
       },
       {
          "name" : "minecraft:chorus_plant",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:water",
-         "states" : [ "liquid_depth" ]
+         "properties" : [ "liquid_depth" ]
       },
       {
          "name" : "minecraft:mud_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:unpowered_repeater",
-         "states" : [ "direction", "repeater_delay" ]
+         "properties" : [ "direction", "repeater_delay" ]
       },
       {
          "name" : "minecraft:smooth_red_sandstone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:element_100",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_101",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_102",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_103",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_104",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_105",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_106",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_107",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_108",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_109",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_113",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_112",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_111",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_110",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_117",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_116",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_115",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_114",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_118",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:white_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:stripped_warped_hyphae",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:moving_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:trapped_chest",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:acacia_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:bamboo_planks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:glow_lichen",
-         "states" : [ "multi_face_direction_bits" ]
+         "properties" : [ "multi_face_direction_bits" ]
       },
       {
          "name" : "minecraft:wall_banner",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:twisting_vines",
-         "states" : [ "twisting_vines_age" ]
+         "properties" : [ "twisting_vines_age" ]
       },
       {
          "name" : "minecraft:dark_oak_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:soul_lantern",
-         "states" : [ "hanging" ]
+         "properties" : [ "hanging" ]
       },
       {
          "name" : "minecraft:dirt",
-         "states" : [ "dirt_type" ]
+         "properties" : [ "dirt_type" ]
       },
       {
          "name" : "minecraft:deny",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bee_nest",
-         "states" : [ "direction", "honey_level" ]
+         "properties" : [ "direction", "honey_level" ]
       },
       {
          "name" : "minecraft:bubble_column",
-         "states" : [ "drag_down" ]
+         "properties" : [ "drag_down" ]
       },
       {
          "name" : "minecraft:campfire",
-         "states" : [ "direction", "extinguished" ]
+         "properties" : [ "direction", "extinguished" ]
       },
       {
          "name" : "minecraft:stone_block_slab2",
-         "states" : [ "stone_slab_type_2", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type_2", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:stone_block_slab3",
-         "states" : [ "stone_slab_type_3", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type_3", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:stone_block_slab4",
-         "states" : [ "stone_slab_type_4", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type_4", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:soul_soil",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:soul_sand",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:spruce_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -2701,47 +2701,47 @@
       },
       {
          "name" : "minecraft:reinforced_deepslate",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:fletching_table",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:black_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:waxed_oxidized_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:stripped_acacia_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:cobbled_deepslate_double_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:warped_fence",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:crafting_table",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:sea_pickle",
-         "states" : [ "cluster_count", "dead_bit" ]
+         "properties" : [ "cluster_count", "dead_bit" ]
       },
       {
          "name" : "minecraft:double_wooden_slab",
-         "states" : [ "top_slot_bit", "wood_type" ]
+         "properties" : [ "top_slot_bit", "wood_type" ]
       },
       {
          "name" : "minecraft:mangrove_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -2750,63 +2750,63 @@
       },
       {
          "name" : "minecraft:brown_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:mossy_stone_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:end_rod",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:crimson_stem",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:crimson_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:warped_hyphae",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:warped_wart_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:carrots",
-         "states" : [ "growth" ]
+         "properties" : [ "growth" ]
       },
       {
          "name" : "minecraft:tripwire_hook",
-         "states" : [ "attached_bit", "direction", "powered_bit" ]
+         "properties" : [ "attached_bit", "direction", "powered_bit" ]
       },
       {
          "name" : "minecraft:cave_vines_body_with_berries",
-         "states" : [ "growing_plant_age" ]
+         "properties" : [ "growing_plant_age" ]
       },
       {
          "name" : "minecraft:dark_oak_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:stripped_birch_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:tinted_glass",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:big_dripleaf",
-         "states" : [ "big_dripleaf_head", "big_dripleaf_tilt", "direction" ]
+         "properties" : [ "big_dripleaf_head", "big_dripleaf_tilt", "direction" ]
       },
       {
          "name" : "minecraft:warped_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -2815,383 +2815,383 @@
       },
       {
          "name" : "minecraft:lime_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:blue_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:sweet_berry_bush",
-         "states" : [ "growth" ]
+         "properties" : [ "growth" ]
       },
       {
          "name" : "minecraft:polished_blackstone_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:reeds",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:barrier",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:jungle_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:weathered_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:fire",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:planks",
-         "states" : [ "wood_type" ]
+         "properties" : [ "wood_type" ]
       },
       {
          "name" : "minecraft:end_portal_frame",
-         "states" : [ "direction", "end_portal_eye_bit" ]
+         "properties" : [ "direction", "end_portal_eye_bit" ]
       },
       {
          "name" : "minecraft:bamboo_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:prismarine",
-         "states" : [ "prismarine_block_type" ]
+         "properties" : [ "prismarine_block_type" ]
       },
       {
          "name" : "minecraft:magenta_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:leaves",
-         "states" : [ "old_leaf_type", "persistent_bit", "update_bit" ]
+         "properties" : [ "old_leaf_type", "persistent_bit", "update_bit" ]
       },
       {
          "name" : "minecraft:deepslate_gold_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:ancient_debris",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:beehive",
-         "states" : [ "direction", "honey_level" ]
+         "properties" : [ "direction", "honey_level" ]
       },
       {
          "name" : "minecraft:jungle_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:glass",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:wither_rose",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:exposed_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:waxed_weathered_cut_copper_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:mangrove_roots",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:stained_hardened_clay",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:yellow_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:acacia_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:bamboo_mosaic_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:hard_stained_glass",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:light_gray_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:polished_blackstone_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:acacia_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:concrete_powder",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:crimson_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:stripped_spruce_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:pumpkin_stem",
-         "states" : [ "facing_direction", "growth" ]
+         "properties" : [ "facing_direction", "growth" ]
       },
       {
          "name" : "minecraft:azalea_leaves_flowered",
-         "states" : [ "persistent_bit", "update_bit" ]
+         "properties" : [ "persistent_bit", "update_bit" ]
       },
       {
          "name" : "minecraft:sticky_piston_arm_collision",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:warped_nylium",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate_emerald_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:quartz_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:unpowered_comparator",
-         "states" : [ "direction", "output_lit_bit", "output_subtract_bit" ]
+         "properties" : [ "direction", "output_lit_bit", "output_subtract_bit" ]
       },
       {
          "name" : "minecraft:lime_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:structure_block",
-         "states" : [ "structure_block_type" ]
+         "properties" : [ "structure_block_type" ]
       },
       {
          "name" : "minecraft:end_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:target",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:wooden_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:mangrove_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:pearlescent_froglight",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:double_stone_block_slab2",
-         "states" : [ "stone_slab_type_2", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type_2", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:double_stone_block_slab3",
-         "states" : [ "stone_slab_type_3", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type_3", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:double_stone_block_slab4",
-         "states" : [ "stone_slab_type_4", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type_4", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:bamboo_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:nether_sprouts",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:verdant_froglight",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:warped_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:warped_stem",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:coral",
-         "states" : [ "coral_color", "dead_bit" ]
+         "properties" : [ "coral_color", "dead_bit" ]
       },
       {
          "name" : "minecraft:stripped_crimson_hyphae",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:cocoa",
-         "states" : [ "age", "direction" ]
+         "properties" : [ "age", "direction" ]
       },
       {
          "name" : "minecraft:lever",
-         "states" : [ "lever_direction", "open_bit" ]
+         "properties" : [ "lever_direction", "open_bit" ]
       },
       {
          "name" : "minecraft:bamboo_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:moss_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:pink_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:waxed_weathered_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:stonebrick",
-         "states" : [ "stone_brick_type" ]
+         "properties" : [ "stone_brick_type" ]
       },
       {
          "name" : "minecraft:spruce_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:chain_command_block",
-         "states" : [ "conditional_bit", "facing_direction" ]
+         "properties" : [ "conditional_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:red_sandstone",
-         "states" : [ "sand_stone_type" ]
+         "properties" : [ "sand_stone_type" ]
       },
       {
          "name" : "minecraft:spruce_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:exposed_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:red_nether_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:green_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:deepslate_redstone_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:double_stone_block_slab",
-         "states" : [ "stone_slab_type", "top_slot_bit" ]
+         "properties" : [ "stone_slab_type", "top_slot_bit" ]
       },
       {
          "name" : "minecraft:mangrove_fence",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:anvil",
-         "states" : [ "damage", "direction" ]
+         "properties" : [ "damage", "direction" ]
       },
       {
          "name" : "minecraft:birch_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:mangrove_leaves",
-         "states" : [ "persistent_bit", "update_bit" ]
+         "properties" : [ "persistent_bit", "update_bit" ]
       },
       {
          "name" : "minecraft:cobbled_deepslate",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bookshelf",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:log",
-         "states" : [ "old_log_type", "pillar_axis" ]
+         "properties" : [ "old_log_type", "pillar_axis" ]
       },
       {
          "name" : "minecraft:mud",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:lit_pumpkin",
-         "states" : [ "direction" ]
+         "properties" : [ "direction" ]
       },
       {
          "name" : "minecraft:ice",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:air",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bed",
-         "states" : [ "direction", "head_piece_bit", "occupied_bit" ]
+         "properties" : [ "direction", "head_piece_bit", "occupied_bit" ]
       },
       {
          "name" : "minecraft:tnt",
-         "states" : [ "allow_underwater_bit", "explode_bit" ]
+         "properties" : [ "allow_underwater_bit", "explode_bit" ]
       },
       {
          "name" : "minecraft:purple_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:web",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_diorite_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:crying_obsidian",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:enchanting_table",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_blackstone_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -3201,147 +3201,147 @@
       },
       {
          "name" : "minecraft:waxed_exposed_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:azalea",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:mud_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:birch_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:bamboo_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:hopper",
-         "states" : [ "facing_direction", "toggle_bit" ]
+         "properties" : [ "facing_direction", "toggle_bit" ]
       },
       {
          "name" : "minecraft:bell",
-         "states" : [ "attachment", "direction", "toggle_bit" ]
+         "properties" : [ "attachment", "direction", "toggle_bit" ]
       },
       {
          "name" : "minecraft:lectern",
-         "states" : [ "direction", "powered_bit" ]
+         "properties" : [ "direction", "powered_bit" ]
       },
       {
          "name" : "minecraft:stripped_crimson_stem",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:standing_banner",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:jungle_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:grass",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:mangrove_propagule",
-         "states" : [ "hanging", "propagule_stage" ]
+         "properties" : [ "hanging", "propagule_stage" ]
       },
       {
          "name" : "minecraft:cactus",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:budding_amethyst",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:birch_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:purple_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:bedrock",
-         "states" : [ "infiniburn_bit" ]
+         "properties" : [ "infiniburn_bit" ]
       },
       {
          "name" : "minecraft:blackstone_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:blue_ice",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_andesite_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:sculk",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:netherrack",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:purple_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:spruce_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:mangrove_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:lantern",
-         "states" : [ "hanging" ]
+         "properties" : [ "hanging" ]
       },
       {
          "name" : "minecraft:lit_blast_furnace",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:light_blue_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:allow",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:birch_door",
-         "states" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
+         "properties" : [ "direction", "door_hinge_bit", "open_bit", "upper_block_bit" ]
       },
       {
          "name" : "minecraft:chest",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:chain",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:clay",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:cake",
-         "states" : [ "bite_counter" ]
+         "properties" : [ "bite_counter" ]
       },
       {
          "name" : "minecraft:crimson_hanging_sign",
-         "states" : [
+         "properties" : [
             "attached_bit",
             "facing_direction",
             "ground_sign_direction",
@@ -3350,239 +3350,239 @@
       },
       {
          "name" : "minecraft:sculk_vein",
-         "states" : [ "multi_face_direction_bits" ]
+         "properties" : [ "multi_face_direction_bits" ]
       },
       {
          "name" : "minecraft:deepslate_coal_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:weathered_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:cracked_polished_blackstone_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bamboo_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:flowing_lava",
-         "states" : [ "liquid_depth" ]
+         "properties" : [ "liquid_depth" ]
       },
       {
          "name" : "minecraft:acacia_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:lit_furnace",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:chiseled_nether_bricks",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:warped_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:deepslate_lapis_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:prismarine_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:dragon_egg",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:nether_brick",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate_iron_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_1",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_0",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_3",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_2",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_5",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_4",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_7",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_6",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_9",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_8",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:camera",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:wheat",
-         "states" : [ "growth" ]
+         "properties" : [ "growth" ]
       },
       {
          "name" : "minecraft:waxed_cut_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:chemistry_table",
-         "states" : [ "chemistry_table_type", "direction" ]
+         "properties" : [ "chemistry_table_type", "direction" ]
       },
       {
          "name" : "minecraft:cobbled_deepslate_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:spore_blossom",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:crimson_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:darkoak_standing_sign",
-         "states" : [ "ground_sign_direction" ]
+         "properties" : [ "ground_sign_direction" ]
       },
       {
          "name" : "minecraft:weathered_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:emerald_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:brown_mushroom_block",
-         "states" : [ "huge_mushroom_bits" ]
+         "properties" : [ "huge_mushroom_bits" ]
       },
       {
          "name" : "minecraft:fence",
-         "states" : [ "wood_type" ]
+         "properties" : [ "wood_type" ]
       },
       {
          "name" : "minecraft:pink_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:carved_pumpkin",
-         "states" : [ "direction" ]
+         "properties" : [ "direction" ]
       },
       {
          "name" : "minecraft:dropper",
-         "states" : [ "facing_direction", "triggered_bit" ]
+         "properties" : [ "facing_direction", "triggered_bit" ]
       },
       {
          "name" : "minecraft:spruce_wall_sign",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:stripped_warped_stem",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:pointed_dripstone",
-         "states" : [ "dripstone_thickness", "hanging" ]
+         "properties" : [ "dripstone_thickness", "hanging" ]
       },
       {
          "name" : "minecraft:netherreactor",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:deepslate_brick_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:dark_prismarine_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:chemical_heat",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:trip_wire",
-         "states" : [ "attached_bit", "disarmed_bit", "powered_bit", "suspended_bit" ]
+         "properties" : [ "attached_bit", "disarmed_bit", "powered_bit", "suspended_bit" ]
       },
       {
          "name" : "minecraft:cauldron",
-         "states" : [ "cauldron_liquid", "fill_level" ]
+         "properties" : [ "cauldron_liquid", "fill_level" ]
       },
       {
          "name" : "minecraft:cave_vines_head_with_berries",
-         "states" : [ "growing_plant_age" ]
+         "properties" : [ "growing_plant_age" ]
       },
       {
          "name" : "minecraft:dark_oak_trapdoor",
-         "states" : [ "direction", "open_bit", "upside_down_bit" ]
+         "properties" : [ "direction", "open_bit", "upside_down_bit" ]
       },
       {
          "name" : "minecraft:colored_torch_bp",
-         "states" : [ "color_bit", "torch_facing_direction" ]
+         "properties" : [ "color_bit", "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:colored_torch_rg",
-         "states" : [ "color_bit", "torch_facing_direction" ]
+         "properties" : [ "color_bit", "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:waxed_oxidized_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:stripped_oak_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:sea_lantern",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:brewing_stand",
-         "states" : [
+         "properties" : [
             "brewing_stand_slot_a_bit",
             "brewing_stand_slot_b_bit",
             "brewing_stand_slot_c_bit"
@@ -3590,495 +3590,495 @@
       },
       {
          "name" : "minecraft:bamboo_sapling",
-         "states" : [ "age_bit", "sapling_type" ]
+         "properties" : [ "age_bit", "sapling_type" ]
       },
       {
          "name" : "minecraft:blast_furnace",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:crimson_roots",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:stonecutter_block",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:white_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:end_portal",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:blackstone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:acacia_fence_gate",
-         "states" : [ "direction", "in_wall_bit", "open_bit" ]
+         "properties" : [ "direction", "in_wall_bit", "open_bit" ]
       },
       {
          "name" : "minecraft:lit_deepslate_redstone_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_10",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_11",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_12",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_13",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_14",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_15",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_16",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_17",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_18",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_19",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_36",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_37",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_34",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_35",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_32",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_33",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_30",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_31",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_38",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_39",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_29",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_28",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_21",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_20",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_23",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_22",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_25",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_24",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_27",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_26",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_58",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_59",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_54",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_55",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_56",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_57",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_50",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_51",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_52",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_53",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_49",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_48",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_47",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_46",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_45",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_44",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_43",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_42",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_41",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_40",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_72",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_73",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_70",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_71",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_76",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_77",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_74",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_75",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_78",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_79",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_65",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_64",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_67",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_66",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_61",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_60",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_63",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_62",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_69",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_68",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_98",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_99",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_90",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_91",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_92",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_93",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_94",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_95",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_96",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_97",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_89",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_88",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_83",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_82",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_81",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_80",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_87",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_86",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_85",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:element_84",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:lit_smoker",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:lapis_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:smooth_quartz_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:red_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:azalea_leaves",
-         "states" : [ "persistent_bit", "update_bit" ]
+         "properties" : [ "persistent_bit", "update_bit" ]
       },
       {
          "name" : "minecraft:purpur_block",
-         "states" : [ "chisel_type", "pillar_axis" ]
+         "properties" : [ "chisel_type", "pillar_axis" ]
       },
       {
          "name" : "minecraft:cyan_candle",
-         "states" : [ "candles", "lit" ]
+         "properties" : [ "candles", "lit" ]
       },
       {
          "name" : "minecraft:waxed_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:repeating_command_block",
-         "states" : [ "conditional_bit", "facing_direction" ]
+         "properties" : [ "conditional_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:nether_wart",
-         "states" : [ "age" ]
+         "properties" : [ "age" ]
       },
       {
          "name" : "minecraft:waxed_oxidized_double_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:crimson_fungus",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:polished_deepslate",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:purpur_stairs",
-         "states" : [ "upside_down_bit", "weirdo_direction" ]
+         "properties" : [ "upside_down_bit", "weirdo_direction" ]
       },
       {
          "name" : "minecraft:portal",
-         "states" : [ "portal_axis" ]
+         "properties" : [ "portal_axis" ]
       },
       {
          "name" : "minecraft:birch_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:command_block",
-         "states" : [ "conditional_bit", "facing_direction" ]
+         "properties" : [ "conditional_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:polished_blackstone_button",
-         "states" : [ "button_pressed_bit", "facing_direction" ]
+         "properties" : [ "button_pressed_bit", "facing_direction" ]
       },
       {
          "name" : "minecraft:furnace",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:info_update2",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:amethyst_cluster",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:waxed_cut_copper_slab",
-         "states" : [ "top_slot_bit" ]
+         "properties" : [ "top_slot_bit" ]
       },
       {
          "name" : "minecraft:polished_deepslate_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -4088,63 +4088,63 @@
       },
       {
          "name" : "minecraft:dried_kelp_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:light_block",
-         "states" : [ "block_light_level" ]
+         "properties" : [ "block_light_level" ]
       },
       {
          "name" : "minecraft:crimson_fence",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:turtle_egg",
-         "states" : [ "cracked_state", "turtle_egg_count" ]
+         "properties" : [ "cracked_state", "turtle_egg_count" ]
       },
       {
          "name" : "minecraft:magma",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:dispenser",
-         "states" : [ "facing_direction", "triggered_bit" ]
+         "properties" : [ "facing_direction", "triggered_bit" ]
       },
       {
          "name" : "minecraft:hard_stained_glass_pane",
-         "states" : [ "color" ]
+         "properties" : [ "color" ]
       },
       {
          "name" : "minecraft:deepslate_diamond_ore",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:grindstone",
-         "states" : [ "attachment", "direction" ]
+         "properties" : [ "attachment", "direction" ]
       },
       {
          "name" : "minecraft:light_gray_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:soul_campfire",
-         "states" : [ "direction", "extinguished" ]
+         "properties" : [ "direction", "extinguished" ]
       },
       {
          "name" : "minecraft:wooden_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:lime_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:grass_path",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:cobbled_deepslate_wall",
-         "states" : [
+         "properties" : [
             "wall_connection_type_east",
             "wall_connection_type_north",
             "wall_connection_type_south",
@@ -4154,59 +4154,59 @@
       },
       {
          "name" : "minecraft:orange_candle_cake",
-         "states" : [ "lit" ]
+         "properties" : [ "lit" ]
       },
       {
          "name" : "minecraft:weathered_copper",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:unlit_redstone_torch",
-         "states" : [ "torch_facing_direction" ]
+         "properties" : [ "torch_facing_direction" ]
       },
       {
          "name" : "minecraft:gray_glazed_terracotta",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:lodestone",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:bamboo_mosaic",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:raw_iron_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:purple_wool",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:iron_block",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:ladder",
-         "states" : [ "facing_direction" ]
+         "properties" : [ "facing_direction" ]
       },
       {
          "name" : "minecraft:crimson_pressure_plate",
-         "states" : [ "redstone_signal" ]
+         "properties" : [ "redstone_signal" ]
       },
       {
          "name" : "minecraft:stripped_mangrove_log",
-         "states" : [ "pillar_axis" ]
+         "properties" : [ "pillar_axis" ]
       },
       {
          "name" : "minecraft:gravel",
-         "states" : []
+         "properties" : []
       },
       {
          "name" : "minecraft:cartography_table",
-         "states" : []
+         "properties" : []
       }
    ],
    "minecraft_version" : "1.19.70",
