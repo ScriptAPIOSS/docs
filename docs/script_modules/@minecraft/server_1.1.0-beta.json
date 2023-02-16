@@ -2557,14 +2557,40 @@
                "is_static" : false,
                "name" : "getAllProperties",
                "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "IBlockProperty"
-                  },
                   "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "array"
+                  "key_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "string"
+                  },
+                  "name" : "map",
+                  "value_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean"
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "int32",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
+                        }
+                     ]
+                  }
                }
             },
             {
@@ -2583,9 +2609,35 @@
                "is_static" : false,
                "name" : "getProperty",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "IBlockProperty"
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean"
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "int32",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
+                        }
+                     ]
+                  }
                }
             },
             {
@@ -2623,6 +2675,193 @@
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "blockName",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "properties",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "key_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           },
+                           "name" : "map",
+                           "value_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "variant",
+                              "variant_types" : [
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "boolean"
+                                 },
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "int32",
+                                    "valid_range" : {
+                                       "max" : 2147483647,
+                                       "min" : -2147483648
+                                    }
+                                 },
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "string"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "matches",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "blockName",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "properties",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "key_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           },
+                           "name" : "map",
+                           "value_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "variant",
+                              "variant_types" : [
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "boolean"
+                                 },
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "int32",
+                                    "valid_range" : {
+                                       "max" : 2147483647,
+                                       "min" : -2147483648
+                                    }
+                                 },
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "string"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "resolve",
+               "return_type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : true,
+                  "name" : "BlockPermutation"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "name",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "value",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "boolean"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "int32",
+                              "valid_range" : {
+                                 "max" : 2147483647,
+                                 "min" : -2147483648
+                              }
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "withProperty",
+               "return_type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : true,
+                  "name" : "BlockPermutation"
                }
             }
          ],
@@ -2966,1412 +3205,109 @@
       },
       {
          "base_types" : [],
-         "constants" : [
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "active",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "active"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "age",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "age"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "ageBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "age_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "allowUnderwaterBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "allow_underwater_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "attachedBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "attached_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "attachment",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "attachment"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bambooLeafSize",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "bamboo_leaf_size"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bambooStalkThickness",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "bamboo_stalk_thickness"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bigDripleafHead",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "big_dripleaf_head"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bigDripleafTilt",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "big_dripleaf_tilt"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "biteCounter",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "bite_counter"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "blockLightLevel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "block_light_level"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bloom",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "bloom"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "booksStored",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "books_stored"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "brewingStandSlotABit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "brewing_stand_slot_a_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "brewingStandSlotBBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "brewing_stand_slot_b_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "brewingStandSlotCBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "brewing_stand_slot_c_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "buttonPressedBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "button_pressed_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "candles",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "candles"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "canSummon",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "can_summon"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "cauldronLiquid",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "cauldron_liquid"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "chemistryTableType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "chemistry_table_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "chiselType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "chisel_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "clusterCount",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "cluster_count"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "color",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "color"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "colorBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "color_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "composterFillLevel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "composter_fill_level"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "conditionalBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "conditional_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "coralColor",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "coral_color"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "coralDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "coral_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "coralFanDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "coral_fan_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "coralHangTypeBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "coral_hang_type_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "coveredBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "covered_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "crackedState",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "cracked_state"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "damage",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "damage"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "deadBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "dead_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "deprecated",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "deprecated"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "direction",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "dirtType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "dirt_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "disarmedBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "disarmed_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "doorHingeBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "door_hinge_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "doublePlantType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "double_plant_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "dragDown",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "drag_down"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "dripstoneThickness",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "dripstone_thickness"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "endPortalEyeBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "end_portal_eye_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "explodeBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "explode_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "extinguished",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "extinguished"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "facingDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "facing_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "fillLevel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "fill_level"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "flowerType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "flower_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "groundSignDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "ground_sign_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "growingPlantAge",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "growing_plant_age"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "growth",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "growth"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "hanging",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "hanging"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "headPieceBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "head_piece_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "height",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "height"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "honeyLevel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "honey_level"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "hugeMushroomBits",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "huge_mushroom_bits"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "infiniburnBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "infiniburn_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "inWallBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "in_wall_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "itemFrameMapBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "item_frame_map_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "itemFramePhotoBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "item_frame_photo_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "kelpAge",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "kelp_age"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "leverDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "lever_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "liquidDepth",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "liquid_depth"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "lit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "lit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "moisturizedAmount",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "moisturized_amount"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "monsterEggStoneType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "monster_egg_stone_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "multiFaceDirectionBits",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "multi_face_direction_bits"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "newLeafType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "new_leaf_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "newLogType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "new_log_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "noDropBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "no_drop_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "occupiedBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "occupied_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "oldLeafType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "old_leaf_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "oldLogType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "old_log_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "openBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "open_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "outputLitBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "output_lit_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "outputSubtractBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "output_subtract_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "persistentBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "persistent_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "pillarAxis",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "pillar_axis"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "portalAxis",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "portal_axis"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "poweredBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "powered_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "prismarineBlockType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "prismarine_block_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "propaguleStage",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "propagule_stage"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "railDataBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "rail_data_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "railDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "rail_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "redstoneSignal",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "redstone_signal"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "repeaterDelay",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "repeater_delay"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "respawnAnchorCharge",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "respawn_anchor_charge"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "rotation",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "rotation"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "sandStoneType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "sand_stone_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "sandType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "sand_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "saplingType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "sapling_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "seaGrassType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "sea_grass_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "spongeType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "sponge_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stability",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stability"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stabilityCheck",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stability_check"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stoneBrickType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stone_brick_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stoneSlabType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stone_slab_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stoneSlabType2",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stone_slab_type_2"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stoneSlabType3",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stone_slab_type_3"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stoneSlabType4",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stone_slab_type_4"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "stoneType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stone_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "strippedBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "stripped_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "structureBlockType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "structure_block_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "structureVoidType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "structure_void_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "suspendedBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "suspended_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "tallGrassType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "tall_grass_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "toggleBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "toggle_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "topSlotBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "top_slot_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "torchFacingDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "torch_facing_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "triggeredBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "triggered_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "turtleEggCount",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "turtle_egg_count"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "twistingVinesAge",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "twisting_vines_age"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "updateBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "update_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "upperBlockBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "upper_block_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "upsideDownBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "upside_down_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "vineDirectionBits",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "vine_direction_bits"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wallBlockType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wall_block_type"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wallConnectionTypeEast",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wall_connection_type_east"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wallConnectionTypeNorth",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wall_connection_type_north"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wallConnectionTypeSouth",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wall_connection_type_south"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wallConnectionTypeWest",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wall_connection_type_west"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "wallPostBit",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wall_post_bit"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "weepingVinesAge",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "weeping_vines_age"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "weirdoDirection",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "weirdo_direction"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "woodType",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "wood_type"
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "propertyName",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "get",
+               "return_type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockPropertyType"
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "getAll",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "BlockPropertyType"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
             }
          ],
-         "functions" : [],
          "name" : "BlockProperties",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockProperties"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "BlockPropertyType",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "id",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "validValues",
+               "type" : {
+                  "element_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean"
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "int32",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
+                        }
+                     ]
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "BlockPropertyType"
          }
       },
       {
@@ -4563,19 +3499,7 @@
       {
          "base_types" : [],
          "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "createDefaultBlockPermutation",
-               "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "BlockPermutation"
-               }
-            }
-         ],
+         "functions" : [],
          "name" : "BlockType",
          "properties" : [
             {
@@ -4708,60 +3632,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockWaterContainerComponent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBlockProperty"
-            }
-         ],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getValidValues",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "boolean"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            }
-         ],
-         "name" : "BoolBlockProperty",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "name",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "value",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BoolBlockProperty"
          }
       },
       {
@@ -6488,13 +5358,7 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBlockProperty"
-            }
-         ],
+         "base_types" : [],
          "constants" : [],
          "functions" : [
             {
@@ -14612,28 +13476,6 @@
          "base_types" : [],
          "constants" : [],
          "functions" : [],
-         "name" : "IBlockProperty",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "name",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IBlockProperty"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [],
          "name" : "IEntityComponent",
          "properties" : [
             {
@@ -14650,68 +13492,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "IEntityComponent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBlockProperty"
-            }
-         ],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getValidValues",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "int32",
-                     "valid_range" : {
-                        "max" : 2147483647,
-                        "min" : -2147483648
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            }
-         ],
-         "name" : "IntBlockProperty",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "name",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "value",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IntBlockProperty"
          }
       },
       {
@@ -19175,6 +17955,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "deadbush",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "decoratedPot",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -24304,6 +23094,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "suspiciousSand",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "sweetBerryBush",
                "type" : {
                   "is_bind_type" : true,
@@ -24355,6 +23155,26 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "torch",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "torchflower",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "torchflowerCrop",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -39685,60 +38505,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ServerMessageSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBlockProperty"
-            }
-         ],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getValidValues",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "string"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            }
-         ],
-         "name" : "StringBlockProperty",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "name",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "value",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "StringBlockProperty"
          }
       },
       {
