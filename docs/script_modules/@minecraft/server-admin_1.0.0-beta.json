@@ -145,9 +145,10 @@
    "constants" : [],
    "dependencies" : [],
    "enums" : null,
+   "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.19.70",
+   "minecraft_version" : "1.19.80",
    "module_type" : "script",
    "name" : "@minecraft/server-admin",
    "objects" : [

@@ -147,15 +147,6 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "isCanceled",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "selection",
                "type" : {
                   "is_bind_type" : false,
@@ -351,15 +342,6 @@
          "functions" : [],
          "name" : "MessageFormResponse",
          "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "isCanceled",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
             {
                "is_read_only" : true,
                "name" : "selection",
@@ -738,15 +720,6 @@
                      "name" : "array"
                   }
                }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "isCanceled",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
             }
          ],
          "type" : {
@@ -765,9 +738,10 @@
       }
    ],
    "enums" : null,
+   "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.19.70",
+   "minecraft_version" : "1.19.80",
    "module_type" : "script",
    "name" : "mojang-minecraft-ui",
    "objects" : [],
