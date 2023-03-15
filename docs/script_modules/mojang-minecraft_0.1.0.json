@@ -1,7 +1,13 @@
 {
    "classes" : [
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ChatEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "BeforeChatEvent",
@@ -9,33 +15,6 @@
             {
                "is_read_only" : false,
                "name" : "cancel",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "message",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "sender",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Player"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "sendToTargets",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -73,12 +52,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforeChatEventSignal_deprecated",
+         "name" : "BeforeChatEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforeChatEventSignal_deprecated"
+            "name" : "BeforeChatEventSignal"
          }
       },
       {
@@ -145,16 +124,22 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforeDataDrivenEntityTriggerEventSignal_deprecated",
+         "name" : "BeforeDataDrivenEntityTriggerEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforeDataDrivenEntityTriggerEventSignal_deprecated"
+            "name" : "BeforeDataDrivenEntityTriggerEventSignal"
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ExplosionEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "BeforeExplosionEvent",
@@ -166,38 +151,6 @@
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "dimension",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Dimension"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "impactedBlocks",
-               "type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "BlockLocation"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
                }
             }
          ],
@@ -217,12 +170,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforeExplosionEventSignal_deprecated",
+         "name" : "BeforeExplosionEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforeExplosionEventSignal_deprecated"
+            "name" : "BeforeExplosionEventSignal"
          }
       },
       {
@@ -235,16 +188,22 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforeItemDefinitionEventSignal_deprecated",
+         "name" : "BeforeItemDefinitionEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforeItemDefinitionEventSignal_deprecated"
+            "name" : "BeforeItemDefinitionEventSignal"
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ItemDefinitionTriggeredEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "BeforeItemDefinitionTriggeredEvent",
@@ -257,33 +216,6 @@
                   "is_errorable" : false,
                   "name" : "boolean"
                }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "eventName",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "item",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStack"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
-               }
             }
          ],
          "type" : {
@@ -293,7 +225,13 @@
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ItemUseEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "BeforeItemUseEvent",
@@ -305,24 +243,6 @@
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "item",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStack"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
                }
             }
          ],
@@ -342,12 +262,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforeItemUseEventSignal_deprecated",
+         "name" : "BeforeItemUseEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforeItemUseEventSignal_deprecated"
+            "name" : "BeforeItemUseEventSignal"
          }
       },
       {
@@ -388,12 +308,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforeItemUseOnEventSignal_deprecated",
+         "name" : "BeforeItemUseOnEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforeItemUseOnEventSignal_deprecated"
+            "name" : "BeforeItemUseOnEventSignal"
          }
       },
       {
@@ -452,12 +372,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BeforePistonActivateEventSignal_deprecated",
+         "name" : "BeforePistonActivateEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BeforePistonActivateEventSignal_deprecated"
+            "name" : "BeforePistonActivateEventSignal"
          }
       },
       {
@@ -861,12 +781,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BlockBreakEventSignal_deprecated",
+         "name" : "BlockBreakEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BlockBreakEventSignal_deprecated"
+            "name" : "BlockBreakEventSignal"
          }
       },
       {
@@ -966,12 +886,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BlockExplodeEventSignal_deprecated",
+         "name" : "BlockExplodeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BlockExplodeEventSignal_deprecated"
+            "name" : "BlockExplodeEventSignal"
          }
       },
       {
@@ -1795,12 +1715,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "BlockPlaceEventSignal_deprecated",
+         "name" : "BlockPlaceEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "BlockPlaceEventSignal_deprecated"
+            "name" : "BlockPlaceEventSignal"
          }
       },
       {
@@ -2160,12 +2080,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ButtonPushEventSignal_deprecated",
+         "name" : "ButtonPushEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ButtonPushEventSignal_deprecated"
+            "name" : "ButtonPushEventSignal"
          }
       },
       {
@@ -2232,12 +2152,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ChatEventSignal_deprecated",
+         "name" : "ChatEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ChatEventSignal_deprecated"
+            "name" : "ChatEventSignal"
          }
       },
       {
@@ -2690,12 +2610,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "DataDrivenEntityTriggerEventSignal_deprecated",
+         "name" : "DataDrivenEntityTriggerEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "DataDrivenEntityTriggerEventSignal_deprecated"
+            "name" : "DataDrivenEntityTriggerEventSignal"
          }
       },
       {
@@ -3402,12 +3322,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "EffectAddEventSignal_deprecated",
+         "name" : "EffectAddEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "EffectAddEventSignal_deprecated"
+            "name" : "EffectAddEventSignal"
          }
       },
       {
@@ -5818,12 +5738,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "EntityHitEventSignal_deprecated",
+         "name" : "EntityHitEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "EntityHitEventSignal_deprecated"
+            "name" : "EntityHitEventSignal"
          }
       },
       {
@@ -5920,12 +5840,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "EntityHurtEventSignal_deprecated",
+         "name" : "EntityHurtEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "EntityHurtEventSignal_deprecated"
+            "name" : "EntityHurtEventSignal"
          }
       },
       {
@@ -8116,7 +8036,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforeChatEventSignal_deprecated"
+                  "name" : "BeforeChatEventSignal"
                }
             },
             {
@@ -8125,7 +8045,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforeDataDrivenEntityTriggerEventSignal_deprecated"
+                  "name" : "BeforeDataDrivenEntityTriggerEventSignal"
                }
             },
             {
@@ -8134,7 +8054,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforeExplosionEventSignal_deprecated"
+                  "name" : "BeforeExplosionEventSignal"
                }
             },
             {
@@ -8143,7 +8063,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforeItemDefinitionEventSignal_deprecated"
+                  "name" : "BeforeItemDefinitionEventSignal"
                }
             },
             {
@@ -8152,7 +8072,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforeItemUseEventSignal_deprecated"
+                  "name" : "BeforeItemUseEventSignal"
                }
             },
             {
@@ -8161,7 +8081,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforeItemUseOnEventSignal_deprecated"
+                  "name" : "BeforeItemUseOnEventSignal"
                }
             },
             {
@@ -8170,7 +8090,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BeforePistonActivateEventSignal_deprecated"
+                  "name" : "BeforePistonActivateEventSignal"
                }
             },
             {
@@ -8179,7 +8099,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BlockBreakEventSignal_deprecated"
+                  "name" : "BlockBreakEventSignal"
                }
             },
             {
@@ -8188,7 +8108,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BlockExplodeEventSignal_deprecated"
+                  "name" : "BlockExplodeEventSignal"
                }
             },
             {
@@ -8197,7 +8117,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "BlockPlaceEventSignal_deprecated"
+                  "name" : "BlockPlaceEventSignal"
                }
             },
             {
@@ -8206,7 +8126,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ButtonPushEventSignal_deprecated"
+                  "name" : "ButtonPushEventSignal"
                }
             },
             {
@@ -8215,7 +8135,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ChatEventSignal_deprecated"
+                  "name" : "ChatEventSignal"
                }
             },
             {
@@ -8224,7 +8144,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "DataDrivenEntityTriggerEventSignal_deprecated"
+                  "name" : "DataDrivenEntityTriggerEventSignal"
                }
             },
             {
@@ -8233,7 +8153,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "EffectAddEventSignal_deprecated"
+                  "name" : "EffectAddEventSignal"
                }
             },
             {
@@ -8251,7 +8171,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "EntityHitEventSignal_deprecated"
+                  "name" : "EntityHitEventSignal"
                }
             },
             {
@@ -8260,7 +8180,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "EntityHurtEventSignal_deprecated"
+                  "name" : "EntityHurtEventSignal"
                }
             },
             {
@@ -8269,7 +8189,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ExplosionEventSignal_deprecated"
+                  "name" : "ExplosionEventSignal"
                }
             },
             {
@@ -8278,7 +8198,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemCompleteChargeEventSignal_deprecated"
+                  "name" : "ItemCompleteChargeEventSignal"
                }
             },
             {
@@ -8287,7 +8207,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemDefinitionEventSignal_deprecated"
+                  "name" : "ItemDefinitionEventSignal"
                }
             },
             {
@@ -8296,7 +8216,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemReleaseChargeEventSignal_deprecated"
+                  "name" : "ItemReleaseChargeEventSignal"
                }
             },
             {
@@ -8305,7 +8225,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStartChargeEventSignal_deprecated"
+                  "name" : "ItemStartChargeEventSignal"
                }
             },
             {
@@ -8314,7 +8234,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStartUseOnEventSignal_deprecated"
+                  "name" : "ItemStartUseOnEventSignal"
                }
             },
             {
@@ -8323,7 +8243,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStopChargeEventSignal_deprecated"
+                  "name" : "ItemStopChargeEventSignal"
                }
             },
             {
@@ -8332,7 +8252,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStopUseOnEventSignal_deprecated"
+                  "name" : "ItemStopUseOnEventSignal"
                }
             },
             {
@@ -8341,7 +8261,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemUseEventSignal_deprecated"
+                  "name" : "ItemUseEventSignal"
                }
             },
             {
@@ -8350,7 +8270,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemUseOnEventSignal_deprecated"
+                  "name" : "ItemUseOnEventSignal"
                }
             },
             {
@@ -8359,7 +8279,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "LeverActionEventSignal_deprecated"
+                  "name" : "LeverActionEventSignal"
                }
             },
             {
@@ -8368,7 +8288,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ServerMessageSignal_deprecated"
+                  "name" : "ServerMessageSignal"
                }
             },
             {
@@ -8377,7 +8297,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "PistonActivateEventSignal_deprecated"
+                  "name" : "PistonActivateEventSignal"
                }
             },
             {
@@ -8386,7 +8306,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "PlayerJoinEventSignal_deprecated"
+                  "name" : "PlayerJoinEventSignal"
                }
             },
             {
@@ -8395,7 +8315,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "PlayerLeaveEventSignal_deprecated"
+                  "name" : "PlayerLeaveEventSignal"
                }
             },
             {
@@ -8404,7 +8324,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ProjectileHitEventSignal_deprecated"
+                  "name" : "ProjectileHitEventSignal"
                }
             },
             {
@@ -8422,7 +8342,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "WeatherChangeEventSignal_deprecated"
+                  "name" : "WeatherChangeEventSignal"
                }
             },
             {
@@ -8431,7 +8351,7 @@
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "WorldInitializeEventSignal_deprecated"
+                  "name" : "WorldInitializeEventSignal"
                }
             }
          ],
@@ -8457,7 +8377,7 @@
                }
             },
             {
-               "is_read_only" : true,
+               "is_read_only" : false,
                "name" : "impactedBlocks",
                "type" : {
                   "element_type" : {
@@ -8496,12 +8416,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ExplosionEventSignal_deprecated",
+         "name" : "ExplosionEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ExplosionEventSignal_deprecated"
+            "name" : "ExplosionEventSignal"
          }
       },
       {
@@ -12406,12 +12326,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemCompleteChargeEventSignal_deprecated",
+         "name" : "ItemCompleteChargeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemCompleteChargeEventSignal_deprecated"
+            "name" : "ItemCompleteChargeEventSignal"
          }
       },
       {
@@ -12505,12 +12425,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemDefinitionEventSignal_deprecated",
+         "name" : "ItemDefinitionEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemDefinitionEventSignal_deprecated"
+            "name" : "ItemDefinitionEventSignal"
          }
       },
       {
@@ -12568,7 +12488,7 @@
                   {
                      "details" : {
                         "default_value" : 0,
-                        "max_value" : 256,
+                        "max_value" : 3,
                         "min_value" : 0
                      },
                      "name" : "unbreaking",
@@ -12798,12 +12718,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemReleaseChargeEventSignal_deprecated",
+         "name" : "ItemReleaseChargeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemReleaseChargeEventSignal_deprecated"
+            "name" : "ItemReleaseChargeEventSignal"
          }
       },
       {
@@ -13144,12 +13064,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStartChargeEventSignal_deprecated",
+         "name" : "ItemStartChargeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStartChargeEventSignal_deprecated"
+            "name" : "ItemStartChargeEventSignal"
          }
       },
       {
@@ -13220,12 +13140,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStartUseOnEventSignal_deprecated",
+         "name" : "ItemStartUseOnEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStartUseOnEventSignal_deprecated"
+            "name" : "ItemStartUseOnEventSignal"
          }
       },
       {
@@ -13282,12 +13202,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStopChargeEventSignal_deprecated",
+         "name" : "ItemStopChargeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStopChargeEventSignal_deprecated"
+            "name" : "ItemStopChargeEventSignal"
          }
       },
       {
@@ -13340,12 +13260,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStopUseOnEventSignal_deprecated",
+         "name" : "ItemStopUseOnEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStopUseOnEventSignal_deprecated"
+            "name" : "ItemStopUseOnEventSignal"
          }
       },
       {
@@ -13411,12 +13331,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemUseEventSignal_deprecated",
+         "name" : "ItemUseEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemUseEventSignal_deprecated"
+            "name" : "ItemUseEventSignal"
          }
       },
       {
@@ -13504,12 +13424,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemUseOnEventSignal_deprecated",
+         "name" : "ItemUseOnEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemUseOnEventSignal_deprecated"
+            "name" : "ItemUseOnEventSignal"
          }
       },
       {
@@ -13850,12 +13770,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "LeverActionEventSignal_deprecated",
+         "name" : "LeverActionEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "LeverActionEventSignal_deprecated"
+            "name" : "LeverActionEventSignal"
          }
       },
       {
@@ -18844,16 +18764,6 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "farmland",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "fence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -24849,6 +24759,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "acaciaFence",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "acaciaFenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -25360,6 +25280,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "birchDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "birchFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27120,6 +27050,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "darkOakDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "darkOakFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -29319,16 +29259,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "fence",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "fenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -30839,6 +30769,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "jungleFence",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "jungleFenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -32129,7 +32069,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherbrick",
+               "name" : "netherBrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32139,7 +32079,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherBrick",
+               "name" : "netherbrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32400,6 +32340,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "oakChestBoat",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "oakFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34350,6 +34300,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "spruceDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "spruceFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -36507,12 +36467,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "PistonActivateEventSignal_deprecated",
+         "name" : "PistonActivateEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "PistonActivateEventSignal_deprecated"
+            "name" : "PistonActivateEventSignal"
          }
       },
       {
@@ -36981,12 +36941,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "PlayerJoinEventSignal_deprecated",
+         "name" : "PlayerJoinEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "PlayerJoinEventSignal_deprecated"
+            "name" : "PlayerJoinEventSignal"
          }
       },
       {
@@ -37021,12 +36981,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "PlayerLeaveEventSignal_deprecated",
+         "name" : "PlayerLeaveEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "PlayerLeaveEventSignal_deprecated"
+            "name" : "PlayerLeaveEventSignal"
          }
       },
       {
@@ -37125,12 +37085,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ProjectileHitEventSignal_deprecated",
+         "name" : "ProjectileHitEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ProjectileHitEventSignal_deprecated"
+            "name" : "ProjectileHitEventSignal"
          }
       },
       {
@@ -37617,12 +37577,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ServerMessageSignal_deprecated",
+         "name" : "ServerMessageSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ServerMessageSignal_deprecated"
+            "name" : "ServerMessageSignal"
          }
       },
       {
@@ -38499,12 +38459,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "WeatherChangeEventSignal_deprecated",
+         "name" : "WeatherChangeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "WeatherChangeEventSignal_deprecated"
+            "name" : "WeatherChangeEventSignal"
          }
       },
       {
@@ -38891,12 +38851,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "WorldInitializeEventSignal_deprecated",
+         "name" : "WorldInitializeEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "WorldInitializeEventSignal_deprecated"
+            "name" : "WorldInitializeEventSignal"
          }
       },
       {

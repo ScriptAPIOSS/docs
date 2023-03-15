@@ -476,6 +476,18 @@
                "value" : "orange_candle"
             },
             {
+               "value" : "minecraft:jungle_fence"
+            },
+            {
+               "value" : "jungle_fence"
+            },
+            {
+               "value" : "minecraft:spruce_fence"
+            },
+            {
+               "value" : "spruce_fence"
+            },
+            {
                "value" : "minecraft:melon_block"
             },
             {
@@ -1898,6 +1910,12 @@
                "value" : "dark_oak_door"
             },
             {
+               "value" : "minecraft:oak_fence"
+            },
+            {
+               "value" : "oak_fence"
+            },
+            {
                "value" : "minecraft:soul_lantern"
             },
             {
@@ -2663,6 +2681,12 @@
                "value" : "allow"
             },
             {
+               "value" : "minecraft:dark_oak_fence"
+            },
+            {
+               "value" : "dark_oak_fence"
+            },
+            {
                "value" : "minecraft:birch_door"
             },
             {
@@ -2799,12 +2823,6 @@
             },
             {
                "value" : "brown_mushroom_block"
-            },
-            {
-               "value" : "minecraft:fence"
-            },
-            {
-               "value" : "fence"
             },
             {
                "value" : "minecraft:pink_candle"
@@ -3095,6 +3113,18 @@
                "value" : "wooden_pressure_plate"
             },
             {
+               "value" : "minecraft:birch_fence"
+            },
+            {
+               "value" : "birch_fence"
+            },
+            {
+               "value" : "minecraft:acacia_fence"
+            },
+            {
+               "value" : "acacia_fence"
+            },
+            {
                "value" : "minecraft:grass_path"
             },
             {
@@ -3207,6 +3237,12 @@
             },
             {
                "value" : "double_stone_slab2"
+            },
+            {
+               "value" : "fence"
+            },
+            {
+               "value" : "minecraft:fence"
             },
             {
                "value" : "log2"
@@ -6067,10 +6103,22 @@
                "value" : "powered_comparator"
             },
             {
+               "value" : "minecraft:jungle_fence"
+            },
+            {
+               "value" : "jungle_fence"
+            },
+            {
                "value" : "minecraft:warped_wall_sign"
             },
             {
                "value" : "warped_wall_sign"
+            },
+            {
+               "value" : "minecraft:spruce_fence"
+            },
+            {
+               "value" : "spruce_fence"
             },
             {
                "value" : "minecraft:melon_block"
@@ -7759,6 +7807,12 @@
                "value" : "dark_oak_door"
             },
             {
+               "value" : "minecraft:oak_fence"
+            },
+            {
+               "value" : "oak_fence"
+            },
+            {
                "value" : "minecraft:soul_lantern"
             },
             {
@@ -8677,6 +8731,12 @@
                "value" : "allow"
             },
             {
+               "value" : "minecraft:dark_oak_fence"
+            },
+            {
+               "value" : "dark_oak_fence"
+            },
+            {
                "value" : "minecraft:birch_door"
             },
             {
@@ -8849,12 +8909,6 @@
             },
             {
                "value" : "brown_mushroom_block"
-            },
-            {
-               "value" : "minecraft:fence"
-            },
-            {
-               "value" : "fence"
             },
             {
                "value" : "minecraft:pink_candle"
@@ -9217,10 +9271,22 @@
                "value" : "wooden_pressure_plate"
             },
             {
+               "value" : "minecraft:birch_fence"
+            },
+            {
+               "value" : "birch_fence"
+            },
+            {
                "value" : "minecraft:lime_candle_cake"
             },
             {
                "value" : "lime_candle_cake"
+            },
+            {
+               "value" : "minecraft:acacia_fence"
+            },
+            {
+               "value" : "acacia_fence"
             },
             {
                "value" : "minecraft:grass_path"
@@ -9401,6 +9467,12 @@
             },
             {
                "value" : "minecraft:double_stone_slab2"
+            },
+            {
+               "value" : "fence"
+            },
+            {
+               "value" : "minecraft:fence"
             },
             {
                "value" : "log2"
@@ -10990,6 +11062,9 @@
                "value" : "?"
             },
             {
+               "value" : "inputpermission"
+            },
+            {
                "value" : "kick"
             },
             {
@@ -11156,6 +11231,44 @@
             },
             {
                "value" : "script"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Set",
+         "values" : [
+            {
+               "value" : "set"
+            }
+         ]
+      },
+      {
+         "name" : "permission",
+         "values" : [
+            {
+               "value" : "movement"
+            },
+            {
+               "value" : "camera"
+            }
+         ]
+      },
+      {
+         "name" : "state",
+         "values" : [
+            {
+               "value" : "enabled"
+            },
+            {
+               "value" : "disabled"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Query",
+         "values" : [
+            {
+               "value" : "query"
             }
          ]
       },
@@ -11499,25 +11612,16 @@
                "value" : "minecraft:web"
             },
             {
-               "value" : "minecraft:conduit"
+               "value" : "minecraft:purple_candle_cake"
             },
             {
-               "value" : "minecraft:iron_shovel"
+               "value" : "minecraft:ice"
             },
             {
-               "value" : "minecraft:polished_blackstone_brick_stairs"
+               "value" : "minecraft:mud"
             },
             {
-               "value" : "minecraft:wall_sign"
-            },
-            {
-               "value" : "minecraft:beacon"
-            },
-            {
-               "value" : "minecraft:cherry_slab"
-            },
-            {
-               "value" : "minecraft:honeycomb"
+               "value" : "minecraft:bookshelf"
             },
             {
                "value" : "minecraft:dark_oak_log"
@@ -11578,6 +11682,21 @@
             },
             {
                "value" : "minecraft:stone_block_slab2"
+            },
+            {
+               "value" : "minecraft:portal"
+            },
+            {
+               "value" : "minecraft:black_candle_cake"
+            },
+            {
+               "value" : "minecraft:tinted_glass"
+            },
+            {
+               "value" : "minecraft:birch_fence"
+            },
+            {
+               "value" : "minecraft:spruce_fence"
             },
             {
                "value" : "minecraft:log"
@@ -11655,10 +11774,13 @@
                "value" : "minecraft:polished_blackstone_stairs"
             },
             {
-               "value" : "minecraft:music_disc_blocks"
+               "value" : "minecraft:skull_pottery_shard"
             },
             {
-               "value" : "minecraft:skull_pottery_shard"
+               "value" : "minecraft:dark_oak_fence"
+            },
+            {
+               "value" : "minecraft:ink_sac"
             },
             {
                "value" : "minecraft:camel_spawn_egg"
@@ -11706,6 +11828,15 @@
                "value" : "minecraft:bamboo_slab"
             },
             {
+               "value" : "minecraft:cherry_slab"
+            },
+            {
+               "value" : "minecraft:honeycomb"
+            },
+            {
+               "value" : "minecraft:beacon"
+            },
+            {
                "value" : "minecraft:cherry_hanging_sign"
             },
             {
@@ -11733,9 +11864,6 @@
                "value" : "minecraft:oak_chest_boat"
             },
             {
-               "value" : "minecraft:bookshelf"
-            },
-            {
                "value" : "minecraft:yellow_flower"
             },
             {
@@ -11746,6 +11874,12 @@
             },
             {
                "value" : "minecraft:disc_fragment_5"
+            },
+            {
+               "value" : "minecraft:cobbled_deepslate"
+            },
+            {
+               "value" : "minecraft:mangrove_propagule"
             },
             {
                "value" : "minecraft:element_94"
@@ -11791,18 +11925,6 @@
             },
             {
                "value" : "minecraft:mangrove_planks"
-            },
-            {
-               "value" : "minecraft:monster_egg"
-            },
-            {
-               "value" : "minecraft:raw_iron_block"
-            },
-            {
-               "value" : "minecraft:chorus_fruit"
-            },
-            {
-               "value" : "minecraft:music_disc_far"
             },
             {
                "value" : "minecraft:frog_spawn_egg"
@@ -11931,12 +12053,6 @@
                "value" : "minecraft:hay_block"
             },
             {
-               "value" : "minecraft:anvil"
-            },
-            {
-               "value" : "minecraft:creeper_banner_pattern"
-            },
-            {
                "value" : "minecraft:iron_block"
             },
             {
@@ -12051,6 +12167,18 @@
                "value" : "minecraft:balloon"
             },
             {
+               "value" : "minecraft:raw_iron_block"
+            },
+            {
+               "value" : "minecraft:chorus_fruit"
+            },
+            {
+               "value" : "minecraft:music_disc_far"
+            },
+            {
+               "value" : "minecraft:monster_egg"
+            },
+            {
                "value" : "minecraft:packed_ice"
             },
             {
@@ -12094,6 +12222,9 @@
             },
             {
                "value" : "minecraft:leather"
+            },
+            {
+               "value" : "minecraft:music_disc_blocks"
             },
             {
                "value" : "minecraft:leather_horse_armor"
@@ -12241,9 +12372,6 @@
             },
             {
                "value" : "minecraft:element_77"
-            },
-            {
-               "value" : "minecraft:ink_sac"
             },
             {
                "value" : "minecraft:glow_ink_sac"
@@ -12519,6 +12647,12 @@
                "value" : "minecraft:lime_dye"
             },
             {
+               "value" : "minecraft:item.bed"
+            },
+            {
+               "value" : "minecraft:birch_fence_gate"
+            },
+            {
                "value" : "minecraft:apple"
             },
             {
@@ -12541,9 +12675,6 @@
             },
             {
                "value" : "minecraft:exposed_double_cut_copper_slab"
-            },
-            {
-               "value" : "minecraft:carrot"
             },
             {
                "value" : "minecraft:lit_redstone_ore"
@@ -12681,24 +12812,6 @@
                "value" : "minecraft:mushroom_stew"
             },
             {
-               "value" : "minecraft:element_6"
-            },
-            {
-               "value" : "minecraft:prismarine"
-            },
-            {
-               "value" : "minecraft:npc_spawn_egg"
-            },
-            {
-               "value" : "minecraft:noteblock"
-            },
-            {
-               "value" : "minecraft:clay"
-            },
-            {
-               "value" : "minecraft:melon_block"
-            },
-            {
                "value" : "minecraft:deepslate_iron_ore"
             },
             {
@@ -12709,12 +12822,6 @@
             },
             {
                "value" : "minecraft:glow_squid_spawn_egg"
-            },
-            {
-               "value" : "minecraft:birch_fence_gate"
-            },
-            {
-               "value" : "minecraft:item.bed"
             },
             {
                "value" : "minecraft:spruce_door"
@@ -12750,6 +12857,12 @@
                "value" : "minecraft:light_blue_dye"
             },
             {
+               "value" : "minecraft:oak_fence"
+            },
+            {
+               "value" : "minecraft:glass"
+            },
+            {
                "value" : "minecraft:cyan_wool"
             },
             {
@@ -12766,6 +12879,18 @@
             },
             {
                "value" : "minecraft:bowl"
+            },
+            {
+               "value" : "minecraft:iron_shovel"
+            },
+            {
+               "value" : "minecraft:conduit"
+            },
+            {
+               "value" : "minecraft:polished_blackstone_brick_stairs"
+            },
+            {
+               "value" : "minecraft:wall_sign"
             },
             {
                "value" : "minecraft:charcoal"
@@ -12822,10 +12947,10 @@
                "value" : "minecraft:heart_of_the_sea"
             },
             {
-               "value" : "minecraft:end_portal_frame"
+               "value" : "minecraft:cherry_boat"
             },
             {
-               "value" : "minecraft:cherry_boat"
+               "value" : "minecraft:end_portal_frame"
             },
             {
                "value" : "minecraft:stray_spawn_egg"
@@ -13188,6 +13313,9 @@
                "value" : "minecraft:gold_nugget"
             },
             {
+               "value" : "minecraft:jungle_fence"
+            },
+            {
                "value" : "minecraft:powered_comparator"
             },
             {
@@ -13195,9 +13323,6 @@
             },
             {
                "value" : "minecraft:brown_mushroom_block"
-            },
-            {
-               "value" : "minecraft:ice"
             },
             {
                "value" : "minecraft:pillager_spawn_egg"
@@ -13213,12 +13338,6 @@
             },
             {
                "value" : "minecraft:glow_stick"
-            },
-            {
-               "value" : "minecraft:mangrove_propagule"
-            },
-            {
-               "value" : "minecraft:cobbled_deepslate"
             },
             {
                "value" : "minecraft:rabbit_spawn_egg"
@@ -13437,6 +13556,24 @@
                "value" : "minecraft:bee_nest"
             },
             {
+               "value" : "minecraft:npc_spawn_egg"
+            },
+            {
+               "value" : "minecraft:element_6"
+            },
+            {
+               "value" : "minecraft:prismarine"
+            },
+            {
+               "value" : "minecraft:noteblock"
+            },
+            {
+               "value" : "minecraft:clay"
+            },
+            {
+               "value" : "minecraft:melon_block"
+            },
+            {
                "value" : "minecraft:lingering_potion"
             },
             {
@@ -13551,6 +13688,12 @@
                "value" : "minecraft:copper_block"
             },
             {
+               "value" : "minecraft:creeper_banner_pattern"
+            },
+            {
+               "value" : "minecraft:anvil"
+            },
+            {
                "value" : "minecraft:sea_lantern"
             },
             {
@@ -13627,6 +13770,12 @@
             },
             {
                "value" : "minecraft:cartography_table"
+            },
+            {
+               "value" : "minecraft:birch_trapdoor"
+            },
+            {
+               "value" : "minecraft:hard_stained_glass"
             },
             {
                "value" : "minecraft:hard_stained_glass_pane"
@@ -14445,6 +14594,9 @@
                "value" : "minecraft:bamboo_standing_sign"
             },
             {
+               "value" : "minecraft:acacia_fence"
+            },
+            {
                "value" : "minecraft:crimson_double_slab"
             },
             {
@@ -14577,15 +14729,6 @@
                "value" : "minecraft:powered_repeater"
             },
             {
-               "value" : "minecraft:portal"
-            },
-            {
-               "value" : "minecraft:black_candle_cake"
-            },
-            {
-               "value" : "minecraft:tinted_glass"
-            },
-            {
                "value" : "minecraft:unknown"
             },
             {
@@ -14626,6 +14769,12 @@
             },
             {
                "value" : "minecraft:acacia_standing_sign"
+            },
+            {
+               "value" : "minecraft:carrot"
+            },
+            {
+               "value" : "minecraft:suspicious_gravel"
             },
             {
                "value" : "minecraft:prize_pottery_shard"
@@ -14871,9 +15020,6 @@
                "value" : "minecraft:deepslate_gold_ore"
             },
             {
-               "value" : "minecraft:glass"
-            },
-            {
                "value" : "minecraft:waxed_weathered_cut_copper"
             },
             {
@@ -14950,18 +15096,6 @@
             },
             {
                "value" : "minecraft:mangrove_fence"
-            },
-            {
-               "value" : "minecraft:hard_stained_glass"
-            },
-            {
-               "value" : "minecraft:birch_trapdoor"
-            },
-            {
-               "value" : "minecraft:mud"
-            },
-            {
-               "value" : "minecraft:purple_candle_cake"
             }
          ]
       },
@@ -16775,7 +16909,7 @@
                      }
                   },
                   {
-                     "is_optional" : false,
+                     "is_optional" : true,
                      "name" : "blockStates",
                      "type" : {
                         "name" : "BLOCK_STATE_ARRAY"
@@ -17393,7 +17527,7 @@
                      }
                   },
                   {
-                     "is_optional" : true,
+                     "is_optional" : false,
                      "name" : "blockStates",
                      "type" : {
                         "name" : "BLOCK_STATE_ARRAY"
@@ -17433,10 +17567,90 @@
                      }
                   },
                   {
+                     "is_optional" : true,
+                     "name" : "oldBlockHandling",
+                     "type" : {
+                        "name" : "FILLMODE"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "5",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "from",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "to",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "tileName",
+                     "type" : {
+                        "name" : "BLOCK"
+                     }
+                  },
+                  {
                      "is_optional" : false,
                      "name" : "blockStates",
                      "type" : {
                         "name" : "BLOCK_STATE_ARRAY"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "oldBlockHandling",
+                     "type" : {
+                        "name" : "REPLACE"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "replaceTileName",
+                     "type" : {
+                        "name" : "BLOCK"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "replaceBlockStates",
+                     "type" : {
+                        "name" : "BLOCK_STATE_ARRAY"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "6",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "from",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "to",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "tileName",
+                     "type" : {
+                        "name" : "BLOCK"
                      }
                   },
                   {
@@ -17738,6 +17952,81 @@
          ],
          "permission_level" : 0,
          "requires_cheats" : false
+      },
+      {
+         "aliases" : [],
+         "description" : "",
+         "name" : "inputpermission",
+         "overloads" : [
+            {
+               "name" : "1",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "option",
+                     "type" : {
+                        "name" : "OPTION_SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "targets",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "permission",
+                     "type" : {
+                        "name" : "PERMISSION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "state",
+                     "type" : {
+                        "name" : "STATE"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "2",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "option",
+                     "type" : {
+                        "name" : "OPTION_QUERY"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "targets",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "permission",
+                     "type" : {
+                        "name" : "PERMISSION"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "state",
+                     "type" : {
+                        "name" : "STATE"
+                     }
+                  }
+               ]
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
       },
       {
          "aliases" : [],
@@ -20124,10 +20413,36 @@
                      }
                   },
                   {
-                     "is_optional" : true,
+                     "is_optional" : false,
                      "name" : "blockStates",
                      "type" : {
                         "name" : "BLOCK_STATE_ARRAY"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "oldBlockHandling",
+                     "type" : {
+                        "name" : "SETBLOCKMODE"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "3",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "tileName",
+                     "type" : {
+                        "name" : "BLOCK"
                      }
                   },
                   {
@@ -20978,13 +21293,6 @@
                      "name" : "destination",
                      "type" : {
                         "name" : "SELECTION"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "checkForBlocks",
-                     "type" : {
-                        "name" : "BOOLEAN"
                      }
                   }
                ]

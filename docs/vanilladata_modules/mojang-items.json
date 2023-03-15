@@ -13,6 +13,9 @@
          "name" : "minecraft:acacia_door"
       },
       {
+         "name" : "minecraft:acacia_fence"
+      },
+      {
          "name" : "minecraft:acacia_fence_gate"
       },
       {
@@ -152,6 +155,9 @@
       },
       {
          "name" : "minecraft:birch_door"
+      },
+      {
+         "name" : "minecraft:birch_fence"
       },
       {
          "name" : "minecraft:birch_fence_gate"
@@ -608,6 +614,9 @@
       },
       {
          "name" : "minecraft:dark_oak_door"
+      },
+      {
+         "name" : "minecraft:dark_oak_fence"
       },
       {
          "name" : "minecraft:dark_oak_fence_gate"
@@ -1207,6 +1216,9 @@
          "name" : "minecraft:jungle_door"
       },
       {
+         "name" : "minecraft:jungle_fence"
+      },
+      {
          "name" : "minecraft:jungle_fence_gate"
       },
       {
@@ -1622,6 +1634,9 @@
       },
       {
          "name" : "minecraft:oak_chest_boat"
+      },
+      {
+         "name" : "minecraft:oak_fence"
       },
       {
          "name" : "minecraft:oak_log"
@@ -2165,6 +2180,9 @@
       },
       {
          "name" : "minecraft:spruce_door"
+      },
+      {
+         "name" : "minecraft:spruce_fence"
       },
       {
          "name" : "minecraft:spruce_fence_gate"

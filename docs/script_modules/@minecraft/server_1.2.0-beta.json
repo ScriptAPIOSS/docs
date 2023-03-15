@@ -1,25 +1,15 @@
 {
    "classes" : [
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ChatEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getTargets",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "Player"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            },
             {
                "arguments" : [
                   {
@@ -57,33 +47,6 @@
                   "is_errorable" : false,
                   "name" : "boolean"
                }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "message",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "sender",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Player"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "sendToTargets",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
             }
          ],
          "type" : {
@@ -97,7 +60,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforeChatEventSignal"
+               "name" : "IBeforeChatEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -198,7 +161,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforeDataDrivenEntityTriggerEventSignal"
+               "name" : "IBeforeDataDrivenEntityTriggerEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -212,25 +175,15 @@
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ExplosionEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getImpactedBlocks",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "Vector3"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            },
             {
                "arguments" : [
                   {
@@ -268,24 +221,6 @@
                   "is_errorable" : false,
                   "name" : "boolean"
                }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "dimension",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Dimension"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
-               }
             }
          ],
          "type" : {
@@ -299,7 +234,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforeExplosionEventSignal"
+               "name" : "IBeforeExplosionEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -317,7 +252,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforeItemDefinitionEventSignal"
+               "name" : "IBeforeItemDefinitionEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -331,7 +266,13 @@
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ItemDefinitionTriggeredEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "BeforeItemDefinitionTriggeredEvent",
@@ -344,33 +285,6 @@
                   "is_errorable" : false,
                   "name" : "boolean"
                }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "eventName",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "item",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStack"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
-               }
             }
          ],
          "type" : {
@@ -380,7 +294,13 @@
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ItemUseEvent"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "BeforeItemUseEvent",
@@ -392,24 +312,6 @@
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "item",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStack"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
                }
             }
          ],
@@ -424,7 +326,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforeItemUseEventSignal"
+               "name" : "IBeforeItemUseEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -470,7 +372,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforeItemUseOnEventSignal"
+               "name" : "IBeforeItemUseOnEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -534,7 +436,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBeforePistonActivateEventSignal"
+               "name" : "IBeforePistonActivateEventSignal_deprecated"
             }
          ],
          "constants" : [],
@@ -2952,6 +2854,43 @@
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "array"
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getTags",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "string"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "array"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "tag",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "hasTag",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
                }
             },
             {
@@ -6627,6 +6566,121 @@
                   "is_errorable" : false,
                   "name" : "string"
                },
+               "value" : "minecraft:equipment_inventory"
+            }
+         ],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "equipmentSlot",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "EquipmentSlot"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getEquipment",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ItemStack"
+                  }
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "equipmentSlot",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "EquipmentSlot"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getEquipmentSlot",
+               "return_type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : true,
+                  "name" : "ContainerSlot"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "equipmentSlot",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "EquipmentSlot"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "itemStack",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "ItemStack"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setEquipment",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "EntityEquipmentInventoryComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityEquipmentInventoryComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
                "value" : "minecraft:fire_immune"
             }
          ],
@@ -9990,12 +10044,12 @@
                }
             }
          ],
-         "name" : "IBeforeChatEventSignal",
+         "name" : "IBeforeChatEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforeChatEventSignal"
+            "name" : "IBeforeChatEventSignal_deprecated"
          }
       },
       {
@@ -10103,12 +10157,12 @@
                }
             }
          ],
-         "name" : "IBeforeDataDrivenEntityTriggerEventSignal",
+         "name" : "IBeforeDataDrivenEntityTriggerEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforeDataDrivenEntityTriggerEventSignal"
+            "name" : "IBeforeDataDrivenEntityTriggerEventSignal_deprecated"
          }
       },
       {
@@ -10200,12 +10254,12 @@
                }
             }
          ],
-         "name" : "IBeforeExplosionEventSignal",
+         "name" : "IBeforeExplosionEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforeExplosionEventSignal"
+            "name" : "IBeforeExplosionEventSignal_deprecated"
          }
       },
       {
@@ -10297,12 +10351,12 @@
                }
             }
          ],
-         "name" : "IBeforeItemDefinitionEventSignal",
+         "name" : "IBeforeItemDefinitionEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforeItemDefinitionEventSignal"
+            "name" : "IBeforeItemDefinitionEventSignal_deprecated"
          }
       },
       {
@@ -10394,12 +10448,12 @@
                }
             }
          ],
-         "name" : "IBeforeItemUseEventSignal",
+         "name" : "IBeforeItemUseEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforeItemUseEventSignal"
+            "name" : "IBeforeItemUseEventSignal_deprecated"
          }
       },
       {
@@ -10491,12 +10545,12 @@
                }
             }
          ],
-         "name" : "IBeforeItemUseOnEventSignal",
+         "name" : "IBeforeItemUseOnEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforeItemUseOnEventSignal"
+            "name" : "IBeforeItemUseOnEventSignal_deprecated"
          }
       },
       {
@@ -10588,12 +10642,12 @@
                }
             }
          ],
-         "name" : "IBeforePistonActivateEventSignal",
+         "name" : "IBeforePistonActivateEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IBeforePistonActivateEventSignal"
+            "name" : "IBeforePistonActivateEventSignal_deprecated"
          }
       },
       {
@@ -13842,7 +13896,7 @@
                   {
                      "details" : {
                         "default_value" : 0,
-                        "max_value" : 256,
+                        "max_value" : 3,
                         "min_value" : 0
                      },
                      "name" : "unbreaking",
@@ -14263,6 +14317,22 @@
                }
             },
             {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getTags",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "string"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            },
+            {
                "arguments" : [
                   {
                      "details" : null,
@@ -14277,6 +14347,27 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "hasComponent",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "tag",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "hasTag",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -15343,6 +15434,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "acaciaFence",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "acaciaFenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -15854,6 +15955,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "birchDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "birchFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -17264,6 +17375,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "darkOakDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "darkOakFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -19183,16 +19304,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "fence",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "fenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -19774,6 +19885,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "jungleDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "jungleFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -20744,6 +20865,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "noteblock",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "oakFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -22083,6 +22214,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "spruceFence",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "spruceFenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -22554,6 +22695,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "structureVoid",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "suspiciousGravel",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -25449,6 +25600,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "acaciaFence",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "acaciaFenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -25910,6 +26071,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "birchDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "birchFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27430,6 +27601,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "darkOakDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "darkOakFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -29429,6 +29610,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "jungleFence",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "jungleFenceGate",
                "type" : {
                   "is_bind_type" : true,
@@ -30559,7 +30750,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherBrick",
+               "name" : "netherbrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -30569,7 +30760,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherbrick",
+               "name" : "netherBrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -30810,6 +31001,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "oakChestBoat",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "oakFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32620,6 +32821,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "spruceDoor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "spruceFence",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -38400,6 +38611,77 @@
             }
          ],
          "name" : "EntityDamageCause"
+      },
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "chest",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "chest"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "feet",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "feet"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "head",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "head"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "legs",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "legs"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "mainhand",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "mainhand"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "offhand",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "offhand"
+            }
+         ],
+         "name" : "EquipmentSlot"
       },
       {
          "constants" : [

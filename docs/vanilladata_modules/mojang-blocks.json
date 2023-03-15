@@ -3753,12 +3753,20 @@
          ]
       },
       {
+         "name" : "minecraft:jungle_fence",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:warped_wall_sign",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:spruce_fence",
+         "properties" : []
       },
       {
          "name" : "minecraft:melon_block",
@@ -5762,6 +5770,17 @@
          ]
       },
       {
+         "name" : "minecraft:suspicious_gravel",
+         "properties" : [
+            {
+               "name" : "brushed_progress"
+            },
+            {
+               "name" : "hanging"
+            }
+         ]
+      },
+      {
          "name" : "minecraft:warped_trapdoor",
          "properties" : [
             {
@@ -6486,6 +6505,10 @@
                "name" : "upper_block_bit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:oak_fence",
+         "properties" : []
       },
       {
          "name" : "minecraft:soul_lantern",
@@ -7923,6 +7946,10 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:dark_oak_fence",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:birch_door",
          "properties" : [
             {
@@ -8239,14 +8266,6 @@
          "properties" : [
             {
                "name" : "huge_mushroom_bits"
-            }
-         ]
-      },
-      {
-         "name" : "minecraft:fence",
-         "properties" : [
-            {
-               "name" : "wood_type"
             }
          ]
       },
@@ -9187,12 +9206,20 @@
          ]
       },
       {
+         "name" : "minecraft:birch_fence",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:lime_candle_cake",
          "properties" : [
             {
                "name" : "lit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:acacia_fence",
+         "properties" : []
       },
       {
          "name" : "minecraft:grass_path",
