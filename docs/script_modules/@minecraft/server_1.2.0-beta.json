@@ -16374,6 +16374,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "calibratedSculkSensor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "camera",
                "type" : {
                   "is_bind_type" : true,

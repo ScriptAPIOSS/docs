@@ -1,6 +1,46 @@
 {
    "classes" : [
       {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "AfterEvents",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "entityDie",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "EntityDieEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "entityHurt",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "EntityHurtEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "weatherChange",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "WeatherChangeEventSignal"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "AfterEvents"
+         }
+      },
+      {
          "base_types" : [
             {
                "is_bind_type" : true,
@@ -3956,6 +3996,27 @@
                "arguments" : [
                   {
                      "details" : null,
+                     "name" : "weatherType",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "WeatherType"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setWeather",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "undefined"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
                      "name" : "identifier",
                      "type" : {
                         "is_bind_type" : false,
@@ -6742,6 +6803,24 @@
          ],
          "constants" : [],
          "functions" : [],
+         "name" : "EntityDieEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityDieEventSignal"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IEntityDieEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
          "name" : "EntityDieEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -7263,6 +7342,24 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityHurtEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IEntityHurtEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "EntityHurtEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityHurtEventSignal"
          }
       },
       {
@@ -17271,6 +17368,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "calibratedSculkSensor",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "camera",
                "type" : {
                   "is_bind_type" : true,
@@ -26657,6 +26764,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "anglerPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "anvil",
                "type" : {
                   "is_bind_type" : true,
@@ -27377,6 +27494,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "bladePotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "blastFurnace",
                "type" : {
                   "is_bind_type" : true,
@@ -27577,6 +27704,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "brewerPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "brewingStand",
                "type" : {
                   "is_bind_type" : true,
@@ -27707,6 +27844,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "burnPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "cactus",
                "type" : {
                   "is_bind_type" : true,
@@ -27728,6 +27875,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "calcite",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "calibratedSculkSensor",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28967,6 +29124,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "dangerPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "darkOakBoat",
                "type" : {
                   "is_bind_type" : true,
@@ -29867,6 +30034,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "explorerPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "exposedCopper",
                "type" : {
                   "is_bind_type" : true,
@@ -30098,6 +30275,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "frame",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "friendPotteryShard",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -30667,7 +30854,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "heartbreakPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "heartOfTheSea",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "heartPotteryShard",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -30758,6 +30965,26 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "horseSpawnEgg",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "hostArmorTrimSmithingTemplate",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "howlPotteryShard",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -31847,6 +32074,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "minerPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "mobSpawner",
                "type" : {
                   "is_bind_type" : true,
@@ -31928,6 +32165,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "mossyStoneBrickStairs",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "mournerPotteryShard",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32857,6 +33104,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "plentyPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "podzol",
                "type" : {
                   "is_bind_type" : true,
@@ -33417,6 +33674,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "raiserArmorTrimSmithingTemplate",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "ravagerSpawnEgg",
                "type" : {
                   "is_bind_type" : true,
@@ -33907,6 +34174,26 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "shaperArmorTrimSmithingTemplate",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "sheafPotteryShard",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "shears",
                "type" : {
                   "is_bind_type" : true,
@@ -33918,6 +34205,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "sheepSpawnEgg",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "shelterPotteryShard",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33968,6 +34265,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "shulkerSpawnEgg",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "silenceArmorTrimSmithingTemplate",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34168,6 +34475,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "snifferSpawnEgg",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "snortPotteryShard",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -35668,6 +35985,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "waxedWeatheredCutCopperStairs",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "wayfinderArmorTrimSmithingTemplate",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -39007,6 +39334,24 @@
          ],
          "constants" : [],
          "functions" : [],
+         "name" : "WeatherChangeEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "WeatherChangeEventSignal"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IWeatherChangeEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
          "name" : "WeatherChangeEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -39534,6 +39879,15 @@
          ],
          "name" : "World",
          "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "afterEvents",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "AfterEvents"
+               }
+            },
             {
                "is_read_only" : true,
                "name" : "beforeEvents",
@@ -40758,6 +41112,44 @@
             }
          ],
          "name" : "WatchdogTerminateReason"
+      },
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "clear",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "clear"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "rain",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "rain"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "thunder",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "thunder"
+            }
+         ],
+         "name" : "WeatherType"
       }
    ],
    "errors" : [],

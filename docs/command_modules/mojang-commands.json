@@ -11321,6 +11321,9 @@
                "value" : "ancient_city"
             },
             {
+               "value" : "trail_ruins"
+            },
+            {
                "value" : "ancientcity"
             },
             {
@@ -11415,9 +11418,6 @@
             },
             {
                "value" : "minecraft:polished_blackstone_button"
-            },
-            {
-               "value" : "minecraft:purpur_stairs"
             },
             {
                "value" : "minecraft:polished_deepslate"
@@ -11594,9 +11594,6 @@
                "value" : "minecraft:mud_bricks"
             },
             {
-               "value" : "minecraft:azalea"
-            },
-            {
                "value" : "minecraft:waxed_exposed_double_cut_copper_slab"
             },
             {
@@ -11624,31 +11621,40 @@
                "value" : "minecraft:bookshelf"
             },
             {
-               "value" : "minecraft:dark_oak_log"
+               "value" : "minecraft:mangrove_fence"
             },
             {
-               "value" : "minecraft:element_75"
+               "value" : "minecraft:spruce_fence_gate"
             },
             {
-               "value" : "minecraft:red_mushroom_block"
+               "value" : "minecraft:chain_command_block"
             },
             {
-               "value" : "minecraft:wooden_hoe"
+               "value" : "minecraft:spruce_trapdoor"
             },
             {
-               "value" : "minecraft:element_22"
+               "value" : "minecraft:moss_block"
             },
             {
-               "value" : "minecraft:sponge"
+               "value" : "minecraft:brick_stairs"
             },
             {
-               "value" : "minecraft:waterlily"
+               "value" : "minecraft:cocoa"
             },
             {
-               "value" : "minecraft:crimson_roots"
+               "value" : "minecraft:stripped_crimson_hyphae"
             },
             {
-               "value" : "minecraft:phantom_spawn_egg"
+               "value" : "minecraft:warped_stem"
+            },
+            {
+               "value" : "minecraft:standing_banner"
+            },
+            {
+               "value" : "minecraft:item.nether_sprouts"
+            },
+            {
+               "value" : "minecraft:target"
             },
             {
                "value" : "minecraft:red_sandstone"
@@ -11690,12 +11696,6 @@
                "value" : "minecraft:black_candle_cake"
             },
             {
-               "value" : "minecraft:tinted_glass"
-            },
-            {
-               "value" : "minecraft:birch_fence"
-            },
-            {
                "value" : "minecraft:spruce_fence"
             },
             {
@@ -11732,12 +11732,6 @@
                "value" : "minecraft:orange_wool"
             },
             {
-               "value" : "minecraft:red_flower"
-            },
-            {
-               "value" : "minecraft:fishing_rod"
-            },
-            {
                "value" : "minecraft:white_wool"
             },
             {
@@ -11750,7 +11744,13 @@
                "value" : "minecraft:deepslate_brick_slab"
             },
             {
-               "value" : "minecraft:cocoa"
+               "value" : "minecraft:calibrated_sculk_sensor"
+            },
+            {
+               "value" : "minecraft:host_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:endermite_spawn_egg"
             },
             {
                "value" : "minecraft:spire_armor_trim_smithing_template"
@@ -11774,7 +11774,55 @@
                "value" : "minecraft:polished_blackstone_stairs"
             },
             {
+               "value" : "minecraft:mourner_pottery_shard"
+            },
+            {
                "value" : "minecraft:skull_pottery_shard"
+            },
+            {
+               "value" : "minecraft:plenty_pottery_shard"
+            },
+            {
+               "value" : "minecraft:miner_pottery_shard"
+            },
+            {
+               "value" : "minecraft:lava_bucket"
+            },
+            {
+               "value" : "minecraft:howl_pottery_shard"
+            },
+            {
+               "value" : "minecraft:tinted_glass"
+            },
+            {
+               "value" : "minecraft:birch_fence"
+            },
+            {
+               "value" : "minecraft:friend_pottery_shard"
+            },
+            {
+               "value" : "minecraft:explorer_pottery_shard"
+            },
+            {
+               "value" : "minecraft:tadpole_bucket"
+            },
+            {
+               "value" : "minecraft:cyan_candle"
+            },
+            {
+               "value" : "minecraft:burn_pottery_shard"
+            },
+            {
+               "value" : "minecraft:brewer_pottery_shard"
+            },
+            {
+               "value" : "minecraft:jungle_button"
+            },
+            {
+               "value" : "minecraft:soul_fire"
+            },
+            {
+               "value" : "minecraft:weeping_vines"
             },
             {
                "value" : "minecraft:dark_oak_fence"
@@ -11784,6 +11832,9 @@
             },
             {
                "value" : "minecraft:camel_spawn_egg"
+            },
+            {
+               "value" : "minecraft:panda_spawn_egg"
             },
             {
                "value" : "minecraft:spruce_boat"
@@ -11811,9 +11862,6 @@
             },
             {
                "value" : "minecraft:chainmail_leggings"
-            },
-            {
-               "value" : "minecraft:panda_spawn_egg"
             },
             {
                "value" : "minecraft:bamboo_mosaic_slab"
@@ -11864,9 +11912,6 @@
                "value" : "minecraft:oak_chest_boat"
             },
             {
-               "value" : "minecraft:yellow_flower"
-            },
-            {
                "value" : "minecraft:mangrove_chest_boat"
             },
             {
@@ -11907,6 +11952,9 @@
             },
             {
                "value" : "minecraft:crossbow"
+            },
+            {
+               "value" : "minecraft:heartbreak_pottery_shard"
             },
             {
                "value" : "minecraft:lapis_ore"
@@ -11951,12 +11999,6 @@
                "value" : "minecraft:amethyst_shard"
             },
             {
-               "value" : "minecraft:double_plant"
-            },
-            {
-               "value" : "minecraft:skeleton_spawn_egg"
-            },
-            {
                "value" : "minecraft:deepslate_tile_slab"
             },
             {
@@ -11967,6 +12009,9 @@
             },
             {
                "value" : "minecraft:magenta_candle_cake"
+            },
+            {
+               "value" : "minecraft:snort_pottery_shard"
             },
             {
                "value" : "minecraft:chain"
@@ -12089,6 +12134,15 @@
                "value" : "minecraft:turtle_helmet"
             },
             {
+               "value" : "minecraft:shelter_pottery_shard"
+            },
+            {
+               "value" : "minecraft:element_103"
+            },
+            {
+               "value" : "minecraft:light_blue_glazed_terracotta"
+            },
+            {
                "value" : "minecraft:nether_sprouts"
             },
             {
@@ -12152,6 +12206,9 @@
                "value" : "minecraft:splash_potion"
             },
             {
+               "value" : "minecraft:wayfinder_armor_trim_smithing_template"
+            },
+            {
                "value" : "minecraft:rabbit_foot"
             },
             {
@@ -12207,6 +12264,9 @@
             },
             {
                "value" : "minecraft:music_disc_stal"
+            },
+            {
+               "value" : "minecraft:heart_pottery_shard"
             },
             {
                "value" : "minecraft:deepslate_tile_wall"
@@ -12275,12 +12335,6 @@
                "value" : "minecraft:frame"
             },
             {
-               "value" : "minecraft:endermite_spawn_egg"
-            },
-            {
-               "value" : "minecraft:tallgrass"
-            },
-            {
                "value" : "minecraft:green_wool"
             },
             {
@@ -12317,15 +12371,6 @@
                "value" : "minecraft:blaze_rod"
             },
             {
-               "value" : "minecraft:seagrass"
-            },
-            {
-               "value" : "minecraft:dirt"
-            },
-            {
-               "value" : "minecraft:element_38"
-            },
-            {
                "value" : "minecraft:enchanted_book"
             },
             {
@@ -12339,9 +12384,6 @@
             },
             {
                "value" : "minecraft:waxed_oxidized_cut_copper_slab"
-            },
-            {
-               "value" : "minecraft:target"
             },
             {
                "value" : "minecraft:powder_snow"
@@ -12488,18 +12530,6 @@
                "value" : "minecraft:torchflower"
             },
             {
-               "value" : "minecraft:cobblestone_wall"
-            },
-            {
-               "value" : "minecraft:black_wool"
-            },
-            {
-               "value" : "minecraft:waxed_oxidized_copper"
-            },
-            {
-               "value" : "minecraft:cherry_button"
-            },
-            {
                "value" : "minecraft:stone_button"
             },
             {
@@ -12542,10 +12572,13 @@
                "value" : "minecraft:zombie_villager_spawn_egg"
             },
             {
-               "value" : "minecraft:jungle_button"
+               "value" : "minecraft:deepslate_redstone_ore"
             },
             {
-               "value" : "minecraft:soul_fire"
+               "value" : "minecraft:cherry_door"
+            },
+            {
+               "value" : "minecraft:chainmail_boots"
             },
             {
                "value" : "minecraft:wheat"
@@ -12561,6 +12594,15 @@
             },
             {
                "value" : "minecraft:glow_lichen"
+            },
+            {
+               "value" : "minecraft:pink_glazed_terracotta"
+            },
+            {
+               "value" : "minecraft:allay_spawn_egg"
+            },
+            {
+               "value" : "minecraft:chainmail_chestplate"
             },
             {
                "value" : "minecraft:stripped_acacia_log"
@@ -12587,10 +12629,28 @@
                "value" : "minecraft:element_45"
             },
             {
+               "value" : "minecraft:wooden_hoe"
+            },
+            {
+               "value" : "minecraft:red_mushroom_block"
+            },
+            {
+               "value" : "minecraft:element_22"
+            },
+            {
                "value" : "minecraft:wooden_shovel"
             },
             {
                "value" : "minecraft:spruce_button"
+            },
+            {
+               "value" : "minecraft:danger_pottery_shard"
+            },
+            {
+               "value" : "minecraft:spruce_chest_boat"
+            },
+            {
+               "value" : "minecraft:item.flower_pot"
             },
             {
                "value" : "minecraft:stained_hardened_clay"
@@ -12651,6 +12711,15 @@
             },
             {
                "value" : "minecraft:birch_fence_gate"
+            },
+            {
+               "value" : "minecraft:dirt"
+            },
+            {
+               "value" : "minecraft:seagrass"
+            },
+            {
+               "value" : "minecraft:element_38"
             },
             {
                "value" : "minecraft:apple"
@@ -12722,6 +12791,12 @@
                "value" : "minecraft:oak_log"
             },
             {
+               "value" : "minecraft:fishing_rod"
+            },
+            {
+               "value" : "minecraft:red_flower"
+            },
+            {
                "value" : "minecraft:sea_pickle"
             },
             {
@@ -12779,12 +12854,6 @@
                "value" : "minecraft:gray_candle_cake"
             },
             {
-               "value" : "minecraft:log2"
-            },
-            {
-               "value" : "minecraft:deepslate_copper_ore"
-            },
-            {
                "value" : "minecraft:shears"
             },
             {
@@ -12798,6 +12867,12 @@
             },
             {
                "value" : "minecraft:sculk_shrieker"
+            },
+            {
+               "value" : "minecraft:raiser_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:skull"
             },
             {
                "value" : "minecraft:command_block"
@@ -12879,6 +12954,12 @@
             },
             {
                "value" : "minecraft:bowl"
+            },
+            {
+               "value" : "minecraft:verdant_froglight"
+            },
+            {
+               "value" : "minecraft:red_nether_brick"
             },
             {
                "value" : "minecraft:iron_shovel"
@@ -12989,6 +13070,12 @@
                "value" : "minecraft:orange_candle"
             },
             {
+               "value" : "minecraft:lever"
+            },
+            {
+               "value" : "minecraft:stripped_jungle_log"
+            },
+            {
                "value" : "minecraft:fox_spawn_egg"
             },
             {
@@ -13028,6 +13115,15 @@
                "value" : "minecraft:element_36"
             },
             {
+               "value" : "minecraft:azalea"
+            },
+            {
+               "value" : "minecraft:sheaf_pottery_shard"
+            },
+            {
+               "value" : "minecraft:scaffolding"
+            },
+            {
                "value" : "minecraft:cat_spawn_egg"
             },
             {
@@ -13035,15 +13131,6 @@
             },
             {
                "value" : "minecraft:light_gray_candle"
-            },
-            {
-               "value" : "minecraft:weeping_vines"
-            },
-            {
-               "value" : "minecraft:skull"
-            },
-            {
-               "value" : "minecraft:lava_bucket"
             },
             {
                "value" : "minecraft:polished_deepslate_slab"
@@ -13083,9 +13170,6 @@
             },
             {
                "value" : "minecraft:white_glazed_terracotta"
-            },
-            {
-               "value" : "minecraft:chain_command_block"
             },
             {
                "value" : "minecraft:magma_cube_spawn_egg"
@@ -13160,10 +13244,13 @@
                "value" : "minecraft:light_gray_wool"
             },
             {
-               "value" : "minecraft:chest_minecart"
+               "value" : "minecraft:purpur_stairs"
             },
             {
-               "value" : "minecraft:acacia_log"
+               "value" : "minecraft:angler_pottery_shard"
+            },
+            {
+               "value" : "minecraft:chest_minecart"
             },
             {
                "value" : "minecraft:netherite_pickaxe"
@@ -13238,9 +13325,6 @@
                "value" : "minecraft:gray_dye"
             },
             {
-               "value" : "minecraft:warped_stem"
-            },
-            {
                "value" : "minecraft:pink_dye"
             },
             {
@@ -13286,19 +13370,10 @@
                "value" : "minecraft:quartz_bricks"
             },
             {
-               "value" : "minecraft:coral"
-            },
-            {
                "value" : "minecraft:trip_wire"
             },
             {
                "value" : "minecraft:mossy_cobblestone_stairs"
-            },
-            {
-               "value" : "minecraft:stripped_jungle_log"
-            },
-            {
-               "value" : "minecraft:lever"
             },
             {
                "value" : "minecraft:music_disc_11"
@@ -13322,19 +13397,10 @@
                "value" : "minecraft:potion"
             },
             {
-               "value" : "minecraft:brown_mushroom_block"
-            },
-            {
                "value" : "minecraft:pillager_spawn_egg"
             },
             {
                "value" : "minecraft:large_amethyst_bud"
-            },
-            {
-               "value" : "minecraft:acacia_button"
-            },
-            {
-               "value" : "minecraft:quartz_block"
             },
             {
                "value" : "minecraft:glow_stick"
@@ -13353,6 +13419,18 @@
             },
             {
                "value" : "minecraft:bamboo_stairs"
+            },
+            {
+               "value" : "minecraft:black_wool"
+            },
+            {
+               "value" : "minecraft:cobblestone_wall"
+            },
+            {
+               "value" : "minecraft:waxed_oxidized_copper"
+            },
+            {
+               "value" : "minecraft:cherry_button"
             },
             {
                "value" : "minecraft:brown_candle"
@@ -13385,12 +13463,6 @@
                "value" : "minecraft:piglin_brute_spawn_egg"
             },
             {
-               "value" : "minecraft:warped_roots"
-            },
-            {
-               "value" : "minecraft:jungle_trapdoor"
-            },
-            {
                "value" : "minecraft:crimson_hyphae"
             },
             {
@@ -13412,6 +13484,12 @@
                "value" : "minecraft:soul_sand"
             },
             {
+               "value" : "minecraft:skeleton_spawn_egg"
+            },
+            {
+               "value" : "minecraft:double_plant"
+            },
+            {
                "value" : "minecraft:slime_spawn_egg"
             },
             {
@@ -13422,6 +13500,15 @@
             },
             {
                "value" : "minecraft:ender_dragon_spawn_egg"
+            },
+            {
+               "value" : "minecraft:suspicious_sand"
+            },
+            {
+               "value" : "minecraft:cherry_pressure_plate"
+            },
+            {
+               "value" : "minecraft:element_78"
             },
             {
                "value" : "minecraft:netherite_sword"
@@ -13437,12 +13524,6 @@
             },
             {
                "value" : "minecraft:item.iron_door"
-            },
-            {
-               "value" : "minecraft:standing_banner"
-            },
-            {
-               "value" : "minecraft:item.nether_sprouts"
             },
             {
                "value" : "minecraft:cherry_fence_gate"
@@ -13478,6 +13559,12 @@
                "value" : "minecraft:exposed_cut_copper"
             },
             {
+               "value" : "minecraft:phantom_spawn_egg"
+            },
+            {
+               "value" : "minecraft:crimson_roots"
+            },
+            {
                "value" : "minecraft:torchflower_seeds"
             },
             {
@@ -13511,19 +13598,16 @@
                "value" : "minecraft:husk_spawn_egg"
             },
             {
-               "value" : "minecraft:stripped_crimson_hyphae"
-            },
-            {
-               "value" : "minecraft:tadpole_bucket"
-            },
-            {
-               "value" : "minecraft:cyan_candle"
-            },
-            {
                "value" : "minecraft:glow_frame"
             },
             {
                "value" : "minecraft:pufferfish_spawn_egg"
+            },
+            {
+               "value" : "minecraft:end_brick_stairs"
+            },
+            {
+               "value" : "minecraft:jungle_log"
             },
             {
                "value" : "minecraft:mutton"
@@ -13688,6 +13772,63 @@
                "value" : "minecraft:copper_block"
             },
             {
+               "value" : "minecraft:warped_roots"
+            },
+            {
+               "value" : "minecraft:jungle_trapdoor"
+            },
+            {
+               "value" : "minecraft:yellow_flower"
+            },
+            {
+               "value" : "minecraft:waterlily"
+            },
+            {
+               "value" : "minecraft:sponge"
+            },
+            {
+               "value" : "minecraft:stonebrick"
+            },
+            {
+               "value" : "minecraft:trapdoor"
+            },
+            {
+               "value" : "minecraft:snow_layer"
+            },
+            {
+               "value" : "minecraft:acacia_button"
+            },
+            {
+               "value" : "minecraft:quartz_block"
+            },
+            {
+               "value" : "minecraft:coral"
+            },
+            {
+               "value" : "minecraft:tallgrass"
+            },
+            {
+               "value" : "minecraft:brown_mushroom_block"
+            },
+            {
+               "value" : "minecraft:acacia_log"
+            },
+            {
+               "value" : "minecraft:dark_oak_log"
+            },
+            {
+               "value" : "minecraft:blade_pottery_shard"
+            },
+            {
+               "value" : "minecraft:element_75"
+            },
+            {
+               "value" : "minecraft:log2"
+            },
+            {
+               "value" : "minecraft:deepslate_copper_ore"
+            },
+            {
                "value" : "minecraft:creeper_banner_pattern"
             },
             {
@@ -13718,6 +13859,12 @@
                "value" : "minecraft:stained_glass"
             },
             {
+               "value" : "minecraft:pearlescent_froglight"
+            },
+            {
+               "value" : "minecraft:shulker_box"
+            },
+            {
                "value" : "minecraft:spore_blossom"
             },
             {
@@ -13731,9 +13878,6 @@
             },
             {
                "value" : "minecraft:turtle_egg"
-            },
-            {
-               "value" : "minecraft:scaffolding"
             },
             {
                "value" : "minecraft:archer_pottery_shard"
@@ -13920,6 +14064,9 @@
             },
             {
                "value" : "minecraft:dark_oak_fence_gate"
+            },
+            {
+               "value" : "minecraft:silence_armor_trim_smithing_template"
             },
             {
                "value" : "minecraft:element_10"
@@ -14129,6 +14276,12 @@
                "value" : "minecraft:reserved6"
             },
             {
+               "value" : "minecraft:red_nether_brick_stairs"
+            },
+            {
+               "value" : "minecraft:element_93"
+            },
+            {
                "value" : "minecraft:crimson_button"
             },
             {
@@ -14157,12 +14310,6 @@
             },
             {
                "value" : "minecraft:element_102"
-            },
-            {
-               "value" : "minecraft:element_103"
-            },
-            {
-               "value" : "minecraft:light_blue_glazed_terracotta"
             },
             {
                "value" : "minecraft:bamboo_hanging_sign"
@@ -14276,15 +14423,6 @@
                "value" : "minecraft:nether_brick_stairs"
             },
             {
-               "value" : "minecraft:suspicious_sand"
-            },
-            {
-               "value" : "minecraft:element_78"
-            },
-            {
-               "value" : "minecraft:cherry_pressure_plate"
-            },
-            {
                "value" : "minecraft:podzol"
             },
             {
@@ -14307,15 +14445,6 @@
             },
             {
                "value" : "minecraft:lime_glazed_terracotta"
-            },
-            {
-               "value" : "minecraft:snow_layer"
-            },
-            {
-               "value" : "minecraft:stonebrick"
-            },
-            {
-               "value" : "minecraft:trapdoor"
             },
             {
                "value" : "minecraft:info_update"
@@ -14354,12 +14483,6 @@
                "value" : "minecraft:amethyst_block"
             },
             {
-               "value" : "minecraft:spruce_chest_boat"
-            },
-            {
-               "value" : "minecraft:item.flower_pot"
-            },
-            {
                "value" : "minecraft:clock"
             },
             {
@@ -14387,10 +14510,10 @@
                "value" : "minecraft:tuff"
             },
             {
-               "value" : "minecraft:medicine"
+               "value" : "minecraft:item.mangrove_door"
             },
             {
-               "value" : "minecraft:item.mangrove_door"
+               "value" : "minecraft:medicine"
             },
             {
                "value" : "minecraft:raw_gold_block"
@@ -14441,12 +14564,6 @@
                "value" : "minecraft:waxed_exposed_copper"
             },
             {
-               "value" : "minecraft:shulker_box"
-            },
-            {
-               "value" : "minecraft:pearlescent_froglight"
-            },
-            {
                "value" : "minecraft:prismarine_crystals"
             },
             {
@@ -14454,9 +14571,6 @@
             },
             {
                "value" : "minecraft:cyan_candle_cake"
-            },
-            {
-               "value" : "minecraft:spruce_fence_gate"
             },
             {
                "value" : "minecraft:torch"
@@ -14472,9 +14586,6 @@
             },
             {
                "value" : "minecraft:dripstone_block"
-            },
-            {
-               "value" : "minecraft:spruce_trapdoor"
             },
             {
                "value" : "minecraft:vine"
@@ -14801,12 +14912,6 @@
                "value" : "minecraft:hard_glass"
             },
             {
-               "value" : "minecraft:red_nether_brick"
-            },
-            {
-               "value" : "minecraft:verdant_froglight"
-            },
-            {
                "value" : "minecraft:quartz_stairs"
             },
             {
@@ -15011,6 +15116,9 @@
                "value" : "minecraft:item.reeds"
             },
             {
+               "value" : "minecraft:shaper_armor_trim_smithing_template"
+            },
+            {
                "value" : "minecraft:bamboo_pressure_plate"
             },
             {
@@ -15057,45 +15165,6 @@
             },
             {
                "value" : "minecraft:structure_block"
-            },
-            {
-               "value" : "minecraft:jungle_log"
-            },
-            {
-               "value" : "minecraft:end_brick_stairs"
-            },
-            {
-               "value" : "minecraft:brick_stairs"
-            },
-            {
-               "value" : "minecraft:moss_block"
-            },
-            {
-               "value" : "minecraft:chainmail_chestplate"
-            },
-            {
-               "value" : "minecraft:allay_spawn_egg"
-            },
-            {
-               "value" : "minecraft:pink_glazed_terracotta"
-            },
-            {
-               "value" : "minecraft:element_93"
-            },
-            {
-               "value" : "minecraft:red_nether_brick_stairs"
-            },
-            {
-               "value" : "minecraft:cherry_door"
-            },
-            {
-               "value" : "minecraft:chainmail_boots"
-            },
-            {
-               "value" : "minecraft:deepslate_redstone_ore"
-            },
-            {
-               "value" : "minecraft:mangrove_fence"
             }
          ]
       },
