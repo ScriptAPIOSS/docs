@@ -36,6 +36,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "body",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -90,6 +91,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "button",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -100,6 +102,7 @@
                "arguments" : [],
                "is_constructor" : true,
                "name" : "constructor",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -126,6 +129,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "show",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -169,6 +173,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "title",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -293,6 +298,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "body",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -331,6 +337,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "button1",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -369,6 +376,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "button2",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -379,6 +387,7 @@
                "arguments" : [],
                "is_constructor" : true,
                "name" : "constructor",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -405,6 +414,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "show",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -448,6 +458,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "title",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -508,6 +519,7 @@
                "arguments" : [],
                "is_constructor" : true,
                "name" : "constructor",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -597,6 +609,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "dropdown",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -623,6 +636,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "show",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -734,6 +748,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "slider",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -814,6 +829,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "textField",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -852,6 +868,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "title",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -906,6 +923,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "toggle",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -1058,7 +1076,7 @@
    ],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.19.80",
+   "minecraft_version" : "1.20.0",
    "module_type" : "script",
    "name" : "@minecraft/server-ui",
    "objects" : [],

@@ -181,6 +181,9 @@
          "name" : "minecraft:black_candle"
       },
       {
+         "name" : "minecraft:black_carpet"
+      },
+      {
          "name" : "minecraft:black_dye"
       },
       {
@@ -215,6 +218,9 @@
       },
       {
          "name" : "minecraft:blue_candle"
+      },
+      {
+         "name" : "minecraft:blue_carpet"
       },
       {
          "name" : "minecraft:blue_dye"
@@ -259,6 +265,9 @@
          "name" : "minecraft:bowl"
       },
       {
+         "name" : "minecraft:brain_coral"
+      },
+      {
          "name" : "minecraft:bread"
       },
       {
@@ -277,6 +286,9 @@
          "name" : "minecraft:brown_candle"
       },
       {
+         "name" : "minecraft:brown_carpet"
+      },
+      {
          "name" : "minecraft:brown_dye"
       },
       {
@@ -290,6 +302,9 @@
       },
       {
          "name" : "minecraft:brown_wool"
+      },
+      {
+         "name" : "minecraft:bubble_coral"
       },
       {
          "name" : "minecraft:bucket"
@@ -595,6 +610,9 @@
          "name" : "minecraft:cyan_candle"
       },
       {
+         "name" : "minecraft:cyan_carpet"
+      },
+      {
          "name" : "minecraft:cyan_dye"
       },
       {
@@ -641,6 +659,21 @@
       },
       {
          "name" : "minecraft:daylight_detector"
+      },
+      {
+         "name" : "minecraft:dead_brain_coral"
+      },
+      {
+         "name" : "minecraft:dead_bubble_coral"
+      },
+      {
+         "name" : "minecraft:dead_fire_coral"
+      },
+      {
+         "name" : "minecraft:dead_horn_coral"
+      },
+      {
+         "name" : "minecraft:dead_tube_coral"
       },
       {
          "name" : "minecraft:deadbush"
@@ -901,6 +934,9 @@
          "name" : "minecraft:fire_charge"
       },
       {
+         "name" : "minecraft:fire_coral"
+      },
+      {
          "name" : "minecraft:firework_rocket"
       },
       {
@@ -1063,6 +1099,9 @@
          "name" : "minecraft:gray_candle"
       },
       {
+         "name" : "minecraft:gray_carpet"
+      },
+      {
          "name" : "minecraft:gray_dye"
       },
       {
@@ -1073,6 +1112,9 @@
       },
       {
          "name" : "minecraft:green_candle"
+      },
+      {
+         "name" : "minecraft:green_carpet"
       },
       {
          "name" : "minecraft:green_dye"
@@ -1127,6 +1169,9 @@
       },
       {
          "name" : "minecraft:hopper_minecart"
+      },
+      {
+         "name" : "minecraft:horn_coral"
       },
       {
          "name" : "minecraft:horse_spawn_egg"
@@ -1300,6 +1345,9 @@
          "name" : "minecraft:light_blue_candle"
       },
       {
+         "name" : "minecraft:light_blue_carpet"
+      },
+      {
          "name" : "minecraft:light_blue_dye"
       },
       {
@@ -1310,6 +1358,9 @@
       },
       {
          "name" : "minecraft:light_gray_candle"
+      },
+      {
+         "name" : "minecraft:light_gray_carpet"
       },
       {
          "name" : "minecraft:light_gray_dye"
@@ -1325,6 +1376,9 @@
       },
       {
          "name" : "minecraft:lime_candle"
+      },
+      {
+         "name" : "minecraft:lime_carpet"
       },
       {
          "name" : "minecraft:lime_dye"
@@ -1361,6 +1415,9 @@
       },
       {
          "name" : "minecraft:magenta_candle"
+      },
+      {
+         "name" : "minecraft:magenta_carpet"
       },
       {
          "name" : "minecraft:magenta_dye"
@@ -1663,6 +1720,9 @@
          "name" : "minecraft:orange_candle"
       },
       {
+         "name" : "minecraft:orange_carpet"
+      },
+      {
          "name" : "minecraft:orange_dye"
       },
       {
@@ -1729,6 +1789,9 @@
          "name" : "minecraft:pink_candle"
       },
       {
+         "name" : "minecraft:pink_carpet"
+      },
+      {
          "name" : "minecraft:pink_dye"
       },
       {
@@ -1739,6 +1802,12 @@
       },
       {
          "name" : "minecraft:piston"
+      },
+      {
+         "name" : "minecraft:pitcher_plant"
+      },
+      {
+         "name" : "minecraft:pitcher_pod"
       },
       {
          "name" : "minecraft:planks"
@@ -1861,6 +1930,9 @@
          "name" : "minecraft:purple_candle"
       },
       {
+         "name" : "minecraft:purple_carpet"
+      },
+      {
          "name" : "minecraft:purple_dye"
       },
       {
@@ -1934,6 +2006,9 @@
       },
       {
          "name" : "minecraft:red_candle"
+      },
+      {
+         "name" : "minecraft:red_carpet"
       },
       {
          "name" : "minecraft:red_dye"
@@ -2123,6 +2198,12 @@
       },
       {
          "name" : "minecraft:smooth_stone"
+      },
+      {
+         "name" : "minecraft:sniffer_egg"
+      },
+      {
+         "name" : "minecraft:sniffer_spawn_egg"
       },
       {
          "name" : "minecraft:snow"
@@ -2359,6 +2440,12 @@
          "name" : "minecraft:torch"
       },
       {
+         "name" : "minecraft:torchflower"
+      },
+      {
+         "name" : "minecraft:torchflower_seeds"
+      },
+      {
          "name" : "minecraft:totem_of_undying"
       },
       {
@@ -2384,6 +2471,9 @@
       },
       {
          "name" : "minecraft:tropical_fish_spawn_egg"
+      },
+      {
+         "name" : "minecraft:tube_coral"
       },
       {
          "name" : "minecraft:tuff"
@@ -2557,6 +2647,9 @@
          "name" : "minecraft:white_candle"
       },
       {
+         "name" : "minecraft:white_carpet"
+      },
+      {
          "name" : "minecraft:white_dye"
       },
       {
@@ -2620,6 +2713,9 @@
          "name" : "minecraft:yellow_candle"
       },
       {
+         "name" : "minecraft:yellow_carpet"
+      },
+      {
          "name" : "minecraft:yellow_dye"
       },
       {
@@ -2647,7 +2743,7 @@
          "name" : "minecraft:zombie_villager_spawn_egg"
       }
    ],
-   "minecraft_version" : "1.19.80",
+   "minecraft_version" : "1.20.0",
    "module_type" : "item",
    "name" : "mojang-item"
 }

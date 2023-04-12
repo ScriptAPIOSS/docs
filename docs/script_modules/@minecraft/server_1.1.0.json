@@ -19,6 +19,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setPermutation",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -167,6 +168,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "matches",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -235,6 +237,7 @@
                "is_constructor" : false,
                "is_static" : true,
                "name" : "resolve",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -295,6 +298,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getBlock",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -323,6 +327,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getEntities",
+               "privilege" : "read_only",
                "return_type" : {
                   "element_type" : {
                      "is_bind_type" : true,
@@ -349,6 +354,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getEntitiesAtBlockLocation",
+               "privilege" : "read_only",
                "return_type" : {
                   "element_type" : {
                      "is_bind_type" : true,
@@ -382,6 +388,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getPlayers",
+               "privilege" : "read_only",
                "return_type" : {
                   "element_type" : {
                      "is_bind_type" : true,
@@ -408,6 +415,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runCommandAsync",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -447,6 +455,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getHeadLocation",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -458,6 +467,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getVelocity",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -469,6 +479,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getViewDirection",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -490,6 +501,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runCommandAsync",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -534,6 +546,7 @@
             {
                "is_read_only" : false,
                "name" : "nameTag",
+               "privilege" : "none",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -661,6 +674,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "sendMessage",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -712,6 +726,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "clearRun",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -741,6 +756,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "run",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -794,6 +810,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runInterval",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -847,6 +864,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runTimeout",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -889,6 +907,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getAllPlayers",
+               "privilege" : "read_only",
                "return_type" : {
                   "element_type" : {
                      "is_bind_type" : true,
@@ -915,6 +934,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getDimension",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -943,6 +963,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getPlayers",
+               "privilege" : "read_only",
                "return_type" : {
                   "element_type" : {
                      "is_bind_type" : true,
@@ -1003,6 +1024,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "sendMessage",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1737,7 +1759,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.19.80",
+   "minecraft_version" : "1.20.0",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [

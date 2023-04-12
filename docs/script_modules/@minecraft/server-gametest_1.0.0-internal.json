@@ -76,6 +76,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenExecute",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -121,6 +122,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenExecuteAfter",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -166,6 +168,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenExecuteFor",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -187,6 +190,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenFail",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -215,6 +219,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenIdle",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -226,6 +231,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenSucceed",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -255,6 +261,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenWait",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -300,6 +307,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "thenWaitAfter",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -334,6 +342,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "batch",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -362,6 +371,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "maxAttempts",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -390,6 +400,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "maxTicks",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -418,6 +429,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "padding",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -442,6 +454,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "required",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -470,6 +483,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "requiredSuccessfulAttempts",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -494,6 +508,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "rotateTest",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -522,6 +537,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setupTicks",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -543,6 +559,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "structureName",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -564,6 +581,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "tag",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -619,6 +637,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "addCursorsWithOffset",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -647,6 +666,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getCursorPosition",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -663,6 +683,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getNumberOfCursors",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -678,6 +699,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getTotalCharge",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -731,6 +753,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "attack",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -757,6 +780,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "attackEntity",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -799,6 +823,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "breakBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -810,6 +835,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "disconnect",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -849,6 +875,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "giveItem",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -860,6 +887,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "interact",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -902,6 +930,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "interactWithBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -928,6 +957,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "interactWithEntity",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -939,6 +969,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "jump",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -965,6 +996,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "lookAtBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -991,6 +1023,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "lookAtEntity",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1017,6 +1050,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "lookAtLocation",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1078,6 +1112,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "move",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1139,6 +1174,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "moveRelative",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1182,6 +1218,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "moveToBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1225,6 +1262,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "moveToLocation",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1268,6 +1306,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "navigateToBlock",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -1316,6 +1355,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "navigateToEntity",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -1364,6 +1404,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "navigateToLocation",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -1417,6 +1458,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "navigateToLocations",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1428,6 +1470,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "respawn",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1456,6 +1499,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "rotateBody",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1484,6 +1528,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setBodyRotation",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1510,6 +1555,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setGameMode",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1565,6 +1611,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setItem",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1576,6 +1623,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "stopBreakingBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1587,6 +1635,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "stopInteracting",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1598,6 +1647,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "stopMoving",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1609,6 +1659,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "stopUsingItem",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1635,6 +1686,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "useItem",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1663,6 +1715,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "useItemInSlot",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1719,35 +1772,22 @@
                   },
                   {
                      "details" : {
-                        "default_value" : 0.50,
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
+                        "default_value" : "null"
                      },
-                     "name" : "faceLocationX",
+                     "name" : "faceLocation",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : 0.50,
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
-                     },
-                     "name" : "faceLocationY",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
+                        "name" : "optional",
+                        "optional_type" : {
+                           "from_module" : {
+                              "name" : "@minecraft/server",
+                              "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                              "version" : "1.2.0-internal"
+                           },
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "Vector3"
                         }
                      }
                   }
@@ -1755,6 +1795,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "useItemInSlotOnBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1809,35 +1850,22 @@
                   },
                   {
                      "details" : {
-                        "default_value" : 0.50,
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
+                        "default_value" : "null"
                      },
-                     "name" : "faceLocationX",
+                     "name" : "faceLocation",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
-                        }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : 0.50,
-                        "max_value" : 3.402823466385289e+38,
-                        "min_value" : -3.402823466385289e+38
-                     },
-                     "name" : "faceLocationY",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "float",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
+                        "name" : "optional",
+                        "optional_type" : {
+                           "from_module" : {
+                              "name" : "@minecraft/server",
+                              "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                              "version" : "1.2.0-internal"
+                           },
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "Vector3"
                         }
                      }
                   }
@@ -1845,6 +1873,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "useItemOnBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -1865,12 +1894,13 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "XYRotation"
+                  "name" : "Vector2"
                }
             },
             {
                "is_read_only" : false,
                "name" : "isSprinting",
+               "privilege" : "none",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -1972,6 +2002,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assert",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2025,6 +2056,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertBlockPresent",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2079,6 +2111,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertBlockState",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2132,6 +2165,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertCanReachLocation",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2172,6 +2206,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertContainerContains",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2198,6 +2233,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertContainerEmpty",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2287,6 +2323,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityHasArmor",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2344,6 +2381,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityHasComponent",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2397,6 +2435,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityInstancePresent",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2436,6 +2475,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityInstancePresentInArea",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2501,6 +2541,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityPresent",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2535,6 +2576,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityPresentInArea",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2598,6 +2640,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityState",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2646,6 +2689,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertEntityTouching",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2685,6 +2729,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertIsWaterlogged",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2757,6 +2802,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertItemEntityCountIs",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2827,6 +2873,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertItemEntityPresent",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2869,6 +2916,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "assertRedstonePower",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2908,6 +2956,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "destroyBlock",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2929,6 +2978,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "fail",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2958,6 +3008,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "failIf",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -2984,6 +3035,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getBlock",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3000,6 +3052,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getDimension",
+               "privilege" : "read_only",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3031,6 +3084,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getFenceConnectivity",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -3057,6 +3111,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getSculkSpreader",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -3068,6 +3123,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getTestDirection",
+               "privilege" : "read_only",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3101,6 +3157,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "idle",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -3117,6 +3174,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "killAllEntities",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3159,6 +3217,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "onPlayerJump",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3185,6 +3244,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "pressButton",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3206,6 +3266,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "print",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3232,6 +3293,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "pullLever",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3274,6 +3336,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "pulseRedstone",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3300,6 +3363,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "relativeBlockLocation",
+               "privilege" : "read_only",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3331,6 +3395,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "relativeLocation",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3357,6 +3422,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "removeSimulatedPlayer",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -3383,6 +3449,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "rotateDirection",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3407,13 +3474,14 @@
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
-                        "name" : "Vector"
+                        "name" : "Vector3"
                      }
                   }
                ],
                "is_constructor" : false,
                "is_static" : false,
                "name" : "rotateVector",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3422,7 +3490,7 @@
                   },
                   "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "Vector"
+                  "name" : "Vector3"
                }
             },
             {
@@ -3464,6 +3532,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runAfterDelay",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3509,6 +3578,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runAtTickTime",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3549,6 +3619,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setBlockPermutation",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3589,6 +3660,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setBlockType",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3629,6 +3701,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setFluidContainer",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3671,6 +3744,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "setTntFuse",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3706,6 +3780,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spawn",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3746,6 +3821,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spawnAtLocation",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3791,6 +3867,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spawnItem",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3849,6 +3926,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spawnSimulatedPlayer",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -3884,6 +3962,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spawnWithoutBehaviors",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3924,6 +4003,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spawnWithoutBehaviorsAtLocation",
+               "privilege" : "none",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -3983,6 +4063,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "spreadFromFaceTowardDirection",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -3994,6 +4075,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "startSequence",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -4005,6 +4087,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeed",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4034,6 +4117,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedIf",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4062,6 +4146,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedOnTick",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4107,6 +4192,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedOnTickWhen",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4136,6 +4222,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedWhen",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4189,6 +4276,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedWhenBlockPresent",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4245,6 +4333,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedWhenEntityHasComponent",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4293,6 +4382,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "succeedWhenEntityPresent",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4348,6 +4438,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "triggerInternalBlockEvent",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4377,6 +4468,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "until",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -4439,6 +4531,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "walkTo",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4496,6 +4589,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "walkToLocation",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -4522,6 +4616,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "worldBlockLocation",
+               "privilege" : "read_only",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -4553,6 +4648,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "worldLocation",
+               "privilege" : "read_only",
                "return_type" : {
                   "from_module" : {
                      "name" : "@minecraft/server",
@@ -4796,6 +4892,7 @@
          "is_constructor" : false,
          "is_static" : true,
          "name" : "register",
+         "privilege" : "none",
          "return_type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -4854,6 +4951,7 @@
          "is_constructor" : false,
          "is_static" : true,
          "name" : "registerAsync",
+         "privilege" : "none",
          "return_type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -4914,7 +5012,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.19.80",
+   "minecraft_version" : "1.20.0",
    "module_type" : "script",
    "name" : "@minecraft/server-gametest",
    "objects" : [],

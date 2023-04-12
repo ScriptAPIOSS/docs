@@ -1648,6 +1648,24 @@
          ]
       },
       {
+         "name" : "minecraft:cardinal_direction",
+         "type" : "int",
+         "values" : [
+            {
+               "value" : 0
+            },
+            {
+               "value" : 1
+            },
+            {
+               "value" : 2
+            },
+            {
+               "value" : 3
+            }
+         ]
+      },
+      {
          "name" : "moisturized_amount",
          "type" : "int",
          "values" : [
@@ -3774,6 +3792,10 @@
          ]
       },
       {
+         "name" : "minecraft:black_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:black_glazed_terracotta",
          "properties" : [
             {
@@ -3864,6 +3886,10 @@
          ]
       },
       {
+         "name" : "minecraft:blue_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:blue_glazed_terracotta",
          "properties" : [
             {
@@ -3915,6 +3941,10 @@
          ]
       },
       {
+         "name" : "minecraft:brain_coral",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:brewing_stand",
          "properties" : [
             {
@@ -3963,6 +3993,10 @@
          ]
       },
       {
+         "name" : "minecraft:brown_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:brown_glazed_terracotta",
          "properties" : [
             {
@@ -3993,6 +4027,10 @@
                "name" : "drag_down"
             }
          ]
+      },
+      {
+         "name" : "minecraft:bubble_coral",
+         "properties" : []
       },
       {
          "name" : "minecraft:budding_amethyst",
@@ -4060,14 +4098,6 @@
          "properties" : [
             {
                "name" : "lit"
-            }
-         ]
-      },
-      {
-         "name" : "minecraft:carpet",
-         "properties" : [
-            {
-               "name" : "color"
             }
          ]
       },
@@ -4548,17 +4578,6 @@
          "properties" : []
       },
       {
-         "name" : "minecraft:coral",
-         "properties" : [
-            {
-               "name" : "coral_color"
-            },
-            {
-               "name" : "dead_bit"
-            }
-         ]
-      },
-      {
          "name" : "minecraft:coral_block",
          "properties" : [
             {
@@ -4860,6 +4879,10 @@
          ]
       },
       {
+         "name" : "minecraft:cyan_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:cyan_glazed_terracotta",
          "properties" : [
             {
@@ -5017,6 +5040,26 @@
                "name" : "redstone_signal"
             }
          ]
+      },
+      {
+         "name" : "minecraft:dead_brain_coral",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:dead_bubble_coral",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:dead_fire_coral",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:dead_horn_coral",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:dead_tube_coral",
+         "properties" : []
       },
       {
          "name" : "minecraft:deadbush",
@@ -5934,6 +5977,10 @@
          ]
       },
       {
+         "name" : "minecraft:fire_coral",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:fletching_table",
          "properties" : []
       },
@@ -6103,6 +6150,10 @@
          ]
       },
       {
+         "name" : "minecraft:gray_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:gray_glazed_terracotta",
          "properties" : [
             {
@@ -6132,6 +6183,10 @@
                "name" : "lit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:green_carpet",
+         "properties" : []
       },
       {
          "name" : "minecraft:green_glazed_terracotta",
@@ -6225,6 +6280,10 @@
                "name" : "toggle_bit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:horn_coral",
+         "properties" : []
       },
       {
          "name" : "minecraft:ice",
@@ -6477,17 +6536,6 @@
          ]
       },
       {
-         "name" : "minecraft:lava_cauldron",
-         "properties" : [
-            {
-               "name" : "cauldron_liquid"
-            },
-            {
-               "name" : "fill_level"
-            }
-         ]
-      },
-      {
          "name" : "minecraft:leaves",
          "properties" : [
             {
@@ -6565,6 +6613,10 @@
          ]
       },
       {
+         "name" : "minecraft:light_blue_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:light_blue_glazed_terracotta",
          "properties" : [
             {
@@ -6594,6 +6646,10 @@
                "name" : "lit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:light_gray_carpet",
+         "properties" : []
       },
       {
          "name" : "minecraft:light_gray_wool",
@@ -6633,6 +6689,10 @@
                "name" : "lit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:lime_carpet",
+         "properties" : []
       },
       {
          "name" : "minecraft:lime_glazed_terracotta",
@@ -6720,6 +6780,10 @@
                "name" : "lit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:magenta_carpet",
+         "properties" : []
       },
       {
          "name" : "minecraft:magenta_glazed_terracotta",
@@ -7203,6 +7267,10 @@
          ]
       },
       {
+         "name" : "minecraft:orange_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:orange_glazed_terracotta",
          "properties" : [
             {
@@ -7285,6 +7353,10 @@
          ]
       },
       {
+         "name" : "minecraft:pink_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:pink_glazed_terracotta",
          "properties" : [
             {
@@ -7320,6 +7392,25 @@
          "properties" : [
             {
                "name" : "facing_direction"
+            }
+         ]
+      },
+      {
+         "name" : "minecraft:pitcher_crop",
+         "properties" : [
+            {
+               "name" : "growth"
+            },
+            {
+               "name" : "upper_block_bit"
+            }
+         ]
+      },
+      {
+         "name" : "minecraft:pitcher_plant",
+         "properties" : [
+            {
+               "name" : "upper_block_bit"
             }
          ]
       },
@@ -7673,6 +7764,10 @@
          ]
       },
       {
+         "name" : "minecraft:purple_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:purple_glazed_terracotta",
          "properties" : [
             {
@@ -7774,6 +7869,10 @@
                "name" : "lit"
             }
          ]
+      },
+      {
+         "name" : "minecraft:red_carpet",
+         "properties" : []
       },
       {
          "name" : "minecraft:red_flower",
@@ -8118,6 +8217,14 @@
       {
          "name" : "minecraft:smooth_stone",
          "properties" : []
+      },
+      {
+         "name" : "minecraft:sniffer_egg",
+         "properties" : [
+            {
+               "name" : "cracked_state"
+            }
+         ]
       },
       {
          "name" : "minecraft:snow",
@@ -8745,6 +8852,10 @@
          ]
       },
       {
+         "name" : "minecraft:tube_coral",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:tuff",
          "properties" : []
       },
@@ -9239,6 +9350,10 @@
          ]
       },
       {
+         "name" : "minecraft:white_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:white_glazed_terracotta",
          "properties" : [
             {
@@ -9335,6 +9450,10 @@
          ]
       },
       {
+         "name" : "minecraft:yellow_carpet",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:yellow_flower",
          "properties" : []
       },
@@ -9351,7 +9470,7 @@
          "properties" : []
       }
    ],
-   "minecraft_version" : "1.19.80",
+   "minecraft_version" : "1.20.0",
    "module_type" : "block",
    "name" : "mojang-block"
 }

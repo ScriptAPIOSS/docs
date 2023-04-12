@@ -45,6 +45,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runCommandAsync",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -94,6 +95,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "runCommandAsync",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -234,6 +236,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "run",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -262,6 +265,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getAllPlayers",
+               "privilege" : "read_only",
                "return_type" : {
                   "element_type" : {
                      "is_bind_type" : true,
@@ -288,6 +292,7 @@
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getDimension",
+               "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
                   "is_errorable" : true,
@@ -310,7 +315,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.19.80",
+   "minecraft_version" : "1.20.0",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [
