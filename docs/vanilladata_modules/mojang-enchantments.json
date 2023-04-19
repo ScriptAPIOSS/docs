@@ -1,34 +1,34 @@
 {
    "data_items" : [
       {
-         "name" : "aquaAffinity"
+         "name" : "aqua_affinity"
       },
       {
-         "name" : "baneOfArthropods"
+         "name" : "bane_of_arthropods"
       },
       {
          "name" : "binding"
       },
       {
-         "name" : "blastProtection"
+         "name" : "blast_protection"
       },
       {
          "name" : "channeling"
       },
       {
-         "name" : "depthStrider"
+         "name" : "depth_strider"
       },
       {
          "name" : "efficiency"
       },
       {
-         "name" : "featherFalling"
+         "name" : "feather_falling"
       },
       {
-         "name" : "fireAspect"
+         "name" : "fire_aspect"
       },
       {
-         "name" : "fireProtection"
+         "name" : "fire_protection"
       },
       {
          "name" : "flame"
@@ -37,7 +37,7 @@
          "name" : "fortune"
       },
       {
-         "name" : "frostWalker"
+         "name" : "frost_walker"
       },
       {
          "name" : "impaling"
@@ -55,7 +55,7 @@
          "name" : "loyalty"
       },
       {
-         "name" : "luckOfTheSea"
+         "name" : "luck_of_the_sea"
       },
       {
          "name" : "lure"
@@ -73,7 +73,7 @@
          "name" : "power"
       },
       {
-         "name" : "projectileProtection"
+         "name" : "projectile_protection"
       },
       {
          "name" : "protection"
@@ -82,7 +82,7 @@
          "name" : "punch"
       },
       {
-         "name" : "quickCharge"
+         "name" : "quick_charge"
       },
       {
          "name" : "respiration"
@@ -94,16 +94,16 @@
          "name" : "sharpness"
       },
       {
-         "name" : "silkTouch"
+         "name" : "silk_touch"
       },
       {
          "name" : "smite"
       },
       {
-         "name" : "soulSpeed"
+         "name" : "soul_speed"
       },
       {
-         "name" : "swiftSneak"
+         "name" : "swift_sneak"
       },
       {
          "name" : "thorns"

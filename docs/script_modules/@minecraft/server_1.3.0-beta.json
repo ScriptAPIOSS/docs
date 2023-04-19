@@ -4,244 +4,6 @@
          "base_types" : [],
          "constants" : [],
          "functions" : [],
-         "name" : "AfterEvents",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "buttonPush",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ButtonPushAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "chatSend",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ChatSendAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "dataDrivenEntityTriggerEvent",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "DataDrivenEntityTriggerAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "effectAdd",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EffectAddAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entityDie",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityDieAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entityHit",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityHitAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entityHurt",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityHurtAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entitySpawn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntitySpawnAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemCompleteCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemCompleteChargeAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemDefinitionEvent",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemDefinitionAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemReleaseCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemReleaseChargeAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStartCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStartChargeAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStartUseOn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStartUseOnAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStopCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStopChargeAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStopUseOn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStopUseOnAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemUse",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemUseAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemUseOn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemUseOnAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "leverActivate",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "LeverActionEventSignalAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "messageReceive",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ServerMessageAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "playerJoin",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PlayerJoinAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "playerLeave",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PlayerLeaveAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "playerSpawn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PlayerSpawnAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "projectileHit",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ProjectileHitAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "weatherChange",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "WeatherChangeAfterEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "worldInitialize",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "WorldInitializeAfterEventSignal"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "AfterEvents"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [],
          "name" : "BeforeEvents",
          "properties" : [
             {
@@ -970,6 +732,15 @@
          "properties" : [
             {
                "is_read_only" : true,
+               "name" : "explodedBlockPermutation",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockPermutation"
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "source",
                "type" : {
                   "is_bind_type" : true,
@@ -1147,7 +918,7 @@
                "arguments" : [],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "getAllProperties",
+               "name" : "getAllStates",
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
@@ -1220,7 +991,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "propertyName",
+                     "name" : "stateName",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -1230,7 +1001,7 @@
                ],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "getProperty",
+               "name" : "getState",
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
@@ -1318,7 +1089,7 @@
                      "details" : {
                         "default_value" : "null"
                      },
-                     "name" : "properties",
+                     "name" : "states",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -1387,7 +1158,7 @@
                      "details" : {
                         "default_value" : "null"
                      },
-                     "name" : "properties",
+                     "name" : "states",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -1485,7 +1256,7 @@
                ],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "withProperty",
+               "name" : "withState",
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
@@ -1708,58 +1479,6 @@
       {
          "base_types" : [],
          "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "propertyName",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : true,
-               "name" : "get",
-               "privilege" : "read_only",
-               "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockPropertyType"
-               }
-            },
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : true,
-               "name" : "getAll",
-               "privilege" : "read_only",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "BlockPropertyType"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            }
-         ],
-         "name" : "BlockProperties",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockProperties"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
          "functions" : [],
          "name" : "BlockProperty",
          "properties" : [
@@ -1777,63 +1496,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockProperty"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockPropertyType",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "id",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "validValues",
-               "type" : {
-                  "element_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "variant",
-                     "variant_types" : [
-                        {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "boolean"
-                        },
-                        {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "int32",
-                           "valid_range" : {
-                              "max" : 2147483647,
-                              "min" : -2147483648
-                           }
-                        },
-                        {
-                           "is_bind_type" : false,
-                           "is_errorable" : false,
-                           "name" : "string"
-                        }
-                     ]
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockPropertyType"
          }
       },
       {
@@ -2091,6 +1753,115 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockSnowContainerComponent"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "stateName",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "get",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockStateType"
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "getAll",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "BlockStateType"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            }
+         ],
+         "name" : "BlockStates",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "BlockStates"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "BlockStateType",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "id",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "validValues",
+               "type" : {
+                  "element_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean"
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "int32",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
+                        }
+                     ]
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "BlockStateType"
          }
       },
       {
@@ -2915,24 +2686,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ButtonPushAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ButtonPushAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IButtonPushAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "ButtonPushAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -3000,24 +2753,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ChatSendAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IChatSendAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ChatSendAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ChatSendAfterEventSignal"
          }
       },
       {
@@ -4131,24 +3866,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "DataDrivenEntityTriggerAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "DataDrivenEntityTriggerAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IDataDrivenEntityTriggerAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "DataDrivenEntityTriggerAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -4816,28 +4533,6 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "weatherType",
-                     "type" : {
-                        "is_bind_type" : true,
-                        "is_errorable" : false,
-                        "name" : "WeatherType"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "setWeather",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "undefined"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
                      "name" : "identifier",
                      "type" : {
                         "is_bind_type" : false,
@@ -5201,24 +4896,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EffectAddAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEffectAddAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EffectAddAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EffectAddAfterEventSignal"
          }
       },
       {
@@ -7575,7 +7252,17 @@
          "constants" : [],
          "functions" : [],
          "name" : "EntityComponent",
-         "properties" : [],
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "entity",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Entity"
+               }
+            }
+         ],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -7646,24 +7333,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityDieAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEntityDieAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntityDieAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntityDieAfterEventSignal"
          }
       },
       {
@@ -8154,24 +7823,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "EntityHitAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntityHitAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEntityHitAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "EntityHitAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -8222,24 +7873,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityHurtAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEntityHurtAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntityHurtAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntityHurtAfterEventSignal"
          }
       },
       {
@@ -10217,24 +9850,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntitySpawnAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEntitySpawnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntitySpawnAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntitySpawnAfterEventSignal"
          }
       },
       {
@@ -14044,12 +13659,12 @@
                }
             }
          ],
-         "name" : "ILeverActionEventSignalAfterEventSignal",
+         "name" : "ILeverActionAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ILeverActionEventSignalAfterEventSignal"
+            "name" : "ILeverActionAfterEventSignal"
          }
       },
       {
@@ -14914,24 +14529,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemCompleteChargeAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemCompleteChargeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemCompleteChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "ItemCompleteChargeAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -15032,24 +14629,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemCooldownComponent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemDefinitionAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemDefinitionAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemDefinitionAfterEventSignal"
          }
       },
       {
@@ -15446,65 +15025,12 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemReleaseChargeAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemReleaseChargeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemReleaseChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "ItemReleaseChargeAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemReleaseChargeAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "itemId",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : true,
-               "name" : "get",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            }
-         ],
-         "name" : "Items",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "Items"
          }
       },
       {
@@ -15985,24 +15511,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStartChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemStartChargeAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStartChargeAfterEventSignal"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [],
@@ -16049,24 +15557,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemStartUseOnAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStartUseOnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemStartUseOnAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStartUseOnAfterEventSignal"
          }
       },
       {
@@ -16141,24 +15631,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStopChargeAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStopChargeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStopChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "ItemStopChargeAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -16210,24 +15682,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemStopUseOnAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStopUseOnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemStopUseOnAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStopUseOnAfterEventSignal"
          }
       },
       {
@@ -16381,24 +15835,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemUseAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemUseAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemUseAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "ItemUseAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -16510,24 +15946,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemUseOnAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemUseOnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemUseOnAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemUseOnAfterEventSignal"
          }
       },
       {
@@ -16934,7 +16352,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "ILeverActionEventSignalAfterEventSignal"
+               "name" : "ILeverActionAfterEventSignal"
             }
          ],
          "constants" : [],
@@ -16945,24 +16363,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "LeverActionAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "ILeverActionEventSignalAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "LeverActionEventSignalAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "LeverActionEventSignalAfterEventSignal"
          }
       },
       {
@@ -26405,6 +25805,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "camel",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "EntityType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "cat",
                "type" : {
                   "is_bind_type" : true,
@@ -27828,16 +27238,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "bambooDoubleSlab",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "bambooFence",
                "type" : {
                   "is_bind_type" : true,
@@ -27869,16 +27269,6 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "bambooMosaic",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bambooMosaicDoubleSlab",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27968,27 +27358,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "bambooStandingSign",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "bambooTrapdoor",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "bambooWallSign",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -29048,16 +28418,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "cherryDoubleSlab",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "cherryFence",
                "type" : {
                   "is_bind_type" : true,
@@ -29168,27 +28528,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "cherryStandingSign",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "cherryTrapdoor",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "cherryWallSign",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34188,16 +33528,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "pitcherCrop",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "pitcherPlant",
                "type" : {
                   "is_bind_type" : true,
@@ -36528,16 +35858,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "torchflowerCrop",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "torchflowerSeeds",
                "type" : {
                   "is_bind_type" : true,
@@ -38467,24 +37787,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "PlayerJoinAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PlayerJoinAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPlayerJoinAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "PlayerJoinAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -38522,24 +37824,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "PlayerLeaveAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPlayerLeaveAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PlayerLeaveAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PlayerLeaveAfterEventSignal"
          }
       },
       {
@@ -38591,24 +37875,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "PlayerSpawnAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPlayerSpawnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PlayerSpawnAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PlayerSpawnAfterEventSignal"
          }
       },
       {
@@ -38720,24 +37986,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ProjectileHitAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IProjectileHitAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ProjectileHitAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ProjectileHitAfterEventSignal"
          }
       },
       {
@@ -39696,24 +38944,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "Seat"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IServerMessageAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ServerMessageAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ServerMessageAfterEventSignal"
          }
       },
       {
@@ -40776,24 +40006,6 @@
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "WeatherChangeAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "WeatherChangeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IWeatherChangeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
          "name" : "WeatherChangeAfterEventSignal_deprecated",
          "properties" : [],
          "type" : {
@@ -41350,15 +40562,6 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "afterEvents",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "AfterEvents"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "beforeEvents",
                "type" : {
                   "is_bind_type" : true,
@@ -41411,24 +40614,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "WorldInitializeAfterEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IWorldInitializeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "WorldInitializeAfterEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "WorldInitializeAfterEventSignal"
          }
       },
       {
@@ -42190,17 +41375,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "instantiated",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "instantiated"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "loaded",
                "type" : {
                   "is_bind_type" : false,
@@ -42208,28 +41382,6 @@
                   "name" : "string"
                },
                "value" : "loaded"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "loading",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "loading"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "removed",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "removed"
             },
             {
                "is_read_only" : true,
@@ -42685,44 +41837,6 @@
             }
          ],
          "name" : "WatchdogTerminateReason"
-      },
-      {
-         "constants" : [
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "clear",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "clear"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "rain",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "rain"
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "thunder",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               },
-               "value" : "thunder"
-            }
-         ],
-         "name" : "WeatherType"
       }
    ],
    "errors" : [],
@@ -44571,5 +43685,5 @@
       }
    ],
    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-   "version" : "1.2.0-internal"
+   "version" : "1.3.0-beta"
 }

@@ -141,53 +141,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "ExplosionEvent"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BeforeExplosionEvent",
-         "properties" : [
-            {
-               "is_read_only" : false,
-               "name" : "cancel",
-               "privilege" : "read_only",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BeforeExplosionEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBeforeExplosionEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BeforeExplosionEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BeforeExplosionEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "ItemUseEvent"
             }
          ],
@@ -275,71 +228,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BeforeItemUseOnEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "BlockEvent"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BeforePistonActivateEvent",
-         "properties" : [
-            {
-               "is_read_only" : false,
-               "name" : "cancel",
-               "privilege" : "read_only",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "isExpanding",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "piston",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockPistonComponent"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BeforePistonActivateEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBeforePistonActivateEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BeforePistonActivateEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BeforePistonActivateEventSignal"
          }
       },
       {
@@ -819,52 +707,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "BlockEvent"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockExplodeEvent",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockExplodeEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBlockExplodeEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockExplodeEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockExplodeEventSignal"
          }
       },
       {
@@ -7976,15 +7818,6 @@
             },
             {
                "is_read_only" : true,
-               "name" : "beforeExplosion",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BeforeExplosionEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "beforeItemUse",
                "type" : {
                   "is_bind_type" : true,
@@ -8003,29 +7836,11 @@
             },
             {
                "is_read_only" : true,
-               "name" : "beforePistonActivate",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BeforePistonActivateEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "blockBreak",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
                   "name" : "BlockBreakEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "blockExplode",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockExplodeEventSignal"
                }
             },
             {
@@ -8075,15 +7890,6 @@
             },
             {
                "is_read_only" : true,
-               "name" : "explosion",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ExplosionEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "itemCompleteCharge",
                "type" : {
                   "is_bind_type" : true,
@@ -8125,24 +7931,6 @@
                   "is_bind_type" : true,
                   "is_errorable" : false,
                   "name" : "ItemUseOnEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "leverActivate",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "LeverActionEventSignal"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "pistonActivate",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PistonActivateEventSignal"
                }
             },
             {
@@ -8195,70 +7983,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "Events"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ExplosionEvent",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "dimension",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Dimension"
-               }
-            },
-            {
-               "is_read_only" : false,
-               "name" : "impactedBlocks",
-               "privilege" : "none",
-               "type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "BlockLocation"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "source",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Entity"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ExplosionEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IExplosionEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ExplosionEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ExplosionEventSignal"
          }
       },
       {
@@ -8740,105 +8464,6 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "BeforeExplosionEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "subscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "closure_type" : {
-                     "argument_types" : [
-                        {
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "BeforeExplosionEvent"
-                        }
-                     ],
-                     "return_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : true,
-                        "name" : "undefined"
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "closure"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "BeforeExplosionEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "unsubscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            }
-         ],
-         "name" : "IBeforeExplosionEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IBeforeExplosionEventSignal"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
                                  "name" : "BeforeItemUseEvent"
                               }
                            ],
@@ -9037,105 +8662,6 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "BeforePistonActivateEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "subscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "closure_type" : {
-                     "argument_types" : [
-                        {
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "BeforePistonActivateEvent"
-                        }
-                     ],
-                     "return_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : true,
-                        "name" : "undefined"
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "closure"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "BeforePistonActivateEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "unsubscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            }
-         ],
-         "name" : "IBeforePistonActivateEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IBeforePistonActivateEventSignal"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
                                  "name" : "BlockBreakEvent"
                               }
                            ],
@@ -9218,105 +8744,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "IBlockBreakEventSignal"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "BlockExplodeEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "subscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "closure_type" : {
-                     "argument_types" : [
-                        {
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "BlockExplodeEvent"
-                        }
-                     ],
-                     "return_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : true,
-                        "name" : "undefined"
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "closure"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "BlockExplodeEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "unsubscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            }
-         ],
-         "name" : "IBlockExplodeEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IBlockExplodeEventSignal"
          }
       },
       {
@@ -9917,105 +9344,6 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ExplosionEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "subscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "closure_type" : {
-                     "argument_types" : [
-                        {
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "ExplosionEvent"
-                        }
-                     ],
-                     "return_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : true,
-                        "name" : "undefined"
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "closure"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "ExplosionEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "unsubscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            }
-         ],
-         "name" : "IExplosionEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IExplosionEventSignal"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
                                  "name" : "ItemCompleteChargeEvent"
                               }
                            ],
@@ -10497,105 +9825,6 @@
          }
       },
       {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "LeverActionEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "subscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "closure_type" : {
-                     "argument_types" : [
-                        {
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "LeverActionEvent"
-                        }
-                     ],
-                     "return_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : true,
-                        "name" : "undefined"
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "closure"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "LeverActionEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "unsubscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            }
-         ],
-         "name" : "ILeverActionEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ILeverActionEventSignal"
-         }
-      },
-      {
          "base_types" : [
             {
                "is_bind_type" : true,
@@ -10886,105 +10115,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "InventoryComponentContainer"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "PistonActivateEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "subscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "closure_type" : {
-                     "argument_types" : [
-                        {
-                           "is_bind_type" : true,
-                           "is_errorable" : false,
-                           "name" : "PistonActivateEvent"
-                        }
-                     ],
-                     "return_type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : true,
-                        "name" : "undefined"
-                     }
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "closure"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
-                     "name" : "callback",
-                     "type" : {
-                        "closure_type" : {
-                           "argument_types" : [
-                              {
-                                 "is_bind_type" : true,
-                                 "is_errorable" : false,
-                                 "name" : "PistonActivateEvent"
-                              }
-                           ],
-                           "return_type" : {
-                              "is_bind_type" : false,
-                              "is_errorable" : true,
-                              "name" : "undefined"
-                           }
-                        },
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "closure"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "unsubscribe",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            }
-         ],
-         "name" : "IPistonActivateEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "IPistonActivateEventSignal"
          }
       },
       {
@@ -12422,61 +11552,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "IWorldInitializeEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "BlockEvent"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "LeverActionEvent",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "isPowered",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "player",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Player"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "LeverActionEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "ILeverActionEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "LeverActionEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "LeverActionEventSignal"
          }
       },
       {
@@ -35059,61 +34134,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "NumberRange"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "BlockEvent"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PistonActivateEvent",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "isExpanding",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "piston",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockPistonComponent"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PistonActivateEvent"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPistonActivateEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PistonActivateEventSignal",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PistonActivateEventSignal"
          }
       },
       {

@@ -134,6 +134,12 @@
                "value" : "warped_door"
             },
             {
+               "value" : "minecraft:bamboo_block"
+            },
+            {
+               "value" : "bamboo_block"
+            },
+            {
                "value" : "minecraft:coral_fan_dead"
             },
             {
@@ -180,6 +186,18 @@
             },
             {
                "value" : "spruce_stairs"
+            },
+            {
+               "value" : "minecraft:cherry_pressure_plate"
+            },
+            {
+               "value" : "cherry_pressure_plate"
+            },
+            {
+               "value" : "minecraft:cherry_hanging_sign"
+            },
+            {
+               "value" : "cherry_hanging_sign"
             },
             {
                "value" : "minecraft:yellow_wool"
@@ -398,6 +416,12 @@
                "value" : "polished_deepslate_slab"
             },
             {
+               "value" : "minecraft:bamboo_door"
+            },
+            {
+               "value" : "bamboo_door"
+            },
+            {
                "value" : "minecraft:amethyst_block"
             },
             {
@@ -414,6 +438,12 @@
             },
             {
                "value" : "flower_pot"
+            },
+            {
+               "value" : "minecraft:chiseled_bookshelf"
+            },
+            {
+               "value" : "chiseled_bookshelf"
             },
             {
                "value" : "minecraft:polished_deepslate_stairs"
@@ -560,6 +590,12 @@
                "value" : "sponge"
             },
             {
+               "value" : "minecraft:bamboo_fence"
+            },
+            {
+               "value" : "bamboo_fence"
+            },
+            {
                "value" : "minecraft:normal_stone_stairs"
             },
             {
@@ -570,6 +606,12 @@
             },
             {
                "value" : "hardened_clay"
+            },
+            {
+               "value" : "minecraft:birch_hanging_sign"
+            },
+            {
+               "value" : "birch_hanging_sign"
             },
             {
                "value" : "minecraft:stripped_jungle_log"
@@ -662,6 +704,12 @@
                "value" : "sapling"
             },
             {
+               "value" : "minecraft:bamboo_stairs"
+            },
+            {
+               "value" : "bamboo_stairs"
+            },
+            {
                "value" : "minecraft:torch"
             },
             {
@@ -690,6 +738,12 @@
             },
             {
                "value" : "vine"
+            },
+            {
+               "value" : "minecraft:cherry_trapdoor"
+            },
+            {
+               "value" : "cherry_trapdoor"
             },
             {
                "value" : "minecraft:blackstone_slab"
@@ -744,6 +798,12 @@
             },
             {
                "value" : "gray_candle"
+            },
+            {
+               "value" : "minecraft:cherry_fence"
+            },
+            {
+               "value" : "cherry_fence"
             },
             {
                "value" : "minecraft:mangrove_planks"
@@ -806,6 +866,12 @@
                "value" : "emerald_block"
             },
             {
+               "value" : "minecraft:suspicious_sand"
+            },
+            {
+               "value" : "suspicious_sand"
+            },
+            {
                "value" : "minecraft:heavy_weighted_pressure_plate"
             },
             {
@@ -824,6 +890,12 @@
                "value" : "cobblestone_wall"
             },
             {
+               "value" : "minecraft:bamboo_mosaic_slab"
+            },
+            {
+               "value" : "bamboo_mosaic_slab"
+            },
+            {
                "value" : "minecraft:dark_oak_log"
             },
             {
@@ -834,6 +906,12 @@
             },
             {
                "value" : "wood"
+            },
+            {
+               "value" : "minecraft:acacia_hanging_sign"
+            },
+            {
+               "value" : "acacia_hanging_sign"
             },
             {
                "value" : "minecraft:ochre_froglight"
@@ -864,6 +942,12 @@
             },
             {
                "value" : "granite_stairs"
+            },
+            {
+               "value" : "minecraft:dark_oak_hanging_sign"
+            },
+            {
+               "value" : "dark_oak_hanging_sign"
             },
             {
                "value" : "minecraft:brown_mushroom"
@@ -906,6 +990,12 @@
             },
             {
                "value" : "sandstone_stairs"
+            },
+            {
+               "value" : "minecraft:stripped_bamboo_block"
+            },
+            {
+               "value" : "stripped_bamboo_block"
             },
             {
                "value" : "minecraft:red_mushroom_block"
@@ -1080,6 +1170,12 @@
             },
             {
                "value" : "waxed_exposed_cut_copper"
+            },
+            {
+               "value" : "minecraft:jungle_hanging_sign"
+            },
+            {
+               "value" : "jungle_hanging_sign"
             },
             {
                "value" : "minecraft:loom"
@@ -1316,6 +1412,12 @@
                "value" : "nether_wart_block"
             },
             {
+               "value" : "minecraft:cherry_door"
+            },
+            {
+               "value" : "cherry_door"
+            },
+            {
                "value" : "minecraft:crimson_hyphae"
             },
             {
@@ -1422,6 +1524,12 @@
             },
             {
                "value" : "acacia_door"
+            },
+            {
+               "value" : "minecraft:stripped_cherry_log"
+            },
+            {
+               "value" : "stripped_cherry_log"
             },
             {
                "value" : "minecraft:crimson_button"
@@ -1538,10 +1646,28 @@
                "value" : "coral_fan"
             },
             {
+               "value" : "minecraft:cherry_button"
+            },
+            {
+               "value" : "cherry_button"
+            },
+            {
                "value" : "minecraft:mangrove_fence_gate"
             },
             {
                "value" : "mangrove_fence_gate"
+            },
+            {
+               "value" : "minecraft:pink_petals"
+            },
+            {
+               "value" : "pink_petals"
+            },
+            {
+               "value" : "minecraft:bamboo_hanging_sign"
+            },
+            {
+               "value" : "bamboo_hanging_sign"
             },
             {
                "value" : "minecraft:infested_deepslate"
@@ -1628,6 +1754,12 @@
                "value" : "large_amethyst_bud"
             },
             {
+               "value" : "minecraft:suspicious_gravel"
+            },
+            {
+               "value" : "suspicious_gravel"
+            },
+            {
                "value" : "minecraft:warped_trapdoor"
             },
             {
@@ -1658,6 +1790,12 @@
                "value" : "light_blue_carpet"
             },
             {
+               "value" : "minecraft:oak_hanging_sign"
+            },
+            {
+               "value" : "oak_hanging_sign"
+            },
+            {
                "value" : "minecraft:crimson_planks"
             },
             {
@@ -1682,6 +1820,12 @@
                "value" : "jukebox"
             },
             {
+               "value" : "minecraft:stripped_cherry_wood"
+            },
+            {
+               "value" : "stripped_cherry_wood"
+            },
+            {
                "value" : "minecraft:border_block"
             },
             {
@@ -1692,6 +1836,12 @@
             },
             {
                "value" : "shroomlight"
+            },
+            {
+               "value" : "minecraft:bamboo_fence_gate"
+            },
+            {
+               "value" : "bamboo_fence_gate"
             },
             {
                "value" : "minecraft:chiseled_polished_blackstone"
@@ -1740,6 +1890,12 @@
             },
             {
                "value" : "acacia_pressure_plate"
+            },
+            {
+               "value" : "minecraft:bamboo_trapdoor"
+            },
+            {
+               "value" : "bamboo_trapdoor"
             },
             {
                "value" : "minecraft:raw_copper_block"
@@ -1958,6 +2114,12 @@
                "value" : "acacia_trapdoor"
             },
             {
+               "value" : "minecraft:bamboo_planks"
+            },
+            {
+               "value" : "bamboo_planks"
+            },
+            {
                "value" : "minecraft:glow_lichen"
             },
             {
@@ -2042,6 +2204,12 @@
                "value" : "soul_sand"
             },
             {
+               "value" : "minecraft:spruce_hanging_sign"
+            },
+            {
+               "value" : "spruce_hanging_sign"
+            },
+            {
                "value" : "minecraft:reinforced_deepslate"
             },
             {
@@ -2054,6 +2222,12 @@
                "value" : "fletching_table"
             },
             {
+               "value" : "minecraft:cherry_leaves"
+            },
+            {
+               "value" : "cherry_leaves"
+            },
+            {
                "value" : "minecraft:black_glazed_terracotta"
             },
             {
@@ -2064,6 +2238,12 @@
             },
             {
                "value" : "waxed_oxidized_cut_copper_stairs"
+            },
+            {
+               "value" : "minecraft:calibrated_sculk_sensor"
+            },
+            {
+               "value" : "calibrated_sculk_sensor"
             },
             {
                "value" : "minecraft:stripped_acacia_log"
@@ -2088,6 +2268,12 @@
             },
             {
                "value" : "sea_pickle"
+            },
+            {
+               "value" : "minecraft:mangrove_hanging_sign"
+            },
+            {
+               "value" : "mangrove_hanging_sign"
             },
             {
                "value" : "minecraft:brown_candle"
@@ -2174,6 +2360,12 @@
                "value" : "big_dripleaf"
             },
             {
+               "value" : "minecraft:warped_hanging_sign"
+            },
+            {
+               "value" : "warped_hanging_sign"
+            },
+            {
                "value" : "minecraft:lime_wool"
             },
             {
@@ -2223,6 +2415,12 @@
             },
             {
                "value" : "end_portal_frame"
+            },
+            {
+               "value" : "minecraft:bamboo_pressure_plate"
+            },
+            {
+               "value" : "bamboo_pressure_plate"
             },
             {
                "value" : "minecraft:prismarine"
@@ -2307,6 +2505,18 @@
             },
             {
                "value" : "acacia_stairs"
+            },
+            {
+               "value" : "minecraft:bamboo_mosaic_stairs"
+            },
+            {
+               "value" : "bamboo_mosaic_stairs"
+            },
+            {
+               "value" : "minecraft:cherry_slab"
+            },
+            {
+               "value" : "cherry_slab"
             },
             {
                "value" : "minecraft:bubble_coral"
@@ -2417,6 +2627,12 @@
                "value" : "pearlescent_froglight"
             },
             {
+               "value" : "minecraft:bamboo_button"
+            },
+            {
+               "value" : "bamboo_button"
+            },
+            {
                "value" : "minecraft:nether_sprouts"
             },
             {
@@ -2451,6 +2667,12 @@
             },
             {
                "value" : "lever"
+            },
+            {
+               "value" : "minecraft:bamboo_slab"
+            },
+            {
+               "value" : "bamboo_slab"
             },
             {
                "value" : "minecraft:brick_stairs"
@@ -2625,6 +2847,12 @@
             },
             {
                "value" : "lime_carpet"
+            },
+            {
+               "value" : "minecraft:decorated_pot"
+            },
+            {
+               "value" : "decorated_pot"
             },
             {
                "value" : "minecraft:enchanting_table"
@@ -2813,6 +3041,12 @@
                "value" : "chest"
             },
             {
+               "value" : "minecraft:cherry_wood"
+            },
+            {
+               "value" : "cherry_wood"
+            },
+            {
                "value" : "minecraft:chain"
             },
             {
@@ -2825,10 +3059,22 @@
                "value" : "clay"
             },
             {
+               "value" : "minecraft:cherry_stairs"
+            },
+            {
+               "value" : "cherry_stairs"
+            },
+            {
                "value" : "minecraft:cake"
             },
             {
                "value" : "cake"
+            },
+            {
+               "value" : "minecraft:crimson_hanging_sign"
+            },
+            {
+               "value" : "crimson_hanging_sign"
             },
             {
                "value" : "minecraft:sculk_vein"
@@ -2889,6 +3135,18 @@
             },
             {
                "value" : "dead_bubble_coral"
+            },
+            {
+               "value" : "minecraft:cherry_sapling"
+            },
+            {
+               "value" : "cherry_sapling"
+            },
+            {
+               "value" : "minecraft:cherry_log"
+            },
+            {
+               "value" : "cherry_log"
             },
             {
                "value" : "minecraft:prismarine_stairs"
@@ -3143,6 +3401,12 @@
                "value" : "crimson_fungus"
             },
             {
+               "value" : "minecraft:cherry_planks"
+            },
+            {
+               "value" : "cherry_planks"
+            },
+            {
                "value" : "minecraft:polished_deepslate"
             },
             {
@@ -3299,6 +3563,12 @@
                "value" : "weathered_copper"
             },
             {
+               "value" : "minecraft:cherry_fence_gate"
+            },
+            {
+               "value" : "cherry_fence_gate"
+            },
+            {
                "value" : "minecraft:gray_glazed_terracotta"
             },
             {
@@ -3309,6 +3579,12 @@
             },
             {
                "value" : "lodestone"
+            },
+            {
+               "value" : "minecraft:bamboo_mosaic"
+            },
+            {
+               "value" : "bamboo_mosaic"
             },
             {
                "value" : "minecraft:raw_iron_block"
@@ -4202,6 +4478,12 @@
                "value" : "trader_llama_spawn_egg"
             },
             {
+               "value" : "minecraft:camel_spawn_egg"
+            },
+            {
+               "value" : "camel_spawn_egg"
+            },
+            {
                "value" : "minecraft:ghast_spawn_egg"
             },
             {
@@ -4880,6 +5162,12 @@
                "value" : "spyglass"
             },
             {
+               "value" : "minecraft:brush"
+            },
+            {
+               "value" : "brush"
+            },
+            {
                "value" : "minecraft:stick"
             },
             {
@@ -5028,6 +5316,18 @@
             },
             {
                "value" : "mangrove_sign"
+            },
+            {
+               "value" : "minecraft:cherry_sign"
+            },
+            {
+               "value" : "cherry_sign"
+            },
+            {
+               "value" : "minecraft:bamboo_sign"
+            },
+            {
+               "value" : "bamboo_sign"
             },
             {
                "value" : "minecraft:crimson_sign"
@@ -5456,6 +5756,18 @@
                "value" : "mangrove_boat"
             },
             {
+               "value" : "minecraft:cherry_boat"
+            },
+            {
+               "value" : "cherry_boat"
+            },
+            {
+               "value" : "minecraft:bamboo_raft"
+            },
+            {
+               "value" : "bamboo_raft"
+            },
+            {
                "value" : "minecraft:oak_chest_boat"
             },
             {
@@ -5496,6 +5808,18 @@
             },
             {
                "value" : "mangrove_chest_boat"
+            },
+            {
+               "value" : "minecraft:cherry_chest_boat"
+            },
+            {
+               "value" : "cherry_chest_boat"
+            },
+            {
+               "value" : "minecraft:bamboo_chest_raft"
+            },
+            {
+               "value" : "bamboo_chest_raft"
             },
             {
                "value" : "minecraft:redstone"
@@ -5574,6 +5898,228 @@
             },
             {
                "value" : "globe_banner_pattern"
+            },
+            {
+               "value" : "minecraft:angler_pottery_shard"
+            },
+            {
+               "value" : "angler_pottery_shard"
+            },
+            {
+               "value" : "minecraft:archer_pottery_shard"
+            },
+            {
+               "value" : "archer_pottery_shard"
+            },
+            {
+               "value" : "minecraft:arms_up_pottery_shard"
+            },
+            {
+               "value" : "arms_up_pottery_shard"
+            },
+            {
+               "value" : "minecraft:blade_pottery_shard"
+            },
+            {
+               "value" : "blade_pottery_shard"
+            },
+            {
+               "value" : "minecraft:brewer_pottery_shard"
+            },
+            {
+               "value" : "brewer_pottery_shard"
+            },
+            {
+               "value" : "minecraft:burn_pottery_shard"
+            },
+            {
+               "value" : "burn_pottery_shard"
+            },
+            {
+               "value" : "minecraft:danger_pottery_shard"
+            },
+            {
+               "value" : "danger_pottery_shard"
+            },
+            {
+               "value" : "minecraft:explorer_pottery_shard"
+            },
+            {
+               "value" : "explorer_pottery_shard"
+            },
+            {
+               "value" : "minecraft:friend_pottery_shard"
+            },
+            {
+               "value" : "friend_pottery_shard"
+            },
+            {
+               "value" : "minecraft:heart_pottery_shard"
+            },
+            {
+               "value" : "heart_pottery_shard"
+            },
+            {
+               "value" : "minecraft:heartbreak_pottery_shard"
+            },
+            {
+               "value" : "heartbreak_pottery_shard"
+            },
+            {
+               "value" : "minecraft:howl_pottery_shard"
+            },
+            {
+               "value" : "howl_pottery_shard"
+            },
+            {
+               "value" : "minecraft:miner_pottery_shard"
+            },
+            {
+               "value" : "miner_pottery_shard"
+            },
+            {
+               "value" : "minecraft:mourner_pottery_shard"
+            },
+            {
+               "value" : "mourner_pottery_shard"
+            },
+            {
+               "value" : "minecraft:plenty_pottery_shard"
+            },
+            {
+               "value" : "plenty_pottery_shard"
+            },
+            {
+               "value" : "minecraft:prize_pottery_shard"
+            },
+            {
+               "value" : "prize_pottery_shard"
+            },
+            {
+               "value" : "minecraft:sheaf_pottery_shard"
+            },
+            {
+               "value" : "sheaf_pottery_shard"
+            },
+            {
+               "value" : "minecraft:shelter_pottery_shard"
+            },
+            {
+               "value" : "shelter_pottery_shard"
+            },
+            {
+               "value" : "minecraft:skull_pottery_shard"
+            },
+            {
+               "value" : "skull_pottery_shard"
+            },
+            {
+               "value" : "minecraft:snort_pottery_shard"
+            },
+            {
+               "value" : "snort_pottery_shard"
+            },
+            {
+               "value" : "minecraft:netherite_upgrade_smithing_template"
+            },
+            {
+               "value" : "netherite_upgrade_smithing_template"
+            },
+            {
+               "value" : "minecraft:sentry_armor_trim_smithing_template"
+            },
+            {
+               "value" : "sentry_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:vex_armor_trim_smithing_template"
+            },
+            {
+               "value" : "vex_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:wild_armor_trim_smithing_template"
+            },
+            {
+               "value" : "wild_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:coast_armor_trim_smithing_template"
+            },
+            {
+               "value" : "coast_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:dune_armor_trim_smithing_template"
+            },
+            {
+               "value" : "dune_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:wayfinder_armor_trim_smithing_template"
+            },
+            {
+               "value" : "wayfinder_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:shaper_armor_trim_smithing_template"
+            },
+            {
+               "value" : "shaper_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:raiser_armor_trim_smithing_template"
+            },
+            {
+               "value" : "raiser_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:host_armor_trim_smithing_template"
+            },
+            {
+               "value" : "host_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:ward_armor_trim_smithing_template"
+            },
+            {
+               "value" : "ward_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:silence_armor_trim_smithing_template"
+            },
+            {
+               "value" : "silence_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:tide_armor_trim_smithing_template"
+            },
+            {
+               "value" : "tide_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:snout_armor_trim_smithing_template"
+            },
+            {
+               "value" : "snout_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:rib_armor_trim_smithing_template"
+            },
+            {
+               "value" : "rib_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:eye_armor_trim_smithing_template"
+            },
+            {
+               "value" : "eye_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:spire_armor_trim_smithing_template"
+            },
+            {
+               "value" : "spire_armor_trim_smithing_template"
             },
             {
                "value" : "minecraft:firework_rocket"
@@ -5893,6 +6439,12 @@
                "value" : "warped_door"
             },
             {
+               "value" : "minecraft:bamboo_block"
+            },
+            {
+               "value" : "bamboo_block"
+            },
+            {
                "value" : "minecraft:piston_arm_collision"
             },
             {
@@ -5963,6 +6515,18 @@
             },
             {
                "value" : "gray_candle_cake"
+            },
+            {
+               "value" : "minecraft:cherry_pressure_plate"
+            },
+            {
+               "value" : "cherry_pressure_plate"
+            },
+            {
+               "value" : "minecraft:cherry_hanging_sign"
+            },
+            {
+               "value" : "cherry_hanging_sign"
             },
             {
                "value" : "minecraft:yellow_wool"
@@ -6205,6 +6769,12 @@
                "value" : "polished_deepslate_slab"
             },
             {
+               "value" : "minecraft:bamboo_door"
+            },
+            {
+               "value" : "bamboo_door"
+            },
+            {
                "value" : "minecraft:amethyst_block"
             },
             {
@@ -6221,6 +6791,12 @@
             },
             {
                "value" : "flower_pot"
+            },
+            {
+               "value" : "minecraft:chiseled_bookshelf"
+            },
+            {
+               "value" : "chiseled_bookshelf"
             },
             {
                "value" : "minecraft:polished_deepslate_stairs"
@@ -6421,6 +6997,12 @@
                "value" : "exposed_double_cut_copper_slab"
             },
             {
+               "value" : "minecraft:bamboo_fence"
+            },
+            {
+               "value" : "bamboo_fence"
+            },
+            {
                "value" : "minecraft:normal_stone_stairs"
             },
             {
@@ -6431,6 +7013,12 @@
             },
             {
                "value" : "hardened_clay"
+            },
+            {
+               "value" : "minecraft:birch_hanging_sign"
+            },
+            {
+               "value" : "birch_hanging_sign"
             },
             {
                "value" : "minecraft:stripped_jungle_log"
@@ -6547,6 +7135,12 @@
                "value" : "sapling"
             },
             {
+               "value" : "minecraft:bamboo_stairs"
+            },
+            {
+               "value" : "bamboo_stairs"
+            },
+            {
                "value" : "minecraft:torch"
             },
             {
@@ -6575,6 +7169,12 @@
             },
             {
                "value" : "vine"
+            },
+            {
+               "value" : "minecraft:cherry_trapdoor"
+            },
+            {
+               "value" : "cherry_trapdoor"
             },
             {
                "value" : "minecraft:blackstone_slab"
@@ -6629,6 +7229,12 @@
             },
             {
                "value" : "gray_candle"
+            },
+            {
+               "value" : "minecraft:cherry_fence"
+            },
+            {
+               "value" : "cherry_fence"
             },
             {
                "value" : "minecraft:mangrove_planks"
@@ -6691,6 +7297,12 @@
                "value" : "emerald_block"
             },
             {
+               "value" : "minecraft:suspicious_sand"
+            },
+            {
+               "value" : "suspicious_sand"
+            },
+            {
                "value" : "minecraft:heavy_weighted_pressure_plate"
             },
             {
@@ -6715,6 +7327,12 @@
                "value" : "deepslate_brick_double_slab"
             },
             {
+               "value" : "minecraft:bamboo_mosaic_slab"
+            },
+            {
+               "value" : "bamboo_mosaic_slab"
+            },
+            {
                "value" : "minecraft:dark_oak_log"
             },
             {
@@ -6725,6 +7343,12 @@
             },
             {
                "value" : "wood"
+            },
+            {
+               "value" : "minecraft:acacia_hanging_sign"
+            },
+            {
+               "value" : "acacia_hanging_sign"
             },
             {
                "value" : "minecraft:ochre_froglight"
@@ -6755,6 +7379,12 @@
             },
             {
                "value" : "granite_stairs"
+            },
+            {
+               "value" : "minecraft:dark_oak_hanging_sign"
+            },
+            {
+               "value" : "dark_oak_hanging_sign"
             },
             {
                "value" : "minecraft:brown_mushroom"
@@ -6803,6 +7433,12 @@
             },
             {
                "value" : "green_candle_cake"
+            },
+            {
+               "value" : "minecraft:stripped_bamboo_block"
+            },
+            {
+               "value" : "stripped_bamboo_block"
             },
             {
                "value" : "minecraft:red_mushroom_block"
@@ -7009,6 +7645,12 @@
                "value" : "lava"
             },
             {
+               "value" : "minecraft:jungle_hanging_sign"
+            },
+            {
+               "value" : "jungle_hanging_sign"
+            },
+            {
                "value" : "minecraft:loom"
             },
             {
@@ -7141,6 +7783,12 @@
                "value" : "dark_oak_fence_gate"
             },
             {
+               "value" : "minecraft:bamboo_mosaic_double_slab"
+            },
+            {
+               "value" : "bamboo_mosaic_double_slab"
+            },
+            {
                "value" : "minecraft:crimson_nylium"
             },
             {
@@ -7243,6 +7891,12 @@
                "value" : "redstone_ore"
             },
             {
+               "value" : "minecraft:bamboo_double_slab"
+            },
+            {
+               "value" : "bamboo_double_slab"
+            },
+            {
                "value" : "minecraft:nether_brick_fence"
             },
             {
@@ -7265,6 +7919,12 @@
             },
             {
                "value" : "nether_wart_block"
+            },
+            {
+               "value" : "minecraft:cherry_door"
+            },
+            {
+               "value" : "cherry_door"
             },
             {
                "value" : "minecraft:crimson_hyphae"
@@ -7391,6 +8051,12 @@
             },
             {
                "value" : "acacia_door"
+            },
+            {
+               "value" : "minecraft:stripped_cherry_log"
+            },
+            {
+               "value" : "stripped_cherry_log"
             },
             {
                "value" : "minecraft:crimson_button"
@@ -7537,6 +8203,12 @@
                "value" : "coral_fan"
             },
             {
+               "value" : "minecraft:cherry_button"
+            },
+            {
+               "value" : "cherry_button"
+            },
+            {
                "value" : "minecraft:yellow_candle_cake"
             },
             {
@@ -7547,6 +8219,18 @@
             },
             {
                "value" : "mangrove_fence_gate"
+            },
+            {
+               "value" : "minecraft:pink_petals"
+            },
+            {
+               "value" : "pink_petals"
+            },
+            {
+               "value" : "minecraft:bamboo_hanging_sign"
+            },
+            {
+               "value" : "bamboo_hanging_sign"
             },
             {
                "value" : "minecraft:infested_deepslate"
@@ -7645,6 +8329,12 @@
                "value" : "large_amethyst_bud"
             },
             {
+               "value" : "minecraft:suspicious_gravel"
+            },
+            {
+               "value" : "suspicious_gravel"
+            },
+            {
                "value" : "minecraft:warped_trapdoor"
             },
             {
@@ -7687,6 +8377,12 @@
                "value" : "light_blue_carpet"
             },
             {
+               "value" : "minecraft:oak_hanging_sign"
+            },
+            {
+               "value" : "oak_hanging_sign"
+            },
+            {
                "value" : "minecraft:melon_stem"
             },
             {
@@ -7723,6 +8419,12 @@
                "value" : "jukebox"
             },
             {
+               "value" : "minecraft:stripped_cherry_wood"
+            },
+            {
+               "value" : "stripped_cherry_wood"
+            },
+            {
                "value" : "minecraft:border_block"
             },
             {
@@ -7733,6 +8435,12 @@
             },
             {
                "value" : "shroomlight"
+            },
+            {
+               "value" : "minecraft:bamboo_fence_gate"
+            },
+            {
+               "value" : "bamboo_fence_gate"
             },
             {
                "value" : "minecraft:chiseled_polished_blackstone"
@@ -7781,6 +8489,12 @@
             },
             {
                "value" : "acacia_pressure_plate"
+            },
+            {
+               "value" : "minecraft:bamboo_trapdoor"
+            },
+            {
+               "value" : "bamboo_trapdoor"
             },
             {
                "value" : "minecraft:mangrove_wall_sign"
@@ -8041,6 +8755,12 @@
                "value" : "standing_sign"
             },
             {
+               "value" : "minecraft:bamboo_planks"
+            },
+            {
+               "value" : "bamboo_planks"
+            },
+            {
                "value" : "minecraft:glow_lichen"
             },
             {
@@ -8137,6 +8857,12 @@
                "value" : "soul_sand"
             },
             {
+               "value" : "minecraft:spruce_hanging_sign"
+            },
+            {
+               "value" : "spruce_hanging_sign"
+            },
+            {
                "value" : "minecraft:reinforced_deepslate"
             },
             {
@@ -8149,6 +8875,12 @@
                "value" : "fletching_table"
             },
             {
+               "value" : "minecraft:cherry_leaves"
+            },
+            {
+               "value" : "cherry_leaves"
+            },
+            {
                "value" : "minecraft:black_glazed_terracotta"
             },
             {
@@ -8159,6 +8891,12 @@
             },
             {
                "value" : "waxed_oxidized_cut_copper_stairs"
+            },
+            {
+               "value" : "minecraft:calibrated_sculk_sensor"
+            },
+            {
+               "value" : "calibrated_sculk_sensor"
             },
             {
                "value" : "minecraft:stripped_acacia_log"
@@ -8191,10 +8929,22 @@
                "value" : "sea_pickle"
             },
             {
+               "value" : "minecraft:cherry_standing_sign"
+            },
+            {
+               "value" : "cherry_standing_sign"
+            },
+            {
                "value" : "minecraft:double_wooden_slab"
             },
             {
                "value" : "double_wooden_slab"
+            },
+            {
+               "value" : "minecraft:mangrove_hanging_sign"
+            },
+            {
+               "value" : "mangrove_hanging_sign"
             },
             {
                "value" : "minecraft:brown_candle"
@@ -8293,6 +9043,12 @@
                "value" : "big_dripleaf"
             },
             {
+               "value" : "minecraft:warped_hanging_sign"
+            },
+            {
+               "value" : "warped_hanging_sign"
+            },
+            {
                "value" : "minecraft:lime_wool"
             },
             {
@@ -8347,6 +9103,12 @@
                "value" : "jungle_standing_sign"
             },
             {
+               "value" : "minecraft:cherry_double_slab"
+            },
+            {
+               "value" : "cherry_double_slab"
+            },
+            {
                "value" : "minecraft:weathered_cut_copper_slab"
             },
             {
@@ -8375,6 +9137,12 @@
             },
             {
                "value" : "end_portal_frame"
+            },
+            {
+               "value" : "minecraft:bamboo_pressure_plate"
+            },
+            {
+               "value" : "bamboo_pressure_plate"
             },
             {
                "value" : "minecraft:prismarine"
@@ -8465,6 +9233,18 @@
             },
             {
                "value" : "acacia_stairs"
+            },
+            {
+               "value" : "minecraft:bamboo_mosaic_stairs"
+            },
+            {
+               "value" : "bamboo_mosaic_stairs"
+            },
+            {
+               "value" : "minecraft:cherry_slab"
+            },
+            {
+               "value" : "cherry_slab"
             },
             {
                "value" : "minecraft:bubble_coral"
@@ -8617,6 +9397,12 @@
                "value" : "double_stone_block_slab4"
             },
             {
+               "value" : "minecraft:bamboo_button"
+            },
+            {
+               "value" : "bamboo_button"
+            },
+            {
                "value" : "minecraft:nether_sprouts"
             },
             {
@@ -8657,6 +9443,12 @@
             },
             {
                "value" : "lever"
+            },
+            {
+               "value" : "minecraft:bamboo_slab"
+            },
+            {
+               "value" : "bamboo_slab"
             },
             {
                "value" : "minecraft:brick_stairs"
@@ -8845,6 +9637,12 @@
                "value" : "lime_carpet"
             },
             {
+               "value" : "minecraft:decorated_pot"
+            },
+            {
+               "value" : "decorated_pot"
+            },
+            {
                "value" : "minecraft:enchanting_table"
             },
             {
@@ -8879,6 +9677,12 @@
             },
             {
                "value" : "birch_wall_sign"
+            },
+            {
+               "value" : "minecraft:bamboo_wall_sign"
+            },
+            {
+               "value" : "bamboo_wall_sign"
             },
             {
                "value" : "minecraft:hopper"
@@ -9061,6 +9865,12 @@
                "value" : "chest"
             },
             {
+               "value" : "minecraft:cherry_wood"
+            },
+            {
+               "value" : "cherry_wood"
+            },
+            {
                "value" : "minecraft:chain"
             },
             {
@@ -9073,10 +9883,22 @@
                "value" : "clay"
             },
             {
+               "value" : "minecraft:cherry_stairs"
+            },
+            {
+               "value" : "cherry_stairs"
+            },
+            {
                "value" : "minecraft:cake"
             },
             {
                "value" : "cake"
+            },
+            {
+               "value" : "minecraft:crimson_hanging_sign"
+            },
+            {
+               "value" : "crimson_hanging_sign"
             },
             {
                "value" : "minecraft:sculk_vein"
@@ -9113,6 +9935,12 @@
             },
             {
                "value" : "cracked_polished_blackstone_bricks"
+            },
+            {
+               "value" : "minecraft:bamboo_standing_sign"
+            },
+            {
+               "value" : "bamboo_standing_sign"
             },
             {
                "value" : "minecraft:flowing_lava"
@@ -9155,6 +9983,18 @@
             },
             {
                "value" : "dead_bubble_coral"
+            },
+            {
+               "value" : "minecraft:cherry_sapling"
+            },
+            {
+               "value" : "cherry_sapling"
+            },
+            {
+               "value" : "minecraft:cherry_log"
+            },
+            {
+               "value" : "cherry_log"
             },
             {
                "value" : "minecraft:prismarine_stairs"
@@ -9451,6 +10291,12 @@
                "value" : "purpur_block"
             },
             {
+               "value" : "minecraft:cherry_wall_sign"
+            },
+            {
+               "value" : "cherry_wall_sign"
+            },
+            {
                "value" : "minecraft:cyan_candle"
             },
             {
@@ -9491,6 +10337,12 @@
             },
             {
                "value" : "crimson_fungus"
+            },
+            {
+               "value" : "minecraft:cherry_planks"
+            },
+            {
+               "value" : "cherry_planks"
             },
             {
                "value" : "minecraft:polished_deepslate"
@@ -9673,6 +10525,12 @@
                "value" : "unlit_redstone_torch"
             },
             {
+               "value" : "minecraft:cherry_fence_gate"
+            },
+            {
+               "value" : "cherry_fence_gate"
+            },
+            {
                "value" : "minecraft:gray_glazed_terracotta"
             },
             {
@@ -9683,6 +10541,12 @@
             },
             {
                "value" : "lodestone"
+            },
+            {
+               "value" : "minecraft:bamboo_mosaic"
+            },
+            {
+               "value" : "bamboo_mosaic"
             },
             {
                "value" : "minecraft:raw_iron_block"
@@ -10348,6 +11212,9 @@
                "value" : "minecraft:add_biome_and_skin"
             },
             {
+               "value" : "minecraft:add_can_ride"
+            },
+            {
                "value" : "minecraft:ageable_grow_up"
             },
             {
@@ -10559,6 +11426,12 @@
             },
             {
                "value" : "minecraft:calm"
+            },
+            {
+               "value" : "minecraft:camel_saddled"
+            },
+            {
+               "value" : "minecraft:camel_unsaddled"
             },
             {
                "value" : "minecraft:cat_gifted_owner"
@@ -10972,6 +11845,9 @@
                "value" : "minecraft:start_roar"
             },
             {
+               "value" : "minecraft:start_sitting"
+            },
+            {
                "value" : "minecraft:start_transforming"
             },
             {
@@ -10985,6 +11861,9 @@
             },
             {
                "value" : "minecraft:stop_johnny"
+            },
+            {
+               "value" : "minecraft:stop_sitting"
             },
             {
                "value" : "minecraft:stop_transforming"
@@ -16451,6 +17330,12 @@
             },
             {
                "value" : "pig"
+            },
+            {
+               "value" : "minecraft:camel"
+            },
+            {
+               "value" : "camel"
             },
             {
                "value" : "minecraft:cow"

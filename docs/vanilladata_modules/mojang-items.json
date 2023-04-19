@@ -19,6 +19,9 @@
          "name" : "minecraft:acacia_fence_gate"
       },
       {
+         "name" : "minecraft:acacia_hanging_sign"
+      },
+      {
          "name" : "minecraft:acacia_log"
       },
       {
@@ -58,13 +61,22 @@
          "name" : "minecraft:andesite_stairs"
       },
       {
+         "name" : "minecraft:angler_pottery_shard"
+      },
+      {
          "name" : "minecraft:anvil"
       },
       {
          "name" : "minecraft:apple"
       },
       {
+         "name" : "minecraft:archer_pottery_shard"
+      },
+      {
          "name" : "minecraft:armor_stand"
+      },
+      {
+         "name" : "minecraft:arms_up_pottery_shard"
       },
       {
          "name" : "minecraft:arrow"
@@ -89,6 +101,57 @@
       },
       {
          "name" : "minecraft:bamboo"
+      },
+      {
+         "name" : "minecraft:bamboo_block"
+      },
+      {
+         "name" : "minecraft:bamboo_button"
+      },
+      {
+         "name" : "minecraft:bamboo_chest_raft"
+      },
+      {
+         "name" : "minecraft:bamboo_door"
+      },
+      {
+         "name" : "minecraft:bamboo_fence"
+      },
+      {
+         "name" : "minecraft:bamboo_fence_gate"
+      },
+      {
+         "name" : "minecraft:bamboo_hanging_sign"
+      },
+      {
+         "name" : "minecraft:bamboo_mosaic"
+      },
+      {
+         "name" : "minecraft:bamboo_mosaic_slab"
+      },
+      {
+         "name" : "minecraft:bamboo_mosaic_stairs"
+      },
+      {
+         "name" : "minecraft:bamboo_planks"
+      },
+      {
+         "name" : "minecraft:bamboo_pressure_plate"
+      },
+      {
+         "name" : "minecraft:bamboo_raft"
+      },
+      {
+         "name" : "minecraft:bamboo_sign"
+      },
+      {
+         "name" : "minecraft:bamboo_slab"
+      },
+      {
+         "name" : "minecraft:bamboo_stairs"
+      },
+      {
+         "name" : "minecraft:bamboo_trapdoor"
       },
       {
          "name" : "minecraft:banner"
@@ -163,6 +226,9 @@
          "name" : "minecraft:birch_fence_gate"
       },
       {
+         "name" : "minecraft:birch_hanging_sign"
+      },
+      {
          "name" : "minecraft:birch_log"
       },
       {
@@ -203,6 +269,9 @@
       },
       {
          "name" : "minecraft:blackstone_wall"
+      },
+      {
+         "name" : "minecraft:blade_pottery_shard"
       },
       {
          "name" : "minecraft:blast_furnace"
@@ -271,6 +340,9 @@
          "name" : "minecraft:bread"
       },
       {
+         "name" : "minecraft:brewer_pottery_shard"
+      },
+      {
          "name" : "minecraft:brewing_stand"
       },
       {
@@ -304,6 +376,9 @@
          "name" : "minecraft:brown_wool"
       },
       {
+         "name" : "minecraft:brush"
+      },
+      {
          "name" : "minecraft:bubble_coral"
       },
       {
@@ -313,6 +388,9 @@
          "name" : "minecraft:budding_amethyst"
       },
       {
+         "name" : "minecraft:burn_pottery_shard"
+      },
+      {
          "name" : "minecraft:cactus"
       },
       {
@@ -320,6 +398,12 @@
       },
       {
          "name" : "minecraft:calcite"
+      },
+      {
+         "name" : "minecraft:calibrated_sculk_sensor"
+      },
+      {
+         "name" : "minecraft:camel_spawn_egg"
       },
       {
          "name" : "minecraft:campfire"
@@ -373,6 +457,57 @@
          "name" : "minecraft:charcoal"
       },
       {
+         "name" : "minecraft:cherry_boat"
+      },
+      {
+         "name" : "minecraft:cherry_button"
+      },
+      {
+         "name" : "minecraft:cherry_chest_boat"
+      },
+      {
+         "name" : "minecraft:cherry_door"
+      },
+      {
+         "name" : "minecraft:cherry_fence"
+      },
+      {
+         "name" : "minecraft:cherry_fence_gate"
+      },
+      {
+         "name" : "minecraft:cherry_hanging_sign"
+      },
+      {
+         "name" : "minecraft:cherry_leaves"
+      },
+      {
+         "name" : "minecraft:cherry_log"
+      },
+      {
+         "name" : "minecraft:cherry_planks"
+      },
+      {
+         "name" : "minecraft:cherry_pressure_plate"
+      },
+      {
+         "name" : "minecraft:cherry_sapling"
+      },
+      {
+         "name" : "minecraft:cherry_sign"
+      },
+      {
+         "name" : "minecraft:cherry_slab"
+      },
+      {
+         "name" : "minecraft:cherry_stairs"
+      },
+      {
+         "name" : "minecraft:cherry_trapdoor"
+      },
+      {
+         "name" : "minecraft:cherry_wood"
+      },
+      {
          "name" : "minecraft:chest"
       },
       {
@@ -386,6 +521,9 @@
       },
       {
          "name" : "minecraft:chicken_spawn_egg"
+      },
+      {
+         "name" : "minecraft:chiseled_bookshelf"
       },
       {
          "name" : "minecraft:chiseled_deepslate"
@@ -422,6 +560,9 @@
       },
       {
          "name" : "minecraft:coal_ore"
+      },
+      {
+         "name" : "minecraft:coast_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:cobbled_deepslate"
@@ -562,6 +703,9 @@
          "name" : "minecraft:crimson_fungus"
       },
       {
+         "name" : "minecraft:crimson_hanging_sign"
+      },
+      {
          "name" : "minecraft:crimson_hyphae"
       },
       {
@@ -622,6 +766,9 @@
          "name" : "minecraft:cyan_wool"
       },
       {
+         "name" : "minecraft:danger_pottery_shard"
+      },
+      {
          "name" : "minecraft:dark_oak_boat"
       },
       {
@@ -638,6 +785,9 @@
       },
       {
          "name" : "minecraft:dark_oak_fence_gate"
+      },
+      {
+         "name" : "minecraft:dark_oak_hanging_sign"
       },
       {
          "name" : "minecraft:dark_oak_log"
@@ -677,6 +827,9 @@
       },
       {
          "name" : "minecraft:deadbush"
+      },
+      {
+         "name" : "minecraft:decorated_pot"
       },
       {
          "name" : "minecraft:deepslate"
@@ -820,6 +973,9 @@
          "name" : "minecraft:drowned_spawn_egg"
       },
       {
+         "name" : "minecraft:dune_armor_trim_smithing_template"
+      },
+      {
          "name" : "minecraft:dye"
       },
       {
@@ -898,6 +1054,9 @@
          "name" : "minecraft:experience_bottle"
       },
       {
+         "name" : "minecraft:explorer_pottery_shard"
+      },
+      {
          "name" : "minecraft:exposed_copper"
       },
       {
@@ -908,6 +1067,9 @@
       },
       {
          "name" : "minecraft:exposed_cut_copper_stairs"
+      },
+      {
+         "name" : "minecraft:eye_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:farmland"
@@ -968,6 +1130,9 @@
       },
       {
          "name" : "minecraft:frame"
+      },
+      {
+         "name" : "minecraft:friend_pottery_shard"
       },
       {
          "name" : "minecraft:frog_spawn"
@@ -1147,6 +1312,12 @@
          "name" : "minecraft:heart_of_the_sea"
       },
       {
+         "name" : "minecraft:heart_pottery_shard"
+      },
+      {
+         "name" : "minecraft:heartbreak_pottery_shard"
+      },
+      {
          "name" : "minecraft:heavy_weighted_pressure_plate"
       },
       {
@@ -1175,6 +1346,12 @@
       },
       {
          "name" : "minecraft:horse_spawn_egg"
+      },
+      {
+         "name" : "minecraft:host_armor_trim_smithing_template"
+      },
+      {
+         "name" : "minecraft:howl_pottery_shard"
       },
       {
          "name" : "minecraft:husk_spawn_egg"
@@ -1265,6 +1442,9 @@
       },
       {
          "name" : "minecraft:jungle_fence_gate"
+      },
+      {
+         "name" : "minecraft:jungle_hanging_sign"
       },
       {
          "name" : "minecraft:jungle_log"
@@ -1456,6 +1636,9 @@
          "name" : "minecraft:mangrove_fence_gate"
       },
       {
+         "name" : "minecraft:mangrove_hanging_sign"
+      },
+      {
          "name" : "minecraft:mangrove_leaves"
       },
       {
@@ -1507,6 +1690,9 @@
          "name" : "minecraft:minecart"
       },
       {
+         "name" : "minecraft:miner_pottery_shard"
+      },
+      {
          "name" : "minecraft:mob_spawner"
       },
       {
@@ -1532,6 +1718,9 @@
       },
       {
          "name" : "minecraft:mossy_stone_brick_stairs"
+      },
+      {
+         "name" : "minecraft:mourner_pottery_shard"
       },
       {
          "name" : "minecraft:mud"
@@ -1678,6 +1867,9 @@
          "name" : "minecraft:netherite_sword"
       },
       {
+         "name" : "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
          "name" : "minecraft:netherrack"
       },
       {
@@ -1694,6 +1886,9 @@
       },
       {
          "name" : "minecraft:oak_fence"
+      },
+      {
+         "name" : "minecraft:oak_hanging_sign"
       },
       {
          "name" : "minecraft:oak_log"
@@ -1798,6 +1993,9 @@
          "name" : "minecraft:pink_glazed_terracotta"
       },
       {
+         "name" : "minecraft:pink_petals"
+      },
+      {
          "name" : "minecraft:pink_wool"
       },
       {
@@ -1811,6 +2009,9 @@
       },
       {
          "name" : "minecraft:planks"
+      },
+      {
+         "name" : "minecraft:plenty_pottery_shard"
       },
       {
          "name" : "minecraft:podzol"
@@ -1909,6 +2110,9 @@
          "name" : "minecraft:prismarine_stairs"
       },
       {
+         "name" : "minecraft:prize_pottery_shard"
+      },
+      {
          "name" : "minecraft:pufferfish"
       },
       {
@@ -1979,6 +2183,9 @@
       },
       {
          "name" : "minecraft:rail"
+      },
+      {
+         "name" : "minecraft:raiser_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:ravager_spawn_egg"
@@ -2068,6 +2275,9 @@
          "name" : "minecraft:respawn_anchor"
       },
       {
+         "name" : "minecraft:rib_armor_trim_smithing_template"
+      },
+      {
          "name" : "minecraft:rotten_flesh"
       },
       {
@@ -2125,10 +2335,22 @@
          "name" : "minecraft:seagrass"
       },
       {
+         "name" : "minecraft:sentry_armor_trim_smithing_template"
+      },
+      {
+         "name" : "minecraft:shaper_armor_trim_smithing_template"
+      },
+      {
+         "name" : "minecraft:sheaf_pottery_shard"
+      },
+      {
          "name" : "minecraft:shears"
       },
       {
          "name" : "minecraft:sheep_spawn_egg"
+      },
+      {
+         "name" : "minecraft:shelter_pottery_shard"
       },
       {
          "name" : "minecraft:shield"
@@ -2144,6 +2366,9 @@
       },
       {
          "name" : "minecraft:shulker_spawn_egg"
+      },
+      {
+         "name" : "minecraft:silence_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:silver_glazed_terracotta"
@@ -2162,6 +2387,9 @@
       },
       {
          "name" : "minecraft:skull_banner_pattern"
+      },
+      {
+         "name" : "minecraft:skull_pottery_shard"
       },
       {
          "name" : "minecraft:slime"
@@ -2206,6 +2434,12 @@
          "name" : "minecraft:sniffer_spawn_egg"
       },
       {
+         "name" : "minecraft:snort_pottery_shard"
+      },
+      {
+         "name" : "minecraft:snout_armor_trim_smithing_template"
+      },
+      {
          "name" : "minecraft:snow"
       },
       {
@@ -2242,6 +2476,9 @@
          "name" : "minecraft:spider_spawn_egg"
       },
       {
+         "name" : "minecraft:spire_armor_trim_smithing_template"
+      },
+      {
          "name" : "minecraft:splash_potion"
       },
       {
@@ -2267,6 +2504,9 @@
       },
       {
          "name" : "minecraft:spruce_fence_gate"
+      },
+      {
+         "name" : "minecraft:spruce_hanging_sign"
       },
       {
          "name" : "minecraft:spruce_log"
@@ -2365,7 +2605,16 @@
          "name" : "minecraft:stripped_acacia_log"
       },
       {
+         "name" : "minecraft:stripped_bamboo_block"
+      },
+      {
          "name" : "minecraft:stripped_birch_log"
+      },
+      {
+         "name" : "minecraft:stripped_cherry_log"
+      },
+      {
+         "name" : "minecraft:stripped_cherry_wood"
       },
       {
          "name" : "minecraft:stripped_crimson_hyphae"
@@ -2410,6 +2659,12 @@
          "name" : "minecraft:sugar_cane"
       },
       {
+         "name" : "minecraft:suspicious_gravel"
+      },
+      {
+         "name" : "minecraft:suspicious_sand"
+      },
+      {
          "name" : "minecraft:suspicious_stew"
       },
       {
@@ -2426,6 +2681,9 @@
       },
       {
          "name" : "minecraft:target"
+      },
+      {
+         "name" : "minecraft:tide_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:tinted_glass"
@@ -2497,6 +2755,9 @@
          "name" : "minecraft:verdant_froglight"
       },
       {
+         "name" : "minecraft:vex_armor_trim_smithing_template"
+      },
+      {
          "name" : "minecraft:vex_spawn_egg"
       },
       {
@@ -2510,6 +2771,9 @@
       },
       {
          "name" : "minecraft:wandering_trader_spawn_egg"
+      },
+      {
+         "name" : "minecraft:ward_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:warden_spawn_egg"
@@ -2531,6 +2795,9 @@
       },
       {
          "name" : "minecraft:warped_fungus_on_a_stick"
+      },
+      {
+         "name" : "minecraft:warped_hanging_sign"
       },
       {
          "name" : "minecraft:warped_hyphae"
@@ -2620,6 +2887,9 @@
          "name" : "minecraft:waxed_weathered_cut_copper_stairs"
       },
       {
+         "name" : "minecraft:wayfinder_armor_trim_smithing_template"
+      },
+      {
          "name" : "minecraft:weathered_copper"
       },
       {
@@ -2657,6 +2927,9 @@
       },
       {
          "name" : "minecraft:white_wool"
+      },
+      {
+         "name" : "minecraft:wild_armor_trim_smithing_template"
       },
       {
          "name" : "minecraft:witch_spawn_egg"

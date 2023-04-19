@@ -1666,6 +1666,30 @@
          ]
       },
       {
+         "name" : "minecraft:facing_direction",
+         "type" : "int",
+         "values" : [
+            {
+               "value" : 0
+            },
+            {
+               "value" : 1
+            },
+            {
+               "value" : 2
+            },
+            {
+               "value" : 3
+            },
+            {
+               "value" : 4
+            },
+            {
+               "value" : 5
+            }
+         ]
+      },
+      {
          "name" : "moisturized_amount",
          "type" : "int",
          "values" : [
@@ -4117,7 +4141,7 @@
          "name" : "minecraft:carved_pumpkin",
          "properties" : [
             {
-               "name" : "direction"
+               "name" : "minecraft:cardinal_direction"
             }
          ]
       },
@@ -6730,7 +6754,7 @@
          "name" : "minecraft:lit_pumpkin",
          "properties" : [
             {
-               "name" : "direction"
+               "name" : "minecraft:cardinal_direction"
             }
          ]
       },
@@ -7729,7 +7753,7 @@
          "name" : "minecraft:pumpkin",
          "properties" : [
             {
-               "name" : "direction"
+               "name" : "minecraft:cardinal_direction"
             }
          ]
       },
