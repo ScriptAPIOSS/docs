@@ -479,7 +479,7 @@
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "ItemStack"
                }
             },
@@ -947,24 +947,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBlockBreakAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockBreakAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockBreakAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "Component"
             }
          ],
@@ -1044,9 +1026,14 @@
                "is_read_only" : true,
                "name" : "source",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "Entity"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
                }
             }
          ],
@@ -1072,24 +1059,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockExplodeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IBlockExplodeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockExplodeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockExplodeAfterEventSignal_deprecated"
          }
       },
       {
@@ -1747,24 +1716,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IBlockPlaceAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockPlaceAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockPlaceAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "BlockLiquidContainerComponent"
             }
          ],
@@ -1811,28 +1762,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "BlockPotionContainerComponent"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
-         "functions" : [],
-         "name" : "BlockProperty",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "name",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "string"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "BlockProperty"
          }
       },
       {
@@ -1935,7 +1864,19 @@
          ],
          "functions" : [
             {
-               "arguments" : [],
+               "arguments" : [
+                  {
+                     "details" : {
+                        "default_value" : 0
+                     },
+                     "name" : "side",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "SignSide"
+                     }
+                  }
+               ],
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getRawText",
@@ -1952,7 +1893,19 @@
                }
             },
             {
-               "arguments" : [],
+               "arguments" : [
+                  {
+                     "details" : {
+                        "default_value" : 0
+                     },
+                     "name" : "side",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "SignSide"
+                     }
+                  }
+               ],
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getText",
@@ -1969,7 +1922,19 @@
                }
             },
             {
-               "arguments" : [],
+               "arguments" : [
+                  {
+                     "details" : {
+                        "default_value" : 0
+                     },
+                     "name" : "side",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "SignSide"
+                     }
+                  }
+               ],
                "is_constructor" : false,
                "is_static" : false,
                "name" : "getTextDyeColor",
@@ -2012,6 +1977,17 @@
                            }
                         ]
                      }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : 0
+                     },
+                     "name" : "side",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "SignSide"
+                     }
                   }
                ],
                "is_constructor" : false,
@@ -2041,6 +2017,17 @@
                            "name" : "DyeColor"
                         }
                      }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : 0
+                     },
+                     "name" : "side",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "SignSide"
+                     }
                   }
                ],
                "is_constructor" : false,
@@ -2052,10 +2039,32 @@
                   "is_errorable" : true,
                   "name" : "undefined"
                }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setWaxed",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
             }
          ],
          "name" : "BlockSignComponent",
-         "properties" : [],
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "isWaxed",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            }
+         ],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -3032,24 +3041,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IButtonPushAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ButtonPushAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ButtonPushAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [
@@ -3126,24 +3117,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ChatSendAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IChatSendAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ChatSendAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ChatSendAfterEventSignal_deprecated"
          }
       },
       {
@@ -4248,24 +4221,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IDataDrivenEntityTriggerAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "DataDrivenEntityTriggerAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "DataDrivenEntityTriggerAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [
@@ -4672,9 +4627,14 @@
                "name" : "getBlock",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "Block"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Block"
+                  }
                }
             },
             {
@@ -5040,7 +5000,7 @@
                "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "undefined"
                }
             }
@@ -5061,53 +5021,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "Dimension"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "BlockProperty"
-            }
-         ],
-         "constants" : [],
-         "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "getValidValues",
-               "privilege" : "read_only",
-               "return_type" : {
-                  "element_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "Direction"
-                  },
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "array"
-               }
-            }
-         ],
-         "name" : "DirectionBlockProperty",
-         "properties" : [
-            {
-               "is_read_only" : false,
-               "name" : "value",
-               "privilege" : "none",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Direction"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "DirectionBlockProperty"
          }
       },
       {
@@ -5142,9 +5055,9 @@
                "name" : "defineBoolean",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : false,
+                  "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "DynamicPropertiesDefinition"
                }
             },
             {
@@ -5164,9 +5077,9 @@
                "name" : "defineNumber",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : false,
+                  "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "DynamicPropertiesDefinition"
                }
             },
             {
@@ -5202,9 +5115,9 @@
                "name" : "defineString",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : false,
+                  "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "DynamicPropertiesDefinition"
                }
             }
          ],
@@ -5330,24 +5243,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEffectAddAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EffectAddAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EffectAddAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [
@@ -5382,9 +5277,21 @@
                      "details" : null,
                      "name" : "enchantmentType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "EnchantmentType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EnchantmentType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -5410,7 +5317,7 @@
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "Enchantment"
                }
             }
@@ -5529,9 +5436,21 @@
                      "details" : null,
                      "name" : "enchantmentType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "EnchantmentType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EnchantmentType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -5540,9 +5459,14 @@
                "name" : "getEnchantment",
                "privilege" : "none",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Enchantment"
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Enchantment"
+                  }
                }
             },
             {
@@ -5551,9 +5475,21 @@
                      "details" : null,
                      "name" : "enchantmentType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "EnchantmentType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EnchantmentType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -5563,7 +5499,7 @@
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "int32",
                   "valid_range" : {
                      "max" : 2147483647,
@@ -5577,9 +5513,21 @@
                      "details" : null,
                      "name" : "enchantmentType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "EnchantmentType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EnchantmentType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -5589,7 +5537,7 @@
                "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "undefined"
                }
             }
@@ -6032,6 +5980,41 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EnchantmentType"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "enchantmentId",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "get",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : true,
+                  "name" : "EnchantmentType"
+               }
+            }
+         ],
+         "name" : "EnchantmentTypes",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EnchantmentTypes"
          }
       },
       {
@@ -7789,24 +7772,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IEntityDieAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntityDieAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntityDieAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "EntityComponent"
             }
          ],
@@ -8281,24 +8246,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEntityHitAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntityHitAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntityHitAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [],
@@ -8358,24 +8305,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityHurtAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IEntityHurtAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntityHurtAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntityHurtAfterEventSignal_deprecated"
          }
       },
       {
@@ -10360,24 +10289,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IEntitySpawnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "EntitySpawnEventSignalAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "EntitySpawnEventSignalAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "EntityComponent"
             }
          ],
@@ -10495,15 +10406,6 @@
                      "max" : 2147483647,
                      "min" : -2147483648
                   }
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "tameEvent",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "Trigger"
                }
             }
          ],
@@ -10711,289 +10613,6 @@
       {
          "base_types" : [],
          "constants" : [],
-         "functions" : [],
-         "name" : "Events",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "blockBreak",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockBreakAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "blockExplode",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockExplodeAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "blockPlace",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockPlaceAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "buttonPush",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ButtonPushAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "chatSend",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ChatSendAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "dataDrivenEntityTriggerEvent",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "DataDrivenEntityTriggerAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "effectAdd",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EffectAddAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entityDie",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityDieAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entityHit",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityHitAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entityHurt",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntityHurtAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "entitySpawn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EntitySpawnEventSignalAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "explosion",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ExplosionAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemCompleteCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemCompleteChargeAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemDefinitionEvent",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemDefinitionAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemReleaseCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemReleaseChargeAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStartCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "StartChargeAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStartUseOn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStartUseOnAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStopCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStopChargeAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemStopUseOn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemStopUseOnAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemUse",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemUseAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "itemUseOn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemUseOnAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "leverActivate",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "LeverActionAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "messageReceive",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ServerMessageAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "pistonActivate",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PistonActivateAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "playerJoin",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PlayerJoinAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "playerLeave",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PlayerLeaveAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "playerSpawn",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "PlayerSpawnAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "projectileHit",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ProjectileHitAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "weatherChange",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "WeatherChangeAfterEventSignal_deprecated"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "worldInitialize",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "WorldInitializeAfterEventSignal_deprecated"
-               }
-            }
-         ],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "Events"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [],
          "functions" : [
             {
                "arguments" : [],
@@ -11028,9 +10647,14 @@
                "is_read_only" : true,
                "name" : "source",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "Entity"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
                }
             }
          ],
@@ -11056,24 +10680,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ExplosionAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IExplosionAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ExplosionAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ExplosionAfterEventSignal_deprecated"
          }
       },
       {
@@ -15063,24 +14669,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IItemCompleteChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemCompleteChargeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemCompleteChargeAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "Component"
             }
          ],
@@ -15186,24 +14774,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemDefinitionAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemDefinitionAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemDefinitionAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemDefinitionAfterEventSignal_deprecated"
          }
       },
       {
@@ -15588,24 +15158,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemReleaseChargeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemReleaseChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemReleaseChargeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemReleaseChargeAfterEventSignal_deprecated"
          }
       },
       {
@@ -16171,24 +15723,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStartUseOnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemStartUseOnAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStartUseOnAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [],
@@ -16248,24 +15782,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemStopChargeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStopChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemStopChargeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStopChargeAfterEventSignal_deprecated"
          }
       },
       {
@@ -16329,24 +15845,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemStopUseOnAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStopUseOnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemStopUseOnAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemStopUseOnAfterEventSignal_deprecated"
          }
       },
       {
@@ -16495,24 +15993,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IItemUseAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemUseAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemUseAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "ItemUseAfterEvent"
             }
          ],
@@ -16629,24 +16109,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemUseOnAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemUseOnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ItemUseOnAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ItemUseOnAfterEventSignal_deprecated"
          }
       },
       {
@@ -17046,24 +16508,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "LeverActionAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "ILeverActionAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "LeverActionAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "LeverActionAfterEventSignal_deprecated"
          }
       },
       {
@@ -26013,399 +25457,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "aquaAffinity",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "baneOfArthropods",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "binding",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "blastProtection",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "channeling",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "depthStrider",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "efficiency",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "featherFalling",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "fireAspect",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "fireProtection",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "flame",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "fortune",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "frostWalker",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "impaling",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "infinity",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "knockback",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "looting",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "loyalty",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "luckOfTheSea",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "lure",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "mending",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "multishot",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "piercing",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "power",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "projectileProtection",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "protection",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "punch",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "quickCharge",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "respiration",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "riptide",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "sharpness",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "silkTouch",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "smite",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "soulSpeed",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "swiftSneak",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "thorns",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "unbreaking",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "vanishing",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "EnchantmentType"
-               }
-            }
-         ],
-         "functions" : [],
-         "name" : "MinecraftEnchantmentTypes",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "MinecraftEnchantmentTypes"
-         }
-      },
-      {
-         "base_types" : [],
-         "constants" : [
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "agent",
                "type" : {
                   "is_bind_type" : true,
@@ -27759,7 +26810,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "anglerPotteryShard",
+               "name" : "anglerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27789,7 +26840,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "archerPotteryShard",
+               "name" : "archerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27809,7 +26860,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "armsUpPotteryShard",
+               "name" : "armsUpPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28499,7 +27550,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "bladePotteryShard",
+               "name" : "bladePotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28729,7 +27780,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "brewerPotteryShard",
+               "name" : "brewerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28889,7 +27940,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "burnPotteryShard",
+               "name" : "burnPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -30179,7 +29230,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "dangerPotteryShard",
+               "name" : "dangerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -31139,7 +30190,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "explorerPotteryShard",
+               "name" : "explorerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -31399,7 +30450,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "friendPotteryShard",
+               "name" : "friendPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -31989,7 +31040,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "heartbreakPotteryShard",
+               "name" : "heartbreakPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32009,7 +31060,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "heartPotteryShard",
+               "name" : "heartPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32129,7 +31180,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "howlPotteryShard",
+               "name" : "howlPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33259,7 +32310,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "minerPotteryShard",
+               "name" : "minerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33359,7 +32410,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "mournerPotteryShard",
+               "name" : "mournerPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33559,6 +32610,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "musicDiscRelic",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "musicDiscStal",
                "type" : {
                   "is_bind_type" : true,
@@ -33639,7 +32700,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherBrick",
+               "name" : "netherbrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33649,7 +32710,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherbrick",
+               "name" : "netherBrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34339,7 +33400,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "plentyPotteryShard",
+               "name" : "plentyPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34669,7 +33730,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "prizePotteryShard",
+               "name" : "prizePotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -35439,7 +34500,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "sheafPotteryShard",
+               "name" : "sheafPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -35469,7 +34530,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "shelterPotteryShard",
+               "name" : "shelterPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -35599,7 +34660,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "skullPotteryShard",
+               "name" : "skullPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -35749,7 +34810,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "snortPotteryShard",
+               "name" : "snortPotterySherd",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -37970,24 +37031,6 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IPistonActivateAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PistonActivateAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PistonActivateAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
                "name" : "BlockEvent"
             }
          ],
@@ -38605,24 +37648,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPlayerJoinAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PlayerJoinAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PlayerJoinAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [],
@@ -38669,24 +37694,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "PlayerLeaveAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPlayerLeaveAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PlayerLeaveAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PlayerLeaveAfterEventSignal_deprecated"
          }
       },
       {
@@ -38738,24 +37745,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "PlayerSpawnAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IPlayerSpawnAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "PlayerSpawnAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "PlayerSpawnAfterEventSignal_deprecated"
          }
       },
       {
@@ -38867,24 +37856,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ProjectileHitAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IProjectileHitAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ProjectileHitAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ProjectileHitAfterEventSignal_deprecated"
          }
       },
       {
@@ -39843,42 +38814,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ServerMessageAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IServerMessageAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "ServerMessageAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "ServerMessageAfterEventSignal_deprecated"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IItemStartChargeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "StartChargeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "StartChargeAfterEventSignal_deprecated"
          }
       },
       {
@@ -40914,24 +39849,6 @@
          }
       },
       {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IWeatherChangeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "WeatherChangeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "WeatherChangeAfterEventSignal_deprecated"
-         }
-      },
-      {
          "base_types" : [],
          "constants" : [],
          "functions" : [
@@ -41497,15 +40414,6 @@
             },
             {
                "is_read_only" : true,
-               "name" : "events",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Events"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "scoreboard",
                "type" : {
                   "is_bind_type" : true,
@@ -41558,24 +40466,6 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "WorldInitializeAfterEventSignal"
-         }
-      },
-      {
-         "base_types" : [
-            {
-               "is_bind_type" : true,
-               "is_errorable" : false,
-               "name" : "IWorldInitializeAfterEventSignal"
-            }
-         ],
-         "constants" : [],
-         "functions" : [],
-         "name" : "WorldInitializeAfterEventSignal_deprecated",
-         "properties" : [],
-         "type" : {
-            "is_bind_type" : true,
-            "is_errorable" : false,
-            "name" : "WorldInitializeAfterEventSignal_deprecated"
          }
       }
    ],
@@ -42722,6 +41612,33 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "back",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "back"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "front",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "front"
+            }
+         ],
+         "name" : "SignSide"
+      },
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "Day",
                "type" : {
                   "is_bind_type" : true,
@@ -42854,7 +41771,35 @@
          "name" : "WeatherType"
       }
    ],
-   "errors" : [],
+   "errors" : [
+      {
+         "name" : "CommandError",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "CommandError"
+         }
+      },
+      {
+         "name" : "PositionInUnloadedChunkError",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "PositionInUnloadedChunkError"
+         }
+      },
+      {
+         "name" : "PositionOutOfWorldBoundariesError",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "PositionOutOfWorldBoundariesError"
+         }
+      }
+   ],
    "functions" : [],
    "interfaces" : [
       {

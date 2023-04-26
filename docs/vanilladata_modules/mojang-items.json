@@ -61,7 +61,7 @@
          "name" : "minecraft:andesite_stairs"
       },
       {
-         "name" : "minecraft:angler_pottery_shard"
+         "name" : "minecraft:angler_pottery_sherd"
       },
       {
          "name" : "minecraft:anvil"
@@ -70,13 +70,13 @@
          "name" : "minecraft:apple"
       },
       {
-         "name" : "minecraft:archer_pottery_shard"
+         "name" : "minecraft:archer_pottery_sherd"
       },
       {
          "name" : "minecraft:armor_stand"
       },
       {
-         "name" : "minecraft:arms_up_pottery_shard"
+         "name" : "minecraft:arms_up_pottery_sherd"
       },
       {
          "name" : "minecraft:arrow"
@@ -271,7 +271,7 @@
          "name" : "minecraft:blackstone_wall"
       },
       {
-         "name" : "minecraft:blade_pottery_shard"
+         "name" : "minecraft:blade_pottery_sherd"
       },
       {
          "name" : "minecraft:blast_furnace"
@@ -340,7 +340,7 @@
          "name" : "minecraft:bread"
       },
       {
-         "name" : "minecraft:brewer_pottery_shard"
+         "name" : "minecraft:brewer_pottery_sherd"
       },
       {
          "name" : "minecraft:brewing_stand"
@@ -388,7 +388,7 @@
          "name" : "minecraft:budding_amethyst"
       },
       {
-         "name" : "minecraft:burn_pottery_shard"
+         "name" : "minecraft:burn_pottery_sherd"
       },
       {
          "name" : "minecraft:cactus"
@@ -766,7 +766,7 @@
          "name" : "minecraft:cyan_wool"
       },
       {
-         "name" : "minecraft:danger_pottery_shard"
+         "name" : "minecraft:danger_pottery_sherd"
       },
       {
          "name" : "minecraft:dark_oak_boat"
@@ -1054,7 +1054,7 @@
          "name" : "minecraft:experience_bottle"
       },
       {
-         "name" : "minecraft:explorer_pottery_shard"
+         "name" : "minecraft:explorer_pottery_sherd"
       },
       {
          "name" : "minecraft:exposed_copper"
@@ -1132,7 +1132,7 @@
          "name" : "minecraft:frame"
       },
       {
-         "name" : "minecraft:friend_pottery_shard"
+         "name" : "minecraft:friend_pottery_sherd"
       },
       {
          "name" : "minecraft:frog_spawn"
@@ -1312,10 +1312,10 @@
          "name" : "minecraft:heart_of_the_sea"
       },
       {
-         "name" : "minecraft:heart_pottery_shard"
+         "name" : "minecraft:heart_pottery_sherd"
       },
       {
-         "name" : "minecraft:heartbreak_pottery_shard"
+         "name" : "minecraft:heartbreak_pottery_sherd"
       },
       {
          "name" : "minecraft:heavy_weighted_pressure_plate"
@@ -1351,7 +1351,7 @@
          "name" : "minecraft:host_armor_trim_smithing_template"
       },
       {
-         "name" : "minecraft:howl_pottery_shard"
+         "name" : "minecraft:howl_pottery_sherd"
       },
       {
          "name" : "minecraft:husk_spawn_egg"
@@ -1690,7 +1690,7 @@
          "name" : "minecraft:minecart"
       },
       {
-         "name" : "minecraft:miner_pottery_shard"
+         "name" : "minecraft:miner_pottery_sherd"
       },
       {
          "name" : "minecraft:mob_spawner"
@@ -1720,7 +1720,7 @@
          "name" : "minecraft:mossy_stone_brick_stairs"
       },
       {
-         "name" : "minecraft:mourner_pottery_shard"
+         "name" : "minecraft:mourner_pottery_sherd"
       },
       {
          "name" : "minecraft:mud"
@@ -1778,6 +1778,9 @@
       },
       {
          "name" : "minecraft:music_disc_pigstep"
+      },
+      {
+         "name" : "minecraft:music_disc_relic"
       },
       {
          "name" : "minecraft:music_disc_stal"
@@ -2011,7 +2014,7 @@
          "name" : "minecraft:planks"
       },
       {
-         "name" : "minecraft:plenty_pottery_shard"
+         "name" : "minecraft:plenty_pottery_sherd"
       },
       {
          "name" : "minecraft:podzol"
@@ -2110,7 +2113,7 @@
          "name" : "minecraft:prismarine_stairs"
       },
       {
-         "name" : "minecraft:prize_pottery_shard"
+         "name" : "minecraft:prize_pottery_sherd"
       },
       {
          "name" : "minecraft:pufferfish"
@@ -2341,7 +2344,7 @@
          "name" : "minecraft:shaper_armor_trim_smithing_template"
       },
       {
-         "name" : "minecraft:sheaf_pottery_shard"
+         "name" : "minecraft:sheaf_pottery_sherd"
       },
       {
          "name" : "minecraft:shears"
@@ -2350,7 +2353,7 @@
          "name" : "minecraft:sheep_spawn_egg"
       },
       {
-         "name" : "minecraft:shelter_pottery_shard"
+         "name" : "minecraft:shelter_pottery_sherd"
       },
       {
          "name" : "minecraft:shield"
@@ -2389,7 +2392,7 @@
          "name" : "minecraft:skull_banner_pattern"
       },
       {
-         "name" : "minecraft:skull_pottery_shard"
+         "name" : "minecraft:skull_pottery_sherd"
       },
       {
          "name" : "minecraft:slime"
@@ -2434,7 +2437,7 @@
          "name" : "minecraft:sniffer_spawn_egg"
       },
       {
-         "name" : "minecraft:snort_pottery_shard"
+         "name" : "minecraft:snort_pottery_sherd"
       },
       {
          "name" : "minecraft:snout_armor_trim_smithing_template"

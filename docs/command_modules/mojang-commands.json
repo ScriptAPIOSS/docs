@@ -5264,6 +5264,12 @@
                "value" : "music_disc_pigstep"
             },
             {
+               "value" : "minecraft:music_disc_relic"
+            },
+            {
+               "value" : "music_disc_relic"
+            },
+            {
                "value" : "minecraft:disc_fragment_5"
             },
             {
@@ -5900,124 +5906,124 @@
                "value" : "globe_banner_pattern"
             },
             {
-               "value" : "minecraft:angler_pottery_shard"
+               "value" : "minecraft:angler_pottery_sherd"
             },
             {
-               "value" : "angler_pottery_shard"
+               "value" : "angler_pottery_sherd"
             },
             {
-               "value" : "minecraft:archer_pottery_shard"
+               "value" : "minecraft:archer_pottery_sherd"
             },
             {
-               "value" : "archer_pottery_shard"
+               "value" : "archer_pottery_sherd"
             },
             {
-               "value" : "minecraft:arms_up_pottery_shard"
+               "value" : "minecraft:arms_up_pottery_sherd"
             },
             {
-               "value" : "arms_up_pottery_shard"
+               "value" : "arms_up_pottery_sherd"
             },
             {
-               "value" : "minecraft:blade_pottery_shard"
+               "value" : "minecraft:blade_pottery_sherd"
             },
             {
-               "value" : "blade_pottery_shard"
+               "value" : "blade_pottery_sherd"
             },
             {
-               "value" : "minecraft:brewer_pottery_shard"
+               "value" : "minecraft:brewer_pottery_sherd"
             },
             {
-               "value" : "brewer_pottery_shard"
+               "value" : "brewer_pottery_sherd"
             },
             {
-               "value" : "minecraft:burn_pottery_shard"
+               "value" : "minecraft:burn_pottery_sherd"
             },
             {
-               "value" : "burn_pottery_shard"
+               "value" : "burn_pottery_sherd"
             },
             {
-               "value" : "minecraft:danger_pottery_shard"
+               "value" : "minecraft:danger_pottery_sherd"
             },
             {
-               "value" : "danger_pottery_shard"
+               "value" : "danger_pottery_sherd"
             },
             {
-               "value" : "minecraft:explorer_pottery_shard"
+               "value" : "minecraft:explorer_pottery_sherd"
             },
             {
-               "value" : "explorer_pottery_shard"
+               "value" : "explorer_pottery_sherd"
             },
             {
-               "value" : "minecraft:friend_pottery_shard"
+               "value" : "minecraft:friend_pottery_sherd"
             },
             {
-               "value" : "friend_pottery_shard"
+               "value" : "friend_pottery_sherd"
             },
             {
-               "value" : "minecraft:heart_pottery_shard"
+               "value" : "minecraft:heart_pottery_sherd"
             },
             {
-               "value" : "heart_pottery_shard"
+               "value" : "heart_pottery_sherd"
             },
             {
-               "value" : "minecraft:heartbreak_pottery_shard"
+               "value" : "minecraft:heartbreak_pottery_sherd"
             },
             {
-               "value" : "heartbreak_pottery_shard"
+               "value" : "heartbreak_pottery_sherd"
             },
             {
-               "value" : "minecraft:howl_pottery_shard"
+               "value" : "minecraft:howl_pottery_sherd"
             },
             {
-               "value" : "howl_pottery_shard"
+               "value" : "howl_pottery_sherd"
             },
             {
-               "value" : "minecraft:miner_pottery_shard"
+               "value" : "minecraft:miner_pottery_sherd"
             },
             {
-               "value" : "miner_pottery_shard"
+               "value" : "miner_pottery_sherd"
             },
             {
-               "value" : "minecraft:mourner_pottery_shard"
+               "value" : "minecraft:mourner_pottery_sherd"
             },
             {
-               "value" : "mourner_pottery_shard"
+               "value" : "mourner_pottery_sherd"
             },
             {
-               "value" : "minecraft:plenty_pottery_shard"
+               "value" : "minecraft:plenty_pottery_sherd"
             },
             {
-               "value" : "plenty_pottery_shard"
+               "value" : "plenty_pottery_sherd"
             },
             {
-               "value" : "minecraft:prize_pottery_shard"
+               "value" : "minecraft:prize_pottery_sherd"
             },
             {
-               "value" : "prize_pottery_shard"
+               "value" : "prize_pottery_sherd"
             },
             {
-               "value" : "minecraft:sheaf_pottery_shard"
+               "value" : "minecraft:sheaf_pottery_sherd"
             },
             {
-               "value" : "sheaf_pottery_shard"
+               "value" : "sheaf_pottery_sherd"
             },
             {
-               "value" : "minecraft:shelter_pottery_shard"
+               "value" : "minecraft:shelter_pottery_sherd"
             },
             {
-               "value" : "shelter_pottery_shard"
+               "value" : "shelter_pottery_sherd"
             },
             {
-               "value" : "minecraft:skull_pottery_shard"
+               "value" : "minecraft:skull_pottery_sherd"
             },
             {
-               "value" : "skull_pottery_shard"
+               "value" : "skull_pottery_sherd"
             },
             {
-               "value" : "minecraft:snort_pottery_shard"
+               "value" : "minecraft:snort_pottery_sherd"
             },
             {
-               "value" : "snort_pottery_shard"
+               "value" : "snort_pottery_sherd"
             },
             {
                "value" : "minecraft:netherite_upgrade_smithing_template"
@@ -6179,6 +6185,9 @@
                "value" : "record_wait"
             },
             {
+               "value" : "record_strad"
+            },
+            {
                "value" : "real_double_stone_slab4"
             },
             {
@@ -6260,9 +6269,6 @@
                "value" : "glazedterracotta.silver"
             },
             {
-               "value" : "record_strad"
-            },
-            {
                "value" : "record_pigstep"
             },
             {
@@ -6314,12 +6320,6 @@
                "value" : "muttoncooked"
             },
             {
-               "value" : "glazedterracotta.white"
-            },
-            {
-               "value" : "fireworks"
-            },
-            {
                "value" : "speckled_melon"
             },
             {
@@ -6333,6 +6333,15 @@
             },
             {
                "value" : "record_mall"
+            },
+            {
+               "value" : "glazedterracotta.white"
+            },
+            {
+               "value" : "fireworks"
+            },
+            {
+               "value" : "record_relic"
             },
             {
                "value" : "spawn_egg"
@@ -11263,6 +11272,9 @@
                "value" : "minecraft:ate_rose"
             },
             {
+               "value" : "minecraft:ate_torchflower"
+            },
+            {
                "value" : "minecraft:ate_tulip"
             },
             {
@@ -12087,10 +12099,211 @@
          ]
       },
       {
-         "name" : "ExecuteModeDetect",
+         "name" : "Option_As",
          "values" : [
             {
-               "value" : "detect"
+               "value" : "as"
+            }
+         ]
+      },
+      {
+         "name" : "ExecuteChainedOption_0",
+         "values" : [
+            {
+               "value" : "as"
+            },
+            {
+               "value" : "at"
+            },
+            {
+               "value" : "in"
+            },
+            {
+               "value" : "positioned"
+            },
+            {
+               "value" : "rotated"
+            },
+            {
+               "value" : "facing"
+            },
+            {
+               "value" : "align"
+            },
+            {
+               "value" : "anchored"
+            },
+            {
+               "value" : "if"
+            },
+            {
+               "value" : "unless"
+            },
+            {
+               "value" : "run"
+            }
+         ]
+      },
+      {
+         "name" : "Option_At",
+         "values" : [
+            {
+               "value" : "at"
+            }
+         ]
+      },
+      {
+         "name" : "Option_In",
+         "values" : [
+            {
+               "value" : "in"
+            }
+         ]
+      },
+      {
+         "name" : "Dimension",
+         "values" : [
+            {
+               "value" : "overworld"
+            },
+            {
+               "value" : "nether"
+            },
+            {
+               "value" : "the_end"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Positioned",
+         "values" : [
+            {
+               "value" : "positioned"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Rotated",
+         "values" : [
+            {
+               "value" : "rotated"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Facing",
+         "values" : [
+            {
+               "value" : "facing"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Entity",
+         "values" : [
+            {
+               "value" : "entity"
+            }
+         ]
+      },
+      {
+         "name" : "ActorLocation",
+         "values" : [
+            {
+               "value" : "eyes"
+            },
+            {
+               "value" : "feet"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Align",
+         "values" : [
+            {
+               "value" : "align"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Anchored",
+         "values" : [
+            {
+               "value" : "anchored"
+            }
+         ]
+      },
+      {
+         "name" : "Option_If_Unless",
+         "values" : [
+            {
+               "value" : "if"
+            },
+            {
+               "value" : "unless"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Condition_Block",
+         "values" : [
+            {
+               "value" : "block"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Condition_Blocks",
+         "values" : [
+            {
+               "value" : "blocks"
+            }
+         ]
+      },
+      {
+         "name" : "BlocksScanMode",
+         "values" : [
+            {
+               "value" : "masked"
+            },
+            {
+               "value" : "all"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Condition_Entity",
+         "values" : [
+            {
+               "value" : "entity"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Condition_Score",
+         "values" : [
+            {
+               "value" : "score"
+            }
+         ]
+      },
+      {
+         "name" : "ScoreboardObjectives",
+         "values" : []
+      },
+      {
+         "name" : "ScoreRangeMode",
+         "values" : [
+            {
+               "value" : "matches"
+            }
+         ]
+      },
+      {
+         "name" : "Option_Run",
+         "values" : [
+            {
+               "value" : "run"
             }
          ]
       },
@@ -12560,6 +12773,14 @@
          ]
       },
       {
+         "name" : "LocateSubcommandStructure",
+         "values" : [
+            {
+               "value" : "structure"
+            }
+         ]
+      },
+      {
          "name" : "Structure",
          "values" : [
             {
@@ -12631,6 +12852,274 @@
          ]
       },
       {
+         "name" : "LocateSubcommandBiome",
+         "values" : [
+            {
+               "value" : "biome"
+            }
+         ]
+      },
+      {
+         "name" : "Biome",
+         "values" : [
+            {
+               "value" : "the_end"
+            },
+            {
+               "value" : "ocean"
+            },
+            {
+               "value" : "plains"
+            },
+            {
+               "value" : "desert"
+            },
+            {
+               "value" : "extreme_hills"
+            },
+            {
+               "value" : "forest"
+            },
+            {
+               "value" : "taiga"
+            },
+            {
+               "value" : "swampland"
+            },
+            {
+               "value" : "river"
+            },
+            {
+               "value" : "hell"
+            },
+            {
+               "value" : "legacy_frozen_ocean"
+            },
+            {
+               "value" : "frozen_river"
+            },
+            {
+               "value" : "ice_plains"
+            },
+            {
+               "value" : "ice_mountains"
+            },
+            {
+               "value" : "mushroom_island"
+            },
+            {
+               "value" : "mushroom_island_shore"
+            },
+            {
+               "value" : "beach"
+            },
+            {
+               "value" : "desert_hills"
+            },
+            {
+               "value" : "forest_hills"
+            },
+            {
+               "value" : "taiga_hills"
+            },
+            {
+               "value" : "extreme_hills_edge"
+            },
+            {
+               "value" : "jungle"
+            },
+            {
+               "value" : "jungle_hills"
+            },
+            {
+               "value" : "jungle_edge"
+            },
+            {
+               "value" : "deep_ocean"
+            },
+            {
+               "value" : "stone_beach"
+            },
+            {
+               "value" : "cold_beach"
+            },
+            {
+               "value" : "birch_forest"
+            },
+            {
+               "value" : "birch_forest_hills"
+            },
+            {
+               "value" : "roofed_forest"
+            },
+            {
+               "value" : "cold_taiga"
+            },
+            {
+               "value" : "cold_taiga_hills"
+            },
+            {
+               "value" : "mega_taiga"
+            },
+            {
+               "value" : "mega_taiga_hills"
+            },
+            {
+               "value" : "extreme_hills_plus_trees"
+            },
+            {
+               "value" : "savanna"
+            },
+            {
+               "value" : "savanna_plateau"
+            },
+            {
+               "value" : "mesa"
+            },
+            {
+               "value" : "mesa_plateau_stone"
+            },
+            {
+               "value" : "mesa_plateau"
+            },
+            {
+               "value" : "warm_ocean"
+            },
+            {
+               "value" : "lukewarm_ocean"
+            },
+            {
+               "value" : "deep_lukewarm_ocean"
+            },
+            {
+               "value" : "cold_ocean"
+            },
+            {
+               "value" : "deep_cold_ocean"
+            },
+            {
+               "value" : "frozen_ocean"
+            },
+            {
+               "value" : "deep_frozen_ocean"
+            },
+            {
+               "value" : "bamboo_jungle"
+            },
+            {
+               "value" : "bamboo_jungle_hills"
+            },
+            {
+               "value" : "sunflower_plains"
+            },
+            {
+               "value" : "desert_mutated"
+            },
+            {
+               "value" : "extreme_hills_mutated"
+            },
+            {
+               "value" : "flower_forest"
+            },
+            {
+               "value" : "taiga_mutated"
+            },
+            {
+               "value" : "swampland_mutated"
+            },
+            {
+               "value" : "ice_plains_spikes"
+            },
+            {
+               "value" : "jungle_mutated"
+            },
+            {
+               "value" : "jungle_edge_mutated"
+            },
+            {
+               "value" : "birch_forest_mutated"
+            },
+            {
+               "value" : "birch_forest_hills_mutated"
+            },
+            {
+               "value" : "roofed_forest_mutated"
+            },
+            {
+               "value" : "cold_taiga_mutated"
+            },
+            {
+               "value" : "redwood_taiga_mutated"
+            },
+            {
+               "value" : "redwood_taiga_hills_mutated"
+            },
+            {
+               "value" : "extreme_hills_plus_trees_mutated"
+            },
+            {
+               "value" : "savanna_mutated"
+            },
+            {
+               "value" : "savanna_plateau_mutated"
+            },
+            {
+               "value" : "mesa_bryce"
+            },
+            {
+               "value" : "mesa_plateau_stone_mutated"
+            },
+            {
+               "value" : "mesa_plateau_mutated"
+            },
+            {
+               "value" : "soulsand_valley"
+            },
+            {
+               "value" : "crimson_forest"
+            },
+            {
+               "value" : "warped_forest"
+            },
+            {
+               "value" : "basalt_deltas"
+            },
+            {
+               "value" : "jagged_peaks"
+            },
+            {
+               "value" : "frozen_peaks"
+            },
+            {
+               "value" : "snowy_slopes"
+            },
+            {
+               "value" : "grove"
+            },
+            {
+               "value" : "meadow"
+            },
+            {
+               "value" : "lush_caves"
+            },
+            {
+               "value" : "dripstone_caves"
+            },
+            {
+               "value" : "stony_peaks"
+            },
+            {
+               "value" : "deep_dark"
+            },
+            {
+               "value" : "mangrove_swamp"
+            },
+            {
+               "value" : "cherry_grove"
+            }
+         ]
+      },
+      {
          "name" : "TargetSpawn",
          "values" : [
             {
@@ -12695,9 +13184,6 @@
                "value" : "minecraft:dispenser"
             },
             {
-               "value" : "minecraft:crimson_fence"
-            },
-            {
                "value" : "minecraft:polished_deepslate_wall"
             },
             {
@@ -12705,6 +13191,9 @@
             },
             {
                "value" : "minecraft:polished_blackstone_button"
+            },
+            {
+               "value" : "minecraft:purpur_stairs"
             },
             {
                "value" : "minecraft:polished_deepslate"
@@ -12878,7 +13367,7 @@
                "value" : "minecraft:bamboo_wall_sign"
             },
             {
-               "value" : "minecraft:mud_bricks"
+               "value" : "minecraft:azalea"
             },
             {
                "value" : "minecraft:waxed_exposed_double_cut_copper_slab"
@@ -12992,16 +13481,22 @@
                "value" : "minecraft:torchflower_crop"
             },
             {
+               "value" : "minecraft:item.reeds"
+            },
+            {
                "value" : "minecraft:portal"
             },
             {
                "value" : "minecraft:black_candle_cake"
             },
             {
-               "value" : "minecraft:spruce_fence"
+               "value" : "minecraft:tinted_glass"
             },
             {
-               "value" : "minecraft:log"
+               "value" : "minecraft:birch_fence"
+            },
+            {
+               "value" : "minecraft:spruce_fence"
             },
             {
                "value" : "minecraft:black_carpet"
@@ -13032,6 +13527,9 @@
             },
             {
                "value" : "minecraft:white_candle"
+            },
+            {
+               "value" : "minecraft:orange_carpet"
             },
             {
                "value" : "minecraft:wool"
@@ -13100,58 +13598,37 @@
                "value" : "minecraft:polished_blackstone_stairs"
             },
             {
-               "value" : "minecraft:mourner_pottery_shard"
+               "value" : "minecraft:snout_armor_trim_smithing_template"
             },
             {
-               "value" : "minecraft:skull_pottery_shard"
+               "value" : "minecraft:crimson_fence"
             },
             {
-               "value" : "minecraft:plenty_pottery_shard"
+               "value" : "minecraft:howl_pottery_sherd"
             },
             {
-               "value" : "minecraft:orange_carpet"
+               "value" : "minecraft:element_45"
             },
             {
-               "value" : "minecraft:miner_pottery_shard"
+               "value" : "minecraft:explorer_pottery_sherd"
             },
             {
-               "value" : "minecraft:lava_bucket"
+               "value" : "minecraft:netherrack"
             },
             {
-               "value" : "minecraft:howl_pottery_shard"
+               "value" : "minecraft:flower_banner_pattern"
             },
             {
-               "value" : "minecraft:tinted_glass"
+               "value" : "minecraft:log"
             },
             {
-               "value" : "minecraft:birch_fence"
+               "value" : "minecraft:mangrove_roots"
             },
             {
-               "value" : "minecraft:friend_pottery_shard"
+               "value" : "minecraft:vindicator_spawn_egg"
             },
             {
-               "value" : "minecraft:explorer_pottery_shard"
-            },
-            {
-               "value" : "minecraft:tadpole_bucket"
-            },
-            {
-               "value" : "minecraft:cyan_candle"
-            },
-            {
-               "value" : "minecraft:burn_pottery_shard"
-            },
-            {
-               "value" : "minecraft:brewer_pottery_shard"
-            },
-            {
-               "value" : "minecraft:jungle_button"
-            },
-            {
-               "value" : "minecraft:soul_fire"
-            },
-            {
-               "value" : "minecraft:weeping_vines"
+               "value" : "minecraft:popped_chorus_fruit"
             },
             {
                "value" : "minecraft:dark_oak_fence"
@@ -13163,9 +13640,6 @@
                "value" : "minecraft:camel_spawn_egg"
             },
             {
-               "value" : "minecraft:panda_spawn_egg"
-            },
-            {
                "value" : "minecraft:spruce_boat"
             },
             {
@@ -13173,6 +13647,9 @@
             },
             {
                "value" : "minecraft:witch_spawn_egg"
+            },
+            {
+               "value" : "minecraft:prize_pottery_sherd"
             },
             {
                "value" : "minecraft:acacia_hanging_sign"
@@ -13184,6 +13661,9 @@
                "value" : "minecraft:birch_hanging_sign"
             },
             {
+               "value" : "minecraft:brewer_pottery_sherd"
+            },
+            {
                "value" : "minecraft:cyan_dye"
             },
             {
@@ -13191,6 +13671,9 @@
             },
             {
                "value" : "minecraft:chainmail_leggings"
+            },
+            {
+               "value" : "minecraft:panda_spawn_egg"
             },
             {
                "value" : "minecraft:bamboo_mosaic_slab"
@@ -13221,6 +13704,12 @@
             },
             {
                "value" : "minecraft:waxed_exposed_cut_copper"
+            },
+            {
+               "value" : "minecraft:mud_bricks"
+            },
+            {
+               "value" : "minecraft:music_disc_relic"
             },
             {
                "value" : "minecraft:cherry_chest_boat"
@@ -13277,9 +13766,6 @@
                "value" : "minecraft:crossbow"
             },
             {
-               "value" : "minecraft:heartbreak_pottery_shard"
-            },
-            {
                "value" : "minecraft:lapis_ore"
             },
             {
@@ -13319,9 +13805,6 @@
                "value" : "minecraft:soul_campfire"
             },
             {
-               "value" : "minecraft:snort_pottery_shard"
-            },
-            {
                "value" : "minecraft:chain"
             },
             {
@@ -13332,6 +13815,12 @@
             },
             {
                "value" : "minecraft:copper_ingot"
+            },
+            {
+               "value" : "minecraft:archer_pottery_sherd"
+            },
+            {
+               "value" : "minecraft:mule_spawn_egg"
             },
             {
                "value" : "minecraft:crimson_door"
@@ -13424,12 +13913,6 @@
                "value" : "minecraft:dead_bubble_coral"
             },
             {
-               "value" : "minecraft:netherrack"
-            },
-            {
-               "value" : "minecraft:flower_banner_pattern"
-            },
-            {
                "value" : "minecraft:acacia_sign"
             },
             {
@@ -13449,15 +13932,6 @@
             },
             {
                "value" : "minecraft:turtle_helmet"
-            },
-            {
-               "value" : "minecraft:shelter_pottery_shard"
-            },
-            {
-               "value" : "minecraft:element_103"
-            },
-            {
-               "value" : "minecraft:light_blue_glazed_terracotta"
             },
             {
                "value" : "minecraft:nether_sprouts"
@@ -13541,6 +14015,12 @@
                "value" : "minecraft:iron_leggings"
             },
             {
+               "value" : "minecraft:element_76"
+            },
+            {
+               "value" : "minecraft:big_dripleaf"
+            },
+            {
                "value" : "minecraft:balloon"
             },
             {
@@ -13578,9 +14058,6 @@
             },
             {
                "value" : "minecraft:music_disc_stal"
-            },
-            {
-               "value" : "minecraft:heart_pottery_shard"
             },
             {
                "value" : "minecraft:deepslate_tile_wall"
@@ -13665,6 +14142,9 @@
             },
             {
                "value" : "minecraft:red_glazed_terracotta"
+            },
+            {
+               "value" : "minecraft:shelter_pottery_sherd"
             },
             {
                "value" : "minecraft:fire_charge"
@@ -13775,10 +14255,19 @@
                "value" : "minecraft:crimson_slab"
             },
             {
+               "value" : "minecraft:crimson_sign"
+            },
+            {
+               "value" : "minecraft:stripped_mangrove_wood"
+            },
+            {
                "value" : "minecraft:sentry_armor_trim_smithing_template"
             },
             {
                "value" : "minecraft:element_7"
+            },
+            {
+               "value" : "minecraft:arms_up_pottery_sherd"
             },
             {
                "value" : "minecraft:element_23"
@@ -13892,6 +14381,12 @@
                "value" : "minecraft:zombie_villager_spawn_egg"
             },
             {
+               "value" : "minecraft:jungle_button"
+            },
+            {
+               "value" : "minecraft:soul_fire"
+            },
+            {
                "value" : "minecraft:deepslate_redstone_ore"
             },
             {
@@ -13916,15 +14411,6 @@
                "value" : "minecraft:glow_lichen"
             },
             {
-               "value" : "minecraft:pink_glazed_terracotta"
-            },
-            {
-               "value" : "minecraft:allay_spawn_egg"
-            },
-            {
-               "value" : "minecraft:chainmail_chestplate"
-            },
-            {
                "value" : "minecraft:stripped_acacia_log"
             },
             {
@@ -13938,15 +14424,6 @@
             },
             {
                "value" : "minecraft:stone_hoe"
-            },
-            {
-               "value" : "minecraft:stripped_mangrove_wood"
-            },
-            {
-               "value" : "minecraft:crimson_sign"
-            },
-            {
-               "value" : "minecraft:element_45"
             },
             {
                "value" : "minecraft:wooden_hoe"
@@ -13976,15 +14453,6 @@
                "value" : "minecraft:cooked_chicken"
             },
             {
-               "value" : "minecraft:danger_pottery_shard"
-            },
-            {
-               "value" : "minecraft:spruce_chest_boat"
-            },
-            {
-               "value" : "minecraft:item.flower_pot"
-            },
-            {
                "value" : "minecraft:stained_hardened_clay"
             },
             {
@@ -13998,6 +14466,9 @@
             },
             {
                "value" : "minecraft:element_50"
+            },
+            {
+               "value" : "minecraft:danger_pottery_sherd"
             },
             {
                "value" : "minecraft:stick"
@@ -14099,6 +14570,9 @@
                "value" : "minecraft:snow_golem_spawn_egg"
             },
             {
+               "value" : "minecraft:miner_pottery_sherd"
+            },
+            {
                "value" : "minecraft:camera"
             },
             {
@@ -14150,9 +14624,6 @@
                "value" : "minecraft:red_flower"
             },
             {
-               "value" : "minecraft:mule_spawn_egg"
-            },
-            {
                "value" : "minecraft:shulker_shell"
             },
             {
@@ -14175,9 +14646,6 @@
             },
             {
                "value" : "minecraft:fox_spawn_egg"
-            },
-            {
-               "value" : "minecraft:compass"
             },
             {
                "value" : "minecraft:dark_oak_boat"
@@ -14276,6 +14744,9 @@
                "value" : "minecraft:bat_spawn_egg"
             },
             {
+               "value" : "minecraft:friend_pottery_sherd"
+            },
+            {
                "value" : "minecraft:light_blue_dye"
             },
             {
@@ -14360,13 +14831,7 @@
                "value" : "minecraft:element_30"
             },
             {
-               "value" : "minecraft:arms_up_pottery_shard"
-            },
-            {
                "value" : "minecraft:lead"
-            },
-            {
-               "value" : "minecraft:orange_candle"
             },
             {
                "value" : "minecraft:lever"
@@ -14393,10 +14858,13 @@
                "value" : "minecraft:double_cut_copper_slab"
             },
             {
-               "value" : "minecraft:vindicator_spawn_egg"
+               "value" : "minecraft:orange_candle"
             },
             {
-               "value" : "minecraft:popped_chorus_fruit"
+               "value" : "minecraft:skull_pottery_sherd"
+            },
+            {
+               "value" : "minecraft:honeycomb_block"
             },
             {
                "value" : "minecraft:book"
@@ -14457,6 +14925,21 @@
             },
             {
                "value" : "minecraft:element_36"
+            },
+            {
+               "value" : "minecraft:pink_glazed_terracotta"
+            },
+            {
+               "value" : "minecraft:chainmail_chestplate"
+            },
+            {
+               "value" : "minecraft:allay_spawn_egg"
+            },
+            {
+               "value" : "minecraft:weeping_vines"
+            },
+            {
+               "value" : "minecraft:lava_bucket"
             },
             {
                "value" : "minecraft:polished_deepslate_slab"
@@ -14573,15 +15056,6 @@
                "value" : "minecraft:honey_block"
             },
             {
-               "value" : "minecraft:azalea"
-            },
-            {
-               "value" : "minecraft:sheaf_pottery_shard"
-            },
-            {
-               "value" : "minecraft:scaffolding"
-            },
-            {
                "value" : "minecraft:cat_spawn_egg"
             },
             {
@@ -14597,13 +15071,10 @@
                "value" : "minecraft:light_gray_wool"
             },
             {
-               "value" : "minecraft:purpur_stairs"
-            },
-            {
-               "value" : "minecraft:angler_pottery_shard"
-            },
-            {
                "value" : "minecraft:chest_minecart"
+            },
+            {
+               "value" : "minecraft:compass"
             },
             {
                "value" : "minecraft:netherite_pickaxe"
@@ -14714,6 +15185,9 @@
                "value" : "minecraft:ghast_tear"
             },
             {
+               "value" : "minecraft:plenty_pottery_sherd"
+            },
+            {
                "value" : "minecraft:cookie"
             },
             {
@@ -14733,6 +15207,24 @@
             },
             {
                "value" : "minecraft:jungle_fence"
+            },
+            {
+               "value" : "minecraft:burn_pottery_sherd"
+            },
+            {
+               "value" : "minecraft:sheaf_pottery_sherd"
+            },
+            {
+               "value" : "minecraft:grass_path"
+            },
+            {
+               "value" : "minecraft:element_28"
+            },
+            {
+               "value" : "minecraft:bamboo_sapling"
+            },
+            {
+               "value" : "minecraft:pink_candle_cake"
             },
             {
                "value" : "minecraft:powered_comparator"
@@ -14843,18 +15335,6 @@
                "value" : "minecraft:slime_spawn_egg"
             },
             {
-               "value" : "minecraft:snout_armor_trim_smithing_template"
-            },
-            {
-               "value" : "minecraft:suspicious_sand"
-            },
-            {
-               "value" : "minecraft:cherry_pressure_plate"
-            },
-            {
-               "value" : "minecraft:element_78"
-            },
-            {
                "value" : "minecraft:netherite_sword"
             },
             {
@@ -14939,9 +15419,6 @@
                "value" : "minecraft:element_29"
             },
             {
-               "value" : "minecraft:mangrove_roots"
-            },
-            {
                "value" : "minecraft:spyglass"
             },
             {
@@ -14955,6 +15432,12 @@
             },
             {
                "value" : "minecraft:husk_spawn_egg"
+            },
+            {
+               "value" : "minecraft:tadpole_bucket"
+            },
+            {
+               "value" : "minecraft:cyan_candle"
             },
             {
                "value" : "minecraft:glow_frame"
@@ -14973,6 +15456,9 @@
             },
             {
                "value" : "minecraft:boat"
+            },
+            {
+               "value" : "minecraft:mourner_pottery_sherd"
             },
             {
                "value" : "minecraft:cyan_glazed_terracotta"
@@ -14997,6 +15483,9 @@
             },
             {
                "value" : "minecraft:bee_nest"
+            },
+            {
+               "value" : "minecraft:snort_pottery_sherd"
             },
             {
                "value" : "minecraft:npc_spawn_egg"
@@ -15188,15 +15677,6 @@
                "value" : "minecraft:sponge"
             },
             {
-               "value" : "minecraft:stonebrick"
-            },
-            {
-               "value" : "minecraft:trapdoor"
-            },
-            {
-               "value" : "minecraft:snow_layer"
-            },
-            {
                "value" : "minecraft:acacia_button"
             },
             {
@@ -15207,6 +15687,9 @@
             },
             {
                "value" : "minecraft:brain_coral"
+            },
+            {
+               "value" : "minecraft:heartbreak_pottery_sherd"
             },
             {
                "value" : "minecraft:bubble_coral"
@@ -15252,9 +15735,6 @@
             },
             {
                "value" : "minecraft:dark_oak_log"
-            },
-            {
-               "value" : "minecraft:blade_pottery_shard"
             },
             {
                "value" : "minecraft:element_75"
@@ -15317,7 +15797,7 @@
                "value" : "minecraft:turtle_egg"
             },
             {
-               "value" : "minecraft:archer_pottery_shard"
+               "value" : "minecraft:scaffolding"
             },
             {
                "value" : "minecraft:blast_furnace"
@@ -15354,6 +15834,9 @@
             },
             {
                "value" : "minecraft:birch_trapdoor"
+            },
+            {
+               "value" : "minecraft:blade_pottery_sherd"
             },
             {
                "value" : "minecraft:hard_stained_glass"
@@ -15554,18 +16037,6 @@
                "value" : "minecraft:element_27"
             },
             {
-               "value" : "minecraft:grass_path"
-            },
-            {
-               "value" : "minecraft:element_28"
-            },
-            {
-               "value" : "minecraft:bamboo_sapling"
-            },
-            {
-               "value" : "minecraft:pink_candle_cake"
-            },
-            {
                "value" : "minecraft:ice_bomb"
             },
             {
@@ -15662,12 +16133,6 @@
                "value" : "minecraft:mangrove_log"
             },
             {
-               "value" : "minecraft:element_76"
-            },
-            {
-               "value" : "minecraft:big_dripleaf"
-            },
-            {
                "value" : "minecraft:element_79"
             },
             {
@@ -15749,13 +16214,25 @@
                "value" : "minecraft:element_101"
             },
             {
+               "value" : "minecraft:angler_pottery_sherd"
+            },
+            {
                "value" : "minecraft:element_102"
+            },
+            {
+               "value" : "minecraft:element_103"
+            },
+            {
+               "value" : "minecraft:light_blue_glazed_terracotta"
             },
             {
                "value" : "minecraft:polished_blackstone_pressure_plate"
             },
             {
                "value" : "minecraft:warped_fence_gate"
+            },
+            {
+               "value" : "minecraft:heart_pottery_sherd"
             },
             {
                "value" : "minecraft:element_109"
@@ -15872,6 +16349,15 @@
                "value" : "minecraft:nether_brick_stairs"
             },
             {
+               "value" : "minecraft:suspicious_sand"
+            },
+            {
+               "value" : "minecraft:element_78"
+            },
+            {
+               "value" : "minecraft:cherry_pressure_plate"
+            },
+            {
                "value" : "minecraft:podzol"
             },
             {
@@ -15894,6 +16380,15 @@
             },
             {
                "value" : "minecraft:lime_glazed_terracotta"
+            },
+            {
+               "value" : "minecraft:stonebrick"
+            },
+            {
+               "value" : "minecraft:snow_layer"
+            },
+            {
+               "value" : "minecraft:trapdoor"
             },
             {
                "value" : "minecraft:info_update"
@@ -15936,6 +16431,12 @@
             },
             {
                "value" : "minecraft:amethyst_block"
+            },
+            {
+               "value" : "minecraft:spruce_chest_boat"
+            },
+            {
+               "value" : "minecraft:item.flower_pot"
             },
             {
                "value" : "minecraft:clock"
@@ -16253,9 +16754,6 @@
                "value" : "minecraft:diorite_stairs"
             },
             {
-               "value" : "minecraft:honeycomb_block"
-            },
-            {
                "value" : "minecraft:magma"
             },
             {
@@ -16319,9 +16817,6 @@
                "value" : "minecraft:suspicious_gravel"
             },
             {
-               "value" : "minecraft:prize_pottery_shard"
-            },
-            {
                "value" : "minecraft:element_117"
             },
             {
@@ -16361,10 +16856,10 @@
                "value" : "minecraft:border_block"
             },
             {
-               "value" : "minecraft:redstone_wire"
+               "value" : "minecraft:wither_skeleton_spawn_egg"
             },
             {
-               "value" : "minecraft:wither_skeleton_spawn_egg"
+               "value" : "minecraft:redstone_wire"
             },
             {
                "value" : "minecraft:shroomlight"
@@ -16536,9 +17031,6 @@
             },
             {
                "value" : "minecraft:sweet_berry_bush"
-            },
-            {
-               "value" : "minecraft:item.reeds"
             }
          ]
       },
@@ -17478,10 +17970,6 @@
          ]
       },
       {
-         "name" : "ScoreboardObjectives",
-         "values" : []
-      },
-      {
          "name" : "ScoreboardCriteria",
          "values" : [
             {
@@ -17732,6 +18220,14 @@
          ]
       },
       {
+         "name" : "TeleportFacing",
+         "values" : [
+            {
+               "value" : "facing"
+            }
+         ]
+      },
+      {
          "name" : "TagChangeAction",
          "values" : [
             {
@@ -17751,14 +18247,6 @@
          "values" : [
             {
                "value" : "list"
-            }
-         ]
-      },
-      {
-         "name" : "TeleportFacing",
-         "values" : [
-            {
-               "value" : "facing"
             }
          ]
       },
@@ -18265,60 +18753,6 @@
                ]
             },
             {
-               "name" : "2",
-               "params" : [
-                  {
-                     "is_optional" : false,
-                     "name" : "begin",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "end",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "destination",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "maskMode",
-                     "type" : {
-                        "name" : "MASKMODEFILTERED"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "cloneMode",
-                     "type" : {
-                        "name" : "CLONEMODE"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileName",
-                     "type" : {
-                        "name" : "BLOCK"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileData",
-                     "type" : {
-                        "name" : "INT"
-                     }
-                  }
-               ]
-            },
-            {
                "name" : "3",
                "params" : [
                   {
@@ -18775,8 +19209,15 @@
          "name" : "execute",
          "overloads" : [
             {
-               "name" : "1",
+               "name" : "3",
                "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_AS"
+                     }
+                  },
                   {
                      "is_optional" : false,
                      "name" : "origin",
@@ -18786,28 +19227,73 @@
                   },
                   {
                      "is_optional" : false,
-                     "name" : "position",
+                     "name" : "chainedCommand",
                      "type" : {
-                        "name" : "POSITION_FLOAT"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "command",
-                     "type" : {
-                        "name" : "SLASHCOMMAND"
+                        "name" : "EXECUTECHAINEDOPTION_0"
                      }
                   }
                ]
             },
             {
-               "name" : "2",
+               "name" : "4",
                "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_AT"
+                     }
+                  },
                   {
                      "is_optional" : false,
                      "name" : "origin",
                      "type" : {
                         "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "5",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IN"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "dimension",
+                     "type" : {
+                        "name" : "DIMENSION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "6",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_POSITIONED"
                      }
                   },
                   {
@@ -18819,14 +19305,290 @@
                   },
                   {
                      "is_optional" : false,
-                     "name" : "detect",
+                     "name" : "chainedCommand",
                      "type" : {
-                        "name" : "EXECUTEMODEDETECT"
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "7",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_POSITIONED"
                      }
                   },
                   {
                      "is_optional" : false,
-                     "name" : "detectPos",
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_AS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "origin",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "8",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_ROTATED"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "yaw",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pitch",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "9",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_ROTATED"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_AS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "origin",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "10",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "11",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_ENTITY"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "origin",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "anchor",
+                     "type" : {
+                        "name" : "ACTORLOCATION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "12",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_ALIGN"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "axes",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "13",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_ANCHORED"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "anchored",
+                     "type" : {
+                        "name" : "ACTORLOCATION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "14",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IF_UNLESS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_CONDITION_BLOCK"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "block",
+                     "type" : {
+                        "name" : "BLOCK"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "15",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IF_UNLESS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_CONDITION_BLOCK"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
                      "type" : {
                         "name" : "POSITION"
                      }
@@ -18840,9 +19602,230 @@
                   },
                   {
                      "is_optional" : false,
-                     "name" : "data",
+                     "name" : "blockStates",
                      "type" : {
-                        "name" : "INT"
+                        "name" : "BLOCK_STATE_ARRAY"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "17",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IF_UNLESS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_CONDITION_BLOCKS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "begin",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "end",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "destination",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "scan mode",
+                     "type" : {
+                        "name" : "BLOCKSSCANMODE"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "18",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IF_UNLESS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_CONDITION_ENTITY"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "target",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "19",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IF_UNLESS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_CONDITION_SCORE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "target",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "objective",
+                     "type" : {
+                        "name" : "SCOREBOARDOBJECTIVES"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "operation",
+                     "type" : {
+                        "name" : "COMPAREOPERATOR"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "source",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "objective",
+                     "type" : {
+                        "name" : "SCOREBOARDOBJECTIVES"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "20",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_IF_UNLESS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "secondary subcommand",
+                     "type" : {
+                        "name" : "OPTION_CONDITION_SCORE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "target",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "objective",
+                     "type" : {
+                        "name" : "SCOREBOARDOBJECTIVES"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "matches",
+                     "type" : {
+                        "name" : "SCORERANGEMODE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "range",
+                     "type" : {
+                        "name" : "FULLINTEGERRANGE"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "chainedCommand",
+                     "type" : {
+                        "name" : "EXECUTECHAINEDOPTION_0"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "21",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "OPTION_RUN"
                      }
                   },
                   {
@@ -18863,100 +19846,6 @@
          "description" : "Fills all or parts of a region with a specific block.",
          "name" : "fill",
          "overloads" : [
-            {
-               "name" : "1",
-               "params" : [
-                  {
-                     "is_optional" : false,
-                     "name" : "from",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "to",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileName",
-                     "type" : {
-                        "name" : "BLOCK"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "tileData",
-                     "type" : {
-                        "name" : "INT"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "oldBlockHandling",
-                     "type" : {
-                        "name" : "FILLMODE"
-                     }
-                  }
-               ]
-            },
-            {
-               "name" : "2",
-               "params" : [
-                  {
-                     "is_optional" : false,
-                     "name" : "from",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "to",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileName",
-                     "type" : {
-                        "name" : "BLOCK"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileData",
-                     "type" : {
-                        "name" : "INT"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "oldBlockHandling",
-                     "type" : {
-                        "name" : "REPLACE"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "replaceTileName",
-                     "type" : {
-                        "name" : "BLOCK"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "replaceDataValue",
-                     "type" : {
-                        "name" : "INT"
-                     }
-                  }
-               ]
-            },
             {
                "name" : "3",
                "params" : [
@@ -19410,7 +20299,7 @@
       },
       {
          "aliases" : [],
-         "description" : "",
+         "description" : "Sets whether or not a player's input can affect their character.",
          "name" : "inputpermission",
          "overloads" : [
             {
@@ -19551,11 +20440,18 @@
          "name" : "locate",
          "overloads" : [
             {
-               "name" : "1",
+               "name" : "2",
                "params" : [
                   {
                      "is_optional" : false,
-                     "name" : "feature",
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "LOCATESUBCOMMANDSTRUCTURE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "structure",
                      "type" : {
                         "name" : "STRUCTURE"
                      }
@@ -19565,6 +20461,25 @@
                      "name" : "useNewChunksOnly",
                      "type" : {
                         "name" : "BOOLEAN"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "3",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "subcommand",
+                     "type" : {
+                        "name" : "LOCATESUBCOMMANDBIOME"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "biome",
+                     "type" : {
+                        "name" : "BIOME"
                      }
                   }
                ]
@@ -21818,39 +22733,6 @@
          "name" : "setblock",
          "overloads" : [
             {
-               "name" : "1",
-               "params" : [
-                  {
-                     "is_optional" : false,
-                     "name" : "position",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileName",
-                     "type" : {
-                        "name" : "BLOCK"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "tileData",
-                     "type" : {
-                        "name" : "INT"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "oldBlockHandling",
-                     "type" : {
-                        "name" : "SETBLOCKMODE"
-                     }
-                  }
-               ]
-            },
-            {
                "name" : "2",
                "params" : [
                   {
@@ -22192,7 +23074,7 @@
                ]
             },
             {
-               "name" : "4",
+               "name" : "6",
                "params" : [
                   {
                      "is_optional" : false,
@@ -22245,6 +23127,13 @@
                   },
                   {
                      "is_optional" : true,
+                     "name" : "waterlogged",
+                     "type" : {
+                        "name" : "BOOLEAN"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
                      "name" : "integrity",
                      "type" : {
                         "name" : "VAL"
@@ -22260,7 +23149,7 @@
                ]
             },
             {
-               "name" : "5",
+               "name" : "7",
                "params" : [
                   {
                      "is_optional" : false,
@@ -22327,6 +23216,13 @@
                   },
                   {
                      "is_optional" : true,
+                     "name" : "waterlogged",
+                     "type" : {
+                        "name" : "BOOLEAN"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
                      "name" : "integrity",
                      "type" : {
                         "name" : "VAL"
@@ -22351,7 +23247,7 @@
          "name" : "summon",
          "overloads" : [
             {
-               "name" : "1",
+               "name" : "2",
                "params" : [
                   {
                      "is_optional" : false,
@@ -22365,6 +23261,20 @@
                      "name" : "spawnPos",
                      "type" : {
                         "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "yRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "xRot",
+                     "type" : {
+                        "name" : "RVAL"
                      }
                   },
                   {
@@ -22405,6 +23315,100 @@
                      "name" : "spawnPos",
                      "type" : {
                         "name" : "POSITION_FLOAT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "4",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "entityType",
+                     "type" : {
+                        "name" : "ENTITYTYPE"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "spawnPos",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "TELEPORTFACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtPosition",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "spawnEvent",
+                     "type" : {
+                        "name" : "ENTITYEVENTS"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "nameTag",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "5",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "entityType",
+                     "type" : {
+                        "name" : "ENTITYTYPE"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "spawnPos",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "TELEPORTFACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtEntity",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "spawnEvent",
+                     "type" : {
+                        "name" : "ENTITYEVENTS"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "nameTag",
+                     "type" : {
+                        "name" : "ID"
                      }
                   }
                ]
@@ -22871,32 +23875,6 @@
          "description" : "Tests whether a certain block is in a specific location.",
          "name" : "testforblock",
          "overloads" : [
-            {
-               "name" : "1",
-               "params" : [
-                  {
-                     "is_optional" : false,
-                     "name" : "position",
-                     "type" : {
-                        "name" : "POSITION"
-                     }
-                  },
-                  {
-                     "is_optional" : false,
-                     "name" : "tileName",
-                     "type" : {
-                        "name" : "BLOCK"
-                     }
-                  },
-                  {
-                     "is_optional" : true,
-                     "name" : "dataValue",
-                     "type" : {
-                        "name" : "INT"
-                     }
-                  }
-               ]
-            },
             {
                "name" : "2",
                "params" : [

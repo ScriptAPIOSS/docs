@@ -1649,43 +1649,43 @@
       },
       {
          "name" : "minecraft:cardinal_direction",
-         "type" : "int",
+         "type" : "string",
          "values" : [
             {
-               "value" : 0
+               "value" : "south"
             },
             {
-               "value" : 1
+               "value" : "west"
             },
             {
-               "value" : 2
+               "value" : "north"
             },
             {
-               "value" : 3
+               "value" : "east"
             }
          ]
       },
       {
          "name" : "minecraft:facing_direction",
-         "type" : "int",
+         "type" : "string",
          "values" : [
             {
-               "value" : 0
+               "value" : "down"
             },
             {
-               "value" : 1
+               "value" : "up"
             },
             {
-               "value" : 2
+               "value" : "north"
             },
             {
-               "value" : 3
+               "value" : "south"
             },
             {
-               "value" : 4
+               "value" : "west"
             },
             {
-               "value" : 5
+               "value" : "east"
             }
          ]
       },
@@ -2361,6 +2361,21 @@
             },
             {
                "value" : "dark_oak"
+            }
+         ]
+      },
+      {
+         "name" : "sculk_sensor_phase",
+         "type" : "int",
+         "values" : [
+            {
+               "value" : 0
+            },
+            {
+               "value" : 1
+            },
+            {
+               "value" : 2
             }
          ]
       },
@@ -4087,7 +4102,7 @@
                "name" : "direction"
             },
             {
-               "name" : "powered_bit"
+               "name" : "sculk_sensor_phase"
             }
          ]
       },
@@ -8092,7 +8107,7 @@
          "name" : "minecraft:sculk_sensor",
          "properties" : [
             {
-               "name" : "powered_bit"
+               "name" : "sculk_sensor_phase"
             }
          ]
       },
