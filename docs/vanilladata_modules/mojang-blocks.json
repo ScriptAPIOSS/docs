@@ -1648,6 +1648,30 @@
          ]
       },
       {
+         "name" : "minecraft:block_face",
+         "type" : "string",
+         "values" : [
+            {
+               "value" : "down"
+            },
+            {
+               "value" : "up"
+            },
+            {
+               "value" : "north"
+            },
+            {
+               "value" : "south"
+            },
+            {
+               "value" : "west"
+            },
+            {
+               "value" : "east"
+            }
+         ]
+      },
+      {
          "name" : "minecraft:cardinal_direction",
          "type" : "string",
          "values" : [
@@ -1686,6 +1710,18 @@
             },
             {
                "value" : "east"
+            }
+         ]
+      },
+      {
+         "name" : "minecraft:vertical_half",
+         "type" : "string",
+         "values" : [
+            {
+               "value" : "bottom"
+            },
+            {
+               "value" : "top"
             }
          ]
       },

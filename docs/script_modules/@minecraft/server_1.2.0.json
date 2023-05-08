@@ -104,7 +104,19 @@
       },
       {
          "base_types" : [],
-         "constants" : [],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:inventory"
+            }
+         ],
          "functions" : [],
          "name" : "BlockInventoryComponent",
          "properties" : [
@@ -299,6 +311,28 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "CommandResult"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "Component",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "typeId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "Component"
          }
       },
       {
@@ -824,14 +858,14 @@
                "arguments" : [
                   {
                      "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
+                        "max_value" : 3.402823466385289e+38,
+                        "min_value" : -3.402823466385289e+38
                      },
                      "name" : "amount",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "int32",
+                        "name" : "float",
                         "valid_range" : {
                            "max" : 2147483647,
                            "min" : -2147483648
@@ -989,6 +1023,50 @@
                }
             },
             {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "componentId",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getComponent",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "EntityComponent"
+                  }
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getComponents",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "EntityComponent"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            },
+            {
                "arguments" : [],
                "is_constructor" : false,
                "is_static" : false,
@@ -1039,6 +1117,28 @@
                   "is_bind_type" : true,
                   "is_errorable" : true,
                   "name" : "Vector3"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "componentId",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "hasComponent",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean"
                }
             },
             {
@@ -1203,8 +1303,406 @@
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
          "constants" : [],
+         "functions" : [],
+         "name" : "EntityBaseMovementComponent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "maxTurn",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityBaseMovementComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:can_climb"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityCanClimbComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityCanClimbComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:can_fly"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityCanFlyComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityCanFlyComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:can_power_jump"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityCanPowerJumpComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityCanPowerJumpComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:color"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityColorComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityColorComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "Component"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "EntityComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:fire_immune"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityFireImmuneComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityFireImmuneComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:floats_in_liquid"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityFloatsInLiquidComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityFloatsInLiquidComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:flying_speed"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityFlyingSpeedComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityFlyingSpeedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:friction_modifier"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityFrictionModifierComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityFrictionModifierComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:ground_offset"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityGroundOffsetComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityGroundOffsetComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:inventory"
+            }
+         ],
          "functions" : [],
          "name" : "EntityInventoryComponent",
          "properties" : [
@@ -1287,8 +1785,416 @@
          }
       },
       {
-         "base_types" : [],
-         "constants" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_baby"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsBabyComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsBabyComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_charged"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsChargedComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsChargedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_chested"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsChestedComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsChestedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_dyeable"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsDyeableComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsDyeableComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_hidden_when_invisible"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsHiddenWhenInvisibleComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsHiddenWhenInvisibleComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_ignited"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsIgnitedComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsIgnitedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_illager_captain"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsIllagerCaptainComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsIllagerCaptainComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_saddled"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsSaddledComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsSaddledComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_shaking"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsShakingComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsShakingComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_sheared"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsShearedComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsShearedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_stackable"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsStackableComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsStackableComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_stunned"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsStunnedComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsStunnedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:is_tamed"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityIsTamedComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityIsTamedComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:item"
+            }
+         ],
          "functions" : [],
          "name" : "EntityItemComponent",
          "properties" : [
@@ -1309,7 +2215,477 @@
          }
       },
       {
-         "base_types" : [],
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:mark_variant"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMarkVariantComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMarkVariantComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.amphibious"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementAmphibiousComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementAmphibiousComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.basic"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementBasicComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementBasicComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.fly"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementFlyComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementFlyComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.generic"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementGenericComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementGenericComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.hover"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementHoverComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementHoverComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.jump"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementJumpComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementJumpComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityBaseMovementComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:movement.skip"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityMovementSkipComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityMovementSkipComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:push_through"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityPushThroughComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityPushThroughComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:scale"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityScaleComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityScaleComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:skin_id"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntitySkinIdComponent",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "value",
+               "privilege" : "none",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntitySkinIdComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:variant"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityVariantComponent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "value",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityVariantComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "EntityComponent"
+            }
+         ],
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "componentId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "minecraft:wants_jockey"
+            }
+         ],
+         "functions" : [],
+         "name" : "EntityWantsJockeyComponent",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityWantsJockeyComponent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "Component"
+            }
+         ],
          "constants" : [],
          "functions" : [],
          "name" : "ItemComponent",

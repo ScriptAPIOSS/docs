@@ -98,6 +98,15 @@
             },
             {
                "is_read_only" : true,
+               "name" : "entityRemoved",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "EntityRemovedAfterEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "entitySpawn",
                "type" : {
                   "is_bind_type" : true,
@@ -5169,6 +5178,15 @@
                      "min" : -2147483648
                   }
                }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "typeId",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "string"
+               }
             }
          ],
          "type" : {
@@ -5265,6 +5283,63 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EffectType"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "identifier",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "get",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "EffectType"
+                  }
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : true,
+               "name" : "getAll",
+               "privilege" : "none",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "EffectType"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            }
+         ],
+         "name" : "EffectTypes",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EffectTypes"
          }
       },
       {
@@ -6003,9 +6078,14 @@
                "name" : "get",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "EnchantmentType"
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "EnchantmentType"
+                  }
                }
             }
          ],
@@ -6027,9 +6107,21 @@
                      "details" : null,
                      "name" : "effectType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "EffectType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EffectType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -6050,32 +6142,18 @@
                   },
                   {
                      "details" : {
-                        "default_value" : 0,
-                        "max_value" : 255,
-                        "min_value" : 0
+                        "default_value" : "null"
                      },
-                     "name" : "amplifier",
+                     "name" : "options",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "int32",
-                        "valid_range" : {
-                           "max" : 2147483647,
-                           "min" : -2147483648
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityEffectOptions"
                         }
-                     }
-                  },
-                  {
-                     "details" : {
-                        "default_value" : true,
-                        "max_value" : true,
-                        "min_value" : false
-                     },
-                     "name" : "showParticles",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "boolean"
                      }
                   }
                ],
@@ -6086,7 +6164,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "boolean"
                }
             },
             {
@@ -6115,14 +6193,14 @@
                "arguments" : [
                   {
                      "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
+                        "max_value" : 3.402823466385289e+38,
+                        "min_value" : -3.402823466385289e+38
                      },
                      "name" : "amount",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "int32",
+                        "name" : "float",
                         "valid_range" : {
                            "max" : 2147483647,
                            "min" : -2147483648
@@ -6354,9 +6432,14 @@
                "name" : "getComponent",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "EntityComponent"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "EntityComponent"
+                  }
                }
             },
             {
@@ -6430,9 +6513,21 @@
                      "details" : null,
                      "name" : "effectType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "EffectType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EffectType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -6441,9 +6536,14 @@
                "name" : "getEffect",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "Effect"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Effect"
+                  }
                }
             },
             {
@@ -6672,6 +6772,40 @@
                "is_static" : false,
                "name" : "removeDynamicProperty",
                "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "effectType",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "EffectType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "removeEffect",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -8257,7 +8391,7 @@
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "int32",
+                  "name" : "float",
                   "valid_range" : {
                      "max" : 2147483647,
                      "min" : -2147483648
@@ -8521,12 +8655,12 @@
             }
          ],
          "functions" : [],
-         "name" : "EntityIsDyableComponent",
+         "name" : "EntityIsDyeableComponent",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "EntityIsDyableComponent"
+            "name" : "EntityIsDyeableComponent"
          }
       },
       {
@@ -9076,7 +9210,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "EntityComponent"
+               "name" : "EntityBaseMovementComponent"
             }
          ],
          "constants" : [
@@ -9094,21 +9228,7 @@
          ],
          "functions" : [],
          "name" : "EntityMovementAmphibiousComponent",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "maxTurn",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "float",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            }
-         ],
+         "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -9120,7 +9240,7 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "EntityComponent"
+               "name" : "EntityBaseMovementComponent"
             }
          ],
          "constants" : [
@@ -9138,21 +9258,7 @@
          ],
          "functions" : [],
          "name" : "EntityMovementBasicComponent",
-         "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "maxTurn",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "float",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            }
-         ],
+         "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -9910,6 +10016,46 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityPushThroughComponent"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "EntityRemovedAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "removedEntity",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityRemovedAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IEntityRemovedAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "EntityRemovedAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityRemovedAfterEventSignal"
          }
       },
       {
@@ -12208,6 +12354,121 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "IEntityHurtAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "EntityRemovedAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "options",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityEventOptions"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityRemovedAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "EntityRemovedAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "IEntityRemovedAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "IEntityRemovedAfterEventSignal"
          }
       },
       {
@@ -42243,6 +42504,48 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityDataDrivenTriggerEventOptions"
+         }
+      },
+      {
+         "name" : "EntityEffectOptions",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "amplifier",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "int32",
+                     "valid_range" : {
+                        "max" : 2147483647,
+                        "min" : -2147483648
+                     }
+                  }
+               }
+            },
+            {
+               "is_read_only" : false,
+               "name" : "showParticles",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "boolean"
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityEffectOptions"
          }
       },
       {

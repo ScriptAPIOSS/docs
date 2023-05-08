@@ -19,9 +19,6 @@
                "value" : "dropall"
             },
             {
-               "value" : "inspect"
-            },
-            {
                "value" : "inspectdata"
             },
             {
@@ -6440,6 +6437,14 @@
          "values" : [
             {
                "value" : "destroy"
+            }
+         ]
+      },
+      {
+         "name" : "AGENT_INSPECT",
+         "values" : [
+            {
+               "value" : "inspect"
             }
          ]
       },
@@ -19080,6 +19085,25 @@
             },
             {
                "name" : "14",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "inspect",
+                     "type" : {
+                        "name" : "AGENT_INSPECT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "direction",
+                     "type" : {
+                        "name" : "AGENTDIRECTION"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "15",
                "params" : [
                   {
                      "is_optional" : false,
