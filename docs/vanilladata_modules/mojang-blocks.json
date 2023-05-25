@@ -3871,12 +3871,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:black_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:black_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:black_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:black_wool",
@@ -3965,6 +3973,10 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:blue_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:blue_glazed_terracotta",
          "properties" : [
             {
@@ -3974,6 +3986,10 @@
       },
       {
          "name" : "minecraft:blue_ice",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:blue_shulker_box",
          "properties" : []
       },
       {
@@ -4072,6 +4088,10 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:brown_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:brown_glazed_terracotta",
          "properties" : [
             {
@@ -4090,6 +4110,10 @@
                "name" : "huge_mushroom_bits"
             }
          ]
+      },
+      {
+         "name" : "minecraft:brown_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:brown_wool",
@@ -4625,14 +4649,6 @@
          ]
       },
       {
-         "name" : "minecraft:concrete",
-         "properties" : [
-            {
-               "name" : "color"
-            }
-         ]
-      },
-      {
          "name" : "minecraft:concrete_powder",
          "properties" : [
             {
@@ -4958,12 +4974,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:cyan_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:cyan_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:cyan_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:cyan_wool",
@@ -6229,12 +6253,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:gray_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:gray_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:gray_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:gray_wool",
@@ -6264,12 +6296,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:green_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:green_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:green_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:green_wool",
@@ -6692,12 +6732,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:light_blue_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:light_blue_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:light_blue_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:light_blue_wool",
@@ -6724,6 +6772,14 @@
       },
       {
          "name" : "minecraft:light_gray_carpet",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:light_gray_concrete",
+         "properties" : []
+      },
+      {
+         "name" : "minecraft:light_gray_shulker_box",
          "properties" : []
       },
       {
@@ -6770,12 +6826,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:lime_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:lime_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:lime_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:lime_wool",
@@ -6861,12 +6925,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:magenta_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:magenta_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:magenta_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:magenta_wool",
@@ -7346,12 +7418,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:orange_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:orange_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:orange_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:orange_wool",
@@ -7432,6 +7512,10 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:pink_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:pink_glazed_terracotta",
          "properties" : [
             {
@@ -7449,6 +7533,10 @@
                "name" : "growth"
             }
          ]
+      },
+      {
+         "name" : "minecraft:pink_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:pink_wool",
@@ -7843,12 +7931,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:purple_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:purple_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:purple_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:purple_wool",
@@ -7950,6 +8046,10 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:red_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:red_flower",
          "properties" : [
             {
@@ -8010,6 +8110,10 @@
                "name" : "weirdo_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:red_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:red_wool",
@@ -8192,14 +8296,6 @@
       {
          "name" : "minecraft:shroomlight",
          "properties" : []
-      },
-      {
-         "name" : "minecraft:shulker_box",
-         "properties" : [
-            {
-               "name" : "color"
-            }
-         ]
       },
       {
          "name" : "minecraft:silver_glazed_terracotta",
@@ -9429,12 +9525,20 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:white_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:white_glazed_terracotta",
          "properties" : [
             {
                "name" : "facing_direction"
             }
          ]
+      },
+      {
+         "name" : "minecraft:white_shulker_box",
+         "properties" : []
       },
       {
          "name" : "minecraft:white_wool",
@@ -9529,6 +9633,10 @@
          "properties" : []
       },
       {
+         "name" : "minecraft:yellow_concrete",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:yellow_flower",
          "properties" : []
       },
@@ -9541,11 +9649,15 @@
          ]
       },
       {
+         "name" : "minecraft:yellow_shulker_box",
+         "properties" : []
+      },
+      {
          "name" : "minecraft:yellow_wool",
          "properties" : []
       }
    ],
-   "minecraft_version" : "1.20.0-beta.24",
+   "minecraft_version" : "1.20.10-beta.20",
    "module_type" : "block",
    "name" : "mojang-block"
 }

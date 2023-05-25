@@ -250,10 +250,16 @@
          "name" : "minecraft:black_carpet"
       },
       {
+         "name" : "minecraft:black_concrete"
+      },
+      {
          "name" : "minecraft:black_dye"
       },
       {
          "name" : "minecraft:black_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:black_shulker_box"
       },
       {
          "name" : "minecraft:black_wool"
@@ -292,6 +298,9 @@
          "name" : "minecraft:blue_carpet"
       },
       {
+         "name" : "minecraft:blue_concrete"
+      },
+      {
          "name" : "minecraft:blue_dye"
       },
       {
@@ -299,6 +308,9 @@
       },
       {
          "name" : "minecraft:blue_ice"
+      },
+      {
+         "name" : "minecraft:blue_shulker_box"
       },
       {
          "name" : "minecraft:blue_wool"
@@ -361,6 +373,9 @@
          "name" : "minecraft:brown_carpet"
       },
       {
+         "name" : "minecraft:brown_concrete"
+      },
+      {
          "name" : "minecraft:brown_dye"
       },
       {
@@ -371,6 +386,9 @@
       },
       {
          "name" : "minecraft:brown_mushroom_block"
+      },
+      {
+         "name" : "minecraft:brown_shulker_box"
       },
       {
          "name" : "minecraft:brown_wool"
@@ -757,10 +775,16 @@
          "name" : "minecraft:cyan_carpet"
       },
       {
+         "name" : "minecraft:cyan_concrete"
+      },
+      {
          "name" : "minecraft:cyan_dye"
       },
       {
          "name" : "minecraft:cyan_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:cyan_shulker_box"
       },
       {
          "name" : "minecraft:cyan_wool"
@@ -1267,10 +1291,16 @@
          "name" : "minecraft:gray_carpet"
       },
       {
+         "name" : "minecraft:gray_concrete"
+      },
+      {
          "name" : "minecraft:gray_dye"
       },
       {
          "name" : "minecraft:gray_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:gray_shulker_box"
       },
       {
          "name" : "minecraft:gray_wool"
@@ -1282,10 +1312,16 @@
          "name" : "minecraft:green_carpet"
       },
       {
+         "name" : "minecraft:green_concrete"
+      },
+      {
          "name" : "minecraft:green_dye"
       },
       {
          "name" : "minecraft:green_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:green_shulker_box"
       },
       {
          "name" : "minecraft:green_wool"
@@ -1528,10 +1564,16 @@
          "name" : "minecraft:light_blue_carpet"
       },
       {
+         "name" : "minecraft:light_blue_concrete"
+      },
+      {
          "name" : "minecraft:light_blue_dye"
       },
       {
          "name" : "minecraft:light_blue_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:light_blue_shulker_box"
       },
       {
          "name" : "minecraft:light_blue_wool"
@@ -1543,7 +1585,13 @@
          "name" : "minecraft:light_gray_carpet"
       },
       {
+         "name" : "minecraft:light_gray_concrete"
+      },
+      {
          "name" : "minecraft:light_gray_dye"
+      },
+      {
+         "name" : "minecraft:light_gray_shulker_box"
       },
       {
          "name" : "minecraft:light_gray_wool"
@@ -1561,10 +1609,16 @@
          "name" : "minecraft:lime_carpet"
       },
       {
+         "name" : "minecraft:lime_concrete"
+      },
+      {
          "name" : "minecraft:lime_dye"
       },
       {
          "name" : "minecraft:lime_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:lime_shulker_box"
       },
       {
          "name" : "minecraft:lime_wool"
@@ -1600,10 +1654,16 @@
          "name" : "minecraft:magenta_carpet"
       },
       {
+         "name" : "minecraft:magenta_concrete"
+      },
+      {
          "name" : "minecraft:magenta_dye"
       },
       {
          "name" : "minecraft:magenta_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:magenta_shulker_box"
       },
       {
          "name" : "minecraft:magenta_wool"
@@ -1921,10 +1981,16 @@
          "name" : "minecraft:orange_carpet"
       },
       {
+         "name" : "minecraft:orange_concrete"
+      },
+      {
          "name" : "minecraft:orange_dye"
       },
       {
          "name" : "minecraft:orange_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:orange_shulker_box"
       },
       {
          "name" : "minecraft:orange_wool"
@@ -1990,6 +2056,9 @@
          "name" : "minecraft:pink_carpet"
       },
       {
+         "name" : "minecraft:pink_concrete"
+      },
+      {
          "name" : "minecraft:pink_dye"
       },
       {
@@ -1997,6 +2066,9 @@
       },
       {
          "name" : "minecraft:pink_petals"
+      },
+      {
+         "name" : "minecraft:pink_shulker_box"
       },
       {
          "name" : "minecraft:pink_wool"
@@ -2140,10 +2212,16 @@
          "name" : "minecraft:purple_carpet"
       },
       {
+         "name" : "minecraft:purple_concrete"
+      },
+      {
          "name" : "minecraft:purple_dye"
       },
       {
          "name" : "minecraft:purple_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:purple_shulker_box"
       },
       {
          "name" : "minecraft:purple_wool"
@@ -2221,6 +2299,9 @@
          "name" : "minecraft:red_carpet"
       },
       {
+         "name" : "minecraft:red_concrete"
+      },
+      {
          "name" : "minecraft:red_dye"
       },
       {
@@ -2246,6 +2327,9 @@
       },
       {
          "name" : "minecraft:red_sandstone_stairs"
+      },
+      {
+         "name" : "minecraft:red_shulker_box"
       },
       {
          "name" : "minecraft:red_wool"
@@ -2923,10 +3007,16 @@
          "name" : "minecraft:white_carpet"
       },
       {
+         "name" : "minecraft:white_concrete"
+      },
+      {
          "name" : "minecraft:white_dye"
       },
       {
          "name" : "minecraft:white_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:white_shulker_box"
       },
       {
          "name" : "minecraft:white_wool"
@@ -2992,6 +3082,9 @@
          "name" : "minecraft:yellow_carpet"
       },
       {
+         "name" : "minecraft:yellow_concrete"
+      },
+      {
          "name" : "minecraft:yellow_dye"
       },
       {
@@ -2999,6 +3092,9 @@
       },
       {
          "name" : "minecraft:yellow_glazed_terracotta"
+      },
+      {
+         "name" : "minecraft:yellow_shulker_box"
       },
       {
          "name" : "minecraft:yellow_wool"
@@ -3019,7 +3115,7 @@
          "name" : "minecraft:zombie_villager_spawn_egg"
       }
    ],
-   "minecraft_version" : "1.20.0-beta.24",
+   "minecraft_version" : "1.20.10-beta.20",
    "module_type" : "item",
    "name" : "mojang-item"
 }

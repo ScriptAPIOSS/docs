@@ -80,6 +80,15 @@
             },
             {
                "is_read_only" : true,
+               "name" : "entityHealthChanged",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "EntityHealthChangedAfterEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "entityHit",
                "type" : {
                   "is_bind_type" : true,
@@ -125,11 +134,11 @@
             },
             {
                "is_read_only" : true,
-               "name" : "itemCompleteCharge",
+               "name" : "itemCompleteUse",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemCompleteChargeAfterEventSignal"
+                  "name" : "ItemCompleteUseAfterEventSignal"
                }
             },
             {
@@ -143,20 +152,20 @@
             },
             {
                "is_read_only" : true,
-               "name" : "itemReleaseCharge",
+               "name" : "itemReleaseUse",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemReleaseChargeAfterEventSignal"
+                  "name" : "ItemReleaseUseAfterEventSignal"
                }
             },
             {
                "is_read_only" : true,
-               "name" : "itemStartCharge",
+               "name" : "itemStartUse",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStartChargeAfterEventSignal"
+                  "name" : "ItemStartUseAfterEventSignal"
                }
             },
             {
@@ -170,11 +179,11 @@
             },
             {
                "is_read_only" : true,
-               "name" : "itemStopCharge",
+               "name" : "itemStopUse",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStopChargeAfterEventSignal"
+                  "name" : "ItemStopUseAfterEventSignal"
                }
             },
             {
@@ -260,11 +269,47 @@
             },
             {
                "is_read_only" : true,
+               "name" : "pressurePlatePop",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "PressurePlatePopAfterEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "pressurePlatePush",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "PressurePlatePushAfterEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "projectileHit",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
                   "name" : "ProjectileHitAfterEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "targetBlockHit",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TargetBlockHitAfterEventSignal"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "tripWireTrip",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TripWireTripAfterEventSignal"
                }
             },
             {
@@ -2542,11 +2587,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
+                  "name" : "boolean"
                }
             },
             {
@@ -2852,9 +2893,14 @@
                "name" : "getIntersection",
                "privilege" : "none",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "BoundingBox"
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "BoundingBox"
+                  }
                }
             },
             {
@@ -3811,18 +3857,6 @@
          "base_types" : [],
          "constants" : [],
          "functions" : [
-            {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "clone",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "ItemStack"
-               }
-            },
             {
                "arguments" : [],
                "is_constructor" : false,
@@ -5057,6 +5091,22 @@
                         "is_errorable" : false,
                         "name" : "string"
                      }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean"
+                        }
+                     }
                   }
                ],
                "is_constructor" : false,
@@ -5078,6 +5128,26 @@
                         "is_bind_type" : false,
                         "is_errorable" : false,
                         "name" : "string"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "float",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        }
                      }
                   }
                ],
@@ -5115,6 +5185,22 @@
                         "valid_range" : {
                            "max" : 2147483647,
                            "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
                         }
                      }
                   }
@@ -6126,8 +6212,8 @@
                   },
                   {
                      "details" : {
-                        "max_value" : 2147483647,
-                        "min_value" : -2147483648
+                        "max_value" : 20000000,
+                        "min_value" : 1
                      },
                      "name" : "duration",
                      "type" : {
@@ -6164,7 +6250,7 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "boolean"
+                  "name" : "undefined"
                }
             },
             {
@@ -7114,11 +7200,60 @@
             },
             {
                "is_read_only" : true,
+               "name" : "fallDistance",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "id",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "string"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isClimbing",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isFalling",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isInWater",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isOnGround",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
                }
             },
             {
@@ -7128,6 +7263,24 @@
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isSprinting",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isSwimming",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
                   "name" : "boolean"
                }
             },
@@ -7399,7 +7552,7 @@
                ],
                "is_constructor" : false,
                "is_static" : false,
-               "name" : "setCurrent",
+               "name" : "setCurrentValue",
                "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
@@ -7412,7 +7565,7 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "current",
+               "name" : "currentValue",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -7425,7 +7578,33 @@
             },
             {
                "is_read_only" : true,
-               "name" : "value",
+               "name" : "defaultValue",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "effectiveMax",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "effectiveMin",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -8258,15 +8437,6 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "filters",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "FilterGroup"
-               }
-            },
-            {
-               "is_read_only" : true,
                "name" : "forceUse",
                "type" : {
                   "is_bind_type" : false,
@@ -8279,6 +8449,72 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "EntityHealableComponent"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "EntityHealthChangedAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "entity",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Entity"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "newValue",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "oldValue",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "float",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityHealthChangedAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IEntityHealthChangedAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "EntityHealthChangedAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "EntityHealthChangedAfterEventSignal"
          }
       },
       {
@@ -12141,6 +12377,121 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
+                                 "name" : "EntityHealthChangedAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "options",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityEventOptions"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "EntityHealthChangedAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "EntityHealthChangedAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "IEntityHealthChangedAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "IEntityHealthChangedAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
                                  "name" : "EntityHitAfterEvent"
                               }
                            ],
@@ -12783,7 +13134,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemCompleteChargeAfterEvent"
+                                 "name" : "ItemCompleteUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -12808,7 +13159,7 @@
                         {
                            "is_bind_type" : true,
                            "is_errorable" : false,
-                           "name" : "ItemCompleteChargeAfterEvent"
+                           "name" : "ItemCompleteUseAfterEvent"
                         }
                      ],
                      "return_type" : {
@@ -12833,7 +13184,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemCompleteChargeAfterEvent"
+                                 "name" : "ItemCompleteUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -12859,12 +13210,12 @@
                }
             }
          ],
-         "name" : "IItemCompleteChargeAfterEventSignal",
+         "name" : "IItemCompleteUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IItemCompleteChargeAfterEventSignal"
+            "name" : "IItemCompleteUseAfterEventSignal"
          }
       },
       {
@@ -13080,7 +13431,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemReleaseChargeAfterEvent"
+                                 "name" : "ItemReleaseUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -13105,7 +13456,7 @@
                         {
                            "is_bind_type" : true,
                            "is_errorable" : false,
-                           "name" : "ItemReleaseChargeAfterEvent"
+                           "name" : "ItemReleaseUseAfterEvent"
                         }
                      ],
                      "return_type" : {
@@ -13130,7 +13481,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemReleaseChargeAfterEvent"
+                                 "name" : "ItemReleaseUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -13156,12 +13507,12 @@
                }
             }
          ],
-         "name" : "IItemReleaseChargeAfterEventSignal",
+         "name" : "IItemReleaseUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IItemReleaseChargeAfterEventSignal"
+            "name" : "IItemReleaseUseAfterEventSignal"
          }
       },
       {
@@ -13179,7 +13530,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemStartChargeAfterEvent"
+                                 "name" : "ItemStartUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -13204,7 +13555,7 @@
                         {
                            "is_bind_type" : true,
                            "is_errorable" : false,
-                           "name" : "ItemStartChargeAfterEvent"
+                           "name" : "ItemStartUseAfterEvent"
                         }
                      ],
                      "return_type" : {
@@ -13229,7 +13580,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemStartChargeAfterEvent"
+                                 "name" : "ItemStartUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -13255,12 +13606,12 @@
                }
             }
          ],
-         "name" : "IItemStartChargeAfterEventSignal",
+         "name" : "IItemStartUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IItemStartChargeAfterEventSignal"
+            "name" : "IItemStartUseAfterEventSignal"
          }
       },
       {
@@ -13377,7 +13728,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemStopChargeAfterEvent"
+                                 "name" : "ItemStopUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -13402,7 +13753,7 @@
                         {
                            "is_bind_type" : true,
                            "is_errorable" : false,
-                           "name" : "ItemStopChargeAfterEvent"
+                           "name" : "ItemStopUseAfterEvent"
                         }
                      ],
                      "return_type" : {
@@ -13427,7 +13778,7 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
-                                 "name" : "ItemStopChargeAfterEvent"
+                                 "name" : "ItemStopUseAfterEvent"
                               }
                            ],
                            "return_type" : {
@@ -13453,12 +13804,12 @@
                }
             }
          ],
-         "name" : "IItemStopChargeAfterEventSignal",
+         "name" : "IItemStopUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "IItemStopChargeAfterEventSignal"
+            "name" : "IItemStopUseAfterEventSignal"
          }
       },
       {
@@ -14565,6 +14916,204 @@
                               {
                                  "is_bind_type" : true,
                                  "is_errorable" : false,
+                                 "name" : "PressurePlatePopAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "PressurePlatePopAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "PressurePlatePopAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "IPressurePlatePopAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "IPressurePlatePopAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "PressurePlatePushAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "PressurePlatePushAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "PressurePlatePushAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "IPressurePlatePushAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "IPressurePlatePushAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
                                  "name" : "ProjectileHitAfterEvent"
                               }
                            ],
@@ -14866,8 +15415,107 @@
       {
          "base_types" : [],
          "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "TargetBlockHitAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "TargetBlockHitAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "TargetBlockHitAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "ITargetBlockHitAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ITargetBlockHitAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
          "functions" : [],
-         "name" : "ItemCompleteChargeAfterEvent",
+         "name" : "ItemCompleteUseAfterEvent",
          "properties" : [
             {
                "is_read_only" : true,
@@ -14904,7 +15552,7 @@
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemCompleteChargeAfterEvent"
+            "name" : "ItemCompleteUseAfterEvent"
          }
       },
       {
@@ -14912,17 +15560,17 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IItemCompleteChargeAfterEventSignal"
+               "name" : "IItemCompleteUseAfterEventSignal"
             }
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemCompleteChargeAfterEventSignal",
+         "name" : "ItemCompleteUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemCompleteChargeAfterEventSignal"
+            "name" : "ItemCompleteUseAfterEventSignal"
          }
       },
       {
@@ -15363,7 +16011,7 @@
          "base_types" : [],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemReleaseChargeAfterEvent",
+         "name" : "ItemReleaseUseAfterEvent",
          "properties" : [
             {
                "is_read_only" : true,
@@ -15400,7 +16048,7 @@
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemReleaseChargeAfterEvent"
+            "name" : "ItemReleaseUseAfterEvent"
          }
       },
       {
@@ -15408,17 +16056,17 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IItemReleaseChargeAfterEventSignal"
+               "name" : "IItemReleaseUseAfterEventSignal"
             }
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemReleaseChargeAfterEventSignal",
+         "name" : "ItemReleaseUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemReleaseChargeAfterEventSignal"
+            "name" : "ItemReleaseUseAfterEventSignal"
          }
       },
       {
@@ -15858,7 +16506,7 @@
          "base_types" : [],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStartChargeAfterEvent",
+         "name" : "ItemStartUseAfterEvent",
          "properties" : [
             {
                "is_read_only" : true,
@@ -15895,7 +16543,7 @@
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStartChargeAfterEvent"
+            "name" : "ItemStartUseAfterEvent"
          }
       },
       {
@@ -15903,17 +16551,17 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IItemStartChargeAfterEventSignal"
+               "name" : "IItemStartUseAfterEventSignal"
             }
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStartChargeAfterEventSignal",
+         "name" : "ItemStartUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStartChargeAfterEventSignal"
+            "name" : "ItemStartUseAfterEventSignal"
          }
       },
       {
@@ -15987,7 +16635,7 @@
          "base_types" : [],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStopChargeAfterEvent",
+         "name" : "ItemStopUseAfterEvent",
          "properties" : [
             {
                "is_read_only" : true,
@@ -16024,7 +16672,7 @@
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStopChargeAfterEvent"
+            "name" : "ItemStopUseAfterEvent"
          }
       },
       {
@@ -16032,17 +16680,17 @@
             {
                "is_bind_type" : true,
                "is_errorable" : false,
-               "name" : "IItemStopChargeAfterEventSignal"
+               "name" : "IItemStopUseAfterEventSignal"
             }
          ],
          "constants" : [],
          "functions" : [],
-         "name" : "ItemStopChargeAfterEventSignal",
+         "name" : "ItemStopUseAfterEventSignal",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "ItemStopChargeAfterEventSignal"
+            "name" : "ItemStopUseAfterEventSignal"
          }
       },
       {
@@ -16417,6 +17065,105 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "ItemUseOnBeforeEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "TripWireTripAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "TripWireTripAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "TripWireTripAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "ITripWireTripAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ITripWireTripAfterEventSignal"
          }
       },
       {
@@ -17496,7 +18243,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "blackConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "blackGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "blackShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -17606,6 +18373,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "blueConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "blueGlazedTerracotta",
                "type" : {
                   "is_bind_type" : true,
@@ -17617,6 +18394,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "blueIce",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "blueShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -17736,6 +18523,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "brownConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "brownGlazedTerracotta",
                "type" : {
                   "is_bind_type" : true,
@@ -17757,6 +18554,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "brownMushroomBlock",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "brownShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -18396,16 +19203,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "concrete",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "concretePowder",
                "type" : {
                   "is_bind_type" : true,
@@ -18806,7 +19603,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "cyanConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "cyanGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "cyanShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -21106,7 +21923,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "grayConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "grayGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "grayShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -21156,7 +21993,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "greenConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "greenGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "greenShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -21686,7 +22543,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "lightBlueConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "lightBlueGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "lightBlueShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -21727,6 +22604,26 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "lightGrayCarpet",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "lightGrayConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "lightGrayShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -21796,7 +22693,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "limeConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "limeGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "limeShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -21936,7 +22853,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "magentaConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "magentaGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "magentaShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -22556,7 +23493,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "orangeConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "orangeGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "orangeShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -22686,6 +23643,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "pinkConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "pinkGlazedTerracotta",
                "type" : {
                   "is_bind_type" : true,
@@ -22697,6 +23664,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "pinkPetals",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "pinkShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -23126,7 +24103,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "purpleConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "purpleGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "purpleShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -23276,6 +24273,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "redConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "redFlower",
                "type" : {
                   "is_bind_type" : true,
@@ -23347,6 +24354,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "redSandstoneStairs",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "redShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -23597,16 +24614,6 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "shroomlight",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "shulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -25156,7 +26163,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "whiteConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "whiteGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "whiteShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -25266,6 +26293,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "yellowConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "yellowFlower",
                "type" : {
                   "is_bind_type" : true,
@@ -25277,6 +26314,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "yellowGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "BlockType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "yellowShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27741,6 +28788,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "blackConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "blackDye",
                "type" : {
                   "is_bind_type" : true,
@@ -27752,6 +28809,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "blackGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "blackShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -27881,6 +28948,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "blueConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "blueDye",
                "type" : {
                   "is_bind_type" : true,
@@ -27902,6 +28979,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "blueIce",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "blueShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28111,6 +29198,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "brownConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "brownDye",
                "type" : {
                   "is_bind_type" : true,
@@ -28142,6 +29239,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "brownMushroomBlock",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "brownShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -29461,6 +30568,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "cyanConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "cyanDye",
                "type" : {
                   "is_bind_type" : true,
@@ -29472,6 +30589,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "cyanGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "cyanShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -31161,6 +32288,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "grayConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "grayDye",
                "type" : {
                   "is_bind_type" : true,
@@ -31172,6 +32309,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "grayGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "grayShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -31211,6 +32358,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "greenConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "greenDye",
                "type" : {
                   "is_bind_type" : true,
@@ -31222,6 +32379,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "greenGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "greenShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32031,6 +33198,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "lightBlueConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "lightBlueDye",
                "type" : {
                   "is_bind_type" : true,
@@ -32042,6 +33219,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "lightBlueGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "lightBlueShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32081,7 +33268,27 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "lightGrayConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "lightGrayDye",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "lightGrayShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32141,6 +33348,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "limeConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "limeDye",
                "type" : {
                   "is_bind_type" : true,
@@ -32152,6 +33369,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "limeGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "limeShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32271,6 +33498,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "magentaConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "magentaDye",
                "type" : {
                   "is_bind_type" : true,
@@ -32282,6 +33519,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "magentaGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "magentaShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32961,7 +34208,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherbrick",
+               "name" : "netherBrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -32971,7 +34218,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherBrick",
+               "name" : "netherbrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33341,6 +34588,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "orangeConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "orangeDye",
                "type" : {
                   "is_bind_type" : true,
@@ -33352,6 +34609,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "orangeGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "orangeShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33571,6 +34838,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "pinkConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "pinkDye",
                "type" : {
                   "is_bind_type" : true,
@@ -33592,6 +34869,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "pinkPetals",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "pinkShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34081,6 +35368,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "purpleConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "purpleDye",
                "type" : {
                   "is_bind_type" : true,
@@ -34092,6 +35389,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "purpleGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "purpleShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34351,6 +35658,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "redConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "redDye",
                "type" : {
                   "is_bind_type" : true,
@@ -34432,6 +35749,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "redSandstoneStairs",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "redShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -36701,6 +38028,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "whiteConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "whiteDye",
                "type" : {
                   "is_bind_type" : true,
@@ -36712,6 +38049,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "whiteGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "whiteShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -36931,6 +38278,16 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "yellowConcrete",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "yellowDye",
                "type" : {
                   "is_bind_type" : true,
@@ -36952,6 +38309,16 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "yellowGlazedTerracotta",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ItemType"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "yellowShulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -37747,6 +39114,33 @@
          "properties" : [
             {
                "is_read_only" : true,
+               "name" : "isFlying",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isGliding",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "isJumping",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "level",
                "type" : {
                   "is_bind_type" : false,
@@ -38006,6 +39400,141 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "PlayerSpawnAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "BlockEvent"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "PressurePlatePopAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "previousRedstonePower",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "redstonePower",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "PressurePlatePopAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IPressurePlatePopAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "PressurePlatePopAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "PressurePlatePopAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "BlockEvent"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "PressurePlatePushAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "previousRedstonePower",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "redstonePower",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "source",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Entity"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "PressurePlatePushAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IPressurePlatePushAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "PressurePlatePushAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "PressurePlatePushAfterEventSignal"
          }
       },
       {
@@ -38811,18 +40340,6 @@
          "constants" : [],
          "functions" : [
             {
-               "arguments" : [],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "clearTitle",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : true,
-                  "name" : "undefined"
-               }
-            },
-            {
                "arguments" : [
                   {
                      "details" : null,
@@ -38830,7 +40347,41 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -38852,7 +40403,41 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -38890,7 +40475,41 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -39316,6 +40935,87 @@
          }
       },
       {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "BlockEvent"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "TargetBlockHitAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "hitVector",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Vector3"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "previousRedstonePower",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "redstonePower",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "source",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Entity"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "TargetBlockHitAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ITargetBlockHitAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "TargetBlockHitAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "TargetBlockHitAfterEventSignal"
+         }
+      },
+      {
          "base_types" : [],
          "constants" : [],
          "functions" : [
@@ -39358,6 +41058,66 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "Trigger"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "BlockEvent"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "TripWireTripAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "isPowered",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "sources",
+               "type" : {
+                  "element_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "TripWireTripAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "ITripWireTripAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "TripWireTripAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "TripWireTripAfterEventSignal"
          }
       },
       {
@@ -39645,7 +41405,7 @@
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "Vector"
                }
             },
@@ -43732,11 +45492,11 @@
          "properties" : [
             {
                "is_read_only" : false,
-               "name" : "fadeInSeconds",
+               "name" : "fadeInDuration",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "float",
+                  "name" : "int32",
                   "valid_range" : {
                      "max" : 2147483647,
                      "min" : -2147483648
@@ -43745,11 +45505,11 @@
             },
             {
                "is_read_only" : false,
-               "name" : "fadeOutSeconds",
+               "name" : "fadeOutDuration",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "float",
+                  "name" : "int32",
                   "valid_range" : {
                      "max" : 2147483647,
                      "min" : -2147483648
@@ -43758,11 +45518,11 @@
             },
             {
                "is_read_only" : false,
-               "name" : "staySeconds",
+               "name" : "stayDuration",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "float",
+                  "name" : "int32",
                   "valid_range" : {
                      "max" : 2147483647,
                      "min" : -2147483648
@@ -43779,7 +45539,41 @@
                   "optional_type" : {
                      "is_bind_type" : false,
                      "is_errorable" : false,
-                     "name" : "string"
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "element_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "variant",
+                              "variant_types" : [
+                                 {
+                                    "is_bind_type" : true,
+                                    "is_errorable" : false,
+                                    "name" : "RawMessage"
+                                 },
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "string"
+                                 }
+                              ]
+                           },
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "array"
+                        },
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "RawMessage"
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
+                        }
+                     ]
                   }
                }
             }
@@ -43922,7 +45716,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.20.0-beta.24",
+   "minecraft_version" : "1.20.10-beta.20",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [
@@ -43948,5 +45742,5 @@
       }
    ],
    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-   "version" : "1.3.0-internal"
+   "version" : "1.4.0-internal"
 }

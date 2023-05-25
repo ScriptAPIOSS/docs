@@ -2731,6 +2731,22 @@
                         "is_errorable" : false,
                         "name" : "string"
                      }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean"
+                        }
+                     }
                   }
                ],
                "is_constructor" : false,
@@ -2752,6 +2768,26 @@
                         "is_bind_type" : false,
                         "is_errorable" : false,
                         "name" : "string"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "float",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        }
                      }
                   }
                ],
@@ -2789,6 +2825,22 @@
                         "valid_range" : {
                            "max" : 2147483647,
                            "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
                         }
                      }
                   }
@@ -12979,16 +13031,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "concrete",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "concretePowder",
                "type" : {
                   "is_bind_type" : true,
@@ -17740,16 +17782,6 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "shroomlight",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "shulkerBox",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28164,7 +28196,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherbrick",
+               "name" : "netherBrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -28174,7 +28206,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherBrick",
+               "name" : "netherbrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -33936,7 +33968,7 @@
                "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "Vector"
                }
             },
@@ -35354,7 +35386,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.0-beta.24",
+   "minecraft_version" : "1.20.10-beta.20",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

@@ -781,7 +781,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.0-beta.24",
+   "minecraft_version" : "1.20.10-beta.20",
    "module_type" : "script",
    "name" : "mojang-minecraft-ui",
    "objects" : [],

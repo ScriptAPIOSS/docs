@@ -181,6 +181,12 @@
                "value" : "nether_brick_stairs"
             },
             {
+               "value" : "minecraft:yellow_shulker_box"
+            },
+            {
+               "value" : "yellow_shulker_box"
+            },
+            {
                "value" : "minecraft:red_wool"
             },
             {
@@ -397,6 +403,12 @@
                "value" : "end_bricks"
             },
             {
+               "value" : "minecraft:magenta_shulker_box"
+            },
+            {
+               "value" : "magenta_shulker_box"
+            },
+            {
                "value" : "minecraft:packed_ice"
             },
             {
@@ -469,6 +481,12 @@
                "value" : "yellow_flower"
             },
             {
+               "value" : "minecraft:lime_shulker_box"
+            },
+            {
+               "value" : "lime_shulker_box"
+            },
+            {
                "value" : "minecraft:small_amethyst_bud"
             },
             {
@@ -521,6 +539,12 @@
             },
             {
                "value" : "raw_gold_block"
+            },
+            {
+               "value" : "minecraft:white_shulker_box"
+            },
+            {
+               "value" : "white_shulker_box"
             },
             {
                "value" : "minecraft:black_wool"
@@ -649,12 +673,6 @@
                "value" : "stone"
             },
             {
-               "value" : "minecraft:concrete"
-            },
-            {
-               "value" : "concrete"
-            },
-            {
                "value" : "minecraft:birch_log"
             },
             {
@@ -677,6 +695,12 @@
             },
             {
                "value" : "respawn_anchor"
+            },
+            {
+               "value" : "minecraft:light_gray_concrete"
+            },
+            {
+               "value" : "light_gray_concrete"
             },
             {
                "value" : "minecraft:green_candle"
@@ -955,6 +979,12 @@
                "value" : "granite_stairs"
             },
             {
+               "value" : "minecraft:pink_concrete"
+            },
+            {
+               "value" : "pink_concrete"
+            },
+            {
                "value" : "minecraft:dark_oak_hanging_sign"
             },
             {
@@ -1031,6 +1061,12 @@
             },
             {
                "value" : "horn_coral"
+            },
+            {
+               "value" : "minecraft:yellow_concrete"
+            },
+            {
+               "value" : "yellow_concrete"
             },
             {
                "value" : "minecraft:cyan_carpet"
@@ -1315,6 +1351,12 @@
                "value" : "structure_void"
             },
             {
+               "value" : "minecraft:purple_concrete"
+            },
+            {
+               "value" : "purple_concrete"
+            },
+            {
                "value" : "minecraft:polished_blackstone_brick_slab"
             },
             {
@@ -1495,6 +1537,12 @@
                "value" : "warped_roots"
             },
             {
+               "value" : "minecraft:magenta_concrete"
+            },
+            {
+               "value" : "magenta_concrete"
+            },
+            {
                "value" : "minecraft:sticky_piston"
             },
             {
@@ -1511,6 +1559,12 @@
             },
             {
                "value" : "medium_amethyst_bud"
+            },
+            {
+               "value" : "minecraft:pink_shulker_box"
+            },
+            {
+               "value" : "pink_shulker_box"
             },
             {
                "value" : "minecraft:sculk_sensor"
@@ -1535,6 +1589,12 @@
             },
             {
                "value" : "acacia_door"
+            },
+            {
+               "value" : "minecraft:red_shulker_box"
+            },
+            {
+               "value" : "red_shulker_box"
             },
             {
                "value" : "minecraft:stripped_cherry_log"
@@ -1619,6 +1679,12 @@
             },
             {
                "value" : "smooth_stone"
+            },
+            {
+               "value" : "minecraft:lime_concrete"
+            },
+            {
+               "value" : "lime_concrete"
             },
             {
                "value" : "minecraft:red_mushroom"
@@ -1951,12 +2017,6 @@
                "value" : "andesite_stairs"
             },
             {
-               "value" : "minecraft:shulker_box"
-            },
-            {
-               "value" : "shulker_box"
-            },
-            {
                "value" : "minecraft:golden_rail"
             },
             {
@@ -1967,6 +2027,12 @@
             },
             {
                "value" : "cyan_wool"
+            },
+            {
+               "value" : "minecraft:gray_shulker_box"
+            },
+            {
+               "value" : "gray_shulker_box"
             },
             {
                "value" : "minecraft:red_sandstone_stairs"
@@ -2311,6 +2377,12 @@
                "value" : "crimson_stem"
             },
             {
+               "value" : "minecraft:green_concrete"
+            },
+            {
+               "value" : "green_concrete"
+            },
+            {
                "value" : "minecraft:crimson_slab"
             },
             {
@@ -2327,6 +2399,12 @@
             },
             {
                "value" : "warped_wart_block"
+            },
+            {
+               "value" : "minecraft:light_gray_shulker_box"
+            },
+            {
+               "value" : "light_gray_shulker_box"
             },
             {
                "value" : "minecraft:yellow_carpet"
@@ -2390,6 +2468,12 @@
             },
             {
                "value" : "reeds"
+            },
+            {
+               "value" : "minecraft:black_shulker_box"
+            },
+            {
+               "value" : "black_shulker_box"
             },
             {
                "value" : "minecraft:barrier"
@@ -2524,6 +2608,12 @@
                "value" : "bamboo_mosaic_stairs"
             },
             {
+               "value" : "minecraft:brown_concrete"
+            },
+            {
+               "value" : "brown_concrete"
+            },
+            {
                "value" : "minecraft:cherry_slab"
             },
             {
@@ -2536,6 +2626,12 @@
                "value" : "bubble_coral"
             },
             {
+               "value" : "minecraft:orange_shulker_box"
+            },
+            {
+               "value" : "orange_shulker_box"
+            },
+            {
                "value" : "minecraft:light_gray_candle"
             },
             {
@@ -2546,6 +2642,12 @@
             },
             {
                "value" : "polished_blackstone_pressure_plate"
+            },
+            {
+               "value" : "minecraft:blue_shulker_box"
+            },
+            {
+               "value" : "blue_shulker_box"
             },
             {
                "value" : "minecraft:concrete_powder"
@@ -2666,6 +2768,12 @@
             },
             {
                "value" : "warped_stem"
+            },
+            {
+               "value" : "minecraft:green_shulker_box"
+            },
+            {
+               "value" : "green_shulker_box"
             },
             {
                "value" : "minecraft:stripped_crimson_hyphae"
@@ -2830,6 +2938,12 @@
                "value" : "bed"
             },
             {
+               "value" : "minecraft:black_concrete"
+            },
+            {
+               "value" : "black_concrete"
+            },
+            {
                "value" : "minecraft:tnt"
             },
             {
@@ -2846,6 +2960,12 @@
             },
             {
                "value" : "polished_diorite_stairs"
+            },
+            {
+               "value" : "minecraft:orange_concrete"
+            },
+            {
+               "value" : "orange_concrete"
             },
             {
                "value" : "minecraft:crying_obsidian"
@@ -2876,6 +2996,12 @@
             },
             {
                "value" : "polished_blackstone_wall"
+            },
+            {
+               "value" : "minecraft:brown_shulker_box"
+            },
+            {
+               "value" : "brown_shulker_box"
             },
             {
                "value" : "minecraft:azalea"
@@ -2912,6 +3038,12 @@
             },
             {
                "value" : "stripped_crimson_stem"
+            },
+            {
+               "value" : "minecraft:light_blue_shulker_box"
+            },
+            {
+               "value" : "light_blue_shulker_box"
             },
             {
                "value" : "minecraft:jungle_stairs"
@@ -2978,6 +3110,12 @@
             },
             {
                "value" : "blue_ice"
+            },
+            {
+               "value" : "minecraft:cyan_shulker_box"
+            },
+            {
+               "value" : "cyan_shulker_box"
             },
             {
                "value" : "minecraft:polished_andesite_stairs"
@@ -3172,10 +3310,22 @@
                "value" : "white_carpet"
             },
             {
+               "value" : "minecraft:cyan_concrete"
+            },
+            {
+               "value" : "cyan_concrete"
+            },
+            {
                "value" : "minecraft:dragon_egg"
             },
             {
                "value" : "dragon_egg"
+            },
+            {
+               "value" : "minecraft:blue_concrete"
+            },
+            {
+               "value" : "blue_concrete"
             },
             {
                "value" : "minecraft:nether_brick"
@@ -3226,10 +3376,22 @@
                "value" : "brown_mushroom_block"
             },
             {
+               "value" : "minecraft:gray_concrete"
+            },
+            {
+               "value" : "gray_concrete"
+            },
+            {
                "value" : "minecraft:pink_candle"
             },
             {
                "value" : "pink_candle"
+            },
+            {
+               "value" : "minecraft:purple_shulker_box"
+            },
+            {
+               "value" : "purple_shulker_box"
             },
             {
                "value" : "minecraft:carved_pumpkin"
@@ -3278,6 +3440,12 @@
             },
             {
                "value" : "dark_prismarine_stairs"
+            },
+            {
+               "value" : "minecraft:light_blue_concrete"
+            },
+            {
+               "value" : "light_blue_concrete"
             },
             {
                "value" : "minecraft:cauldron"
@@ -3350,6 +3518,12 @@
             },
             {
                "value" : "lapis_ore"
+            },
+            {
+               "value" : "minecraft:red_concrete"
+            },
+            {
+               "value" : "red_concrete"
             },
             {
                "value" : "minecraft:pink_carpet"
@@ -3550,6 +3724,12 @@
                "value" : "birch_fence"
             },
             {
+               "value" : "minecraft:white_concrete"
+            },
+            {
+               "value" : "white_concrete"
+            },
+            {
                "value" : "minecraft:acacia_fence"
             },
             {
@@ -3688,6 +3868,12 @@
                "value" : "double_stone_slab2"
             },
             {
+               "value" : "concrete"
+            },
+            {
+               "value" : "minecraft:concrete"
+            },
+            {
                "value" : "carpet"
             },
             {
@@ -3698,6 +3884,12 @@
             },
             {
                "value" : "minecraft:fence"
+            },
+            {
+               "value" : "shulker_box"
+            },
+            {
+               "value" : "minecraft:shulker_box"
             },
             {
                "value" : "coral"
@@ -6169,6 +6361,12 @@
                "value" : "ender_dragon_spawn_egg"
             },
             {
+               "value" : "minecraft:suspicious_stew"
+            },
+            {
+               "value" : "suspicious_stew"
+            },
+            {
                "value" : "darkoak_sign"
             },
             {
@@ -6364,12 +6562,6 @@
                "value" : "dye"
             },
             {
-               "value" : "minecraft:suspicious_stew"
-            },
-            {
-               "value" : "suspicious_stew"
-            },
-            {
                "value" : "minecraft:filled_map"
             },
             {
@@ -6476,6 +6668,202 @@
             },
             {
                "value" : "off"
+            }
+         ]
+      },
+      {
+         "name" : "set",
+         "values" : [
+            {
+               "value" : "set"
+            }
+         ]
+      },
+      {
+         "name" : "CameraPresets",
+         "values" : [
+            {
+               "value" : "minecraft:third_person_front"
+            },
+            {
+               "value" : "example:example_player_listener"
+            },
+            {
+               "value" : "minecraft:free"
+            },
+            {
+               "value" : "minecraft:third_person"
+            },
+            {
+               "value" : "minecraft:first_person"
+            },
+            {
+               "value" : "example:example_free"
+            }
+         ]
+      },
+      {
+         "name" : "ease",
+         "values" : [
+            {
+               "value" : "ease"
+            }
+         ]
+      },
+      {
+         "name" : "Easing",
+         "values" : [
+            {
+               "value" : "linear"
+            },
+            {
+               "value" : "spring"
+            },
+            {
+               "value" : "in_quad"
+            },
+            {
+               "value" : "out_quad"
+            },
+            {
+               "value" : "in_out_quad"
+            },
+            {
+               "value" : "in_cubic"
+            },
+            {
+               "value" : "out_cubic"
+            },
+            {
+               "value" : "in_out_cubic"
+            },
+            {
+               "value" : "in_quart"
+            },
+            {
+               "value" : "out_quart"
+            },
+            {
+               "value" : "in_out_quart"
+            },
+            {
+               "value" : "in_quint"
+            },
+            {
+               "value" : "out_quint"
+            },
+            {
+               "value" : "in_out_quint"
+            },
+            {
+               "value" : "in_sine"
+            },
+            {
+               "value" : "out_sine"
+            },
+            {
+               "value" : "in_out_sine"
+            },
+            {
+               "value" : "in_expo"
+            },
+            {
+               "value" : "out_expo"
+            },
+            {
+               "value" : "in_out_expo"
+            },
+            {
+               "value" : "in_circ"
+            },
+            {
+               "value" : "out_circ"
+            },
+            {
+               "value" : "in_out_circ"
+            },
+            {
+               "value" : "in_bounce"
+            },
+            {
+               "value" : "out_bounce"
+            },
+            {
+               "value" : "in_out_bounce"
+            },
+            {
+               "value" : "in_back"
+            },
+            {
+               "value" : "out_back"
+            },
+            {
+               "value" : "in_out_back"
+            },
+            {
+               "value" : "in_elastic"
+            },
+            {
+               "value" : "out_elastic"
+            },
+            {
+               "value" : "in_out_elastic"
+            }
+         ]
+      },
+      {
+         "name" : "pos",
+         "values" : [
+            {
+               "value" : "pos"
+            }
+         ]
+      },
+      {
+         "name" : "rot",
+         "values" : [
+            {
+               "value" : "rot"
+            }
+         ]
+      },
+      {
+         "name" : "default",
+         "values" : [
+            {
+               "value" : "default"
+            }
+         ]
+      },
+      {
+         "name" : "clear",
+         "values" : [
+            {
+               "value" : "clear"
+            }
+         ]
+      },
+      {
+         "name" : "fade",
+         "values" : [
+            {
+               "value" : "fade"
+            }
+         ]
+      },
+      {
+         "name" : "time",
+         "values" : [
+            {
+               "value" : "time"
+            }
+         ]
+      },
+      {
+         "name" : "color",
+         "values" : [
+            {
+               "value" : "color"
             }
          ]
       },
@@ -6675,6 +7063,12 @@
             },
             {
                "value" : "nether_brick_stairs"
+            },
+            {
+               "value" : "minecraft:yellow_shulker_box"
+            },
+            {
+               "value" : "yellow_shulker_box"
             },
             {
                "value" : "minecraft:blackstone_double_slab"
@@ -6923,6 +7317,12 @@
                "value" : "end_bricks"
             },
             {
+               "value" : "minecraft:magenta_shulker_box"
+            },
+            {
+               "value" : "magenta_shulker_box"
+            },
+            {
                "value" : "minecraft:packed_ice"
             },
             {
@@ -7001,6 +7401,12 @@
                "value" : "yellow_flower"
             },
             {
+               "value" : "minecraft:lime_shulker_box"
+            },
+            {
+               "value" : "lime_shulker_box"
+            },
+            {
                "value" : "minecraft:small_amethyst_bud"
             },
             {
@@ -7065,6 +7471,12 @@
             },
             {
                "value" : "raw_gold_block"
+            },
+            {
+               "value" : "minecraft:white_shulker_box"
+            },
+            {
+               "value" : "white_shulker_box"
             },
             {
                "value" : "minecraft:black_wool"
@@ -7241,12 +7653,6 @@
                "value" : "stone"
             },
             {
-               "value" : "minecraft:concrete"
-            },
-            {
-               "value" : "concrete"
-            },
-            {
                "value" : "minecraft:birch_log"
             },
             {
@@ -7281,6 +7687,12 @@
             },
             {
                "value" : "respawn_anchor"
+            },
+            {
+               "value" : "minecraft:light_gray_concrete"
+            },
+            {
+               "value" : "light_gray_concrete"
             },
             {
                "value" : "minecraft:green_candle"
@@ -7571,6 +7983,12 @@
                "value" : "granite_stairs"
             },
             {
+               "value" : "minecraft:pink_concrete"
+            },
+            {
+               "value" : "pink_concrete"
+            },
+            {
                "value" : "minecraft:dark_oak_hanging_sign"
             },
             {
@@ -7653,6 +8071,12 @@
             },
             {
                "value" : "horn_coral"
+            },
+            {
+               "value" : "minecraft:yellow_concrete"
+            },
+            {
+               "value" : "yellow_concrete"
             },
             {
                "value" : "minecraft:cyan_carpet"
@@ -7991,6 +8415,12 @@
                "value" : "structure_void"
             },
             {
+               "value" : "minecraft:purple_concrete"
+            },
+            {
+               "value" : "purple_concrete"
+            },
+            {
                "value" : "minecraft:polished_blackstone_brick_slab"
             },
             {
@@ -8189,6 +8619,12 @@
                "value" : "warped_roots"
             },
             {
+               "value" : "minecraft:magenta_concrete"
+            },
+            {
+               "value" : "magenta_concrete"
+            },
+            {
                "value" : "minecraft:sticky_piston"
             },
             {
@@ -8205,6 +8641,12 @@
             },
             {
                "value" : "medium_amethyst_bud"
+            },
+            {
+               "value" : "minecraft:pink_shulker_box"
+            },
+            {
+               "value" : "pink_shulker_box"
             },
             {
                "value" : "minecraft:warped_double_slab"
@@ -8241,6 +8683,12 @@
             },
             {
                "value" : "acacia_door"
+            },
+            {
+               "value" : "minecraft:red_shulker_box"
+            },
+            {
+               "value" : "red_shulker_box"
             },
             {
                "value" : "minecraft:stripped_cherry_log"
@@ -8343,6 +8791,12 @@
             },
             {
                "value" : "smooth_stone"
+            },
+            {
+               "value" : "minecraft:lime_concrete"
+            },
+            {
+               "value" : "lime_concrete"
             },
             {
                "value" : "minecraft:black_candle_cake"
@@ -8741,12 +9195,6 @@
                "value" : "andesite_stairs"
             },
             {
-               "value" : "minecraft:shulker_box"
-            },
-            {
-               "value" : "shulker_box"
-            },
-            {
                "value" : "minecraft:golden_rail"
             },
             {
@@ -8763,6 +9211,12 @@
             },
             {
                "value" : "darkoak_wall_sign"
+            },
+            {
+               "value" : "minecraft:gray_shulker_box"
+            },
+            {
+               "value" : "gray_shulker_box"
             },
             {
                "value" : "minecraft:red_sandstone_stairs"
@@ -9161,6 +9615,12 @@
                "value" : "crimson_stem"
             },
             {
+               "value" : "minecraft:green_concrete"
+            },
+            {
+               "value" : "green_concrete"
+            },
+            {
                "value" : "minecraft:crimson_slab"
             },
             {
@@ -9177,6 +9637,12 @@
             },
             {
                "value" : "warped_wart_block"
+            },
+            {
+               "value" : "minecraft:light_gray_shulker_box"
+            },
+            {
+               "value" : "light_gray_shulker_box"
             },
             {
                "value" : "minecraft:carrots"
@@ -9267,6 +9733,12 @@
             },
             {
                "value" : "reeds"
+            },
+            {
+               "value" : "minecraft:black_shulker_box"
+            },
+            {
+               "value" : "black_shulker_box"
             },
             {
                "value" : "minecraft:barrier"
@@ -9431,6 +9903,12 @@
                "value" : "bamboo_mosaic_stairs"
             },
             {
+               "value" : "minecraft:brown_concrete"
+            },
+            {
+               "value" : "brown_concrete"
+            },
+            {
                "value" : "minecraft:cherry_slab"
             },
             {
@@ -9441,6 +9919,12 @@
             },
             {
                "value" : "bubble_coral"
+            },
+            {
+               "value" : "minecraft:orange_shulker_box"
+            },
+            {
+               "value" : "orange_shulker_box"
             },
             {
                "value" : "minecraft:light_gray_candle"
@@ -9459,6 +9943,12 @@
             },
             {
                "value" : "acacia_standing_sign"
+            },
+            {
+               "value" : "minecraft:blue_shulker_box"
+            },
+            {
+               "value" : "blue_shulker_box"
             },
             {
                "value" : "minecraft:concrete_powder"
@@ -9615,6 +10105,12 @@
             },
             {
                "value" : "warped_stem"
+            },
+            {
+               "value" : "minecraft:green_shulker_box"
+            },
+            {
+               "value" : "green_shulker_box"
             },
             {
                "value" : "minecraft:stripped_crimson_hyphae"
@@ -9791,6 +10287,12 @@
                "value" : "bed"
             },
             {
+               "value" : "minecraft:black_concrete"
+            },
+            {
+               "value" : "black_concrete"
+            },
+            {
                "value" : "minecraft:tnt"
             },
             {
@@ -9813,6 +10315,12 @@
             },
             {
                "value" : "polished_diorite_stairs"
+            },
+            {
+               "value" : "minecraft:orange_concrete"
+            },
+            {
+               "value" : "orange_concrete"
             },
             {
                "value" : "minecraft:crying_obsidian"
@@ -9849,6 +10357,12 @@
             },
             {
                "value" : "waxed_exposed_double_cut_copper_slab"
+            },
+            {
+               "value" : "minecraft:brown_shulker_box"
+            },
+            {
+               "value" : "brown_shulker_box"
             },
             {
                "value" : "minecraft:azalea"
@@ -9903,6 +10417,12 @@
             },
             {
                "value" : "standing_banner"
+            },
+            {
+               "value" : "minecraft:light_blue_shulker_box"
+            },
+            {
+               "value" : "light_blue_shulker_box"
             },
             {
                "value" : "minecraft:jungle_stairs"
@@ -9969,6 +10489,12 @@
             },
             {
                "value" : "blue_ice"
+            },
+            {
+               "value" : "minecraft:cyan_shulker_box"
+            },
+            {
+               "value" : "cyan_shulker_box"
             },
             {
                "value" : "minecraft:polished_andesite_stairs"
@@ -10199,10 +10725,22 @@
                "value" : "white_carpet"
             },
             {
+               "value" : "minecraft:cyan_concrete"
+            },
+            {
+               "value" : "cyan_concrete"
+            },
+            {
                "value" : "minecraft:dragon_egg"
             },
             {
                "value" : "dragon_egg"
+            },
+            {
+               "value" : "minecraft:blue_concrete"
+            },
+            {
+               "value" : "blue_concrete"
             },
             {
                "value" : "minecraft:nether_brick"
@@ -10271,10 +10809,22 @@
                "value" : "brown_mushroom_block"
             },
             {
+               "value" : "minecraft:gray_concrete"
+            },
+            {
+               "value" : "gray_concrete"
+            },
+            {
                "value" : "minecraft:pink_candle"
             },
             {
                "value" : "pink_candle"
+            },
+            {
+               "value" : "minecraft:purple_shulker_box"
+            },
+            {
+               "value" : "purple_shulker_box"
             },
             {
                "value" : "minecraft:carved_pumpkin"
@@ -10329,6 +10879,12 @@
             },
             {
                "value" : "dark_prismarine_stairs"
+            },
+            {
+               "value" : "minecraft:light_blue_concrete"
+            },
+            {
+               "value" : "light_blue_concrete"
             },
             {
                "value" : "minecraft:trip_wire"
@@ -10449,6 +11005,12 @@
             },
             {
                "value" : "lapis_ore"
+            },
+            {
+               "value" : "minecraft:red_concrete"
+            },
+            {
+               "value" : "red_concrete"
             },
             {
                "value" : "minecraft:pink_carpet"
@@ -10679,6 +11241,12 @@
                "value" : "lime_candle_cake"
             },
             {
+               "value" : "minecraft:white_concrete"
+            },
+            {
+               "value" : "white_concrete"
+            },
+            {
                "value" : "minecraft:acacia_fence"
             },
             {
@@ -10883,6 +11451,12 @@
                "value" : "minecraft:double_stone_slab2"
             },
             {
+               "value" : "concrete"
+            },
+            {
+               "value" : "minecraft:concrete"
+            },
+            {
                "value" : "carpet"
             },
             {
@@ -10893,6 +11467,12 @@
             },
             {
                "value" : "minecraft:fence"
+            },
+            {
+               "value" : "shulker_box"
+            },
+            {
+               "value" : "minecraft:shulker_box"
             },
             {
                "value" : "lava_cauldron"
@@ -12296,44 +12876,6 @@
          ]
       },
       {
-         "name" : "ExecuteChainedOption_0",
-         "values" : [
-            {
-               "value" : "as"
-            },
-            {
-               "value" : "at"
-            },
-            {
-               "value" : "in"
-            },
-            {
-               "value" : "positioned"
-            },
-            {
-               "value" : "rotated"
-            },
-            {
-               "value" : "facing"
-            },
-            {
-               "value" : "align"
-            },
-            {
-               "value" : "anchored"
-            },
-            {
-               "value" : "if"
-            },
-            {
-               "value" : "unless"
-            },
-            {
-               "value" : "run"
-            }
-         ]
-      },
-      {
          "name" : "Option_At",
          "values" : [
             {
@@ -12759,13 +13301,19 @@
                "value" : "tag"
             },
             {
+               "value" : "camera"
+            },
+            {
+               "value" : "clear"
+            },
+            {
+               "value" : "time"
+            },
+            {
                "value" : "stop"
             },
             {
                "value" : "camerashake"
-            },
-            {
-               "value" : "clear"
             },
             {
                "value" : "clearspawnpoint"
@@ -12957,9 +13505,6 @@
                "value" : "testfor"
             },
             {
-               "value" : "time"
-            },
-            {
                "value" : "title"
             },
             {
@@ -12979,6 +13524,12 @@
             },
             {
                "value" : "xp"
+            },
+            {
+               "value" : "volumearea"
+            },
+            {
+               "value" : "scriptevent"
             },
             {
                "value" : "agent"
@@ -13767,6 +14318,57 @@
                "value" : "minecraft:item.reeds"
             },
             {
+               "value" : "minecraft:big_dripleaf"
+            },
+            {
+               "value" : "minecraft:dark_oak_pressure_plate"
+            },
+            {
+               "value" : "minecraft:warped_wart_block"
+            },
+            {
+               "value" : "minecraft:warped_hyphae"
+            },
+            {
+               "value" : "minecraft:crimson_stem"
+            },
+            {
+               "value" : "minecraft:end_rod"
+            },
+            {
+               "value" : "minecraft:cherry_standing_sign"
+            },
+            {
+               "value" : "minecraft:crafting_table"
+            },
+            {
+               "value" : "minecraft:cobbled_deepslate_double_slab"
+            },
+            {
+               "value" : "minecraft:stripped_acacia_log"
+            },
+            {
+               "value" : "minecraft:calibrated_sculk_sensor"
+            },
+            {
+               "value" : "minecraft:cherry_leaves"
+            },
+            {
+               "value" : "minecraft:end_portal"
+            },
+            {
+               "value" : "minecraft:soul_sand"
+            },
+            {
+               "value" : "minecraft:item.campfire"
+            },
+            {
+               "value" : "minecraft:deny"
+            },
+            {
+               "value" : "minecraft:soul_lantern"
+            },
+            {
                "value" : "minecraft:portal"
             },
             {
@@ -13797,9 +14399,6 @@
                "value" : "minecraft:oak_log"
             },
             {
-               "value" : "minecraft:light_gray_carpet"
-            },
-            {
                "value" : "minecraft:kelp"
             },
             {
@@ -13821,7 +14420,10 @@
                "value" : "minecraft:crimson_wall_sign"
             },
             {
-               "value" : "minecraft:cherry_leaves"
+               "value" : "minecraft:tripwire_hook"
+            },
+            {
+               "value" : "minecraft:red_wool"
             },
             {
                "value" : "minecraft:gray_wool"
@@ -13851,7 +14453,10 @@
                "value" : "minecraft:deepslate_brick_slab"
             },
             {
-               "value" : "minecraft:calibrated_sculk_sensor"
+               "value" : "minecraft:cave_vines_body_with_berries"
+            },
+            {
+               "value" : "minecraft:stone"
             },
             {
                "value" : "minecraft:host_armor_trim_smithing_template"
@@ -13947,6 +14552,12 @@
                "value" : "minecraft:brewer_pottery_sherd"
             },
             {
+               "value" : "minecraft:soul_soil"
+            },
+            {
+               "value" : "minecraft:spruce_hanging_sign"
+            },
+            {
                "value" : "minecraft:cyan_dye"
             },
             {
@@ -13980,6 +14591,12 @@
                "value" : "minecraft:beacon"
             },
             {
+               "value" : "minecraft:gray_concrete"
+            },
+            {
+               "value" : "minecraft:brown_shulker_box"
+            },
+            {
                "value" : "minecraft:cherry_hanging_sign"
             },
             {
@@ -14005,9 +14622,6 @@
             },
             {
                "value" : "minecraft:frog_spawn"
-            },
-            {
-               "value" : "minecraft:sapling"
             },
             {
                "value" : "minecraft:oak_chest_boat"
@@ -14040,13 +14654,16 @@
                "value" : "minecraft:structure_void"
             },
             {
-               "value" : "minecraft:warped_hyphae"
-            },
-            {
                "value" : "minecraft:crimson_hanging_sign"
             },
             {
                "value" : "minecraft:crossbow"
+            },
+            {
+               "value" : "minecraft:blue_candle_cake"
+            },
+            {
+               "value" : "minecraft:rotten_flesh"
             },
             {
                "value" : "minecraft:lapis_ore"
@@ -14059,12 +14676,6 @@
             },
             {
                "value" : "minecraft:ghast_spawn_egg"
-            },
-            {
-               "value" : "minecraft:purple_wool"
-            },
-            {
-               "value" : "minecraft:mangrove_planks"
             },
             {
                "value" : "minecraft:frog_spawn_egg"
@@ -14089,6 +14700,9 @@
             },
             {
                "value" : "minecraft:chain"
+            },
+            {
+               "value" : "minecraft:magenta_concrete"
             },
             {
                "value" : "minecraft:music_disc_5"
@@ -14133,10 +14747,10 @@
                "value" : "minecraft:element_51"
             },
             {
-               "value" : "minecraft:netherite_hoe"
+               "value" : "minecraft:flint"
             },
             {
-               "value" : "minecraft:flint"
+               "value" : "minecraft:pink_shulker_box"
             },
             {
                "value" : "minecraft:mud_brick_slab"
@@ -14146,12 +14760,6 @@
             },
             {
                "value" : "minecraft:netherite_shovel"
-            },
-            {
-               "value" : "minecraft:stone"
-            },
-            {
-               "value" : "minecraft:cave_vines_body_with_berries"
             },
             {
                "value" : "minecraft:birch_button"
@@ -14215,6 +14823,9 @@
             },
             {
                "value" : "minecraft:turtle_helmet"
+            },
+            {
+               "value" : "minecraft:purple_concrete"
             },
             {
                "value" : "minecraft:nether_sprouts"
@@ -14301,9 +14912,6 @@
                "value" : "minecraft:element_76"
             },
             {
-               "value" : "minecraft:big_dripleaf"
-            },
-            {
                "value" : "minecraft:balloon"
             },
             {
@@ -14346,12 +14954,6 @@
                "value" : "minecraft:deepslate_tile_wall"
             },
             {
-               "value" : "minecraft:rotten_flesh"
-            },
-            {
-               "value" : "minecraft:blue_candle_cake"
-            },
-            {
                "value" : "minecraft:music_disc_chirp"
             },
             {
@@ -14380,9 +14982,6 @@
             },
             {
                "value" : "minecraft:mob_spawner"
-            },
-            {
-               "value" : "minecraft:nether_star"
             },
             {
                "value" : "minecraft:trip_wire"
@@ -14472,19 +15071,10 @@
                "value" : "minecraft:waxed_weathered_cut_copper"
             },
             {
-               "value" : "minecraft:deny"
-            },
-            {
                "value" : "minecraft:waxed_oxidized_cut_copper_slab"
             },
             {
                "value" : "minecraft:white_dye"
-            },
-            {
-               "value" : "minecraft:red_wool"
-            },
-            {
-               "value" : "minecraft:tripwire_hook"
             },
             {
                "value" : "minecraft:item.camera"
@@ -14520,9 +15110,6 @@
                "value" : "minecraft:item.kelp"
             },
             {
-               "value" : "minecraft:end_rod"
-            },
-            {
                "value" : "minecraft:birch_stairs"
             },
             {
@@ -14530,6 +15117,12 @@
             },
             {
                "value" : "minecraft:goat_horn"
+            },
+            {
+               "value" : "minecraft:netherite_hoe"
+            },
+            {
+               "value" : "minecraft:light_gray_shulker_box"
             },
             {
                "value" : "minecraft:llama_spawn_egg"
@@ -14637,6 +15230,9 @@
                "value" : "minecraft:milk_bucket"
             },
             {
+               "value" : "minecraft:lime_shulker_box"
+            },
+            {
                "value" : "minecraft:netherite_axe"
             },
             {
@@ -14662,6 +15258,9 @@
             },
             {
                "value" : "minecraft:zombie_villager_spawn_egg"
+            },
+            {
+               "value" : "minecraft:blue_concrete"
             },
             {
                "value" : "minecraft:jungle_button"
@@ -14694,9 +15293,6 @@
                "value" : "minecraft:glow_lichen"
             },
             {
-               "value" : "minecraft:stripped_acacia_log"
-            },
-            {
                "value" : "minecraft:chainmail_helmet"
             },
             {
@@ -14704,6 +15300,9 @@
             },
             {
                "value" : "minecraft:iron_hoe"
+            },
+            {
+               "value" : "minecraft:red_concrete"
             },
             {
                "value" : "minecraft:stone_hoe"
@@ -14731,9 +15330,6 @@
             },
             {
                "value" : "minecraft:cyan_carpet"
-            },
-            {
-               "value" : "minecraft:cooked_chicken"
             },
             {
                "value" : "minecraft:stained_hardened_clay"
@@ -14766,13 +15362,7 @@
                "value" : "minecraft:element_84"
             },
             {
-               "value" : "minecraft:soul_lantern"
-            },
-            {
                "value" : "minecraft:painting"
-            },
-            {
-               "value" : "minecraft:crafting_table"
             },
             {
                "value" : "minecraft:diamond_pickaxe"
@@ -14800,6 +15390,12 @@
             },
             {
                "value" : "minecraft:birch_fence_gate"
+            },
+            {
+               "value" : "minecraft:warped_fence"
+            },
+            {
+               "value" : "minecraft:golden_carrot"
             },
             {
                "value" : "minecraft:red_carpet"
@@ -14839,6 +15435,9 @@
             },
             {
                "value" : "minecraft:diamond_boots"
+            },
+            {
+               "value" : "minecraft:red_shulker_box"
             },
             {
                "value" : "minecraft:exposed_double_cut_copper_slab"
@@ -14890,6 +15489,12 @@
             },
             {
                "value" : "minecraft:iron_axe"
+            },
+            {
+               "value" : "minecraft:bee_nest"
+            },
+            {
+               "value" : "minecraft:element_104"
             },
             {
                "value" : "minecraft:baked_potato"
@@ -15012,6 +15617,12 @@
                "value" : "minecraft:music_disc_mall"
             },
             {
+               "value" : "minecraft:carrots"
+            },
+            {
+               "value" : "minecraft:brewing_stand"
+            },
+            {
                "value" : "minecraft:piglin_spawn_egg"
             },
             {
@@ -15043,6 +15654,12 @@
             },
             {
                "value" : "minecraft:magenta_dye"
+            },
+            {
+               "value" : "minecraft:stripped_birch_log"
+            },
+            {
+               "value" : "minecraft:gold_ingot"
             },
             {
                "value" : "minecraft:bamboo_mosaic_stairs"
@@ -15088,6 +15705,15 @@
             },
             {
                "value" : "minecraft:bamboo_block"
+            },
+            {
+               "value" : "minecraft:chiseled_nether_bricks"
+            },
+            {
+               "value" : "minecraft:sweet_berry_bush"
+            },
+            {
+               "value" : "minecraft:wandering_trader_spawn_egg"
             },
             {
                "value" : "minecraft:donkey_spawn_egg"
@@ -15216,6 +15842,9 @@
                "value" : "minecraft:chainmail_chestplate"
             },
             {
+               "value" : "minecraft:green_shulker_box"
+            },
+            {
                "value" : "minecraft:allay_spawn_egg"
             },
             {
@@ -15271,9 +15900,6 @@
             },
             {
                "value" : "minecraft:element_73"
-            },
-            {
-               "value" : "minecraft:leather_boots"
             },
             {
                "value" : "minecraft:wooden_sword"
@@ -15336,9 +15962,6 @@
                "value" : "minecraft:campfire"
             },
             {
-               "value" : "minecraft:honey_block"
-            },
-            {
                "value" : "minecraft:cat_spawn_egg"
             },
             {
@@ -15349,6 +15972,12 @@
             },
             {
                "value" : "minecraft:clay_ball"
+            },
+            {
+               "value" : "minecraft:sapling"
+            },
+            {
+               "value" : "minecraft:lime_concrete"
             },
             {
                "value" : "minecraft:light_gray_wool"
@@ -15420,6 +16049,12 @@
                "value" : "minecraft:turtle_spawn_egg"
             },
             {
+               "value" : "minecraft:black_glazed_terracotta"
+            },
+            {
+               "value" : "minecraft:repeater"
+            },
+            {
                "value" : "minecraft:stained_glass_pane"
             },
             {
@@ -15472,9 +16107,6 @@
             },
             {
                "value" : "minecraft:cookie"
-            },
-            {
-               "value" : "minecraft:item.campfire"
             },
             {
                "value" : "minecraft:music_disc_11"
@@ -15561,6 +16193,9 @@
                "value" : "minecraft:bell"
             },
             {
+               "value" : "minecraft:magenta_shulker_box"
+            },
+            {
                "value" : "minecraft:cut_copper"
             },
             {
@@ -15571,6 +16206,12 @@
             },
             {
                "value" : "minecraft:creeper_spawn_egg"
+            },
+            {
+               "value" : "minecraft:double_wooden_slab"
+            },
+            {
+               "value" : "minecraft:written_book"
             },
             {
                "value" : "minecraft:item.cauldron"
@@ -15603,12 +16244,6 @@
                "value" : "minecraft:element_69"
             },
             {
-               "value" : "minecraft:end_portal"
-            },
-            {
-               "value" : "minecraft:soul_sand"
-            },
-            {
                "value" : "minecraft:skeleton_spawn_egg"
             },
             {
@@ -15616,6 +16251,12 @@
             },
             {
                "value" : "minecraft:slime_spawn_egg"
+            },
+            {
+               "value" : "minecraft:leather_boots"
+            },
+            {
+               "value" : "minecraft:light_blue_concrete"
             },
             {
                "value" : "minecraft:netherite_sword"
@@ -15637,6 +16278,9 @@
             },
             {
                "value" : "minecraft:sheep_spawn_egg"
+            },
+            {
+               "value" : "minecraft:black_shulker_box"
             },
             {
                "value" : "minecraft:waxed_weathered_cut_copper_slab"
@@ -15664,6 +16308,9 @@
             },
             {
                "value" : "minecraft:magenta_wool"
+            },
+            {
+               "value" : "minecraft:cyan_shulker_box"
             },
             {
                "value" : "minecraft:filled_map"
@@ -15760,12 +16407,6 @@
             },
             {
                "value" : "minecraft:rail"
-            },
-            {
-               "value" : "minecraft:element_104"
-            },
-            {
-               "value" : "minecraft:bee_nest"
             },
             {
                "value" : "minecraft:snort_pottery_sherd"
@@ -15993,12 +16634,6 @@
                "value" : "minecraft:stone_pressure_plate"
             },
             {
-               "value" : "minecraft:gold_ingot"
-            },
-            {
-               "value" : "minecraft:stripped_birch_log"
-            },
-            {
                "value" : "minecraft:charcoal"
             },
             {
@@ -16047,6 +16682,63 @@
                "value" : "minecraft:element_64"
             },
             {
+               "value" : "minecraft:orange_concrete"
+            },
+            {
+               "value" : "minecraft:yellow_concrete"
+            },
+            {
+               "value" : "minecraft:golden_apple"
+            },
+            {
+               "value" : "minecraft:bamboo_planks"
+            },
+            {
+               "value" : "minecraft:cooked_chicken"
+            },
+            {
+               "value" : "minecraft:pink_concrete"
+            },
+            {
+               "value" : "minecraft:honey_block"
+            },
+            {
+               "value" : "minecraft:light_gray_concrete"
+            },
+            {
+               "value" : "minecraft:torch"
+            },
+            {
+               "value" : "minecraft:cyan_concrete"
+            },
+            {
+               "value" : "minecraft:silence_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:element_10"
+            },
+            {
+               "value" : "minecraft:blackstone_wall"
+            },
+            {
+               "value" : "minecraft:brown_concrete"
+            },
+            {
+               "value" : "minecraft:element_81"
+            },
+            {
+               "value" : "minecraft:ender_chest"
+            },
+            {
+               "value" : "minecraft:green_concrete"
+            },
+            {
+               "value" : "minecraft:light_gray_carpet"
+            },
+            {
+               "value" : "minecraft:black_concrete"
+            },
+            {
                "value" : "minecraft:concrete_powder"
             },
             {
@@ -16057,6 +16749,51 @@
             },
             {
                "value" : "minecraft:stained_glass"
+            },
+            {
+               "value" : "minecraft:nether_star"
+            },
+            {
+               "value" : "minecraft:white_shulker_box"
+            },
+            {
+               "value" : "minecraft:sculk_sensor"
+            },
+            {
+               "value" : "minecraft:mud_brick_stairs"
+            },
+            {
+               "value" : "minecraft:light_blue_shulker_box"
+            },
+            {
+               "value" : "minecraft:yellow_shulker_box"
+            },
+            {
+               "value" : "minecraft:lightning_rod"
+            },
+            {
+               "value" : "minecraft:brown_mushroom"
+            },
+            {
+               "value" : "minecraft:gray_shulker_box"
+            },
+            {
+               "value" : "minecraft:bamboo_fence"
+            },
+            {
+               "value" : "minecraft:purple_wool"
+            },
+            {
+               "value" : "minecraft:mangrove_planks"
+            },
+            {
+               "value" : "minecraft:purple_shulker_box"
+            },
+            {
+               "value" : "minecraft:element_83"
+            },
+            {
+               "value" : "minecraft:blue_shulker_box"
             },
             {
                "value" : "minecraft:pearlescent_froglight"
@@ -16152,6 +16889,9 @@
                "value" : "minecraft:pumpkin"
             },
             {
+               "value" : "minecraft:white_concrete"
+            },
+            {
                "value" : "minecraft:carved_pumpkin"
             },
             {
@@ -16174,6 +16914,12 @@
             },
             {
                "value" : "minecraft:lime_candle"
+            },
+            {
+               "value" : "minecraft:element_44"
+            },
+            {
+               "value" : "minecraft:pink_candle"
             },
             {
                "value" : "minecraft:element_43"
@@ -16251,6 +16997,9 @@
                "value" : "minecraft:element_9"
             },
             {
+               "value" : "minecraft:orange_shulker_box"
+            },
+            {
                "value" : "minecraft:element_25"
             },
             {
@@ -16258,15 +17007,6 @@
             },
             {
                "value" : "minecraft:dark_oak_fence_gate"
-            },
-            {
-               "value" : "minecraft:silence_armor_trim_smithing_template"
-            },
-            {
-               "value" : "minecraft:element_10"
-            },
-            {
-               "value" : "minecraft:blackstone_wall"
             },
             {
                "value" : "minecraft:iron_boots"
@@ -16335,6 +17075,12 @@
                "value" : "minecraft:element_32"
             },
             {
+               "value" : "minecraft:daylight_detector"
+            },
+            {
+               "value" : "minecraft:cobbled_deepslate_stairs"
+            },
+            {
                "value" : "minecraft:element_33"
             },
             {
@@ -16351,12 +17097,6 @@
             },
             {
                "value" : "minecraft:element_39"
-            },
-            {
-               "value" : "minecraft:pink_candle"
-            },
-            {
-               "value" : "minecraft:element_44"
             },
             {
                "value" : "minecraft:end_crystal"
@@ -16392,16 +17132,7 @@
                "value" : "minecraft:golden_rail"
             },
             {
-               "value" : "minecraft:dark_oak_pressure_plate"
-            },
-            {
                "value" : "minecraft:element_67"
-            },
-            {
-               "value" : "minecraft:spruce_hanging_sign"
-            },
-            {
-               "value" : "minecraft:soul_soil"
             },
             {
                "value" : "minecraft:element_68"
@@ -16422,19 +17153,19 @@
                "value" : "minecraft:element_80"
             },
             {
-               "value" : "minecraft:element_81"
-            },
-            {
-               "value" : "minecraft:ender_chest"
-            },
-            {
-               "value" : "minecraft:element_83"
-            },
-            {
                "value" : "minecraft:element_85"
             },
             {
                "value" : "minecraft:element_86"
+            },
+            {
+               "value" : "minecraft:mossy_stone_brick_stairs"
+            },
+            {
+               "value" : "minecraft:leather_leggings"
+            },
+            {
+               "value" : "minecraft:element_87"
             },
             {
                "value" : "minecraft:element_111"
@@ -16626,9 +17357,6 @@
                "value" : "minecraft:dark_oak_button"
             },
             {
-               "value" : "minecraft:cobbled_deepslate_double_slab"
-            },
-            {
                "value" : "minecraft:nether_brick_stairs"
             },
             {
@@ -16782,9 +17510,6 @@
                "value" : "minecraft:exposed_copper"
             },
             {
-               "value" : "minecraft:bamboo_fence"
-            },
-            {
                "value" : "minecraft:hardened_clay"
             },
             {
@@ -16801,15 +17526,6 @@
             },
             {
                "value" : "minecraft:cyan_candle_cake"
-            },
-            {
-               "value" : "minecraft:torch"
-            },
-            {
-               "value" : "minecraft:cobbled_deepslate_stairs"
-            },
-            {
-               "value" : "minecraft:daylight_detector"
             },
             {
                "value" : "minecraft:element_62"
@@ -16852,12 +17568,6 @@
             },
             {
                "value" : "minecraft:heavy_weighted_pressure_plate"
-            },
-            {
-               "value" : "minecraft:lightning_rod"
-            },
-            {
-               "value" : "minecraft:brown_mushroom"
             },
             {
                "value" : "minecraft:dark_oak_chest_boat"
@@ -17026,9 +17736,6 @@
             },
             {
                "value" : "minecraft:medium_amethyst_bud"
-            },
-            {
-               "value" : "minecraft:sculk_sensor"
             },
             {
                "value" : "minecraft:budding_amethyst"
@@ -17238,22 +17945,10 @@
                "value" : "minecraft:chorus_plant"
             },
             {
-               "value" : "minecraft:mud_brick_stairs"
-            },
-            {
                "value" : "minecraft:smooth_red_sandstone_stairs"
             },
             {
-               "value" : "minecraft:golden_apple"
-            },
-            {
-               "value" : "minecraft:bamboo_planks"
-            },
-            {
                "value" : "minecraft:wall_banner"
-            },
-            {
-               "value" : "minecraft:crimson_stem"
             },
             {
                "value" : "minecraft:twisting_vines"
@@ -17266,54 +17961,6 @@
             },
             {
                "value" : "minecraft:item.dark_oak_door"
-            },
-            {
-               "value" : "minecraft:repeater"
-            },
-            {
-               "value" : "minecraft:black_glazed_terracotta"
-            },
-            {
-               "value" : "minecraft:golden_carrot"
-            },
-            {
-               "value" : "minecraft:warped_fence"
-            },
-            {
-               "value" : "minecraft:cherry_standing_sign"
-            },
-            {
-               "value" : "minecraft:written_book"
-            },
-            {
-               "value" : "minecraft:double_wooden_slab"
-            },
-            {
-               "value" : "minecraft:leather_leggings"
-            },
-            {
-               "value" : "minecraft:element_87"
-            },
-            {
-               "value" : "minecraft:mossy_stone_brick_stairs"
-            },
-            {
-               "value" : "minecraft:warped_wart_block"
-            },
-            {
-               "value" : "minecraft:brewing_stand"
-            },
-            {
-               "value" : "minecraft:carrots"
-            },
-            {
-               "value" : "minecraft:chiseled_nether_bricks"
-            },
-            {
-               "value" : "minecraft:wandering_trader_spawn_egg"
-            },
-            {
-               "value" : "minecraft:sweet_berry_bush"
             }
          ]
       },
@@ -18350,13 +18997,13 @@
          "name" : "ScoreboardPlayersNumAction",
          "values" : [
             {
+               "value" : "set"
+            },
+            {
                "value" : "add"
             },
             {
                "value" : "remove"
-            },
-            {
-               "value" : "set"
             }
          ]
       },
@@ -18734,6 +19381,46 @@
          "values" : [
             {
                "value" : "times"
+            }
+         ]
+      },
+      {
+         "name" : "VolumeAreaAdd",
+         "values" : [
+            {
+               "value" : "add"
+            }
+         ]
+      },
+      {
+         "name" : "VolumeAreaRemove",
+         "values" : [
+            {
+               "value" : "remove"
+            }
+         ]
+      },
+      {
+         "name" : "VolumeAreaRemoveAll",
+         "values" : [
+            {
+               "value" : "remove_all"
+            }
+         ]
+      },
+      {
+         "name" : "VolumeAreaList",
+         "values" : [
+            {
+               "value" : "list"
+            }
+         ]
+      },
+      {
+         "name" : "VolumeAreaAllDimensions",
+         "values" : [
+            {
+               "value" : "all-dimensions"
             }
          ]
       },
@@ -19155,6 +19842,668 @@
             }
          ],
          "permission_level" : 4,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
+         "description" : "commands.camera.description",
+         "name" : "camera",
+         "overloads" : [
+            {
+               "name" : "1",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "rot",
+                     "type" : {
+                        "name" : "ROT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "xRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "yRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "2",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "3",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "rot",
+                     "type" : {
+                        "name" : "ROT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "xRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "yRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "4",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "default",
+                     "type" : {
+                        "name" : "DEFAULT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "5",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "rot",
+                     "type" : {
+                        "name" : "ROT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "xRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "yRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "6",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "7",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "rot",
+                     "type" : {
+                        "name" : "ROT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "xRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "yRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "8",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "default",
+                     "type" : {
+                        "name" : "DEFAULT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "9",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "clear",
+                     "type" : {
+                        "name" : "CLEAR"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "10",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fade",
+                     "type" : {
+                        "name" : "FADE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "time",
+                     "type" : {
+                        "name" : "TIME"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fadeInSeconds",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "holdSeconds",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fadeOutSeconds",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "color",
+                     "type" : {
+                        "name" : "COLOR"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "red",
+                     "type" : {
+                        "name" : "INT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "green",
+                     "type" : {
+                        "name" : "INT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "blue",
+                     "type" : {
+                        "name" : "INT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "11",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fade",
+                     "type" : {
+                        "name" : "FADE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "time",
+                     "type" : {
+                        "name" : "TIME"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fadeInSeconds",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "holdSeconds",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fadeOutSeconds",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "12",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fade",
+                     "type" : {
+                        "name" : "FADE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "color",
+                     "type" : {
+                        "name" : "COLOR"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "red",
+                     "type" : {
+                        "name" : "INT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "green",
+                     "type" : {
+                        "name" : "INT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "blue",
+                     "type" : {
+                        "name" : "INT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "13",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "fade",
+                     "type" : {
+                        "name" : "FADE"
+                     }
+                  }
+               ]
+            }
+         ],
+         "permission_level" : 1,
          "requires_cheats" : true
       },
       {
@@ -23694,6 +25043,34 @@
       },
       {
          "aliases" : [],
+         "description" : "Triggers a script event with an ID and message.",
+         "name" : "scriptevent",
+         "overloads" : [
+            {
+               "name" : "1",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "messageId",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "message",
+                     "type" : {
+                        "name" : "MESSAGE_ROOT"
+                     }
+                  }
+               ]
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
          "description" : "Changes a block to another block.",
          "name" : "setblock",
          "overloads" : [
@@ -25455,6 +26832,124 @@
       },
       {
          "aliases" : [],
+         "description" : "Add, remove, or list volumes in the current dimension.",
+         "name" : "volumearea",
+         "overloads" : [
+            {
+               "name" : "1",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : {
+                        "name" : "VOLUMEAREAADD"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "identifier",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "from",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "to",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "name",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "2",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : {
+                        "name" : "VOLUMEAREAREMOVE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "name",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "3",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : {
+                        "name" : "VOLUMEAREAREMOVE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "4",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : {
+                        "name" : "VOLUMEAREAREMOVEALL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "5",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "mode",
+                     "type" : {
+                        "name" : "VOLUMEAREALIST"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "all-dimensions",
+                     "type" : {
+                        "name" : "VOLUMEAREAALLDIMENSIONS"
+                     }
+                  }
+               ]
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
          "description" : "Sets the weather.",
          "name" : "weather",
          "overloads" : [
@@ -25566,7 +27061,7 @@
          "requires_cheats" : true
       }
    ],
-   "minecraft_version" : "1.20.0-beta.24",
+   "minecraft_version" : "1.20.10-beta.20",
    "module_type" : "commands",
    "name" : "mojang-commands-internal"
 }
