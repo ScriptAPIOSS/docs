@@ -35300,55 +35300,6 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "clientScript",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "MessageSourceType"
-               },
-               "value" : 2
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "entityCommand",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "MessageSourceType"
-               },
-               "value" : 1
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "serverCommand",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "MessageSourceType"
-               },
-               "value" : 0
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "serverScript",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "MessageSourceType"
-               },
-               "value" : 3
-            }
-         ],
-         "name" : "MessageSourceType"
-      },
-      {
-         "constants" : [
-            {
-               "is_read_only" : true,
-               "is_static" : true,
                "name" : "entity",
                "type" : {
                   "is_bind_type" : true,
@@ -35386,7 +35337,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.10-beta.20",
+   "minecraft_version" : "1.20.10-beta.21",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

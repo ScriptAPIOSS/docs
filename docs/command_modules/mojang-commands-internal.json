@@ -13526,6 +13526,9 @@
                "value" : "xp"
             },
             {
+               "value" : "recipe"
+            },
+            {
                "value" : "volumearea"
             },
             {
@@ -18132,6 +18135,22 @@
             },
             {
                "value" : "reload"
+            }
+         ]
+      },
+      {
+         "name" : "Give",
+         "values" : [
+            {
+               "value" : "give"
+            }
+         ]
+      },
+      {
+         "name" : "Take",
+         "values" : [
+            {
+               "value" : "take"
             }
          ]
       },
@@ -23931,6 +23950,67 @@
       },
       {
          "aliases" : [],
+         "description" : "Unlocks recipe in the recipe book for a player.",
+         "name" : "recipe",
+         "overloads" : [
+            {
+               "name" : "1",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "victim",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "give",
+                     "type" : {
+                        "name" : "GIVE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "recipe",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "2",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "victim",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "take",
+                     "type" : {
+                        "name" : "TAKE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "recipe",
+                     "type" : {
+                        "name" : "ID"
+                     }
+                  }
+               ]
+            }
+         ],
+         "permission_level" : 1,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
          "description" : "Reloads all function and script files from all behavior packs.",
          "name" : "reload",
          "overloads" : [
@@ -27061,7 +27141,7 @@
          "requires_cheats" : true
       }
    ],
-   "minecraft_version" : "1.20.10-beta.20",
+   "minecraft_version" : "1.20.10-beta.21",
    "module_type" : "commands",
    "name" : "mojang-commands-internal"
 }
