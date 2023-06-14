@@ -33299,9 +33299,26 @@
                      "details" : null,
                      "name" : "participant",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "ScoreboardIdentity"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "Entity"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "ScoreboardIdentity"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -33312,10 +33329,15 @@
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "int32",
+                     "valid_range" : {
+                        "max" : 2147483647,
+                        "min" : -2147483648
+                     }
                   }
                }
             },
@@ -35337,7 +35359,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.10-beta.21",
+   "minecraft_version" : "1.20.10-beta.23",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

@@ -35,13 +35,13 @@
          "name" : "CameraPresets",
          "values" : [
             {
+               "value" : "example:example_free"
+            },
+            {
                "value" : "minecraft:third_person_front"
             },
             {
-               "value" : "example:example_player_listener"
-            },
-            {
-               "value" : "minecraft:free"
+               "value" : "example:example_player_effects"
             },
             {
                "value" : "minecraft:third_person"
@@ -50,7 +50,10 @@
                "value" : "minecraft:first_person"
             },
             {
-               "value" : "example:example_free"
+               "value" : "example:example_player_listener"
+            },
+            {
+               "value" : "minecraft:free"
             }
          ]
       },
@@ -176,6 +179,14 @@
          "values" : [
             {
                "value" : "rot"
+            }
+         ]
+      },
+      {
+         "name" : "facing",
+         "values" : [
+            {
+               "value" : "facing"
             }
          ]
       },
@@ -13364,6 +13375,9 @@
                "value" : "changesetting"
             },
             {
+               "value" : "reloadconfig"
+            },
+            {
                "value" : "script"
             }
          ]
@@ -19425,6 +19439,20 @@
                      "type" : {
                         "name" : "POSITION_FLOAT"
                      }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtEntity",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
                   }
                ]
             },
@@ -19475,23 +19503,30 @@
                   },
                   {
                      "is_optional" : false,
-                     "name" : "rot",
+                     "name" : "pos",
                      "type" : {
-                        "name" : "ROT"
+                        "name" : "POS"
                      }
                   },
                   {
                      "is_optional" : false,
-                     "name" : "xRot",
+                     "name" : "position",
                      "type" : {
-                        "name" : "RVAL"
+                        "name" : "POSITION_FLOAT"
                      }
                   },
                   {
                      "is_optional" : false,
-                     "name" : "yRot",
+                     "name" : "facing",
                      "type" : {
-                        "name" : "RVAL"
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtPosition",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
                      }
                   }
                ]
@@ -19542,10 +19577,17 @@
                      }
                   },
                   {
-                     "is_optional" : true,
-                     "name" : "default",
+                     "is_optional" : false,
+                     "name" : "pos",
                      "type" : {
-                        "name" : "DEFAULT"
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
                      }
                   }
                ]
@@ -19576,16 +19618,23 @@
                   },
                   {
                      "is_optional" : false,
-                     "name" : "pos",
+                     "name" : "ease",
                      "type" : {
-                        "name" : "POS"
+                        "name" : "EASE"
                      }
                   },
                   {
                      "is_optional" : false,
-                     "name" : "position",
+                     "name" : "easeTime",
                      "type" : {
-                        "name" : "POSITION_FLOAT"
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
                      }
                   },
                   {
@@ -19637,6 +19686,351 @@
                   },
                   {
                      "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtEntity",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "7",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtPosition",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "8",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "ease",
+                     "type" : {
+                        "name" : "EASE"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeTime",
+                     "type" : {
+                        "name" : "VAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "easeType",
+                     "type" : {
+                        "name" : "EASING"
+                     }
+                  },
+                  {
+                     "is_optional" : true,
+                     "name" : "default",
+                     "type" : {
+                        "name" : "DEFAULT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "9",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "rot",
+                     "type" : {
+                        "name" : "ROT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "xRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "yRot",
+                     "type" : {
+                        "name" : "RVAL"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "10",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtEntity",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "11",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "pos",
+                     "type" : {
+                        "name" : "POS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "position",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtPosition",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "12",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
                      "name" : "pos",
                      "type" : {
                         "name" : "POS"
@@ -19652,7 +20046,7 @@
                ]
             },
             {
-               "name" : "7",
+               "name" : "13",
                "params" : [
                   {
                      "is_optional" : false,
@@ -19699,7 +20093,87 @@
                ]
             },
             {
-               "name" : "8",
+               "name" : "14",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtEntity",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "15",
+               "params" : [
+                  {
+                     "is_optional" : false,
+                     "name" : "players",
+                     "type" : {
+                        "name" : "SELECTION"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "set",
+                     "type" : {
+                        "name" : "SET"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "preset",
+                     "type" : {
+                        "name" : "CAMERAPRESETS"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "facing",
+                     "type" : {
+                        "name" : "FACING"
+                     }
+                  },
+                  {
+                     "is_optional" : false,
+                     "name" : "lookAtPosition",
+                     "type" : {
+                        "name" : "POSITION_FLOAT"
+                     }
+                  }
+               ]
+            },
+            {
+               "name" : "16",
                "params" : [
                   {
                      "is_optional" : false,
@@ -19732,7 +20206,7 @@
                ]
             },
             {
-               "name" : "9",
+               "name" : "17",
                "params" : [
                   {
                      "is_optional" : false,
@@ -19751,7 +20225,7 @@
                ]
             },
             {
-               "name" : "10",
+               "name" : "18",
                "params" : [
                   {
                      "is_optional" : false,
@@ -19826,7 +20300,7 @@
                ]
             },
             {
-               "name" : "11",
+               "name" : "19",
                "params" : [
                   {
                      "is_optional" : false,
@@ -19873,7 +20347,7 @@
                ]
             },
             {
-               "name" : "12",
+               "name" : "20",
                "params" : [
                   {
                      "is_optional" : false,
@@ -19920,7 +20394,7 @@
                ]
             },
             {
-               "name" : "13",
+               "name" : "21",
                "params" : [
                   {
                      "is_optional" : false,
@@ -23289,6 +23763,19 @@
       },
       {
          "aliases" : [],
+         "description" : "Reloads configuration files relating to variables, secrets, permissions, etc.",
+         "name" : "reloadconfig",
+         "overloads" : [
+            {
+               "name" : "1",
+               "params" : []
+            }
+         ],
+         "permission_level" : 4,
+         "requires_cheats" : true
+      },
+      {
+         "aliases" : [],
          "description" : "Replaces items in inventories.",
          "name" : "replaceitem",
          "overloads" : [
@@ -26406,7 +26893,7 @@
          "requires_cheats" : true
       }
    ],
-   "minecraft_version" : "1.20.10-beta.21",
+   "minecraft_version" : "1.20.10-beta.23",
    "module_type" : "commands",
    "name" : "mojang-commands"
 }

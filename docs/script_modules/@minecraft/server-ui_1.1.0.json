@@ -12,7 +12,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -34,7 +51,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -82,9 +116,9 @@
                      "name" : "player",
                      "type" : {
                         "from_module" : {
-                           "name" : "mojang-minecraft",
+                           "name" : "@minecraft/server",
                            "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "0.1.0"
+                           "version" : "1.2.0"
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
@@ -115,7 +149,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -183,7 +234,21 @@
          "properties" : [
             {
                "is_read_only" : true,
-               "name" : "isCanceled",
+               "name" : "cancelationReason",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "FormCancelationReason"
+                  }
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "canceled",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
@@ -209,7 +274,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -231,7 +313,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -253,7 +352,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -285,9 +401,9 @@
                      "name" : "player",
                      "type" : {
                         "from_module" : {
-                           "name" : "mojang-minecraft",
+                           "name" : "@minecraft/server",
                            "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "0.1.0"
+                           "version" : "1.2.0"
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
@@ -318,7 +434,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -401,7 +534,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -411,7 +561,24 @@
                         "element_type" : {
                            "is_bind_type" : false,
                            "is_errorable" : false,
-                           "name" : "string"
+                           "name" : "variant",
+                           "variant_types" : [
+                              {
+                                 "from_module" : {
+                                    "name" : "@minecraft/server",
+                                    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                    "version" : "1.2.0"
+                                 },
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "RawMessage"
+                              },
+                              {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "string"
+                              }
+                           ]
                         },
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -453,34 +620,12 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "iconPath",
-                     "type" : {
-                        "is_bind_type" : false,
-                        "is_errorable" : false,
-                        "name" : "string"
-                     }
-                  }
-               ],
-               "is_constructor" : false,
-               "is_static" : false,
-               "name" : "icon",
-               "privilege" : "none",
-               "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ModalFormData"
-               }
-            },
-            {
-               "arguments" : [
-                  {
-                     "details" : null,
                      "name" : "player",
                      "type" : {
                         "from_module" : {
-                           "name" : "mojang-minecraft",
+                           "name" : "@minecraft/server",
                            "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-                           "version" : "0.1.0"
+                           "version" : "1.2.0"
                         },
                         "is_bind_type" : true,
                         "is_errorable" : false,
@@ -511,7 +656,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -601,7 +763,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -610,7 +789,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -648,7 +844,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   }
                ],
@@ -670,7 +883,24 @@
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "string"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "from_module" : {
+                                 "name" : "@minecraft/server",
+                                 "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                                 "version" : "1.2.0"
+                              },
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -772,19 +1002,105 @@
    "constants" : [],
    "dependencies" : [
       {
-         "name" : "mojang-minecraft",
+         "name" : "@minecraft/server",
          "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-         "version" : "0.1.0"
+         "version" : "1.2.0"
       }
    ],
-   "enums" : null,
-   "errors" : [],
+   "enums" : [
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "UserBusy",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "UserBusy"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "UserClosed",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "UserClosed"
+            }
+         ],
+         "name" : "FormCancelationReason"
+      },
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "MalformedResponse",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "MalformedResponse"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "PlayerQuit",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "PlayerQuit"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "ServerShutdown",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "ServerShutdown"
+            }
+         ],
+         "name" : "FormRejectReason"
+      }
+   ],
+   "errors" : [
+      {
+         "name" : "FormRejectError",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "reason",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "FormRejectReason"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "FormRejectError"
+         }
+      }
+   ],
    "functions" : [],
    "interfaces" : [],
    "minecraft_version" : "1.20.10-beta.23",
    "module_type" : "script",
-   "name" : "mojang-minecraft-ui",
+   "name" : "@minecraft/server-ui",
    "objects" : [],
    "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
-   "version" : "0.1.0"
+   "version" : "1.1.0"
 }

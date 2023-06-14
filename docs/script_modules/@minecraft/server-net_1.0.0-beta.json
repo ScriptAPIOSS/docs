@@ -502,57 +502,57 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "DELETE",
+               "name" : "Delete",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "string"
                },
-               "value" : "DELETE"
+               "value" : "Delete"
             },
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "GET",
+               "name" : "Get",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "string"
                },
-               "value" : "GET"
+               "value" : "Get"
             },
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "HEAD",
+               "name" : "Head",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "string"
                },
-               "value" : "HEAD"
+               "value" : "Head"
             },
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "POST",
+               "name" : "Post",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "string"
                },
-               "value" : "POST"
+               "value" : "Post"
             },
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "PUT",
+               "name" : "Put",
                "type" : {
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "string"
                },
-               "value" : "PUT"
+               "value" : "Put"
             }
          ],
          "name" : "HttpRequestMethod"
@@ -561,7 +561,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.10-beta.21",
+   "minecraft_version" : "1.20.10-beta.23",
    "module_type" : "script",
    "name" : "@minecraft/server-net",
    "objects" : [
