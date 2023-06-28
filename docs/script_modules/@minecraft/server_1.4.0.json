@@ -4037,6 +4037,121 @@
          }
       },
       {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "ScriptEventCommandMessageAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "options",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "ScriptEventMessageFilterOptions"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "subscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "closure_type" : {
+                     "argument_types" : [
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "ScriptEventCommandMessageAfterEvent"
+                        }
+                     ],
+                     "return_type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : true,
+                        "name" : "undefined"
+                     }
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "closure"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "callback",
+                     "type" : {
+                        "closure_type" : {
+                           "argument_types" : [
+                              {
+                                 "is_bind_type" : true,
+                                 "is_errorable" : false,
+                                 "name" : "ScriptEventCommandMessageAfterEvent"
+                              }
+                           ],
+                           "return_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : true,
+                              "name" : "undefined"
+                           }
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "closure"
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "unsubscribe",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "IScriptEventCommandMessageAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "IScriptEventCommandMessageAfterEventSignal"
+         }
+      },
+      {
          "base_types" : [
             {
                "is_bind_type" : true,
@@ -4153,6 +4268,23 @@
                }
             },
             {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getLore",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "element_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "string"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            },
+            {
                "arguments" : [
                   {
                      "details" : null,
@@ -4195,23 +4327,44 @@
                   "is_errorable" : false,
                   "name" : "boolean"
                }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "loreList",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           },
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "array"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setLore",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
             }
          ],
          "name" : "ItemStack",
          "properties" : [
-            {
-               "is_read_only" : true,
-               "name" : "amount",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "int32",
-                  "valid_range" : {
-                     "max" : 2147483647,
-                     "min" : -2147483648
-                  }
-               }
-            },
             {
                "is_read_only" : true,
                "name" : "isStackable",
@@ -4219,24 +4372,6 @@
                   "is_bind_type" : false,
                   "is_errorable" : false,
                   "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "keepOnDeath",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "boolean"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "lockMode",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "ItemLockMode"
                }
             },
             {
@@ -4249,20 +4384,6 @@
                   "valid_range" : {
                      "max" : 2147483647,
                      "min" : -2147483648
-                  }
-               }
-            },
-            {
-               "is_read_only" : true,
-               "name" : "nameTag",
-               "type" : {
-                  "is_bind_type" : false,
-                  "is_errorable" : false,
-                  "name" : "optional",
-                  "optional_type" : {
-                     "is_bind_type" : false,
-                     "is_errorable" : false,
-                     "name" : "string"
                   }
                }
             },
@@ -4529,6 +4650,15 @@
                   "is_errorable" : true,
                   "name" : "string"
                }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "onScreenDisplay",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : true,
+                  "name" : "ScreenDisplay"
+               }
             }
          ],
          "type" : {
@@ -4684,6 +4814,300 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "PlayerSpawnAfterEventSignal"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "isValid",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "text",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setActionBar",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "title",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "options",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "TitleDisplayOptions"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setTitle",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "subtitle",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "element_type" : {
+                                 "is_bind_type" : false,
+                                 "is_errorable" : false,
+                                 "name" : "variant",
+                                 "variant_types" : [
+                                    {
+                                       "is_bind_type" : true,
+                                       "is_errorable" : false,
+                                       "name" : "RawMessage"
+                                    },
+                                    {
+                                       "is_bind_type" : false,
+                                       "is_errorable" : false,
+                                       "name" : "string"
+                                    }
+                                 ]
+                              },
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "array"
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "RawMessage"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "updateSubtitle",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            }
+         ],
+         "name" : "ScreenDisplay",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ScreenDisplay"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "name" : "ScriptEventCommandMessageAfterEvent",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "id",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "initiator",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Entity"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "message",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "sourceBlock",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Block"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "sourceEntity",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "Entity"
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "sourceType",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ScriptEventSource"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ScriptEventCommandMessageAfterEvent"
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "IScriptEventCommandMessageAfterEventSignal"
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "name" : "ScriptEventCommandMessageAfterEventSignal",
+         "properties" : [],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ScriptEventCommandMessageAfterEventSignal"
          }
       },
       {
@@ -4866,6 +5290,15 @@
          "properties" : [
             {
                "is_read_only" : true,
+               "name" : "afterEvents",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "SystemAfterEvents"
+               }
+            },
+            {
+               "is_read_only" : true,
                "name" : "currentTick",
                "type" : {
                   "is_bind_type" : false,
@@ -4887,7 +5320,45 @@
       {
          "base_types" : [],
          "constants" : [],
+         "functions" : [],
+         "name" : "SystemAfterEvents",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "scriptEventReceive",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ScriptEventCommandMessageAfterEventSignal"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "SystemAfterEvents"
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
          "functions" : [
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getAbsoluteTime",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
             {
                "arguments" : [],
                "is_constructor" : false,
@@ -4903,6 +5374,22 @@
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "array"
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getDay",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
                }
             },
             {
@@ -4959,6 +5446,22 @@
                   "is_bind_type" : false,
                   "is_errorable" : true,
                   "name" : "array"
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "getTimeOfDay",
+               "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
                }
             },
             {
@@ -5134,6 +5637,73 @@
                "is_static" : false,
                "name" : "sendMessage",
                "privilege" : "read_only",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : {
+                        "max_value" : 2147483647,
+                        "min_value" : -2147483648
+                     },
+                     "name" : "absoluteTime",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "int32",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setAbsoluteTime",
+               "privilege" : "none",
+               "return_type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "undefined"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "timeOfDay",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "int32",
+                              "valid_range" : {
+                                 "max" : 2147483647,
+                                 "min" : -2147483648
+                              }
+                           },
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "TimeOfDay"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "setTimeOfDay",
+               "privilege" : "none",
                "return_type" : {
                   "is_bind_type" : false,
                   "is_errorable" : true,
@@ -5655,6 +6225,126 @@
             }
          ],
          "name" : "ItemLockMode"
+      },
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Block",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "Block"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Entity",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "Entity"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "NPCDialogue",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "NPCDialogue"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Server",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "Server"
+            }
+         ],
+         "name" : "ScriptEventSource"
+      },
+      {
+         "constants" : [
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Day",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TimeOfDay"
+               },
+               "value" : 1000
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Midnight",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TimeOfDay"
+               },
+               "value" : 18000
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Night",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TimeOfDay"
+               },
+               "value" : 13000
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Noon",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TimeOfDay"
+               },
+               "value" : 6000
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Sunrise",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TimeOfDay"
+               },
+               "value" : 23000
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Sunset",
+               "type" : {
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "TimeOfDay"
+               },
+               "value" : 12000
+            }
+         ],
+         "name" : "TimeOfDay"
       }
    ],
    "errors" : [],
@@ -6501,6 +7191,30 @@
          }
       },
       {
+         "name" : "ScriptEventMessageFilterOptions",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "namespaces",
+               "type" : {
+                  "element_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "string"
+                  },
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "array"
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ScriptEventMessageFilterOptions"
+         }
+      },
+      {
          "name" : "TeleportOptions",
          "properties" : [
             {
@@ -6578,6 +7292,103 @@
             "is_bind_type" : true,
             "is_errorable" : false,
             "name" : "TeleportOptions"
+         }
+      },
+      {
+         "name" : "TitleDisplayOptions",
+         "properties" : [
+            {
+               "is_read_only" : false,
+               "name" : "fadeInDuration",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : false,
+               "name" : "fadeOutDuration",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : false,
+               "name" : "stayDuration",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "int32",
+                  "valid_range" : {
+                     "max" : 2147483647,
+                     "min" : -2147483648
+                  }
+               }
+            },
+            {
+               "is_read_only" : false,
+               "name" : "subtitle",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "variant",
+                     "variant_types" : [
+                        {
+                           "element_type" : {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "variant",
+                              "variant_types" : [
+                                 {
+                                    "is_bind_type" : true,
+                                    "is_errorable" : false,
+                                    "name" : "RawMessage"
+                                 },
+                                 {
+                                    "is_bind_type" : false,
+                                    "is_errorable" : false,
+                                    "name" : "string"
+                                 }
+                              ]
+                           },
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "array"
+                        },
+                        {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "RawMessage"
+                        },
+                        {
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string"
+                        }
+                     ]
+                  }
+               }
+            }
+         ],
+         "type" : {
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "TitleDisplayOptions"
          }
       },
       {
@@ -6738,5 +7549,5 @@
       }
    ],
    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-   "version" : "1.3.0"
+   "version" : "1.4.0"
 }

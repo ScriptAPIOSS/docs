@@ -35,22 +35,22 @@
          "name" : "CameraPresets",
          "values" : [
             {
+               "value" : "example:example_player_effects"
+            },
+            {
                "value" : "example:example_free"
             },
             {
                "value" : "minecraft:third_person_front"
             },
             {
-               "value" : "example:example_player_effects"
-            },
-            {
                "value" : "minecraft:third_person"
             },
             {
-               "value" : "minecraft:first_person"
+               "value" : "example:example_player_listener"
             },
             {
-               "value" : "example:example_player_listener"
+               "value" : "minecraft:first_person"
             },
             {
                "value" : "minecraft:free"
@@ -6557,12 +6557,6 @@
                "value" : "ender_dragon_spawn_egg"
             },
             {
-               "value" : "minecraft:suspicious_stew"
-            },
-            {
-               "value" : "suspicious_stew"
-            },
-            {
                "value" : "darkoak_sign"
             },
             {
@@ -6756,6 +6750,12 @@
             },
             {
                "value" : "dye"
+            },
+            {
+               "value" : "minecraft:suspicious_stew"
+            },
+            {
+               "value" : "suspicious_stew"
             },
             {
                "value" : "minecraft:filled_map"
@@ -13276,6 +13276,9 @@
                "value" : "scoreboard"
             },
             {
+               "value" : "scriptevent"
+            },
+            {
                "value" : "setblock"
             },
             {
@@ -13352,9 +13355,6 @@
             },
             {
                "value" : "volumearea"
-            },
-            {
-               "value" : "scriptevent"
             },
             {
                "value" : "agent"
@@ -26893,7 +26893,7 @@
          "requires_cheats" : true
       }
    ],
-   "minecraft_version" : "1.20.10-beta.23",
+   "minecraft_version" : "1.20.20-beta.20",
    "module_type" : "commands",
    "name" : "mojang-commands"
 }
