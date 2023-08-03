@@ -1843,18 +1843,7 @@
             }
          ],
          "name" : "BlockWaterContainerComponent",
-         "properties" : [
-            {
-               "is_read_only" : false,
-               "name" : "customColor",
-               "privilege" : "none",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "Color"
-               }
-            }
-         ],
+         "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
@@ -8950,9 +8939,21 @@
                      "details" : null,
                      "name" : "itemType",
                      "type" : {
-                        "is_bind_type" : true,
+                        "is_bind_type" : false,
                         "is_errorable" : false,
-                        "name" : "ItemType"
+                        "name" : "variant",
+                        "variant_types" : [
+                           {
+                              "is_bind_type" : true,
+                              "is_errorable" : false,
+                              "name" : "ItemType"
+                           },
+                           {
+                              "is_bind_type" : false,
+                              "is_errorable" : false,
+                              "name" : "string"
+                           }
+                        ]
                      }
                   },
                   {
@@ -8995,7 +8996,7 @@
                "privilege" : "read_only",
                "return_type" : {
                   "is_bind_type" : true,
-                  "is_errorable" : false,
+                  "is_errorable" : true,
                   "name" : "ItemStack"
                }
             },
@@ -12321,16 +12322,6 @@
                "is_read_only" : true,
                "is_static" : true,
                "name" : "composter",
-               "type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "BlockType"
-               }
-            },
-            {
-               "is_read_only" : true,
-               "is_static" : true,
-               "name" : "concretePowder",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -30410,9 +30401,9 @@
                "name" : "setColorRGB",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "MolangVariableMap"
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
                }
             },
             {
@@ -30441,9 +30432,9 @@
                "name" : "setColorRGBA",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : false,
-                  "name" : "MolangVariableMap"
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
                }
             },
             {
@@ -31487,9 +31478,14 @@
                "name" : "getObjective",
                "privilege" : "read_only",
                "return_type" : {
-                  "is_bind_type" : true,
-                  "is_errorable" : true,
-                  "name" : "ScoreboardObjective"
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ScoreboardObjective"
+                  }
                }
             },
             {
@@ -31505,7 +31501,7 @@
                      "name" : "ScoreboardObjective"
                   },
                   "is_bind_type" : false,
-                  "is_errorable" : true,
+                  "is_errorable" : false,
                   "name" : "array"
                }
             },
@@ -31522,7 +31518,7 @@
                      "name" : "ScoreboardIdentity"
                   },
                   "is_bind_type" : false,
-                  "is_errorable" : true,
+                  "is_errorable" : false,
                   "name" : "array"
                }
             }
@@ -33932,7 +33928,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.20-beta.21",
+   "minecraft_version" : "1.20.30-beta.20",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [
