@@ -27616,7 +27616,7 @@
          "requires_cheats" : true
       }
    ],
-   "minecraft_version" : "1.20.30-beta.20",
+   "minecraft_version" : "1.20.30-beta.21",
    "module_type" : "commands",
    "name" : "mojang-commands"
 }

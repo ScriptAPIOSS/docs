@@ -3024,7 +3024,7 @@
                "name" : "id",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : true,
+                  "is_errorable" : false,
                   "name" : "string"
                }
             }
@@ -5286,9 +5286,14 @@
                "is_read_only" : true,
                "name" : "projectile",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "Entity"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
                }
             }
          ],
@@ -33928,7 +33933,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.30-beta.20",
+   "minecraft_version" : "1.20.30-beta.21",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

@@ -5881,7 +5881,7 @@
                "name" : "id",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : true,
+                  "is_errorable" : false,
                   "name" : "string"
                }
             }
@@ -8320,7 +8320,7 @@
                "name" : "id",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : true,
+                  "is_errorable" : false,
                   "name" : "string"
                }
             },
@@ -8444,7 +8444,7 @@
                "name" : "typeId",
                "type" : {
                   "is_bind_type" : false,
-                  "is_errorable" : true,
+                  "is_errorable" : false,
                   "name" : "string"
                }
             }
@@ -9299,7 +9299,7 @@
                   "is_errorable" : false,
                   "name" : "string"
                },
-               "value" : "minecraft:equipment_inventory"
+               "value" : "minecraft:equippable"
             }
          ],
          "functions" : [
@@ -9391,12 +9391,12 @@
                }
             }
          ],
-         "name" : "EntityEquipmentInventoryComponent",
+         "name" : "EntityEquippableComponent",
          "properties" : [],
          "type" : {
             "is_bind_type" : true,
             "is_errorable" : false,
-            "name" : "EntityEquipmentInventoryComponent"
+            "name" : "EntityEquippableComponent"
          }
       },
       {
@@ -19231,9 +19231,14 @@
                "is_read_only" : true,
                "name" : "initiator",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "Entity"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
                }
             },
             {
@@ -19249,18 +19254,28 @@
                "is_read_only" : true,
                "name" : "sourceBlock",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "Block"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Block"
+                  }
                }
             },
             {
                "is_read_only" : true,
                "name" : "sourceEntity",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "Entity"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Entity"
+                  }
                }
             },
             {
@@ -26507,7 +26522,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.20.30-beta.20",
+   "minecraft_version" : "1.20.30-beta.21",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [
