@@ -1083,7 +1083,13 @@
       }
    ],
    "constants" : [],
-   "dependencies" : [],
+   "dependencies" : [
+      {
+         "name" : "@minecraft/common",
+         "uuid" : "77ec12b4-1b2b-4c98-8d34-d1cd63f849d5",
+         "version" : "1.0.0"
+      }
+   ],
    "enums" : [
       {
          "constants" : [
@@ -1819,7 +1825,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.20.30-beta.21",
+   "minecraft_version" : "1.20.50-beta.23",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [
@@ -1844,6 +1850,7 @@
          }
       }
    ],
+   "type_aliases" : [],
    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
    "version" : "1.1.0"
 }

@@ -8,7 +8,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "componentName",
+                     "name" : "componentId",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -252,9 +252,14 @@
                "is_read_only" : true,
                "name" : "container",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "Container"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Container"
+                  }
                }
             }
          ],
@@ -530,9 +535,14 @@
                "name" : "addItem",
                "privilege" : "none",
                "return_type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "ItemStack"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ItemStack"
+                  }
                }
             },
             {
@@ -767,9 +777,14 @@
                "name" : "transferItem",
                "privilege" : "none",
                "return_type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "ItemStack"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ItemStack"
+                  }
                }
             }
          ],
@@ -2572,9 +2587,14 @@
                "is_read_only" : true,
                "name" : "container",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "Container"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "Container"
+                  }
                }
             },
             {
@@ -4519,7 +4539,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "soundID",
+                     "name" : "soundId",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5056,7 +5076,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "trackID",
+                     "name" : "trackId",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5094,7 +5114,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "soundID",
+                     "name" : "soundId",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5141,7 +5161,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "trackID",
+                     "name" : "trackId",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5312,7 +5332,13 @@
       }
    ],
    "constants" : [],
-   "dependencies" : [],
+   "dependencies" : [
+      {
+         "name" : "@minecraft/common",
+         "uuid" : "77ec12b4-1b2b-4c98-8d34-d1cd63f849d5",
+         "version" : "1.0.0"
+      }
+   ],
    "enums" : [
       {
          "constants" : [
@@ -6831,7 +6857,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.20.30-beta.21",
+   "minecraft_version" : "1.20.50-beta.23",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [
@@ -6856,6 +6882,7 @@
          }
       }
    ],
+   "type_aliases" : [],
    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
    "version" : "1.3.0"
 }
