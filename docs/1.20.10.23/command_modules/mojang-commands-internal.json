@@ -6683,22 +6683,22 @@
          "name" : "CameraPresets",
          "values" : [
             {
-               "value" : "example:example_player_listener"
-            },
-            {
-               "value" : "minecraft:free"
-            },
-            {
-               "value" : "example:example_player_effects"
+               "value" : "minecraft:third_person"
             },
             {
                "value" : "example:example_free"
             },
             {
-               "value" : "minecraft:third_person"
+               "value" : "minecraft:free"
+            },
+            {
+               "value" : "example:example_player_listener"
             },
             {
                "value" : "minecraft:third_person_front"
+            },
+            {
+               "value" : "example:example_player_effects"
             },
             {
                "value" : "minecraft:first_person"
