@@ -35,7 +35,7 @@ jobs:
           cd BDS
           unzip bds.zip
           echo "{ \"generate_documentation\": true }" > test_config.json
-          ./bedrock_server
+          ./bedrock_server Editor=true
           mv docs ../docs
           cd ..
           rm -rf BDS
