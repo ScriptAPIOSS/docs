@@ -8829,9 +8829,14 @@
                "is_read_only" : true,
                "name" : "itemStack",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "ItemStack"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ItemStack"
+                  }
                }
             },
             {
@@ -26396,7 +26401,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherbrick",
+               "name" : "netherBrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -26406,7 +26411,7 @@
             {
                "is_read_only" : true,
                "is_static" : true,
-               "name" : "netherBrick",
+               "name" : "netherbrick",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
@@ -34064,7 +34069,7 @@
    "errors" : [],
    "functions" : [],
    "interfaces" : [],
-   "minecraft_version" : "1.20.50-beta.23",
+   "minecraft_version" : "1.20.60-beta.20",
    "module_type" : "script",
    "name" : "mojang-minecraft",
    "objects" : [

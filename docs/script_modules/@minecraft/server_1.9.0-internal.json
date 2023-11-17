@@ -5288,7 +5288,7 @@
                   ],
                   "is_bind_type" : false,
                   "is_errorable" : true,
-                  "name" : "undefined"
+                  "name" : "boolean"
                }
             },
             {
@@ -15070,9 +15070,14 @@
                "is_read_only" : true,
                "name" : "itemStack",
                "type" : {
-                  "is_bind_type" : true,
+                  "is_bind_type" : false,
                   "is_errorable" : false,
-                  "name" : "ItemStack"
+                  "name" : "optional",
+                  "optional_type" : {
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ItemStack"
+                  }
                }
             },
             {
@@ -17976,6 +17981,70 @@
                "arguments" : [
                   {
                      "details" : null,
+                     "name" : "effectName",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string"
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "location",
+                     "type" : {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "Vector3"
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "molangVariables",
+                     "type" : {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "is_bind_type" : true,
+                           "is_errorable" : false,
+                           "name" : "MolangVariableMap"
+                        }
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_static" : false,
+               "name" : "spawnParticle",
+               "privilege" : "none",
+               "return_type" : {
+                  "error_types" : [
+                     {
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "Error"
+                     },
+                     {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "LocationInUnloadedChunkError"
+                     },
+                     {
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "LocationOutOfWorldBoundariesError"
+                     }
+                  ],
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "undefined"
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
                      "name" : "itemCategory",
                      "type" : {
                         "is_bind_type" : false,
@@ -19710,13 +19779,12 @@
                }
             },
             {
-               "is_read_only" : false,
-               "name" : "itemStack",
-               "privilege" : "read_only",
+               "is_read_only" : true,
+               "name" : "permutationBeingPlaced",
                "type" : {
                   "is_bind_type" : true,
                   "is_errorable" : false,
-                  "name" : "ItemStack"
+                  "name" : "BlockPermutation"
                }
             },
             {
@@ -26725,6 +26793,17 @@
             {
                "is_read_only" : true,
                "is_static" : true,
+               "name" : "Instantiated",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "Instantiated"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
                "name" : "Loaded",
                "type" : {
                   "is_bind_type" : false,
@@ -26732,6 +26811,28 @@
                   "name" : "string"
                },
                "value" : "Loaded"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Loading",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "Loading"
+            },
+            {
+               "is_read_only" : true,
+               "is_static" : true,
+               "name" : "Removed",
+               "type" : {
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "string"
+               },
+               "value" : "Removed"
             },
             {
                "is_read_only" : true,
@@ -29884,7 +29985,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.20.50-beta.23",
+   "minecraft_version" : "1.20.60-beta.20",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [
@@ -30241,5 +30342,5 @@
       }
    ],
    "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
-   "version" : "1.8.0-beta"
+   "version" : "1.9.0-internal"
 }

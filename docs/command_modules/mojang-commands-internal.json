@@ -4462,6 +4462,12 @@
                "value" : "white_concrete"
             },
             {
+               "value" : "minecraft:trial_spawner"
+            },
+            {
+               "value" : "trial_spawner"
+            },
+            {
                "value" : "minecraft:acacia_fence"
             },
             {
@@ -5555,6 +5561,12 @@
             },
             {
                "value" : "sniffer_spawn_egg"
+            },
+            {
+               "value" : "minecraft:breeze_spawn_egg"
+            },
+            {
+               "value" : "breeze_spawn_egg"
             },
             {
                "value" : "minecraft:chorus_fruit"
@@ -6695,6 +6707,12 @@
             },
             {
                "value" : "writable_book"
+            },
+            {
+               "value" : "minecraft:trial_key"
+            },
+            {
+               "value" : "trial_key"
             },
             {
                "value" : "minecraft:enchanted_book"
@@ -12782,6 +12800,12 @@
                "value" : "white_concrete"
             },
             {
+               "value" : "minecraft:trial_spawner"
+            },
+            {
+               "value" : "trial_spawner"
+            },
+            {
                "value" : "minecraft:acacia_fence"
             },
             {
@@ -15285,6 +15309,9 @@
                "value" : "trail_ruins"
             },
             {
+               "value" : "trial_chambers"
+            },
+            {
                "value" : "ancientcity"
             },
             {
@@ -15728,9 +15755,6 @@
             },
             {
                "value" : "minecraft:bamboo_standing_sign"
-            },
-            {
-               "value" : "minecraft:cracked_polished_blackstone_bricks"
             },
             {
                "value" : "minecraft:warped_standing_sign"
@@ -16276,9 +16300,6 @@
                "value" : "minecraft:cobblestone"
             },
             {
-               "value" : "minecraft:green_candle_cake"
-            },
-            {
                "value" : "minecraft:polished_deepslate"
             },
             {
@@ -16379,9 +16400,6 @@
             },
             {
                "value" : "minecraft:hay_block"
-            },
-            {
-               "value" : "minecraft:waxed_exposed_copper"
             },
             {
                "value" : "minecraft:crimson_double_slab"
@@ -16846,6 +16864,21 @@
                "value" : "minecraft:element_33"
             },
             {
+               "value" : "minecraft:chemical_heat"
+            },
+            {
+               "value" : "minecraft:cracked_nether_bricks"
+            },
+            {
+               "value" : "minecraft:element_32"
+            },
+            {
+               "value" : "minecraft:tuff_brick_stairs"
+            },
+            {
+               "value" : "minecraft:element_31"
+            },
+            {
                "value" : "minecraft:element_28"
             },
             {
@@ -16883,6 +16916,9 @@
             },
             {
                "value" : "minecraft:bamboo_mosaic"
+            },
+            {
+               "value" : "minecraft:trial_spawner"
             },
             {
                "value" : "minecraft:blue_ice"
@@ -17558,6 +17594,12 @@
             },
             {
                "value" : "minecraft:orange_wool"
+            },
+            {
+               "value" : "minecraft:waxed_exposed_copper"
+            },
+            {
+               "value" : "minecraft:armadillo_spawn_egg"
             },
             {
                "value" : "minecraft:blackstone_double_slab"
@@ -18376,21 +18418,6 @@
                "value" : "minecraft:music_disc_ward"
             },
             {
-               "value" : "minecraft:pink_petals"
-            },
-            {
-               "value" : "minecraft:oxidized_cut_copper_stairs"
-            },
-            {
-               "value" : "minecraft:magenta_dye"
-            },
-            {
-               "value" : "minecraft:bucket"
-            },
-            {
-               "value" : "minecraft:light_gray_dye"
-            },
-            {
                "value" : "minecraft:music_disc_strad"
             },
             {
@@ -18404,15 +18431,6 @@
             },
             {
                "value" : "minecraft:music_disc_stal"
-            },
-            {
-               "value" : "minecraft:chemical_heat"
-            },
-            {
-               "value" : "minecraft:cracked_nether_bricks"
-            },
-            {
-               "value" : "minecraft:element_32"
             },
             {
                "value" : "minecraft:unknown"
@@ -18431,15 +18449,6 @@
             },
             {
                "value" : "minecraft:leather_horse_armor"
-            },
-            {
-               "value" : "minecraft:waxed_weathered_cut_copper_slab"
-            },
-            {
-               "value" : "minecraft:lime_wool"
-            },
-            {
-               "value" : "minecraft:diamond_axe"
             },
             {
                "value" : "minecraft:element_58"
@@ -18691,6 +18700,12 @@
                "value" : "minecraft:glow_squid_spawn_egg"
             },
             {
+               "value" : "minecraft:cracked_polished_blackstone_bricks"
+            },
+            {
+               "value" : "minecraft:breeze_spawn_egg"
+            },
+            {
                "value" : "minecraft:wood"
             },
             {
@@ -18719,12 +18734,6 @@
             },
             {
                "value" : "minecraft:ravager_spawn_egg"
-            },
-            {
-               "value" : "minecraft:tuff_brick_stairs"
-            },
-            {
-               "value" : "minecraft:element_31"
             },
             {
                "value" : "minecraft:daylight_detector"
@@ -18928,6 +18937,15 @@
                "value" : "minecraft:blaze_spawn_egg"
             },
             {
+               "value" : "minecraft:item.wheat"
+            },
+            {
+               "value" : "minecraft:waxed_oxidized_cut_copper"
+            },
+            {
+               "value" : "minecraft:squid_spawn_egg"
+            },
+            {
                "value" : "minecraft:tuff_slab"
             },
             {
@@ -19084,6 +19102,18 @@
                "value" : "minecraft:cooked_mutton"
             },
             {
+               "value" : "minecraft:pink_petals"
+            },
+            {
+               "value" : "minecraft:oxidized_cut_copper_stairs"
+            },
+            {
+               "value" : "minecraft:bucket"
+            },
+            {
+               "value" : "minecraft:magenta_dye"
+            },
+            {
                "value" : "minecraft:gray_dye"
             },
             {
@@ -19135,6 +19165,9 @@
                "value" : "minecraft:brown_dye"
             },
             {
+               "value" : "minecraft:light_gray_dye"
+            },
+            {
                "value" : "minecraft:large_amethyst_bud"
             },
             {
@@ -19154,6 +19187,12 @@
             },
             {
                "value" : "minecraft:wither_skeleton_spawn_egg"
+            },
+            {
+               "value" : "minecraft:lime_wool"
+            },
+            {
+               "value" : "minecraft:waxed_weathered_cut_copper_slab"
             },
             {
                "value" : "minecraft:glowstone_dust"
@@ -19355,15 +19394,6 @@
             },
             {
                "value" : "minecraft:water_bucket"
-            },
-            {
-               "value" : "minecraft:item.wheat"
-            },
-            {
-               "value" : "minecraft:waxed_oxidized_cut_copper"
-            },
-            {
-               "value" : "minecraft:squid_spawn_egg"
             },
             {
                "value" : "minecraft:milk_bucket"
@@ -19568,6 +19598,9 @@
             },
             {
                "value" : "minecraft:blue_dye"
+            },
+            {
+               "value" : "minecraft:diamond_axe"
             },
             {
                "value" : "minecraft:spruce_stairs"
@@ -19789,9 +19822,6 @@
                "value" : "minecraft:poisonous_potato"
             },
             {
-               "value" : "minecraft:burn_pottery_sherd"
-            },
-            {
                "value" : "minecraft:tropical_fish"
             },
             {
@@ -19976,6 +20006,15 @@
             },
             {
                "value" : "minecraft:rib_armor_trim_smithing_template"
+            },
+            {
+               "value" : "minecraft:burn_pottery_sherd"
+            },
+            {
+               "value" : "minecraft:green_candle_cake"
+            },
+            {
+               "value" : "minecraft:trial_key"
             },
             {
                "value" : "minecraft:netherite_boots"
@@ -25164,12 +25203,6 @@
                "value" : "arrow"
             },
             {
-               "value" : "minecraft:camel"
-            },
-            {
-               "value" : "camel"
-            },
-            {
                "value" : "minecraft:frog"
             },
             {
@@ -25288,12 +25321,6 @@
             },
             {
                "value" : "endermite"
-            },
-            {
-               "value" : "minecraft:blaze"
-            },
-            {
-               "value" : "blaze"
             },
             {
                "value" : "minecraft:goat"
@@ -25416,10 +25443,34 @@
                "value" : "sniffer"
             },
             {
+               "value" : "minecraft:camel"
+            },
+            {
+               "value" : "camel"
+            },
+            {
                "value" : "minecraft:tadpole"
             },
             {
                "value" : "tadpole"
+            },
+            {
+               "value" : "minecraft:blaze"
+            },
+            {
+               "value" : "blaze"
+            },
+            {
+               "value" : "minecraft:snow_golem"
+            },
+            {
+               "value" : "snow_golem"
+            },
+            {
+               "value" : "minecraft:breeze"
+            },
+            {
+               "value" : "breeze"
             },
             {
                "value" : "minecraft:mooshroom"
@@ -25594,12 +25645,6 @@
             },
             {
                "value" : "donkey"
-            },
-            {
-               "value" : "minecraft:snow_golem"
-            },
-            {
-               "value" : "snow_golem"
             },
             {
                "value" : "minecraft:zombie"
@@ -34496,7 +34541,7 @@
          "requires_cheats" : true
       }
    ],
-   "minecraft_version" : "1.20.50-beta.23",
+   "minecraft_version" : "1.20.60-beta.20",
    "module_type" : "commands",
    "name" : "mojang-commands-internal"
 }
