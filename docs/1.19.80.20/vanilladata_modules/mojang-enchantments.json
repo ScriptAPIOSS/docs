@@ -1,0 +1,121 @@
+{
+   "enchantments" : [
+      {
+         "name" : "aquaAffinity"
+      },
+      {
+         "name" : "baneOfArthropods"
+      },
+      {
+         "name" : "binding"
+      },
+      {
+         "name" : "blastProtection"
+      },
+      {
+         "name" : "channeling"
+      },
+      {
+         "name" : "depthStrider"
+      },
+      {
+         "name" : "efficiency"
+      },
+      {
+         "name" : "featherFalling"
+      },
+      {
+         "name" : "fireAspect"
+      },
+      {
+         "name" : "fireProtection"
+      },
+      {
+         "name" : "flame"
+      },
+      {
+         "name" : "fortune"
+      },
+      {
+         "name" : "frostWalker"
+      },
+      {
+         "name" : "impaling"
+      },
+      {
+         "name" : "infinity"
+      },
+      {
+         "name" : "knockback"
+      },
+      {
+         "name" : "looting"
+      },
+      {
+         "name" : "loyalty"
+      },
+      {
+         "name" : "luckOfTheSea"
+      },
+      {
+         "name" : "lure"
+      },
+      {
+         "name" : "mending"
+      },
+      {
+         "name" : "multishot"
+      },
+      {
+         "name" : "piercing"
+      },
+      {
+         "name" : "power"
+      },
+      {
+         "name" : "projectileProtection"
+      },
+      {
+         "name" : "protection"
+      },
+      {
+         "name" : "punch"
+      },
+      {
+         "name" : "quickCharge"
+      },
+      {
+         "name" : "respiration"
+      },
+      {
+         "name" : "riptide"
+      },
+      {
+         "name" : "sharpness"
+      },
+      {
+         "name" : "silkTouch"
+      },
+      {
+         "name" : "smite"
+      },
+      {
+         "name" : "soulSpeed"
+      },
+      {
+         "name" : "swiftSneak"
+      },
+      {
+         "name" : "thorns"
+      },
+      {
+         "name" : "unbreaking"
+      },
+      {
+         "name" : "vanishing"
+      }
+   ],
+   "minecraft_version" : "1.19.80",
+   "module_type" : "enchantments",
+   "name" : "mojang-enchantments"
+}
