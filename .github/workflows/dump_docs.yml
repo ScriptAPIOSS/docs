@@ -14,7 +14,7 @@ on:
         required: true
         type: boolean
 jobs:
-  dodump:
+  do_dump:
     name: Perform Dump
     runs-on: ubuntu-latest
 
@@ -36,7 +36,8 @@ jobs:
           unzip bds.zip
           echo "{ \"generate_documentation\": true }" > test_config.json
           ./bedrock_server
-          mv docs ../docs
+          mkdir -p ../docs/${{ inputs.BDS_VERSION }}
+          mv docs ../docs/${{ inputs.BDS_VERSION }}
           cd ..
           rm -rf BDS
           
